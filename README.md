@@ -1,5 +1,5 @@
 # SanguoshaGuaJiTa
-三国杀挂机塔（摸鱼游戏即点即玩）（手动存档）
+三国杀挂机塔（摸鱼游戏即点即玩）（手动存档）（推荐pc浏览器打开）
 
 https://master-of-fish.github.io/SanguoshaGuaJiTa_v1.2.1/
 
