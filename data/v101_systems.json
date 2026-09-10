@@ -1,0 +1,23 @@
+{
+  "version": "v1.0.1",
+  "save": {
+    "key": "sgs_idle_v1010",
+    "code_prefix": "SGST101-",
+    "legacy_prefixes": ["SGST20-", "SGST19-"],
+    "export_format": ".sgst save-code file",
+    "json_export": false
+  },
+  "browser_title": "金山文档",
+  "redeem_codes": {
+    "GM666": {"coins": 999999, "jade": 999999, "fate": 999999, "memoryTokens": 999999},
+    "新手大礼包": {"coins": 10000, "jade": 10000, "fate": 10000, "memoryTokens": 10000}
+  },
+  "tower_balance": {
+    "continuous_floor_scaling": true,
+    "elite_multiplier": true,
+    "boss_multiplier": true,
+    "floor_resistance_scaling": true,
+    "per_hit_cap_scales_with_floor": true
+  },
+  "equipment_ui": "six-slot loadout + card inventory + score/fit/detail"
+}

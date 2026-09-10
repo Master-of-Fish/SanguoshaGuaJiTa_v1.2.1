@@ -1,0 +1,92 @@
+[
+  {
+    "floor": 5500,
+    "profile": "回流",
+    "clears": 123,
+    "total": 128,
+    "rate": 0.9609,
+    "median_actions": 20,
+    "mean_actions": 26.67,
+    "median_restarts": 0.0
+  },
+  {
+    "floor": 5500,
+    "profile": "标准",
+    "clears": 125,
+    "total": 128,
+    "rate": 0.9766,
+    "median_actions": 19,
+    "mean_actions": 23.94,
+    "median_restarts": 0.0
+  },
+  {
+    "floor": 5500,
+    "profile": "极品",
+    "clears": 127,
+    "total": 128,
+    "rate": 0.9922,
+    "median_actions": 16,
+    "mean_actions": 19.98,
+    "median_restarts": 0.0
+  },
+  {
+    "floor": 6500,
+    "profile": "回流",
+    "clears": 118,
+    "total": 128,
+    "rate": 0.9219,
+    "median_actions": 21.0,
+    "mean_actions": 29.23,
+    "median_restarts": 0.0
+  },
+  {
+    "floor": 6500,
+    "profile": "标准",
+    "clears": 120,
+    "total": 128,
+    "rate": 0.9375,
+    "median_actions": 19.0,
+    "mean_actions": 24.92,
+    "median_restarts": 0.0
+  },
+  {
+    "floor": 6500,
+    "profile": "极品",
+    "clears": 124,
+    "total": 128,
+    "rate": 0.9688,
+    "median_actions": 17.0,
+    "mean_actions": 21.14,
+    "median_restarts": 0.0
+  },
+  {
+    "floor": 8000,
+    "profile": "回流",
+    "clears": 114,
+    "total": 128,
+    "rate": 0.8906,
+    "median_actions": 27.0,
+    "mean_actions": 34.82,
+    "median_restarts": 0.0
+  },
+  {
+    "floor": 8000,
+    "profile": "标准",
+    "clears": 119,
+    "total": 128,
+    "rate": 0.9297,
+    "median_actions": 22,
+    "mean_actions": 32.21,
+    "median_restarts": 0.0
+  },
+  {
+    "floor": 8000,
+    "profile": "极品",
+    "clears": 126,
+    "total": 128,
+    "rate": 0.9844,
+    "median_actions": 19.0,
+    "mean_actions": 27.39,
+    "median_restarts": 0.0
+  }
+]

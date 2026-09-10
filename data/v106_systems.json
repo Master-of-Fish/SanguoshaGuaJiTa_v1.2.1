@@ -1,0 +1,175 @@
+{
+  "version": "1.0.6",
+  "probability_events": 39,
+  "misfortune_events": 29,
+  "lucky_events": 6,
+  "event_counts_fixed": true,
+  "event_chain_links": 12,
+  "long_event_chain_groups": 4,
+  "long_event_chain_stages": 3,
+  "terminal_results_mutually_exclusive": true,
+  "event_chain_priority_probability": 0.45,
+  "event_chain_clue_floor_lifetime": 80,
+  "terminal_cooldown_floors": 120,
+  "shop": {
+    "fixed_slots": 10,
+    "power_estimate": true,
+    "replacement_target_text": true,
+    "gear_exact_preview": true,
+    "pet_exact_preview": true,
+    "skins_allowed": false
+  },
+  "achievements": {
+    "count": 18,
+    "rewards_only_existing_currencies": true
+  },
+  "boss": {
+    "phases": 3,
+    "thresholds": [
+      0.7,
+      0.4
+    ],
+    "break_window_turns": 2,
+    "variants": [
+      {
+        "id": "pozhen",
+        "name": "破阵",
+        "rule": "装备压制；AI可重新装备整备；第三阶段不重复叠加多层压制"
+      },
+      {
+        "id": "shoushi",
+        "name": "守势",
+        "rule": "锦囊护幕；AI优先杀撕盾"
+      },
+      {
+        "id": "kuanggong",
+        "name": "狂攻",
+        "rule": "连杀反击；AI主动用锦囊/装备断连；阶段3禁疗1回合"
+      },
+      {
+        "id": "guizhen",
+        "name": "诡阵",
+        "rule": "偶数Boss回合判定干扰；红色阵眼短破绽"
+      }
+    ],
+    "fairness_samples": 512
+  },
+  "targeted_generals": {
+    "ganning": "奇袭资源保护/夜袭印回收/锦帆拆阵",
+    "zhangjiao": "主动天公引雷/雷势重判/五星雷狱",
+    "dongzhuo": "暴虐受创循环/崩坏代偿/酒池回气"
+  },
+  "deep_balance": {
+    "floors": [
+      3500,
+      4000,
+      5000
+    ],
+    "samples": 1152,
+    "profiles": {
+      "回流": {
+        "gear": "传说",
+        "ascensions": 5,
+        "fate_total": 35,
+        "war_path": 2,
+        "roots": 18,
+        "techniques": 26,
+        "affix_multiplier": 1.0,
+        "weapon": 22,
+        "pet": 12
+      },
+      "标准": {
+        "gear": "神话",
+        "ascensions": 8,
+        "fate_total": 70,
+        "war_path": 4,
+        "roots": 20,
+        "techniques": 30,
+        "affix_multiplier": 1.12,
+        "weapon": 28,
+        "pet": 18
+      },
+      "极品": {
+        "gear": "仙品",
+        "ascensions": 12,
+        "fate_total": 120,
+        "war_path": 7,
+        "roots": 20,
+        "techniques": 30,
+        "affix_multiplier": 1.25,
+        "weapon": 35,
+        "pet": 24
+      }
+    },
+    "damage_cap_base": {
+      "3500": 0.06,
+      "4000": 0.056,
+      "4500": 0.053,
+      "5000": 0.05
+    },
+    "progression_cap_bonus_formula": "min(0.014, ascensions*0.00055 + fateTotal*0.000035)",
+    "enemy_threat_ratio_min": {
+      "3500": 0.59,
+      "4000": 0.6,
+      "4500": 0.61,
+      "5000": 0.62
+    },
+    "late_pressure_piecewise": [
+      {
+        "from": 901,
+        "to": 1600,
+        "per_floor": 1.00072
+      },
+      {
+        "from": 1601,
+        "to": 2200,
+        "per_floor": 1.00048
+      },
+      {
+        "from": 2201,
+        "to": 3200,
+        "per_floor": 1.0003
+      },
+      {
+        "from": 3201,
+        "to": 4200,
+        "per_floor": 1.00025
+      },
+      {
+        "from": 4201,
+        "to": null,
+        "per_floor": 1.0002
+      }
+    ]
+  },
+  "equipment": {
+    "same_slot_dual_compare": true,
+    "upgrade_only_filter": true,
+    "quick_equip_upgrade": true,
+    "batch_equip_upgrades": true,
+    "slot_filter": true,
+    "quality_filter": true,
+    "sorting": [
+      "fit",
+      "power",
+      "quality"
+    ]
+  },
+  "save": {
+    "key": "sgs_idle_v1060",
+    "prefix": "SGST106-",
+    "legacy_read": [
+      "SGST105",
+      "SGST104",
+      "SGST103",
+      "SGST102",
+      "SGST101",
+      "SGST20"
+    ]
+  },
+  "generals_fixed": 32,
+  "skill_stages": 160,
+  "static_skins": 48,
+  "dynamic_skins": 0,
+  "audio": false
+}

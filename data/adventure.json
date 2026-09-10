@@ -1,0 +1,144 @@
+{
+  "version": "0.15.0",
+  "secret_realms": [
+    {
+      "id": "taoyuan",
+      "name": "桃源古境",
+      "unlock": 40,
+      "tag": "资源",
+      "desc": "稳定产出铜钱、修为与青龙诀/八阵真解残页。",
+      "power": 1.05,
+      "techs": [
+        "qinglong",
+        "bazi"
+      ],
+      "reward": {
+        "coins": 1.4,
+        "cult": 0.7,
+        "jade": 8,
+        "pages": 1,
+        "gear": 1
+      }
+    },
+    {
+      "id": "chibi",
+      "name": "赤壁遗火",
+      "unlock": 80,
+      "tag": "火系",
+      "desc": "火牌与锦囊环境，偏向太平要术与火系装备。",
+      "power": 1.18,
+      "techs": [
+        "taiping",
+        "qinglong"
+      ],
+      "reward": {
+        "coins": 1.7,
+        "cult": 0.9,
+        "jade": 12,
+        "pages": 1,
+        "gear": 2
+      }
+    },
+    {
+      "id": "wuzhang",
+      "name": "五丈原天机阵",
+      "unlock": 120,
+      "tag": "判定",
+      "desc": "判定与牌序秘境，天机篇/太平要术残页掉率更高。",
+      "power": 1.32,
+      "techs": [
+        "tianji",
+        "taiping"
+      ],
+      "reward": {
+        "coins": 2.0,
+        "cult": 1.1,
+        "jade": 18,
+        "pages": 2,
+        "gear": 2
+      }
+    },
+    {
+      "id": "youming",
+      "name": "幽冥古战场",
+      "unlock": 180,
+      "tag": "装备",
+      "desc": "高装备掉落，适合长期刷词条与一键整理。",
+      "power": 1.52,
+      "techs": [
+        "xuesha",
+        "qinglong"
+      ],
+      "reward": {
+        "coins": 2.4,
+        "cult": 1.25,
+        "jade": 24,
+        "pages": 2,
+        "gear": 4
+      }
+    },
+    {
+      "id": "leize",
+      "name": "雷泽天坛",
+      "unlock": 240,
+      "tag": "雷法",
+      "desc": "黑桃与雷击环境，产出太平要术/灵虚步残页与回忆令。",
+      "power": 1.78,
+      "techs": [
+        "taiping",
+        "lingxu"
+      ],
+      "reward": {
+        "coins": 2.8,
+        "cult": 1.5,
+        "jade": 32,
+        "memory": 1,
+        "pages": 3,
+        "gear": 3
+      }
+    },
+    {
+      "id": "dongfu",
+      "name": "仙人洞府",
+      "unlock": 300,
+      "tag": "高阶",
+      "desc": "高层综合秘境，可产出更多残页、灵石和高阶装备。",
+      "power": 2.1,
+      "techs": [
+        "qinglong",
+        "bazi",
+        "taiping",
+        "xuesha",
+        "lingxu",
+        "tianji"
+      ],
+      "reward": {
+        "coins": 3.4,
+        "cult": 1.8,
+        "jade": 45,
+        "memory": 1,
+        "pages": 4,
+        "gear": 5
+      }
+    }
+  ],
+  "daily_secret_attempts": 5,
+  "daily_cycle_boss_attempts": 3,
+  "technique_qualities": [
+    "凡品",
+    "良品",
+    "玄品",
+    "地品",
+    "天品"
+  ],
+  "quality_page_cost": [
+    3,
+    8,
+    20,
+    50
+  ],
+  "notes": [
+    "功法残页属于养成材料，不是货币，因此不进入顶栏货币区。",
+    "所有新增玩法奖励回流现有四类货币与装备/残页。"
+  ]
+}

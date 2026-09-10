@@ -1,0 +1,48 @@
+{
+  "version": "1.0.3",
+  "save_key": "sgs_idle_v1030",
+  "save_code_prefix": "SGST103-",
+  "event_level_generals": 32,
+  "new_event_level_generals": 24,
+  "balance_representatives": [
+    "liubei",
+    "machao",
+    "xiahoudun",
+    "guojia",
+    "zhouyu",
+    "luxun",
+    "diaochan",
+    "dongzhuo"
+  ],
+  "balance_floors": [
+    300,
+    700,
+    710,
+    750,
+    800,
+    1500
+  ],
+  "static_skins": 48,
+  "dynamic_skins": 0,
+  "notes": [
+    "剩余24将3～5星事件级实装",
+    "700～800 Boss墙专项校准",
+    "共享长期成长主曲线",
+    "900层后追加长期塔压"
+  ],
+  "skins": {
+    "mode": "static_only",
+    "count": 48,
+    "elite_floor_static_skin": true,
+    "dynamic_assets": 0
+  },
+  "tower_balance": {
+    "checkpoint_every": 50,
+    "boss_calibration_range": [
+      650,
+      850
+    ],
+    "late_pressure_after": 900,
+    "representative_samples": 192
+  }
+}

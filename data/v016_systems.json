@@ -1,0 +1,27 @@
+{
+  "version": "0.16.0",
+  "general_count_locked": 32,
+  "awakening_choice": {
+    "unlock_star": 5,
+    "choices_per_general": 3,
+    "paths": ["破阵", "疾策", "守心"]
+  },
+  "fate_shop": [
+    {"id":"jade","cost":1,"reward":"灵石600"},
+    {"id":"memory","cost":1,"reward":"回忆令8"},
+    {"id":"pages","cost":2,"reward":"当前主修功法残页12"},
+    {"id":"soul","cost":3,"reward":"当前主将武魂30"},
+    {"id":"bossgear","cost":4,"reward":"Boss专属装备1件"}
+  ],
+  "premium_gear": {
+    "protect_by_default": true,
+    "auto_lock_new_premium": true,
+    "boss_exclusive_always_premium": true
+  },
+  "boss_exclusive_drop": {
+    "normal_boss_chance": 0.15,
+    "every_100_floor_guaranteed": true,
+    "minimum_quality_every_100_floor": "传说"
+  },
+  "memory_token_rule": "每清除20层固定获得1枚，跨层累计补发"
+}

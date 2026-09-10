@@ -1,0 +1,3 @@
+OK: v1.2.1 validated
+18/18 logic, DOM preservation, navigation and migration tests passed.
+Three offline HTML entrypoints are byte-identical.

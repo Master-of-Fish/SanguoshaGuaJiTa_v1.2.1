@@ -1,0 +1,191 @@
+{
+  "ganning": {
+    "name": "甘宁",
+    "clears": 14,
+    "total": 16,
+    "rate": 0.875,
+    "failures": {
+      "throughput": 1,
+      "survival": 1
+    },
+    "by_variant": {
+      "pozhen": {
+        "clears": 4,
+        "total": 4,
+        "median_actions": 54.5
+      },
+      "shoushi": {
+        "clears": 4,
+        "total": 4,
+        "median_actions": 25.5
+      },
+      "kuanggong": {
+        "clears": 3,
+        "total": 4,
+        "median_actions": 17
+      },
+      "guizhen": {
+        "clears": 3,
+        "total": 4,
+        "median_actions": 24
+      }
+    }
+  },
+  "yuji": {
+    "name": "于吉",
+    "clears": 13,
+    "total": 16,
+    "rate": 0.8125,
+    "failures": {
+      "throughput": 2,
+      "survival": 1
+    },
+    "by_variant": {
+      "pozhen": {
+        "clears": 4,
+        "total": 4,
+        "median_actions": 15.0
+      },
+      "shoushi": {
+        "clears": 2,
+        "total": 4,
+        "median_actions": 32.0
+      },
+      "kuanggong": {
+        "clears": 3,
+        "total": 4,
+        "median_actions": 12
+      },
+      "guizhen": {
+        "clears": 4,
+        "total": 4,
+        "median_actions": 14.0
+      }
+    }
+  },
+  "daqiao": {
+    "name": "大乔",
+    "clears": 16,
+    "total": 16,
+    "rate": 1.0,
+    "failures": {},
+    "by_variant": {
+      "pozhen": {
+        "clears": 4,
+        "total": 4,
+        "median_actions": 25.0
+      },
+      "shoushi": {
+        "clears": 4,
+        "total": 4,
+        "median_actions": 23.0
+      },
+      "kuanggong": {
+        "clears": 4,
+        "total": 4,
+        "median_actions": 22.0
+      },
+      "guizhen": {
+        "clears": 4,
+        "total": 4,
+        "median_actions": 19.0
+      }
+    }
+  },
+  "caocao": {
+    "name": "曹操",
+    "clears": 13,
+    "total": 16,
+    "rate": 0.8125,
+    "failures": {
+      "throughput": 2,
+      "survival": 1
+    },
+    "by_variant": {
+      "pozhen": {
+        "clears": 4,
+        "total": 4,
+        "median_actions": 15.0
+      },
+      "shoushi": {
+        "clears": 4,
+        "total": 4,
+        "median_actions": 14.5
+      },
+      "kuanggong": {
+        "clears": 3,
+        "total": 4,
+        "median_actions": 21
+      },
+      "guizhen": {
+        "clears": 2,
+        "total": 4,
+        "median_actions": 12.0
+      }
+    }
+  },
+  "yuanshao": {
+    "name": "袁绍",
+    "clears": 11,
+    "total": 16,
+    "rate": 0.6875,
+    "failures": {
+      "survival": 3,
+      "throughput": 2
+    },
+    "by_variant": {
+      "pozhen": {
+        "clears": 2,
+        "total": 4,
+        "median_actions": 18.0
+      },
+      "shoushi": {
+        "clears": 3,
+        "total": 4,
+        "median_actions": 14
+      },
+      "kuanggong": {
+        "clears": 3,
+        "total": 4,
+        "median_actions": 16
+      },
+      "guizhen": {
+        "clears": 3,
+        "total": 4,
+        "median_actions": 16
+      }
+    }
+  },
+  "xuchu": {
+    "name": "许褚",
+    "clears": 13,
+    "total": 16,
+    "rate": 0.8125,
+    "failures": {
+      "throughput": 2,
+      "survival": 1
+    },
+    "by_variant": {
+      "pozhen": {
+        "clears": 2,
+        "total": 4,
+        "median_actions": 16.5
+      },
+      "shoushi": {
+        "clears": 4,
+        "total": 4,
+        "median_actions": 31.0
+      },
+      "kuanggong": {
+        "clears": 3,
+        "total": 4,
+        "median_actions": 19
+      },
+      "guizhen": {
+        "clears": 4,
+        "total": 4,
+        "median_actions": 20.0
+      }
+    }
+  }
+}

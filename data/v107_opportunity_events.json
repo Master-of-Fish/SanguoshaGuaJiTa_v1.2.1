@@ -1,0 +1,6539 @@
+[
+  {
+    "id": "chance_001",
+    "name": "竹林遗匣",
+    "kind": "good",
+    "description": "发现遗落木匣，铜钱与灵石小幅增加。",
+    "effects": {
+      "coins": 1200,
+      "jade": 80
+    },
+    "numeric": "铜钱 +1.20K；灵石 +80"
+  },
+  {
+    "id": "chance_002",
+    "name": "旧营残旗",
+    "kind": "neutral",
+    "description": "整理残旗获得修为，但未来10层防御略降。",
+    "effects": {
+      "cult": 900,
+      "mod": [
+        "defPct",
+        -0.04,
+        10
+      ]
+    },
+    "numeric": "修为 +900；防御 -4.0%（10层）"
+  },
+  {
+    "id": "chance_003",
+    "name": "山泉洗剑",
+    "kind": "good",
+    "description": "攻击在未来12层提高6%。",
+    "effects": {
+      "mod": [
+        "atkPct",
+        0.06,
+        12
+      ]
+    },
+    "numeric": "攻击 +6.0%（12层）"
+  },
+  {
+    "id": "chance_004",
+    "name": "迷雾岔路",
+    "kind": "neutral",
+    "description": "绕路获得回忆令，未来8层速度降低4。",
+    "effects": {
+      "memory": 2,
+      "mod": [
+        "speed",
+        -4,
+        8
+      ]
+    },
+    "numeric": "回忆令 +2；速度 -4.0（8层）"
+  },
+  {
+    "id": "chance_005",
+    "name": "商旅同行",
+    "kind": "good",
+    "description": "铜钱增加，掉落率未来10层提高5%。",
+    "effects": {
+      "coins": 1800,
+      "mod": [
+        "drop",
+        5,
+        10
+      ]
+    },
+    "numeric": "铜钱 +1.80K；掉落 +5.0%（10层）"
+  },
+  {
+    "id": "chance_006",
+    "name": "古碑悟道",
+    "kind": "good",
+    "description": "获得修为并提高暴击6%，持续8层。",
+    "effects": {
+      "cult": 1300,
+      "mod": [
+        "crit",
+        6,
+        8
+      ]
+    },
+    "numeric": "修为 +1.30K；暴击 +6.0%（8层）"
+  },
+  {
+    "id": "chance_007",
+    "name": "荒寺夜宿",
+    "kind": "neutral",
+    "description": "生命提高8%，攻击降低3%，持续10层。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.08,
+          10
+        ],
+        [
+          "atkPct",
+          -0.03,
+          10
+        ]
+      ]
+    },
+    "numeric": "生命 +8.0%（10层）；攻击 -3.0%（10层）"
+  },
+  {
+    "id": "chance_008",
+    "name": "断桥捷径",
+    "kind": "neutral",
+    "description": "速度提高6，但闪避降低4%，持续8层。",
+    "effects": {
+      "mods": [
+        [
+          "speed",
+          6,
+          8
+        ],
+        [
+          "dodge",
+          -4,
+          8
+        ]
+      ]
+    },
+    "numeric": "速度 +6.0（8层）；闪避 -4.0%（8层）"
+  },
+  {
+    "id": "chance_009",
+    "name": "游侠赠酒",
+    "kind": "good",
+    "description": "获得灵石并提高Boss伤害5%，持续12层。",
+    "effects": {
+      "jade": 120,
+      "mod": [
+        "boss",
+        5,
+        12
+      ]
+    },
+    "numeric": "灵石 +120；Boss伤害 +5.0%（12层）"
+  },
+  {
+    "id": "chance_010",
+    "name": "失落钱袋",
+    "kind": "good",
+    "description": "获得铜钱。",
+    "effects": {
+      "coins": 2600
+    },
+    "numeric": "铜钱 +2.60K"
+  },
+  {
+    "id": "chance_011",
+    "name": "铁匠试锋",
+    "kind": "good",
+    "description": "随机获得一件当前层装备。",
+    "effects": {
+      "gear": 1
+    },
+    "numeric": "装备 +1件"
+  },
+  {
+    "id": "chance_012",
+    "name": "灵草坡",
+    "kind": "good",
+    "description": "修为与铜钱增加。",
+    "effects": {
+      "cult": 1000,
+      "coins": 1000
+    },
+    "numeric": "铜钱 +1K；修为 +1K"
+  },
+  {
+    "id": "chance_013",
+    "name": "落雷余烬",
+    "kind": "neutral",
+    "description": "破甲提高8%，抗暴降低5%，持续8层。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          8,
+          8
+        ],
+        [
+          "antiCrit",
+          -5,
+          8
+        ]
+      ]
+    },
+    "numeric": "穿甲 +8.0%（8层）；抗暴 -5.0%（8层）"
+  },
+  {
+    "id": "chance_014",
+    "name": "风口磨砺",
+    "kind": "good",
+    "description": "命中提高7%，持续10层。",
+    "effects": {
+      "mod": [
+        "accuracy",
+        7,
+        10
+      ]
+    },
+    "numeric": "命中 +7.0%（10层）"
+  },
+  {
+    "id": "chance_015",
+    "name": "旧卷残页",
+    "kind": "good",
+    "description": "当前功法获得残页。",
+    "effects": {
+      "page": 2
+    },
+    "numeric": "当前功法残页 +2"
+  },
+  {
+    "id": "chance_016",
+    "name": "残阵推演",
+    "kind": "good",
+    "description": "防御提高7%，持续12层。",
+    "effects": {
+      "mod": [
+        "defPct",
+        0.07,
+        12
+      ]
+    },
+    "numeric": "防御 +7.0%（12层）"
+  },
+  {
+    "id": "chance_017",
+    "name": "赤壁余火",
+    "kind": "neutral",
+    "description": "暴伤提高14%，生命降低5%，持续10层。",
+    "effects": {
+      "mods": [
+        [
+          "critd",
+          14,
+          10
+        ],
+        [
+          "hpPct",
+          -0.05,
+          10
+        ]
+      ]
+    },
+    "numeric": "暴伤 +14%（10层）；生命 -5.0%（10层）"
+  },
+  {
+    "id": "chance_018",
+    "name": "寒潭静修",
+    "kind": "good",
+    "description": "修为增加并提高闪避5%，持续10层。",
+    "effects": {
+      "cult": 1400,
+      "mod": [
+        "dodge",
+        5,
+        10
+      ]
+    },
+    "numeric": "修为 +1.40K；闪避 +5.0%（10层）"
+  },
+  {
+    "id": "chance_019",
+    "name": "山贼赎金",
+    "kind": "neutral",
+    "description": "失去少量铜钱，获得灵石。",
+    "effects": {
+      "coins": -900,
+      "jade": 160
+    },
+    "numeric": "铜钱 -900；灵石 +160"
+  },
+  {
+    "id": "chance_020",
+    "name": "猎户指路",
+    "kind": "good",
+    "description": "未来12层挂机与掉落各提高4%。",
+    "effects": {
+      "mods": [
+        [
+          "idle",
+          4,
+          12
+        ],
+        [
+          "drop",
+          4,
+          12
+        ]
+      ]
+    },
+    "numeric": "挂机收益 +4.0%（12层）；掉落 +4.0%（12层）"
+  },
+  {
+    "id": "chance_021",
+    "name": "废墟军械",
+    "kind": "good",
+    "description": "获得一件品质至少稀有的装备。",
+    "effects": {
+      "gearRare": 1
+    },
+    "numeric": "稀有+装备 +1件"
+  },
+  {
+    "id": "chance_022",
+    "name": "乌云压城",
+    "kind": "bad",
+    "description": "未来8层攻击降低5%，但清除后奖励2回忆令。",
+    "effects": {
+      "mod": [
+        "atkPct",
+        -0.05,
+        8
+      ],
+      "memory": 2
+    },
+    "numeric": "回忆令 +2；攻击 -5.0%（8层）"
+  },
+  {
+    "id": "chance_023",
+    "name": "星夜疾行",
+    "kind": "neutral",
+    "description": "速度提高8，防御降低4%，持续10层。",
+    "effects": {
+      "mods": [
+        [
+          "speed",
+          8,
+          10
+        ],
+        [
+          "defPct",
+          -0.04,
+          10
+        ]
+      ]
+    },
+    "numeric": "速度 +8.0（10层）；防御 -4.0%（10层）"
+  },
+  {
+    "id": "chance_024",
+    "name": "铜雀旧梦",
+    "kind": "good",
+    "description": "获得铜钱与少量仙缘。",
+    "effects": {
+      "coins": 2200,
+      "fate": 1
+    },
+    "numeric": "铜钱 +2.20K；仙缘 +1"
+  },
+  {
+    "id": "chance_025",
+    "name": "石门试炼",
+    "kind": "neutral",
+    "description": "Boss伤害提高10%，普通攻击降低4%，持续12层。",
+    "effects": {
+      "mods": [
+        [
+          "boss",
+          10,
+          12
+        ],
+        [
+          "atkPct",
+          -0.04,
+          12
+        ]
+      ]
+    },
+    "numeric": "Boss伤害 +10%（12层）；攻击 -4.0%（12层）"
+  },
+  {
+    "id": "chance_026",
+    "name": "祈雨法坛",
+    "kind": "good",
+    "description": "生命提高6%，吸血提高3%，持续10层。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.06,
+          10
+        ],
+        [
+          "lifesteal",
+          3,
+          10
+        ]
+      ]
+    },
+    "numeric": "生命 +6.0%（10层）；吸血 +3.0%（10层）"
+  },
+  {
+    "id": "chance_027",
+    "name": "野渡横舟",
+    "kind": "good",
+    "description": "获得回忆令并提高速度4，持续6层。",
+    "effects": {
+      "memory": 2,
+      "mod": [
+        "speed",
+        4,
+        6
+      ]
+    },
+    "numeric": "回忆令 +2；速度 +4.0（6层）"
+  },
+  {
+    "id": "chance_028",
+    "name": "军粮仓",
+    "kind": "good",
+    "description": "铜钱、修为同时增加。",
+    "effects": {
+      "coins": 1600,
+      "cult": 1200
+    },
+    "numeric": "铜钱 +1.60K；修为 +1.20K"
+  },
+  {
+    "id": "chance_029",
+    "name": "碎甲残片",
+    "kind": "good",
+    "description": "破甲提高6%，持续14层。",
+    "effects": {
+      "mod": [
+        "armorpen",
+        6,
+        14
+      ]
+    },
+    "numeric": "穿甲 +6.0%（14层）"
+  },
+  {
+    "id": "chance_030",
+    "name": "老将点拨",
+    "kind": "good",
+    "description": "抗暴提高7%，持续12层。",
+    "effects": {
+      "mod": [
+        "antiCrit",
+        7,
+        12
+      ]
+    },
+    "numeric": "抗暴 +7.0%（12层）"
+  },
+  {
+    "id": "chance_031",
+    "name": "密林伏线",
+    "kind": "neutral",
+    "description": "掉落提高8%，命中降低4%，持续10层。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          10
+        ],
+        [
+          "accuracy",
+          -4,
+          10
+        ]
+      ]
+    },
+    "numeric": "掉落 +8.0%（10层）；命中 -4.0%（10层）"
+  },
+  {
+    "id": "chance_032",
+    "name": "雨夜借宿",
+    "kind": "good",
+    "description": "恢复冒险节奏：生命与防御各提高4%，持续8层。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.04,
+          8
+        ],
+        [
+          "defPct",
+          0.04,
+          8
+        ]
+      ]
+    },
+    "numeric": "生命 +4.0%（8层）；防御 +4.0%（8层）"
+  },
+  {
+    "id": "chance_033",
+    "name": "残剑共鸣",
+    "kind": "good",
+    "description": "暴击提高5%、暴伤提高8%，持续8层。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          5,
+          8
+        ],
+        [
+          "critd",
+          8,
+          8
+        ]
+      ]
+    },
+    "numeric": "暴击 +5.0%（8层）；暴伤 +8.0%（8层）"
+  },
+  {
+    "id": "chance_034",
+    "name": "驿站悬赏",
+    "kind": "good",
+    "description": "获得铜钱，未来10层Boss伤害提高6%。",
+    "effects": {
+      "coins": 1700,
+      "mod": [
+        "boss",
+        6,
+        10
+      ]
+    },
+    "numeric": "铜钱 +1.70K；Boss伤害 +6.0%（10层）"
+  },
+  {
+    "id": "chance_035",
+    "name": "流民相助",
+    "kind": "neutral",
+    "description": "付出铜钱换取修为和幸运。",
+    "effects": {
+      "coins": -1200,
+      "cult": 1800,
+      "mod": [
+        "luck",
+        8,
+        12
+      ]
+    },
+    "numeric": "铜钱 -1.20K；修为 +1.80K；幸运 +8.0（12层）"
+  },
+  {
+    "id": "chance_036",
+    "name": "河洛星图",
+    "kind": "good",
+    "description": "获得1仙缘并提高命中5%，持续12层。",
+    "effects": {
+      "fate": 1,
+      "mod": [
+        "accuracy",
+        5,
+        12
+      ]
+    },
+    "numeric": "仙缘 +1；命中 +5.0%（12层）"
+  },
+  {
+    "id": "chance_037",
+    "name": "旧主军令",
+    "kind": "neutral",
+    "description": "攻击提高8%，防御降低6%，持续10层。",
+    "effects": {
+      "mods": [
+        [
+          "atkPct",
+          0.08,
+          10
+        ],
+        [
+          "defPct",
+          -0.06,
+          10
+        ]
+      ]
+    },
+    "numeric": "攻击 +8.0%（10层）；防御 -6.0%（10层）"
+  },
+  {
+    "id": "chance_038",
+    "name": "云海灵台",
+    "kind": "good",
+    "description": "灵石、回忆令各增加。",
+    "effects": {
+      "jade": 180,
+      "memory": 2
+    },
+    "numeric": "灵石 +180；回忆令 +2"
+  },
+  {
+    "id": "chance_039",
+    "name": "百战余威",
+    "kind": "good",
+    "description": "未来15层攻击、防御各提高4%。",
+    "effects": {
+      "mods": [
+        [
+          "atkPct",
+          0.04,
+          15
+        ],
+        [
+          "defPct",
+          0.04,
+          15
+        ]
+      ]
+    },
+    "numeric": "攻击 +4.0%（15层）；防御 +4.0%（15层）"
+  },
+  {
+    "id": "chance_040",
+    "name": "青竹山径·01",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 1040,
+      "jade": 52
+    },
+    "numeric": "铜钱 +1.04K；灵石 +52"
+  },
+  {
+    "id": "chance_041",
+    "name": "青竹山径·02",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 1180,
+      "jade": 59
+    },
+    "numeric": "铜钱 +1.18K；灵石 +59"
+  },
+  {
+    "id": "chance_042",
+    "name": "青竹山径·03",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 1320,
+      "jade": 66
+    },
+    "numeric": "铜钱 +1.32K；灵石 +66"
+  },
+  {
+    "id": "chance_043",
+    "name": "青竹山径·04",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 1460,
+      "jade": 73
+    },
+    "numeric": "铜钱 +1.46K；灵石 +73"
+  },
+  {
+    "id": "chance_044",
+    "name": "青竹山径·05",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 1888,
+      "jade": 94
+    },
+    "numeric": "铜钱 +1.89K；灵石 +94"
+  },
+  {
+    "id": "chance_045",
+    "name": "青竹山径·06",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 2053,
+      "jade": 103
+    },
+    "numeric": "铜钱 +2.05K；灵石 +103"
+  },
+  {
+    "id": "chance_046",
+    "name": "青竹山径·07",
+    "kind": "neutral",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 2218,
+      "jade": 111
+    },
+    "numeric": "铜钱 +2.22K；灵石 +111"
+  },
+  {
+    "id": "chance_047",
+    "name": "青竹山径·08",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 2384,
+      "jade": 119
+    },
+    "numeric": "铜钱 +2.38K；灵石 +119"
+  },
+  {
+    "id": "chance_048",
+    "name": "青竹山径·09",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 2938,
+      "jade": 147
+    },
+    "numeric": "铜钱 +2.94K；灵石 +147"
+  },
+  {
+    "id": "chance_049",
+    "name": "青竹山径·10",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 3128,
+      "jade": 156
+    },
+    "numeric": "铜钱 +3.13K；灵石 +156"
+  },
+  {
+    "id": "chance_050",
+    "name": "青竹山径·11",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 3318,
+      "jade": 166
+    },
+    "numeric": "铜钱 +3.32K；灵石 +166"
+  },
+  {
+    "id": "chance_051",
+    "name": "青竹山径·12",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 3509,
+      "jade": 175
+    },
+    "numeric": "铜钱 +3.51K；灵石 +175"
+  },
+  {
+    "id": "chance_052",
+    "name": "青竹山径·13",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 4189,
+      "jade": 209
+    },
+    "numeric": "铜钱 +4.19K；灵石 +209"
+  },
+  {
+    "id": "chance_053",
+    "name": "青竹山径·14",
+    "kind": "neutral",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 4404,
+      "jade": 220
+    },
+    "numeric": "铜钱 +4.40K；灵石 +220"
+  },
+  {
+    "id": "chance_054",
+    "name": "青竹山径·15",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 4620,
+      "jade": 231
+    },
+    "numeric": "铜钱 +4.62K；灵石 +231"
+  },
+  {
+    "id": "chance_055",
+    "name": "青竹山径·16",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 4836,
+      "jade": 242
+    },
+    "numeric": "铜钱 +4.84K；灵石 +242"
+  },
+  {
+    "id": "chance_056",
+    "name": "青竹山径·17",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 5642,
+      "jade": 282
+    },
+    "numeric": "铜钱 +5.64K；灵石 +282"
+  },
+  {
+    "id": "chance_057",
+    "name": "青竹山径·18",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 5882,
+      "jade": 294
+    },
+    "numeric": "铜钱 +5.88K；灵石 +294"
+  },
+  {
+    "id": "chance_058",
+    "name": "青竹山径·19",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 6123,
+      "jade": 306
+    },
+    "numeric": "铜钱 +6.12K；灵石 +306"
+  },
+  {
+    "id": "chance_059",
+    "name": "青竹山径·20",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 6364,
+      "jade": 318
+    },
+    "numeric": "铜钱 +6.36K；灵石 +318"
+  },
+  {
+    "id": "chance_060",
+    "name": "青竹山径·21",
+    "kind": "neutral",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 7296,
+      "jade": 365
+    },
+    "numeric": "铜钱 +7.30K；灵石 +365"
+  },
+  {
+    "id": "chance_061",
+    "name": "古战残垒·01",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 975,
+      "mods": [
+        [
+          "atkPct",
+          0.024,
+          10
+        ],
+        [
+          "defPct",
+          -0.01,
+          10
+        ]
+      ]
+    },
+    "numeric": "修为 +975；攻击 +2.4%（10层）；防御 -1.0%（10层）"
+  },
+  {
+    "id": "chance_062",
+    "name": "古战残垒·02",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 1100,
+      "mods": [
+        [
+          "atkPct",
+          0.03,
+          11
+        ],
+        [
+          "defPct",
+          -0.014,
+          11
+        ]
+      ]
+    },
+    "numeric": "修为 +1.10K；攻击 +3.0%（11层）；防御 -1.4%（11层）"
+  },
+  {
+    "id": "chance_063",
+    "name": "古战残垒·03",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 1225,
+      "mods": [
+        [
+          "atkPct",
+          0.036000000000000004,
+          12
+        ],
+        [
+          "defPct",
+          -0.006,
+          12
+        ]
+      ]
+    },
+    "numeric": "修为 +1.23K；攻击 +3.6%（12层）；防御 -0.6%（12层）"
+  },
+  {
+    "id": "chance_064",
+    "name": "古战残垒·04",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 1350,
+      "mods": [
+        [
+          "atkPct",
+          0.041999999999999996,
+          13
+        ],
+        [
+          "defPct",
+          -0.01,
+          13
+        ]
+      ]
+    },
+    "numeric": "修为 +1.35K；攻击 +4.2%（13层）；防御 -1.0%（13层）"
+  },
+  {
+    "id": "chance_065",
+    "name": "古战残垒·05",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 1741,
+      "mods": [
+        [
+          "atkPct",
+          0.018,
+          14
+        ],
+        [
+          "defPct",
+          -0.014,
+          14
+        ]
+      ]
+    },
+    "numeric": "修为 +1.74K；攻击 +1.8%（14层）；防御 -1.4%（14层）"
+  },
+  {
+    "id": "chance_066",
+    "name": "古战残垒·06",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 1888,
+      "mods": [
+        [
+          "atkPct",
+          0.024,
+          6
+        ],
+        [
+          "defPct",
+          -0.006,
+          6
+        ]
+      ]
+    },
+    "numeric": "修为 +1.89K；攻击 +2.4%（6层）；防御 -0.6%（6层）"
+  },
+  {
+    "id": "chance_067",
+    "name": "古战残垒·07",
+    "kind": "neutral",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 2036,
+      "mods": [
+        [
+          "atkPct",
+          0.03,
+          7
+        ],
+        [
+          "defPct",
+          -0.01,
+          7
+        ]
+      ]
+    },
+    "numeric": "修为 +2.04K；攻击 +3.0%（7层）；防御 -1.0%（7层）"
+  },
+  {
+    "id": "chance_068",
+    "name": "古战残垒·08",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 2183,
+      "mods": [
+        [
+          "atkPct",
+          0.036000000000000004,
+          8
+        ],
+        [
+          "defPct",
+          -0.014,
+          8
+        ]
+      ]
+    },
+    "numeric": "修为 +2.18K；攻击 +3.6%（8层）；防御 -1.4%（8层）"
+  },
+  {
+    "id": "chance_069",
+    "name": "古战残垒·09",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 2686,
+      "mods": [
+        [
+          "atkPct",
+          0.041999999999999996,
+          9
+        ],
+        [
+          "defPct",
+          -0.006,
+          9
+        ]
+      ]
+    },
+    "numeric": "修为 +2.69K；攻击 +4.2%（9层）；防御 -0.6%（9层）"
+  },
+  {
+    "id": "chance_070",
+    "name": "古战残垒·10",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 2856,
+      "mods": [
+        [
+          "atkPct",
+          0.018,
+          10
+        ],
+        [
+          "defPct",
+          -0.01,
+          10
+        ]
+      ]
+    },
+    "numeric": "修为 +2.86K；攻击 +1.8%（10层）；防御 -1.0%（10层）"
+  },
+  {
+    "id": "chance_071",
+    "name": "古战残垒·11",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 3026,
+      "mods": [
+        [
+          "atkPct",
+          0.024,
+          11
+        ],
+        [
+          "defPct",
+          -0.014,
+          11
+        ]
+      ]
+    },
+    "numeric": "修为 +3.03K；攻击 +2.4%（11层）；防御 -1.4%（11层）"
+  },
+  {
+    "id": "chance_072",
+    "name": "古战残垒·12",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 3196,
+      "mods": [
+        [
+          "atkPct",
+          0.03,
+          12
+        ],
+        [
+          "defPct",
+          -0.006,
+          12
+        ]
+      ]
+    },
+    "numeric": "修为 +3.20K；攻击 +3.0%（12层）；防御 -0.6%（12层）"
+  },
+  {
+    "id": "chance_073",
+    "name": "古战残垒·13",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 3812,
+      "mods": [
+        [
+          "atkPct",
+          0.036000000000000004,
+          13
+        ],
+        [
+          "defPct",
+          -0.01,
+          13
+        ]
+      ]
+    },
+    "numeric": "修为 +3.81K；攻击 +3.6%（13层）；防御 -1.0%（13层）"
+  },
+  {
+    "id": "chance_074",
+    "name": "古战残垒·14",
+    "kind": "neutral",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 4004,
+      "mods": [
+        [
+          "atkPct",
+          0.041999999999999996,
+          14
+        ],
+        [
+          "defPct",
+          -0.014,
+          14
+        ]
+      ]
+    },
+    "numeric": "修为 +4K；攻击 +4.2%（14层）；防御 -1.4%（14层）"
+  },
+  {
+    "id": "chance_075",
+    "name": "古战残垒·15",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 4197,
+      "mods": [
+        [
+          "atkPct",
+          0.018,
+          6
+        ],
+        [
+          "defPct",
+          -0.006,
+          6
+        ]
+      ]
+    },
+    "numeric": "修为 +4.20K；攻击 +1.8%（6层）；防御 -0.6%（6层）"
+  },
+  {
+    "id": "chance_076",
+    "name": "古战残垒·16",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 4389,
+      "mods": [
+        [
+          "atkPct",
+          0.024,
+          7
+        ],
+        [
+          "defPct",
+          -0.01,
+          7
+        ]
+      ]
+    },
+    "numeric": "修为 +4.39K；攻击 +2.4%（7层）；防御 -1.0%（7层）"
+  },
+  {
+    "id": "chance_077",
+    "name": "古战残垒·17",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 5117,
+      "mods": [
+        [
+          "atkPct",
+          0.03,
+          8
+        ],
+        [
+          "defPct",
+          -0.014,
+          8
+        ]
+      ]
+    },
+    "numeric": "修为 +5.12K；攻击 +3.0%（8层）；防御 -1.4%（8层）"
+  },
+  {
+    "id": "chance_078",
+    "name": "古战残垒·18",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 5332,
+      "mods": [
+        [
+          "atkPct",
+          0.036000000000000004,
+          9
+        ],
+        [
+          "defPct",
+          -0.006,
+          9
+        ]
+      ]
+    },
+    "numeric": "修为 +5.33K；攻击 +3.6%（9层）；防御 -0.6%（9层）"
+  },
+  {
+    "id": "chance_079",
+    "name": "古战残垒·19",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 5547,
+      "mods": [
+        [
+          "atkPct",
+          0.041999999999999996,
+          10
+        ],
+        [
+          "defPct",
+          -0.01,
+          10
+        ]
+      ]
+    },
+    "numeric": "修为 +5.55K；攻击 +4.2%（10层）；防御 -1.0%（10层）"
+  },
+  {
+    "id": "chance_080",
+    "name": "古战残垒·20",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 5762,
+      "mods": [
+        [
+          "atkPct",
+          0.018,
+          11
+        ],
+        [
+          "defPct",
+          -0.014,
+          11
+        ]
+      ]
+    },
+    "numeric": "修为 +5.76K；攻击 +1.8%（11层）；防御 -1.4%（11层）"
+  },
+  {
+    "id": "chance_081",
+    "name": "古战残垒·21",
+    "kind": "neutral",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 6603,
+      "mods": [
+        [
+          "atkPct",
+          0.024,
+          12
+        ],
+        [
+          "defPct",
+          -0.006,
+          12
+        ]
+      ]
+    },
+    "numeric": "修为 +6.60K；攻击 +2.4%（12层）；防御 -0.6%（12层）"
+  },
+  {
+    "id": "chance_082",
+    "name": "云海驿路·01",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "speed",
+          3,
+          13
+        ],
+        [
+          "dodge",
+          -2,
+          13
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；速度 +3.0（13层）；闪避 -2.0%（13层）"
+  },
+  {
+    "id": "chance_083",
+    "name": "云海驿路·02",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 3,
+      "mods": [
+        [
+          "speed",
+          4,
+          14
+        ],
+        [
+          "dodge",
+          -3,
+          14
+        ]
+      ]
+    },
+    "numeric": "回忆令 +3；速度 +4.0（14层）；闪避 -3.0%（14层）"
+  },
+  {
+    "id": "chance_084",
+    "name": "云海驿路·03",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          5,
+          6
+        ],
+        [
+          "dodge",
+          -1,
+          6
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +5.0（6层）；闪避 -1.0%（6层）"
+  },
+  {
+    "id": "chance_085",
+    "name": "云海驿路·04",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "speed",
+          6,
+          7
+        ],
+        [
+          "dodge",
+          -2,
+          7
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；速度 +6.0（7层）；闪避 -2.0%（7层）"
+  },
+  {
+    "id": "chance_086",
+    "name": "云海驿路·05",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 3,
+      "mods": [
+        [
+          "speed",
+          2,
+          8
+        ],
+        [
+          "dodge",
+          -3,
+          8
+        ]
+      ]
+    },
+    "numeric": "回忆令 +3；速度 +2.0（8层）；闪避 -3.0%（8层）"
+  },
+  {
+    "id": "chance_087",
+    "name": "云海驿路·06",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          3,
+          9
+        ],
+        [
+          "dodge",
+          -1,
+          9
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +3.0（9层）；闪避 -1.0%（9层）"
+  },
+  {
+    "id": "chance_088",
+    "name": "云海驿路·07",
+    "kind": "neutral",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "speed",
+          4,
+          10
+        ],
+        [
+          "dodge",
+          -2,
+          10
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；速度 +4.0（10层）；闪避 -2.0%（10层）"
+  },
+  {
+    "id": "chance_089",
+    "name": "云海驿路·08",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 3,
+      "mods": [
+        [
+          "speed",
+          5,
+          11
+        ],
+        [
+          "dodge",
+          -3,
+          11
+        ]
+      ]
+    },
+    "numeric": "回忆令 +3；速度 +5.0（11层）；闪避 -3.0%（11层）"
+  },
+  {
+    "id": "chance_090",
+    "name": "云海驿路·09",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          6,
+          12
+        ],
+        [
+          "dodge",
+          -1,
+          12
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +6.0（12层）；闪避 -1.0%（12层）"
+  },
+  {
+    "id": "chance_091",
+    "name": "云海驿路·10",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "speed",
+          2,
+          13
+        ],
+        [
+          "dodge",
+          -2,
+          13
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；速度 +2.0（13层）；闪避 -2.0%（13层）"
+  },
+  {
+    "id": "chance_092",
+    "name": "云海驿路·11",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 3,
+      "mods": [
+        [
+          "speed",
+          3,
+          14
+        ],
+        [
+          "dodge",
+          -3,
+          14
+        ]
+      ]
+    },
+    "numeric": "回忆令 +3；速度 +3.0（14层）；闪避 -3.0%（14层）"
+  },
+  {
+    "id": "chance_093",
+    "name": "云海驿路·12",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          4,
+          6
+        ],
+        [
+          "dodge",
+          -1,
+          6
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +4.0（6层）；闪避 -1.0%（6层）"
+  },
+  {
+    "id": "chance_094",
+    "name": "云海驿路·13",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "speed",
+          5,
+          7
+        ],
+        [
+          "dodge",
+          -2,
+          7
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；速度 +5.0（7层）；闪避 -2.0%（7层）"
+  },
+  {
+    "id": "chance_095",
+    "name": "云海驿路·14",
+    "kind": "neutral",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 3,
+      "mods": [
+        [
+          "speed",
+          6,
+          8
+        ],
+        [
+          "dodge",
+          -3,
+          8
+        ]
+      ]
+    },
+    "numeric": "回忆令 +3；速度 +6.0（8层）；闪避 -3.0%（8层）"
+  },
+  {
+    "id": "chance_096",
+    "name": "云海驿路·15",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          2,
+          9
+        ],
+        [
+          "dodge",
+          -1,
+          9
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +2.0（9层）；闪避 -1.0%（9层）"
+  },
+  {
+    "id": "chance_097",
+    "name": "云海驿路·16",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "speed",
+          3,
+          10
+        ],
+        [
+          "dodge",
+          -2,
+          10
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；速度 +3.0（10层）；闪避 -2.0%（10层）"
+  },
+  {
+    "id": "chance_098",
+    "name": "云海驿路·17",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 3,
+      "mods": [
+        [
+          "speed",
+          4,
+          11
+        ],
+        [
+          "dodge",
+          -3,
+          11
+        ]
+      ]
+    },
+    "numeric": "回忆令 +3；速度 +4.0（11层）；闪避 -3.0%（11层）"
+  },
+  {
+    "id": "chance_099",
+    "name": "云海驿路·18",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          5,
+          12
+        ],
+        [
+          "dodge",
+          -1,
+          12
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +5.0（12层）；闪避 -1.0%（12层）"
+  },
+  {
+    "id": "chance_100",
+    "name": "云海驿路·19",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "speed",
+          6,
+          13
+        ],
+        [
+          "dodge",
+          -2,
+          13
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；速度 +6.0（13层）；闪避 -2.0%（13层）"
+  },
+  {
+    "id": "chance_101",
+    "name": "云海驿路·20",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 3,
+      "mods": [
+        [
+          "speed",
+          2,
+          14
+        ],
+        [
+          "dodge",
+          -3,
+          14
+        ]
+      ]
+    },
+    "numeric": "回忆令 +3；速度 +2.0（14层）；闪避 -3.0%（14层）"
+  },
+  {
+    "id": "chance_102",
+    "name": "云海驿路·21",
+    "kind": "neutral",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          3,
+          6
+        ],
+        [
+          "dodge",
+          -1,
+          6
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +3.0（6层）；闪避 -1.0%（6层）"
+  },
+  {
+    "id": "chance_103",
+    "name": "灵脉石窟·01",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.028,
+          7
+        ],
+        [
+          "defPct",
+          0.022,
+          7
+        ]
+      ]
+    },
+    "numeric": "生命 +2.8%（7层）；防御 +2.2%（7层）"
+  },
+  {
+    "id": "chance_104",
+    "name": "灵脉石窟·02",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.036000000000000004,
+          8
+        ],
+        [
+          "defPct",
+          0.028999999999999998,
+          8
+        ]
+      ]
+    },
+    "numeric": "生命 +3.6%（8层）；防御 +2.9%（8层）"
+  },
+  {
+    "id": "chance_105",
+    "name": "灵脉石窟·03",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.044,
+          9
+        ],
+        [
+          "defPct",
+          0.036000000000000004,
+          9
+        ]
+      ]
+    },
+    "numeric": "生命 +4.4%（9层）；防御 +3.6%（9层）"
+  },
+  {
+    "id": "chance_106",
+    "name": "灵脉石窟·04",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.052000000000000005,
+          10
+        ],
+        [
+          "defPct",
+          0.015,
+          10
+        ]
+      ]
+    },
+    "numeric": "生命 +5.2%（10层）；防御 +1.5%（10层）"
+  },
+  {
+    "id": "chance_107",
+    "name": "灵脉石窟·05",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.02,
+          11
+        ],
+        [
+          "defPct",
+          0.022,
+          11
+        ]
+      ]
+    },
+    "numeric": "生命 +2.0%（11层）；防御 +2.2%（11层）"
+  },
+  {
+    "id": "chance_108",
+    "name": "灵脉石窟·06",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.028,
+          12
+        ],
+        [
+          "defPct",
+          0.028999999999999998,
+          12
+        ]
+      ]
+    },
+    "numeric": "生命 +2.8%（12层）；防御 +2.9%（12层）"
+  },
+  {
+    "id": "chance_109",
+    "name": "灵脉石窟·07",
+    "kind": "neutral",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.036000000000000004,
+          13
+        ],
+        [
+          "defPct",
+          0.036000000000000004,
+          13
+        ]
+      ]
+    },
+    "numeric": "生命 +3.6%（13层）；防御 +3.6%（13层）"
+  },
+  {
+    "id": "chance_110",
+    "name": "灵脉石窟·08",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.044,
+          14
+        ],
+        [
+          "defPct",
+          0.015,
+          14
+        ]
+      ]
+    },
+    "numeric": "生命 +4.4%（14层）；防御 +1.5%（14层）"
+  },
+  {
+    "id": "chance_111",
+    "name": "灵脉石窟·09",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.052000000000000005,
+          6
+        ],
+        [
+          "defPct",
+          0.022,
+          6
+        ]
+      ]
+    },
+    "numeric": "生命 +5.2%（6层）；防御 +2.2%（6层）"
+  },
+  {
+    "id": "chance_112",
+    "name": "灵脉石窟·10",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.02,
+          7
+        ],
+        [
+          "defPct",
+          0.028999999999999998,
+          7
+        ]
+      ]
+    },
+    "numeric": "生命 +2.0%（7层）；防御 +2.9%（7层）"
+  },
+  {
+    "id": "chance_113",
+    "name": "灵脉石窟·11",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.028,
+          8
+        ],
+        [
+          "defPct",
+          0.036000000000000004,
+          8
+        ]
+      ]
+    },
+    "numeric": "生命 +2.8%（8层）；防御 +3.6%（8层）"
+  },
+  {
+    "id": "chance_114",
+    "name": "灵脉石窟·12",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.036000000000000004,
+          9
+        ],
+        [
+          "defPct",
+          0.015,
+          9
+        ]
+      ]
+    },
+    "numeric": "生命 +3.6%（9层）；防御 +1.5%（9层）"
+  },
+  {
+    "id": "chance_115",
+    "name": "灵脉石窟·13",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.044,
+          10
+        ],
+        [
+          "defPct",
+          0.022,
+          10
+        ]
+      ]
+    },
+    "numeric": "生命 +4.4%（10层）；防御 +2.2%（10层）"
+  },
+  {
+    "id": "chance_116",
+    "name": "灵脉石窟·14",
+    "kind": "neutral",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.052000000000000005,
+          11
+        ],
+        [
+          "defPct",
+          0.028999999999999998,
+          11
+        ]
+      ]
+    },
+    "numeric": "生命 +5.2%（11层）；防御 +2.9%（11层）"
+  },
+  {
+    "id": "chance_117",
+    "name": "灵脉石窟·15",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.02,
+          12
+        ],
+        [
+          "defPct",
+          0.036000000000000004,
+          12
+        ]
+      ]
+    },
+    "numeric": "生命 +2.0%（12层）；防御 +3.6%（12层）"
+  },
+  {
+    "id": "chance_118",
+    "name": "灵脉石窟·16",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.028,
+          13
+        ],
+        [
+          "defPct",
+          0.015,
+          13
+        ]
+      ]
+    },
+    "numeric": "生命 +2.8%（13层）；防御 +1.5%（13层）"
+  },
+  {
+    "id": "chance_119",
+    "name": "灵脉石窟·17",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.036000000000000004,
+          14
+        ],
+        [
+          "defPct",
+          0.022,
+          14
+        ]
+      ]
+    },
+    "numeric": "生命 +3.6%（14层）；防御 +2.2%（14层）"
+  },
+  {
+    "id": "chance_120",
+    "name": "灵脉石窟·18",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.044,
+          6
+        ],
+        [
+          "defPct",
+          0.028999999999999998,
+          6
+        ]
+      ]
+    },
+    "numeric": "生命 +4.4%（6层）；防御 +2.9%（6层）"
+  },
+  {
+    "id": "chance_121",
+    "name": "灵脉石窟·19",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.052000000000000005,
+          7
+        ],
+        [
+          "defPct",
+          0.036000000000000004,
+          7
+        ]
+      ]
+    },
+    "numeric": "生命 +5.2%（7层）；防御 +3.6%（7层）"
+  },
+  {
+    "id": "chance_122",
+    "name": "灵脉石窟·20",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.02,
+          8
+        ],
+        [
+          "defPct",
+          0.015,
+          8
+        ]
+      ]
+    },
+    "numeric": "生命 +2.0%（8层）；防御 +1.5%（8层）"
+  },
+  {
+    "id": "chance_123",
+    "name": "灵脉石窟·21",
+    "kind": "neutral",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.028,
+          9
+        ],
+        [
+          "defPct",
+          0.022,
+          9
+        ]
+      ]
+    },
+    "numeric": "生命 +2.8%（9层）；防御 +2.2%（9层）"
+  },
+  {
+    "id": "chance_124",
+    "name": "江畔古渡·01",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          3,
+          10
+        ],
+        [
+          "boss",
+          3,
+          10
+        ]
+      ]
+    },
+    "numeric": "穿甲 +3.0%（10层）；Boss伤害 +3.0%（10层）"
+  },
+  {
+    "id": "chance_125",
+    "name": "江畔古渡·02",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          4,
+          11
+        ],
+        [
+          "boss",
+          4,
+          11
+        ]
+      ]
+    },
+    "numeric": "穿甲 +4.0%（11层）；Boss伤害 +4.0%（11层）"
+  },
+  {
+    "id": "chance_126",
+    "name": "江畔古渡·03",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          5,
+          12
+        ],
+        [
+          "boss",
+          5,
+          12
+        ]
+      ]
+    },
+    "numeric": "穿甲 +5.0%（12层）；Boss伤害 +5.0%（12层）"
+  },
+  {
+    "id": "chance_127",
+    "name": "江畔古渡·04",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          6,
+          13
+        ],
+        [
+          "boss",
+          6,
+          13
+        ]
+      ]
+    },
+    "numeric": "穿甲 +6.0%（13层）；Boss伤害 +6.0%（13层）"
+  },
+  {
+    "id": "chance_128",
+    "name": "江畔古渡·05",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          14
+        ],
+        [
+          "boss",
+          2,
+          14
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（14层）；Boss伤害 +2.0%（14层）"
+  },
+  {
+    "id": "chance_129",
+    "name": "江畔古渡·06",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          2,
+          6
+        ],
+        [
+          "boss",
+          3,
+          6
+        ]
+      ]
+    },
+    "numeric": "穿甲 +2.0%（6层）；Boss伤害 +3.0%（6层）"
+  },
+  {
+    "id": "chance_130",
+    "name": "江畔古渡·07",
+    "kind": "neutral",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          3,
+          7
+        ],
+        [
+          "boss",
+          4,
+          7
+        ]
+      ]
+    },
+    "numeric": "穿甲 +3.0%（7层）；Boss伤害 +4.0%（7层）"
+  },
+  {
+    "id": "chance_131",
+    "name": "江畔古渡·08",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          4,
+          8
+        ],
+        [
+          "boss",
+          5,
+          8
+        ]
+      ]
+    },
+    "numeric": "穿甲 +4.0%（8层）；Boss伤害 +5.0%（8层）"
+  },
+  {
+    "id": "chance_132",
+    "name": "江畔古渡·09",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          5,
+          9
+        ],
+        [
+          "boss",
+          6,
+          9
+        ]
+      ]
+    },
+    "numeric": "穿甲 +5.0%（9层）；Boss伤害 +6.0%（9层）"
+  },
+  {
+    "id": "chance_133",
+    "name": "江畔古渡·10",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          6,
+          10
+        ],
+        [
+          "boss",
+          2,
+          10
+        ]
+      ]
+    },
+    "numeric": "穿甲 +6.0%（10层）；Boss伤害 +2.0%（10层）"
+  },
+  {
+    "id": "chance_134",
+    "name": "江畔古渡·11",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          11
+        ],
+        [
+          "boss",
+          3,
+          11
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（11层）；Boss伤害 +3.0%（11层）"
+  },
+  {
+    "id": "chance_135",
+    "name": "江畔古渡·12",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          2,
+          12
+        ],
+        [
+          "boss",
+          4,
+          12
+        ]
+      ]
+    },
+    "numeric": "穿甲 +2.0%（12层）；Boss伤害 +4.0%（12层）"
+  },
+  {
+    "id": "chance_136",
+    "name": "江畔古渡·13",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          3,
+          13
+        ],
+        [
+          "boss",
+          5,
+          13
+        ]
+      ]
+    },
+    "numeric": "穿甲 +3.0%（13层）；Boss伤害 +5.0%（13层）"
+  },
+  {
+    "id": "chance_137",
+    "name": "江畔古渡·14",
+    "kind": "neutral",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          4,
+          14
+        ],
+        [
+          "boss",
+          6,
+          14
+        ]
+      ]
+    },
+    "numeric": "穿甲 +4.0%（14层）；Boss伤害 +6.0%（14层）"
+  },
+  {
+    "id": "chance_138",
+    "name": "江畔古渡·15",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          5,
+          6
+        ],
+        [
+          "boss",
+          2,
+          6
+        ]
+      ]
+    },
+    "numeric": "穿甲 +5.0%（6层）；Boss伤害 +2.0%（6层）"
+  },
+  {
+    "id": "chance_139",
+    "name": "江畔古渡·16",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          6,
+          7
+        ],
+        [
+          "boss",
+          3,
+          7
+        ]
+      ]
+    },
+    "numeric": "穿甲 +6.0%（7层）；Boss伤害 +3.0%（7层）"
+  },
+  {
+    "id": "chance_140",
+    "name": "江畔古渡·17",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          8
+        ],
+        [
+          "boss",
+          4,
+          8
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（8层）；Boss伤害 +4.0%（8层）"
+  },
+  {
+    "id": "chance_141",
+    "name": "江畔古渡·18",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          2,
+          9
+        ],
+        [
+          "boss",
+          5,
+          9
+        ]
+      ]
+    },
+    "numeric": "穿甲 +2.0%（9层）；Boss伤害 +5.0%（9层）"
+  },
+  {
+    "id": "chance_142",
+    "name": "江畔古渡·19",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          3,
+          10
+        ],
+        [
+          "boss",
+          6,
+          10
+        ]
+      ]
+    },
+    "numeric": "穿甲 +3.0%（10层）；Boss伤害 +6.0%（10层）"
+  },
+  {
+    "id": "chance_143",
+    "name": "江畔古渡·20",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          4,
+          11
+        ],
+        [
+          "boss",
+          2,
+          11
+        ]
+      ]
+    },
+    "numeric": "穿甲 +4.0%（11层）；Boss伤害 +2.0%（11层）"
+  },
+  {
+    "id": "chance_144",
+    "name": "江畔古渡·21",
+    "kind": "neutral",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          5,
+          12
+        ],
+        [
+          "boss",
+          3,
+          12
+        ]
+      ]
+    },
+    "numeric": "穿甲 +5.0%（12层）；Boss伤害 +3.0%（12层）"
+  },
+  {
+    "id": "chance_145",
+    "name": "废寺钟声·01",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          3,
+          13
+        ],
+        [
+          "luck",
+          4,
+          13
+        ]
+      ],
+      "coins": 580
+    },
+    "numeric": "铜钱 +580；掉落 +3.0%（13层）；幸运 +4.0（13层）"
+  },
+  {
+    "id": "chance_146",
+    "name": "废寺钟声·02",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          4,
+          14
+        ],
+        [
+          "luck",
+          5,
+          14
+        ]
+      ],
+      "coins": 660
+    },
+    "numeric": "铜钱 +660；掉落 +4.0%（14层）；幸运 +5.0（14层）"
+  },
+  {
+    "id": "chance_147",
+    "name": "废寺钟声·03",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          5,
+          6
+        ],
+        [
+          "luck",
+          6,
+          6
+        ]
+      ],
+      "coins": 740
+    },
+    "numeric": "铜钱 +740；掉落 +5.0%（6层）；幸运 +6.0（6层）"
+  },
+  {
+    "id": "chance_148",
+    "name": "废寺钟声·04",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          6,
+          7
+        ],
+        [
+          "luck",
+          7,
+          7
+        ]
+      ],
+      "coins": 820
+    },
+    "numeric": "铜钱 +820；掉落 +6.0%（7层）；幸运 +7.0（7层）"
+  },
+  {
+    "id": "chance_149",
+    "name": "废寺钟声·05",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          7,
+          8
+        ],
+        [
+          "luck",
+          8,
+          8
+        ]
+      ],
+      "coins": 1062
+    },
+    "numeric": "铜钱 +1.06K；掉落 +7.0%（8层）；幸运 +8.0（8层）"
+  },
+  {
+    "id": "chance_150",
+    "name": "废寺钟声·06",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          9
+        ],
+        [
+          "luck",
+          9,
+          9
+        ]
+      ],
+      "coins": 1156
+    },
+    "numeric": "铜钱 +1.16K；掉落 +8.0%（9层）；幸运 +9.0（9层）"
+  },
+  {
+    "id": "chance_151",
+    "name": "废寺钟声·07",
+    "kind": "neutral",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          2,
+          10
+        ],
+        [
+          "luck",
+          10,
+          10
+        ]
+      ],
+      "coins": 1251
+    },
+    "numeric": "铜钱 +1.25K；掉落 +2.0%（10层）；幸运 +10（10层）"
+  },
+  {
+    "id": "chance_152",
+    "name": "废寺钟声·08",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          3,
+          11
+        ],
+        [
+          "luck",
+          3,
+          11
+        ]
+      ],
+      "coins": 1345
+    },
+    "numeric": "铜钱 +1.34K；掉落 +3.0%（11层）；幸运 +3.0（11层）"
+  },
+  {
+    "id": "chance_153",
+    "name": "废寺钟声·09",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          4,
+          12
+        ],
+        [
+          "luck",
+          4,
+          12
+        ]
+      ],
+      "coins": 1659
+    },
+    "numeric": "铜钱 +1.66K；掉落 +4.0%（12层）；幸运 +4.0（12层）"
+  },
+  {
+    "id": "chance_154",
+    "name": "废寺钟声·10",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          5,
+          13
+        ],
+        [
+          "luck",
+          5,
+          13
+        ]
+      ],
+      "coins": 1768
+    },
+    "numeric": "铜钱 +1.77K；掉落 +5.0%（13层）；幸运 +5.0（13层）"
+  },
+  {
+    "id": "chance_155",
+    "name": "废寺钟声·11",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          6,
+          14
+        ],
+        [
+          "luck",
+          6,
+          14
+        ]
+      ],
+      "coins": 1877
+    },
+    "numeric": "铜钱 +1.88K；掉落 +6.0%（14层）；幸运 +6.0（14层）"
+  },
+  {
+    "id": "chance_156",
+    "name": "废寺钟声·12",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          7,
+          6
+        ],
+        [
+          "luck",
+          7,
+          6
+        ]
+      ],
+      "coins": 1986
+    },
+    "numeric": "铜钱 +1.99K；掉落 +7.0%（6层）；幸运 +7.0（6层）"
+  },
+  {
+    "id": "chance_157",
+    "name": "废寺钟声·13",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          7
+        ],
+        [
+          "luck",
+          8,
+          7
+        ]
+      ],
+      "coins": 2372
+    },
+    "numeric": "铜钱 +2.37K；掉落 +8.0%（7层）；幸运 +8.0（7层）"
+  },
+  {
+    "id": "chance_158",
+    "name": "废寺钟声·14",
+    "kind": "neutral",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          2,
+          8
+        ],
+        [
+          "luck",
+          9,
+          8
+        ]
+      ],
+      "coins": 2495
+    },
+    "numeric": "铜钱 +2.50K；掉落 +2.0%（8层）；幸运 +9.0（8层）"
+  },
+  {
+    "id": "chance_159",
+    "name": "废寺钟声·15",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          3,
+          9
+        ],
+        [
+          "luck",
+          10,
+          9
+        ]
+      ],
+      "coins": 2618
+    },
+    "numeric": "铜钱 +2.62K；掉落 +3.0%（9层）；幸运 +10（9层）"
+  },
+  {
+    "id": "chance_160",
+    "name": "废寺钟声·16",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          4,
+          10
+        ],
+        [
+          "luck",
+          3,
+          10
+        ]
+      ],
+      "coins": 2741
+    },
+    "numeric": "铜钱 +2.74K；掉落 +4.0%（10层）；幸运 +3.0（10层）"
+  },
+  {
+    "id": "chance_161",
+    "name": "废寺钟声·17",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          5,
+          11
+        ],
+        [
+          "luck",
+          4,
+          11
+        ]
+      ],
+      "coins": 3199
+    },
+    "numeric": "铜钱 +3.20K；掉落 +5.0%（11层）；幸运 +4.0（11层）"
+  },
+  {
+    "id": "chance_162",
+    "name": "废寺钟声·18",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          6,
+          12
+        ],
+        [
+          "luck",
+          5,
+          12
+        ]
+      ],
+      "coins": 3337
+    },
+    "numeric": "铜钱 +3.34K；掉落 +6.0%（12层）；幸运 +5.0（12层）"
+  },
+  {
+    "id": "chance_163",
+    "name": "废寺钟声·19",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          7,
+          13
+        ],
+        [
+          "luck",
+          6,
+          13
+        ]
+      ],
+      "coins": 3474
+    },
+    "numeric": "铜钱 +3.47K；掉落 +7.0%（13层）；幸运 +6.0（13层）"
+  },
+  {
+    "id": "chance_164",
+    "name": "废寺钟声·20",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          14
+        ],
+        [
+          "luck",
+          7,
+          14
+        ]
+      ],
+      "coins": 3612
+    },
+    "numeric": "铜钱 +3.61K；掉落 +8.0%（14层）；幸运 +7.0（14层）"
+  },
+  {
+    "id": "chance_165",
+    "name": "废寺钟声·21",
+    "kind": "neutral",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          2,
+          6
+        ],
+        [
+          "luck",
+          8,
+          6
+        ]
+      ],
+      "coins": 4142
+    },
+    "numeric": "铜钱 +4.14K；掉落 +2.0%（6层）；幸运 +8.0（6层）"
+  },
+  {
+    "id": "chance_166",
+    "name": "雪岭旧关·01",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          3,
+          7
+        ],
+        [
+          "critd",
+          5,
+          7
+        ]
+      ],
+      "jade": 40
+    },
+    "numeric": "灵石 +40；暴击 +3.0%（7层）；暴伤 +5.0%（7层）"
+  },
+  {
+    "id": "chance_167",
+    "name": "雪岭旧关·02",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          8
+        ],
+        [
+          "critd",
+          6,
+          8
+        ]
+      ],
+      "jade": 45
+    },
+    "numeric": "灵石 +45；暴击 +4.0%（8层）；暴伤 +6.0%（8层）"
+  },
+  {
+    "id": "chance_168",
+    "name": "雪岭旧关·03",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          5,
+          9
+        ],
+        [
+          "critd",
+          7,
+          9
+        ]
+      ],
+      "jade": 50
+    },
+    "numeric": "灵石 +50；暴击 +5.0%（9层）；暴伤 +7.0%（9层）"
+  },
+  {
+    "id": "chance_169",
+    "name": "雪岭旧关·04",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          6,
+          10
+        ],
+        [
+          "critd",
+          8,
+          10
+        ]
+      ],
+      "jade": 55
+    },
+    "numeric": "灵石 +55；暴击 +6.0%（10层）；暴伤 +8.0%（10层）"
+  },
+  {
+    "id": "chance_170",
+    "name": "雪岭旧关·05",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          2,
+          11
+        ],
+        [
+          "critd",
+          9,
+          11
+        ]
+      ],
+      "jade": 71
+    },
+    "numeric": "灵石 +71；暴击 +2.0%（11层）；暴伤 +9.0%（11层）"
+  },
+  {
+    "id": "chance_171",
+    "name": "雪岭旧关·06",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          3,
+          12
+        ],
+        [
+          "critd",
+          10,
+          12
+        ]
+      ],
+      "jade": 77
+    },
+    "numeric": "灵石 +77；暴击 +3.0%（12层）；暴伤 +10%（12层）"
+  },
+  {
+    "id": "chance_172",
+    "name": "雪岭旧关·07",
+    "kind": "neutral",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          13
+        ],
+        [
+          "critd",
+          11,
+          13
+        ]
+      ],
+      "jade": 83
+    },
+    "numeric": "灵石 +83；暴击 +4.0%（13层）；暴伤 +11%（13层）"
+  },
+  {
+    "id": "chance_173",
+    "name": "雪岭旧关·08",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          5,
+          14
+        ],
+        [
+          "critd",
+          4,
+          14
+        ]
+      ],
+      "jade": 89
+    },
+    "numeric": "灵石 +89；暴击 +5.0%（14层）；暴伤 +4.0%（14层）"
+  },
+  {
+    "id": "chance_174",
+    "name": "雪岭旧关·09",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          6,
+          6
+        ],
+        [
+          "critd",
+          5,
+          6
+        ]
+      ],
+      "jade": 109
+    },
+    "numeric": "灵石 +109；暴击 +6.0%（6层）；暴伤 +5.0%（6层）"
+  },
+  {
+    "id": "chance_175",
+    "name": "雪岭旧关·10",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          2,
+          7
+        ],
+        [
+          "critd",
+          6,
+          7
+        ]
+      ],
+      "jade": 116
+    },
+    "numeric": "灵石 +116；暴击 +2.0%（7层）；暴伤 +6.0%（7层）"
+  },
+  {
+    "id": "chance_176",
+    "name": "雪岭旧关·11",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          3,
+          8
+        ],
+        [
+          "critd",
+          7,
+          8
+        ]
+      ],
+      "jade": 122
+    },
+    "numeric": "灵石 +122；暴击 +3.0%（8层）；暴伤 +7.0%（8层）"
+  },
+  {
+    "id": "chance_177",
+    "name": "雪岭旧关·12",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          9
+        ],
+        [
+          "critd",
+          8,
+          9
+        ]
+      ],
+      "jade": 129
+    },
+    "numeric": "灵石 +129；暴击 +4.0%（9层）；暴伤 +8.0%（9层）"
+  },
+  {
+    "id": "chance_178",
+    "name": "雪岭旧关·13",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          5,
+          10
+        ],
+        [
+          "critd",
+          9,
+          10
+        ]
+      ],
+      "jade": 154
+    },
+    "numeric": "灵石 +154；暴击 +5.0%（10层）；暴伤 +9.0%（10层）"
+  },
+  {
+    "id": "chance_179",
+    "name": "雪岭旧关·14",
+    "kind": "neutral",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          6,
+          11
+        ],
+        [
+          "critd",
+          10,
+          11
+        ]
+      ],
+      "jade": 162
+    },
+    "numeric": "灵石 +162；暴击 +6.0%（11层）；暴伤 +10%（11层）"
+  },
+  {
+    "id": "chance_180",
+    "name": "雪岭旧关·15",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          2,
+          12
+        ],
+        [
+          "critd",
+          11,
+          12
+        ]
+      ],
+      "jade": 169
+    },
+    "numeric": "灵石 +169；暴击 +2.0%（12层）；暴伤 +11%（12层）"
+  },
+  {
+    "id": "chance_181",
+    "name": "雪岭旧关·16",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          3,
+          13
+        ],
+        [
+          "critd",
+          4,
+          13
+        ]
+      ],
+      "jade": 177
+    },
+    "numeric": "灵石 +177；暴击 +3.0%（13层）；暴伤 +4.0%（13层）"
+  },
+  {
+    "id": "chance_182",
+    "name": "雪岭旧关·17",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          14
+        ],
+        [
+          "critd",
+          5,
+          14
+        ]
+      ],
+      "jade": 206
+    },
+    "numeric": "灵石 +206；暴击 +4.0%（14层）；暴伤 +5.0%（14层）"
+  },
+  {
+    "id": "chance_183",
+    "name": "雪岭旧关·18",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          5,
+          6
+        ],
+        [
+          "critd",
+          6,
+          6
+        ]
+      ],
+      "jade": 215
+    },
+    "numeric": "灵石 +215；暴击 +5.0%（6层）；暴伤 +6.0%（6层）"
+  },
+  {
+    "id": "chance_184",
+    "name": "雪岭旧关·19",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          6,
+          7
+        ],
+        [
+          "critd",
+          7,
+          7
+        ]
+      ],
+      "jade": 224
+    },
+    "numeric": "灵石 +224；暴击 +6.0%（7层）；暴伤 +7.0%（7层）"
+  },
+  {
+    "id": "chance_185",
+    "name": "雪岭旧关·20",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          2,
+          8
+        ],
+        [
+          "critd",
+          8,
+          8
+        ]
+      ],
+      "jade": 232
+    },
+    "numeric": "灵石 +232；暴击 +2.0%（8层）；暴伤 +8.0%（8层）"
+  },
+  {
+    "id": "chance_186",
+    "name": "雪岭旧关·21",
+    "kind": "neutral",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          3,
+          9
+        ],
+        [
+          "critd",
+          9,
+          9
+        ]
+      ],
+      "jade": 266
+    },
+    "numeric": "灵石 +266；暴击 +3.0%（9层）；暴伤 +9.0%（9层）"
+  },
+  {
+    "id": "chance_187",
+    "name": "赤霞坡地·01",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 1460,
+      "jade": 52
+    },
+    "numeric": "铜钱 +1.46K；灵石 +52"
+  },
+  {
+    "id": "chance_188",
+    "name": "赤霞坡地·02",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 1600,
+      "jade": 59
+    },
+    "numeric": "铜钱 +1.60K；灵石 +59"
+  },
+  {
+    "id": "chance_189",
+    "name": "赤霞坡地·03",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 1740,
+      "jade": 66
+    },
+    "numeric": "铜钱 +1.74K；灵石 +66"
+  },
+  {
+    "id": "chance_190",
+    "name": "赤霞坡地·04",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 1880,
+      "jade": 73
+    },
+    "numeric": "铜钱 +1.88K；灵石 +73"
+  },
+  {
+    "id": "chance_191",
+    "name": "赤霞坡地·05",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 2384,
+      "jade": 94
+    },
+    "numeric": "铜钱 +2.38K；灵石 +94"
+  },
+  {
+    "id": "chance_192",
+    "name": "赤霞坡地·06",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 2549,
+      "jade": 103
+    },
+    "numeric": "铜钱 +2.55K；灵石 +103"
+  },
+  {
+    "id": "chance_193",
+    "name": "赤霞坡地·07",
+    "kind": "neutral",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 2714,
+      "jade": 111
+    },
+    "numeric": "铜钱 +2.71K；灵石 +111"
+  },
+  {
+    "id": "chance_194",
+    "name": "赤霞坡地·08",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 2879,
+      "jade": 119
+    },
+    "numeric": "铜钱 +2.88K；灵石 +119"
+  },
+  {
+    "id": "chance_195",
+    "name": "赤霞坡地·09",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 3509,
+      "jade": 147
+    },
+    "numeric": "铜钱 +3.51K；灵石 +147"
+  },
+  {
+    "id": "chance_196",
+    "name": "赤霞坡地·10",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 3699,
+      "jade": 156
+    },
+    "numeric": "铜钱 +3.70K；灵石 +156"
+  },
+  {
+    "id": "chance_197",
+    "name": "赤霞坡地·11",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 3890,
+      "jade": 166
+    },
+    "numeric": "铜钱 +3.89K；灵石 +166"
+  },
+  {
+    "id": "chance_198",
+    "name": "赤霞坡地·12",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 4080,
+      "jade": 175
+    },
+    "numeric": "铜钱 +4.08K；灵石 +175"
+  },
+  {
+    "id": "chance_199",
+    "name": "赤霞坡地·13",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 4836,
+      "jade": 209
+    },
+    "numeric": "铜钱 +4.84K；灵石 +209"
+  },
+  {
+    "id": "chance_200",
+    "name": "赤霞坡地·14",
+    "kind": "neutral",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 5051,
+      "jade": 220
+    },
+    "numeric": "铜钱 +5.05K；灵石 +220"
+  },
+  {
+    "id": "chance_201",
+    "name": "赤霞坡地·15",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 5267,
+      "jade": 231
+    },
+    "numeric": "铜钱 +5.27K；灵石 +231"
+  },
+  {
+    "id": "chance_202",
+    "name": "赤霞坡地·16",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 5482,
+      "jade": 242
+    },
+    "numeric": "铜钱 +5.48K；灵石 +242"
+  },
+  {
+    "id": "chance_203",
+    "name": "赤霞坡地·17",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 6364,
+      "jade": 282
+    },
+    "numeric": "铜钱 +6.36K；灵石 +282"
+  },
+  {
+    "id": "chance_204",
+    "name": "赤霞坡地·18",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 6605,
+      "jade": 294
+    },
+    "numeric": "铜钱 +6.61K；灵石 +294"
+  },
+  {
+    "id": "chance_205",
+    "name": "赤霞坡地·19",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 6846,
+      "jade": 306
+    },
+    "numeric": "铜钱 +6.85K；灵石 +306"
+  },
+  {
+    "id": "chance_206",
+    "name": "赤霞坡地·20",
+    "kind": "good",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 7086,
+      "jade": 318
+    },
+    "numeric": "铜钱 +7.09K；灵石 +318"
+  },
+  {
+    "id": "chance_207",
+    "name": "赤霞坡地·21",
+    "kind": "neutral",
+    "description": "整理沿途遗物，获得铜钱与灵石。",
+    "effects": {
+      "coins": 8094,
+      "jade": 365
+    },
+    "numeric": "铜钱 +8.09K；灵石 +365"
+  },
+  {
+    "id": "chance_208",
+    "name": "幽谷药圃·01",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 975,
+      "mods": [
+        [
+          "atkPct",
+          0.024,
+          13
+        ],
+        [
+          "defPct",
+          -0.01,
+          13
+        ]
+      ]
+    },
+    "numeric": "修为 +975；攻击 +2.4%（13层）；防御 -1.0%（13层）"
+  },
+  {
+    "id": "chance_209",
+    "name": "幽谷药圃·02",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 1100,
+      "mods": [
+        [
+          "atkPct",
+          0.03,
+          14
+        ],
+        [
+          "defPct",
+          -0.014,
+          14
+        ]
+      ]
+    },
+    "numeric": "修为 +1.10K；攻击 +3.0%（14层）；防御 -1.4%（14层）"
+  },
+  {
+    "id": "chance_210",
+    "name": "幽谷药圃·03",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 1225,
+      "mods": [
+        [
+          "atkPct",
+          0.036000000000000004,
+          6
+        ],
+        [
+          "defPct",
+          -0.006,
+          6
+        ]
+      ]
+    },
+    "numeric": "修为 +1.23K；攻击 +3.6%（6层）；防御 -0.6%（6层）"
+  },
+  {
+    "id": "chance_211",
+    "name": "幽谷药圃·04",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 1350,
+      "mods": [
+        [
+          "atkPct",
+          0.041999999999999996,
+          7
+        ],
+        [
+          "defPct",
+          -0.01,
+          7
+        ]
+      ]
+    },
+    "numeric": "修为 +1.35K；攻击 +4.2%（7层）；防御 -1.0%（7层）"
+  },
+  {
+    "id": "chance_212",
+    "name": "幽谷药圃·05",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 1741,
+      "mods": [
+        [
+          "atkPct",
+          0.018,
+          8
+        ],
+        [
+          "defPct",
+          -0.014,
+          8
+        ]
+      ]
+    },
+    "numeric": "修为 +1.74K；攻击 +1.8%（8层）；防御 -1.4%（8层）"
+  },
+  {
+    "id": "chance_213",
+    "name": "幽谷药圃·06",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 1888,
+      "mods": [
+        [
+          "atkPct",
+          0.024,
+          9
+        ],
+        [
+          "defPct",
+          -0.006,
+          9
+        ]
+      ]
+    },
+    "numeric": "修为 +1.89K；攻击 +2.4%（9层）；防御 -0.6%（9层）"
+  },
+  {
+    "id": "chance_214",
+    "name": "幽谷药圃·07",
+    "kind": "neutral",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 2036,
+      "mods": [
+        [
+          "atkPct",
+          0.03,
+          10
+        ],
+        [
+          "defPct",
+          -0.01,
+          10
+        ]
+      ]
+    },
+    "numeric": "修为 +2.04K；攻击 +3.0%（10层）；防御 -1.0%（10层）"
+  },
+  {
+    "id": "chance_215",
+    "name": "幽谷药圃·08",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 2183,
+      "mods": [
+        [
+          "atkPct",
+          0.036000000000000004,
+          11
+        ],
+        [
+          "defPct",
+          -0.014,
+          11
+        ]
+      ]
+    },
+    "numeric": "修为 +2.18K；攻击 +3.6%（11层）；防御 -1.4%（11层）"
+  },
+  {
+    "id": "chance_216",
+    "name": "幽谷药圃·09",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 2686,
+      "mods": [
+        [
+          "atkPct",
+          0.041999999999999996,
+          12
+        ],
+        [
+          "defPct",
+          -0.006,
+          12
+        ]
+      ]
+    },
+    "numeric": "修为 +2.69K；攻击 +4.2%（12层）；防御 -0.6%（12层）"
+  },
+  {
+    "id": "chance_217",
+    "name": "幽谷药圃·10",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 2856,
+      "mods": [
+        [
+          "atkPct",
+          0.018,
+          13
+        ],
+        [
+          "defPct",
+          -0.01,
+          13
+        ]
+      ]
+    },
+    "numeric": "修为 +2.86K；攻击 +1.8%（13层）；防御 -1.0%（13层）"
+  },
+  {
+    "id": "chance_218",
+    "name": "幽谷药圃·11",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 3026,
+      "mods": [
+        [
+          "atkPct",
+          0.024,
+          14
+        ],
+        [
+          "defPct",
+          -0.014,
+          14
+        ]
+      ]
+    },
+    "numeric": "修为 +3.03K；攻击 +2.4%（14层）；防御 -1.4%（14层）"
+  },
+  {
+    "id": "chance_219",
+    "name": "幽谷药圃·12",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 3196,
+      "mods": [
+        [
+          "atkPct",
+          0.03,
+          6
+        ],
+        [
+          "defPct",
+          -0.006,
+          6
+        ]
+      ]
+    },
+    "numeric": "修为 +3.20K；攻击 +3.0%（6层）；防御 -0.6%（6层）"
+  },
+  {
+    "id": "chance_220",
+    "name": "幽谷药圃·13",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 3812,
+      "mods": [
+        [
+          "atkPct",
+          0.036000000000000004,
+          7
+        ],
+        [
+          "defPct",
+          -0.01,
+          7
+        ]
+      ]
+    },
+    "numeric": "修为 +3.81K；攻击 +3.6%（7层）；防御 -1.0%（7层）"
+  },
+  {
+    "id": "chance_221",
+    "name": "幽谷药圃·14",
+    "kind": "neutral",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 4004,
+      "mods": [
+        [
+          "atkPct",
+          0.041999999999999996,
+          8
+        ],
+        [
+          "defPct",
+          -0.014,
+          8
+        ]
+      ]
+    },
+    "numeric": "修为 +4K；攻击 +4.2%（8层）；防御 -1.4%（8层）"
+  },
+  {
+    "id": "chance_222",
+    "name": "幽谷药圃·15",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 4197,
+      "mods": [
+        [
+          "atkPct",
+          0.018,
+          9
+        ],
+        [
+          "defPct",
+          -0.006,
+          9
+        ]
+      ]
+    },
+    "numeric": "修为 +4.20K；攻击 +1.8%（9层）；防御 -0.6%（9层）"
+  },
+  {
+    "id": "chance_223",
+    "name": "幽谷药圃·16",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 4389,
+      "mods": [
+        [
+          "atkPct",
+          0.024,
+          10
+        ],
+        [
+          "defPct",
+          -0.01,
+          10
+        ]
+      ]
+    },
+    "numeric": "修为 +4.39K；攻击 +2.4%（10层）；防御 -1.0%（10层）"
+  },
+  {
+    "id": "chance_224",
+    "name": "幽谷药圃·17",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 5117,
+      "mods": [
+        [
+          "atkPct",
+          0.03,
+          11
+        ],
+        [
+          "defPct",
+          -0.014,
+          11
+        ]
+      ]
+    },
+    "numeric": "修为 +5.12K；攻击 +3.0%（11层）；防御 -1.4%（11层）"
+  },
+  {
+    "id": "chance_225",
+    "name": "幽谷药圃·18",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 5332,
+      "mods": [
+        [
+          "atkPct",
+          0.036000000000000004,
+          12
+        ],
+        [
+          "defPct",
+          -0.006,
+          12
+        ]
+      ]
+    },
+    "numeric": "修为 +5.33K；攻击 +3.6%（12层）；防御 -0.6%（12层）"
+  },
+  {
+    "id": "chance_226",
+    "name": "幽谷药圃·19",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 5547,
+      "mods": [
+        [
+          "atkPct",
+          0.041999999999999996,
+          13
+        ],
+        [
+          "defPct",
+          -0.01,
+          13
+        ]
+      ]
+    },
+    "numeric": "修为 +5.55K；攻击 +4.2%（13层）；防御 -1.0%（13层）"
+  },
+  {
+    "id": "chance_227",
+    "name": "幽谷药圃·20",
+    "kind": "good",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 5762,
+      "mods": [
+        [
+          "atkPct",
+          0.018,
+          14
+        ],
+        [
+          "defPct",
+          -0.014,
+          14
+        ]
+      ]
+    },
+    "numeric": "修为 +5.76K；攻击 +1.8%（14层）；防御 -1.4%（14层）"
+  },
+  {
+    "id": "chance_228",
+    "name": "幽谷药圃·21",
+    "kind": "neutral",
+    "description": "以旧战痕磨炼招式，攻击提高但防御略降。",
+    "effects": {
+      "cult": 6603,
+      "mods": [
+        [
+          "atkPct",
+          0.024,
+          6
+        ],
+        [
+          "defPct",
+          -0.006,
+          6
+        ]
+      ]
+    },
+    "numeric": "修为 +6.60K；攻击 +2.4%（6层）；防御 -0.6%（6层）"
+  },
+  {
+    "id": "chance_229",
+    "name": "铜雀商坊·01",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "speed",
+          3,
+          7
+        ],
+        [
+          "dodge",
+          -2,
+          7
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；速度 +3.0（7层）；闪避 -2.0%（7层）"
+  },
+  {
+    "id": "chance_230",
+    "name": "铜雀商坊·02",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 3,
+      "mods": [
+        [
+          "speed",
+          4,
+          8
+        ],
+        [
+          "dodge",
+          -3,
+          8
+        ]
+      ]
+    },
+    "numeric": "回忆令 +3；速度 +4.0（8层）；闪避 -3.0%（8层）"
+  },
+  {
+    "id": "chance_231",
+    "name": "铜雀商坊·03",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          5,
+          9
+        ],
+        [
+          "dodge",
+          -1,
+          9
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +5.0（9层）；闪避 -1.0%（9层）"
+  },
+  {
+    "id": "chance_232",
+    "name": "铜雀商坊·04",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "speed",
+          6,
+          10
+        ],
+        [
+          "dodge",
+          -2,
+          10
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；速度 +6.0（10层）；闪避 -2.0%（10层）"
+  },
+  {
+    "id": "chance_233",
+    "name": "铜雀商坊·05",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 3,
+      "mods": [
+        [
+          "speed",
+          2,
+          11
+        ],
+        [
+          "dodge",
+          -3,
+          11
+        ]
+      ]
+    },
+    "numeric": "回忆令 +3；速度 +2.0（11层）；闪避 -3.0%（11层）"
+  },
+  {
+    "id": "chance_234",
+    "name": "铜雀商坊·06",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          3,
+          12
+        ],
+        [
+          "dodge",
+          -1,
+          12
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +3.0（12层）；闪避 -1.0%（12层）"
+  },
+  {
+    "id": "chance_235",
+    "name": "铜雀商坊·07",
+    "kind": "neutral",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "speed",
+          4,
+          13
+        ],
+        [
+          "dodge",
+          -2,
+          13
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；速度 +4.0（13层）；闪避 -2.0%（13层）"
+  },
+  {
+    "id": "chance_236",
+    "name": "铜雀商坊·08",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 3,
+      "mods": [
+        [
+          "speed",
+          5,
+          14
+        ],
+        [
+          "dodge",
+          -3,
+          14
+        ]
+      ]
+    },
+    "numeric": "回忆令 +3；速度 +5.0（14层）；闪避 -3.0%（14层）"
+  },
+  {
+    "id": "chance_237",
+    "name": "铜雀商坊·09",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          6,
+          6
+        ],
+        [
+          "dodge",
+          -1,
+          6
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +6.0（6层）；闪避 -1.0%（6层）"
+  },
+  {
+    "id": "chance_238",
+    "name": "铜雀商坊·10",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "speed",
+          2,
+          7
+        ],
+        [
+          "dodge",
+          -2,
+          7
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；速度 +2.0（7层）；闪避 -2.0%（7层）"
+  },
+  {
+    "id": "chance_239",
+    "name": "铜雀商坊·11",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 3,
+      "mods": [
+        [
+          "speed",
+          3,
+          8
+        ],
+        [
+          "dodge",
+          -3,
+          8
+        ]
+      ]
+    },
+    "numeric": "回忆令 +3；速度 +3.0（8层）；闪避 -3.0%（8层）"
+  },
+  {
+    "id": "chance_240",
+    "name": "铜雀商坊·12",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          4,
+          9
+        ],
+        [
+          "dodge",
+          -1,
+          9
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +4.0（9层）；闪避 -1.0%（9层）"
+  },
+  {
+    "id": "chance_241",
+    "name": "铜雀商坊·13",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "speed",
+          5,
+          10
+        ],
+        [
+          "dodge",
+          -2,
+          10
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；速度 +5.0（10层）；闪避 -2.0%（10层）"
+  },
+  {
+    "id": "chance_242",
+    "name": "铜雀商坊·14",
+    "kind": "neutral",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 3,
+      "mods": [
+        [
+          "speed",
+          6,
+          11
+        ],
+        [
+          "dodge",
+          -3,
+          11
+        ]
+      ]
+    },
+    "numeric": "回忆令 +3；速度 +6.0（11层）；闪避 -3.0%（11层）"
+  },
+  {
+    "id": "chance_243",
+    "name": "铜雀商坊·15",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          2,
+          12
+        ],
+        [
+          "dodge",
+          -1,
+          12
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +2.0（12层）；闪避 -1.0%（12层）"
+  },
+  {
+    "id": "chance_244",
+    "name": "铜雀商坊·16",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "speed",
+          3,
+          13
+        ],
+        [
+          "dodge",
+          -2,
+          13
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；速度 +3.0（13层）；闪避 -2.0%（13层）"
+  },
+  {
+    "id": "chance_245",
+    "name": "铜雀商坊·17",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 3,
+      "mods": [
+        [
+          "speed",
+          4,
+          14
+        ],
+        [
+          "dodge",
+          -3,
+          14
+        ]
+      ]
+    },
+    "numeric": "回忆令 +3；速度 +4.0（14层）；闪避 -3.0%（14层）"
+  },
+  {
+    "id": "chance_246",
+    "name": "铜雀商坊·18",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          5,
+          6
+        ],
+        [
+          "dodge",
+          -1,
+          6
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +5.0（6层）；闪避 -1.0%（6层）"
+  },
+  {
+    "id": "chance_247",
+    "name": "铜雀商坊·19",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "speed",
+          6,
+          7
+        ],
+        [
+          "dodge",
+          -2,
+          7
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；速度 +6.0（7层）；闪避 -2.0%（7层）"
+  },
+  {
+    "id": "chance_248",
+    "name": "铜雀商坊·20",
+    "kind": "good",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 3,
+      "mods": [
+        [
+          "speed",
+          2,
+          8
+        ],
+        [
+          "dodge",
+          -3,
+          8
+        ]
+      ]
+    },
+    "numeric": "回忆令 +3；速度 +2.0（8层）；闪避 -3.0%（8层）"
+  },
+  {
+    "id": "chance_249",
+    "name": "铜雀商坊·21",
+    "kind": "neutral",
+    "description": "发现捷径与旧物，获得回忆令并改变速度/闪避。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          3,
+          9
+        ],
+        [
+          "dodge",
+          -1,
+          9
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +3.0（9层）；闪避 -1.0%（9层）"
+  },
+  {
+    "id": "chance_250",
+    "name": "雷泽断碑·01",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.028,
+          10
+        ],
+        [
+          "defPct",
+          0.022,
+          10
+        ]
+      ]
+    },
+    "numeric": "生命 +2.8%（10层）；防御 +2.2%（10层）"
+  },
+  {
+    "id": "chance_251",
+    "name": "雷泽断碑·02",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.036000000000000004,
+          11
+        ],
+        [
+          "defPct",
+          0.028999999999999998,
+          11
+        ]
+      ]
+    },
+    "numeric": "生命 +3.6%（11层）；防御 +2.9%（11层）"
+  },
+  {
+    "id": "chance_252",
+    "name": "雷泽断碑·03",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.044,
+          12
+        ],
+        [
+          "defPct",
+          0.036000000000000004,
+          12
+        ]
+      ]
+    },
+    "numeric": "生命 +4.4%（12层）；防御 +3.6%（12层）"
+  },
+  {
+    "id": "chance_253",
+    "name": "雷泽断碑·04",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.052000000000000005,
+          13
+        ],
+        [
+          "defPct",
+          0.015,
+          13
+        ]
+      ]
+    },
+    "numeric": "生命 +5.2%（13层）；防御 +1.5%（13层）"
+  },
+  {
+    "id": "chance_254",
+    "name": "雷泽断碑·05",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.02,
+          14
+        ],
+        [
+          "defPct",
+          0.022,
+          14
+        ]
+      ]
+    },
+    "numeric": "生命 +2.0%（14层）；防御 +2.2%（14层）"
+  },
+  {
+    "id": "chance_255",
+    "name": "雷泽断碑·06",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.028,
+          6
+        ],
+        [
+          "defPct",
+          0.028999999999999998,
+          6
+        ]
+      ]
+    },
+    "numeric": "生命 +2.8%（6层）；防御 +2.9%（6层）"
+  },
+  {
+    "id": "chance_256",
+    "name": "雷泽断碑·07",
+    "kind": "neutral",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.036000000000000004,
+          7
+        ],
+        [
+          "defPct",
+          0.036000000000000004,
+          7
+        ]
+      ]
+    },
+    "numeric": "生命 +3.6%（7层）；防御 +3.6%（7层）"
+  },
+  {
+    "id": "chance_257",
+    "name": "雷泽断碑·08",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.044,
+          8
+        ],
+        [
+          "defPct",
+          0.015,
+          8
+        ]
+      ]
+    },
+    "numeric": "生命 +4.4%（8层）；防御 +1.5%（8层）"
+  },
+  {
+    "id": "chance_258",
+    "name": "雷泽断碑·09",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.052000000000000005,
+          9
+        ],
+        [
+          "defPct",
+          0.022,
+          9
+        ]
+      ]
+    },
+    "numeric": "生命 +5.2%（9层）；防御 +2.2%（9层）"
+  },
+  {
+    "id": "chance_259",
+    "name": "雷泽断碑·10",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.02,
+          10
+        ],
+        [
+          "defPct",
+          0.028999999999999998,
+          10
+        ]
+      ]
+    },
+    "numeric": "生命 +2.0%（10层）；防御 +2.9%（10层）"
+  },
+  {
+    "id": "chance_260",
+    "name": "雷泽断碑·11",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.028,
+          11
+        ],
+        [
+          "defPct",
+          0.036000000000000004,
+          11
+        ]
+      ]
+    },
+    "numeric": "生命 +2.8%（11层）；防御 +3.6%（11层）"
+  },
+  {
+    "id": "chance_261",
+    "name": "雷泽断碑·12",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.036000000000000004,
+          12
+        ],
+        [
+          "defPct",
+          0.015,
+          12
+        ]
+      ]
+    },
+    "numeric": "生命 +3.6%（12层）；防御 +1.5%（12层）"
+  },
+  {
+    "id": "chance_262",
+    "name": "雷泽断碑·13",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.044,
+          13
+        ],
+        [
+          "defPct",
+          0.022,
+          13
+        ]
+      ]
+    },
+    "numeric": "生命 +4.4%（13层）；防御 +2.2%（13层）"
+  },
+  {
+    "id": "chance_263",
+    "name": "雷泽断碑·14",
+    "kind": "neutral",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.052000000000000005,
+          14
+        ],
+        [
+          "defPct",
+          0.028999999999999998,
+          14
+        ]
+      ]
+    },
+    "numeric": "生命 +5.2%（14层）；防御 +2.9%（14层）"
+  },
+  {
+    "id": "chance_264",
+    "name": "雷泽断碑·15",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.02,
+          6
+        ],
+        [
+          "defPct",
+          0.036000000000000004,
+          6
+        ]
+      ]
+    },
+    "numeric": "生命 +2.0%（6层）；防御 +3.6%（6层）"
+  },
+  {
+    "id": "chance_265",
+    "name": "雷泽断碑·16",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.028,
+          7
+        ],
+        [
+          "defPct",
+          0.015,
+          7
+        ]
+      ]
+    },
+    "numeric": "生命 +2.8%（7层）；防御 +1.5%（7层）"
+  },
+  {
+    "id": "chance_266",
+    "name": "雷泽断碑·17",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.036000000000000004,
+          8
+        ],
+        [
+          "defPct",
+          0.022,
+          8
+        ]
+      ]
+    },
+    "numeric": "生命 +3.6%（8层）；防御 +2.2%（8层）"
+  },
+  {
+    "id": "chance_267",
+    "name": "雷泽断碑·18",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.044,
+          9
+        ],
+        [
+          "defPct",
+          0.028999999999999998,
+          9
+        ]
+      ]
+    },
+    "numeric": "生命 +4.4%（9层）；防御 +2.9%（9层）"
+  },
+  {
+    "id": "chance_268",
+    "name": "雷泽断碑·19",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.052000000000000005,
+          10
+        ],
+        [
+          "defPct",
+          0.036000000000000004,
+          10
+        ]
+      ]
+    },
+    "numeric": "生命 +5.2%（10层）；防御 +3.6%（10层）"
+  },
+  {
+    "id": "chance_269",
+    "name": "雷泽断碑·20",
+    "kind": "good",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.02,
+          11
+        ],
+        [
+          "defPct",
+          0.015,
+          11
+        ]
+      ]
+    },
+    "numeric": "生命 +2.0%（11层）；防御 +1.5%（11层）"
+  },
+  {
+    "id": "chance_270",
+    "name": "雷泽断碑·21",
+    "kind": "neutral",
+    "description": "借灵脉调息，生命与防御在若干层内提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.028,
+          12
+        ],
+        [
+          "defPct",
+          0.022,
+          12
+        ]
+      ]
+    },
+    "numeric": "生命 +2.8%（12层）；防御 +2.2%（12层）"
+  },
+  {
+    "id": "chance_271",
+    "name": "月下军帐·01",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          3,
+          13
+        ],
+        [
+          "boss",
+          3,
+          13
+        ]
+      ]
+    },
+    "numeric": "穿甲 +3.0%（13层）；Boss伤害 +3.0%（13层）"
+  },
+  {
+    "id": "chance_272",
+    "name": "月下军帐·02",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          4,
+          14
+        ],
+        [
+          "boss",
+          4,
+          14
+        ]
+      ]
+    },
+    "numeric": "穿甲 +4.0%（14层）；Boss伤害 +4.0%（14层）"
+  },
+  {
+    "id": "chance_273",
+    "name": "月下军帐·03",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          5,
+          6
+        ],
+        [
+          "boss",
+          5,
+          6
+        ]
+      ]
+    },
+    "numeric": "穿甲 +5.0%（6层）；Boss伤害 +5.0%（6层）"
+  },
+  {
+    "id": "chance_274",
+    "name": "月下军帐·04",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          6,
+          7
+        ],
+        [
+          "boss",
+          6,
+          7
+        ]
+      ]
+    },
+    "numeric": "穿甲 +6.0%（7层）；Boss伤害 +6.0%（7层）"
+  },
+  {
+    "id": "chance_275",
+    "name": "月下军帐·05",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          8
+        ],
+        [
+          "boss",
+          2,
+          8
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（8层）；Boss伤害 +2.0%（8层）"
+  },
+  {
+    "id": "chance_276",
+    "name": "月下军帐·06",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          2,
+          9
+        ],
+        [
+          "boss",
+          3,
+          9
+        ]
+      ]
+    },
+    "numeric": "穿甲 +2.0%（9层）；Boss伤害 +3.0%（9层）"
+  },
+  {
+    "id": "chance_277",
+    "name": "月下军帐·07",
+    "kind": "neutral",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          3,
+          10
+        ],
+        [
+          "boss",
+          4,
+          10
+        ]
+      ]
+    },
+    "numeric": "穿甲 +3.0%（10层）；Boss伤害 +4.0%（10层）"
+  },
+  {
+    "id": "chance_278",
+    "name": "月下军帐·08",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          4,
+          11
+        ],
+        [
+          "boss",
+          5,
+          11
+        ]
+      ]
+    },
+    "numeric": "穿甲 +4.0%（11层）；Boss伤害 +5.0%（11层）"
+  },
+  {
+    "id": "chance_279",
+    "name": "月下军帐·09",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          5,
+          12
+        ],
+        [
+          "boss",
+          6,
+          12
+        ]
+      ]
+    },
+    "numeric": "穿甲 +5.0%（12层）；Boss伤害 +6.0%（12层）"
+  },
+  {
+    "id": "chance_280",
+    "name": "月下军帐·10",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          6,
+          13
+        ],
+        [
+          "boss",
+          2,
+          13
+        ]
+      ]
+    },
+    "numeric": "穿甲 +6.0%（13层）；Boss伤害 +2.0%（13层）"
+  },
+  {
+    "id": "chance_281",
+    "name": "月下军帐·11",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          14
+        ],
+        [
+          "boss",
+          3,
+          14
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（14层）；Boss伤害 +3.0%（14层）"
+  },
+  {
+    "id": "chance_282",
+    "name": "月下军帐·12",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          2,
+          6
+        ],
+        [
+          "boss",
+          4,
+          6
+        ]
+      ]
+    },
+    "numeric": "穿甲 +2.0%（6层）；Boss伤害 +4.0%（6层）"
+  },
+  {
+    "id": "chance_283",
+    "name": "月下军帐·13",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          3,
+          7
+        ],
+        [
+          "boss",
+          5,
+          7
+        ]
+      ]
+    },
+    "numeric": "穿甲 +3.0%（7层）；Boss伤害 +5.0%（7层）"
+  },
+  {
+    "id": "chance_284",
+    "name": "月下军帐·14",
+    "kind": "neutral",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          4,
+          8
+        ],
+        [
+          "boss",
+          6,
+          8
+        ]
+      ]
+    },
+    "numeric": "穿甲 +4.0%（8层）；Boss伤害 +6.0%（8层）"
+  },
+  {
+    "id": "chance_285",
+    "name": "月下军帐·15",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          5,
+          9
+        ],
+        [
+          "boss",
+          2,
+          9
+        ]
+      ]
+    },
+    "numeric": "穿甲 +5.0%（9层）；Boss伤害 +2.0%（9层）"
+  },
+  {
+    "id": "chance_286",
+    "name": "月下军帐·16",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          6,
+          10
+        ],
+        [
+          "boss",
+          3,
+          10
+        ]
+      ]
+    },
+    "numeric": "穿甲 +6.0%（10层）；Boss伤害 +3.0%（10层）"
+  },
+  {
+    "id": "chance_287",
+    "name": "月下军帐·17",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          11
+        ],
+        [
+          "boss",
+          4,
+          11
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（11层）；Boss伤害 +4.0%（11层）"
+  },
+  {
+    "id": "chance_288",
+    "name": "月下军帐·18",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          2,
+          12
+        ],
+        [
+          "boss",
+          5,
+          12
+        ]
+      ]
+    },
+    "numeric": "穿甲 +2.0%（12层）；Boss伤害 +5.0%（12层）"
+  },
+  {
+    "id": "chance_289",
+    "name": "月下军帐·19",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          3,
+          13
+        ],
+        [
+          "boss",
+          6,
+          13
+        ]
+      ]
+    },
+    "numeric": "穿甲 +3.0%（13层）；Boss伤害 +6.0%（13层）"
+  },
+  {
+    "id": "chance_290",
+    "name": "月下军帐·20",
+    "kind": "good",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          4,
+          14
+        ],
+        [
+          "boss",
+          2,
+          14
+        ]
+      ]
+    },
+    "numeric": "穿甲 +4.0%（14层）；Boss伤害 +2.0%（14层）"
+  },
+  {
+    "id": "chance_291",
+    "name": "月下军帐·21",
+    "kind": "neutral",
+    "description": "从战斗痕迹中找到破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          5,
+          6
+        ],
+        [
+          "boss",
+          3,
+          6
+        ]
+      ]
+    },
+    "numeric": "穿甲 +5.0%（6层）；Boss伤害 +3.0%（6层）"
+  },
+  {
+    "id": "chance_292",
+    "name": "星台残卷·01",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          3,
+          7
+        ],
+        [
+          "luck",
+          4,
+          7
+        ]
+      ],
+      "coins": 580
+    },
+    "numeric": "铜钱 +580；掉落 +3.0%（7层）；幸运 +4.0（7层）"
+  },
+  {
+    "id": "chance_293",
+    "name": "星台残卷·02",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          4,
+          8
+        ],
+        [
+          "luck",
+          5,
+          8
+        ]
+      ],
+      "coins": 660
+    },
+    "numeric": "铜钱 +660；掉落 +4.0%（8层）；幸运 +5.0（8层）"
+  },
+  {
+    "id": "chance_294",
+    "name": "星台残卷·03",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          5,
+          9
+        ],
+        [
+          "luck",
+          6,
+          9
+        ]
+      ],
+      "coins": 740
+    },
+    "numeric": "铜钱 +740；掉落 +5.0%（9层）；幸运 +6.0（9层）"
+  },
+  {
+    "id": "chance_295",
+    "name": "星台残卷·04",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          6,
+          10
+        ],
+        [
+          "luck",
+          7,
+          10
+        ]
+      ],
+      "coins": 820
+    },
+    "numeric": "铜钱 +820；掉落 +6.0%（10层）；幸运 +7.0（10层）"
+  },
+  {
+    "id": "chance_296",
+    "name": "星台残卷·05",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          7,
+          11
+        ],
+        [
+          "luck",
+          8,
+          11
+        ]
+      ],
+      "coins": 1062
+    },
+    "numeric": "铜钱 +1.06K；掉落 +7.0%（11层）；幸运 +8.0（11层）"
+  },
+  {
+    "id": "chance_297",
+    "name": "星台残卷·06",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          12
+        ],
+        [
+          "luck",
+          9,
+          12
+        ]
+      ],
+      "coins": 1156
+    },
+    "numeric": "铜钱 +1.16K；掉落 +8.0%（12层）；幸运 +9.0（12层）"
+  },
+  {
+    "id": "chance_298",
+    "name": "星台残卷·07",
+    "kind": "neutral",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          2,
+          13
+        ],
+        [
+          "luck",
+          10,
+          13
+        ]
+      ],
+      "coins": 1251
+    },
+    "numeric": "铜钱 +1.25K；掉落 +2.0%（13层）；幸运 +10（13层）"
+  },
+  {
+    "id": "chance_299",
+    "name": "星台残卷·08",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          3,
+          14
+        ],
+        [
+          "luck",
+          3,
+          14
+        ]
+      ],
+      "coins": 1345
+    },
+    "numeric": "铜钱 +1.34K；掉落 +3.0%（14层）；幸运 +3.0（14层）"
+  },
+  {
+    "id": "chance_300",
+    "name": "星台残卷·09",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          4,
+          6
+        ],
+        [
+          "luck",
+          4,
+          6
+        ]
+      ],
+      "coins": 1659
+    },
+    "numeric": "铜钱 +1.66K；掉落 +4.0%（6层）；幸运 +4.0（6层）"
+  },
+  {
+    "id": "chance_301",
+    "name": "星台残卷·10",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          5,
+          7
+        ],
+        [
+          "luck",
+          5,
+          7
+        ]
+      ],
+      "coins": 1768
+    },
+    "numeric": "铜钱 +1.77K；掉落 +5.0%（7层）；幸运 +5.0（7层）"
+  },
+  {
+    "id": "chance_302",
+    "name": "星台残卷·11",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          6,
+          8
+        ],
+        [
+          "luck",
+          6,
+          8
+        ]
+      ],
+      "coins": 1877
+    },
+    "numeric": "铜钱 +1.88K；掉落 +6.0%（8层）；幸运 +6.0（8层）"
+  },
+  {
+    "id": "chance_303",
+    "name": "星台残卷·12",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          7,
+          9
+        ],
+        [
+          "luck",
+          7,
+          9
+        ]
+      ],
+      "coins": 1986
+    },
+    "numeric": "铜钱 +1.99K；掉落 +7.0%（9层）；幸运 +7.0（9层）"
+  },
+  {
+    "id": "chance_304",
+    "name": "星台残卷·13",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          10
+        ],
+        [
+          "luck",
+          8,
+          10
+        ]
+      ],
+      "coins": 2372
+    },
+    "numeric": "铜钱 +2.37K；掉落 +8.0%（10层）；幸运 +8.0（10层）"
+  },
+  {
+    "id": "chance_305",
+    "name": "星台残卷·14",
+    "kind": "neutral",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          2,
+          11
+        ],
+        [
+          "luck",
+          9,
+          11
+        ]
+      ],
+      "coins": 2495
+    },
+    "numeric": "铜钱 +2.50K；掉落 +2.0%（11层）；幸运 +9.0（11层）"
+  },
+  {
+    "id": "chance_306",
+    "name": "星台残卷·15",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          3,
+          12
+        ],
+        [
+          "luck",
+          10,
+          12
+        ]
+      ],
+      "coins": 2618
+    },
+    "numeric": "铜钱 +2.62K；掉落 +3.0%（12层）；幸运 +10（12层）"
+  },
+  {
+    "id": "chance_307",
+    "name": "星台残卷·16",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          4,
+          13
+        ],
+        [
+          "luck",
+          3,
+          13
+        ]
+      ],
+      "coins": 2741
+    },
+    "numeric": "铜钱 +2.74K；掉落 +4.0%（13层）；幸运 +3.0（13层）"
+  },
+  {
+    "id": "chance_308",
+    "name": "星台残卷·17",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          5,
+          14
+        ],
+        [
+          "luck",
+          4,
+          14
+        ]
+      ],
+      "coins": 3199
+    },
+    "numeric": "铜钱 +3.20K；掉落 +5.0%（14层）；幸运 +4.0（14层）"
+  },
+  {
+    "id": "chance_309",
+    "name": "星台残卷·18",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          6,
+          6
+        ],
+        [
+          "luck",
+          5,
+          6
+        ]
+      ],
+      "coins": 3337
+    },
+    "numeric": "铜钱 +3.34K；掉落 +6.0%（6层）；幸运 +5.0（6层）"
+  },
+  {
+    "id": "chance_310",
+    "name": "星台残卷·19",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          7,
+          7
+        ],
+        [
+          "luck",
+          6,
+          7
+        ]
+      ],
+      "coins": 3474
+    },
+    "numeric": "铜钱 +3.47K；掉落 +7.0%（7层）；幸运 +6.0（7层）"
+  },
+  {
+    "id": "chance_311",
+    "name": "星台残卷·20",
+    "kind": "good",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          8
+        ],
+        [
+          "luck",
+          7,
+          8
+        ]
+      ],
+      "coins": 3612
+    },
+    "numeric": "铜钱 +3.61K；掉落 +8.0%（8层）；幸运 +7.0（8层）"
+  },
+  {
+    "id": "chance_312",
+    "name": "星台残卷·21",
+    "kind": "neutral",
+    "description": "与行商互通消息，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          2,
+          9
+        ],
+        [
+          "luck",
+          8,
+          9
+        ]
+      ],
+      "coins": 4142
+    },
+    "numeric": "铜钱 +4.14K；掉落 +2.0%（9层）；幸运 +8.0（9层）"
+  },
+  {
+    "id": "chance_313",
+    "name": "荒城暗巷·01",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          3,
+          10
+        ],
+        [
+          "critd",
+          5,
+          10
+        ]
+      ],
+      "jade": 40
+    },
+    "numeric": "灵石 +40；暴击 +3.0%（10层）；暴伤 +5.0%（10层）"
+  },
+  {
+    "id": "chance_314",
+    "name": "荒城暗巷·02",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          11
+        ],
+        [
+          "critd",
+          6,
+          11
+        ]
+      ],
+      "jade": 45
+    },
+    "numeric": "灵石 +45；暴击 +4.0%（11层）；暴伤 +6.0%（11层）"
+  },
+  {
+    "id": "chance_315",
+    "name": "荒城暗巷·03",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          5,
+          12
+        ],
+        [
+          "critd",
+          7,
+          12
+        ]
+      ],
+      "jade": 50
+    },
+    "numeric": "灵石 +50；暴击 +5.0%（12层）；暴伤 +7.0%（12层）"
+  },
+  {
+    "id": "chance_316",
+    "name": "荒城暗巷·04",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          6,
+          13
+        ],
+        [
+          "critd",
+          8,
+          13
+        ]
+      ],
+      "jade": 55
+    },
+    "numeric": "灵石 +55；暴击 +6.0%（13层）；暴伤 +8.0%（13层）"
+  },
+  {
+    "id": "chance_317",
+    "name": "荒城暗巷·05",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          2,
+          14
+        ],
+        [
+          "critd",
+          9,
+          14
+        ]
+      ],
+      "jade": 71
+    },
+    "numeric": "灵石 +71；暴击 +2.0%（14层）；暴伤 +9.0%（14层）"
+  },
+  {
+    "id": "chance_318",
+    "name": "荒城暗巷·06",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          3,
+          6
+        ],
+        [
+          "critd",
+          10,
+          6
+        ]
+      ],
+      "jade": 77
+    },
+    "numeric": "灵石 +77；暴击 +3.0%（6层）；暴伤 +10%（6层）"
+  },
+  {
+    "id": "chance_319",
+    "name": "荒城暗巷·07",
+    "kind": "neutral",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          7
+        ],
+        [
+          "critd",
+          11,
+          7
+        ]
+      ],
+      "jade": 83
+    },
+    "numeric": "灵石 +83；暴击 +4.0%（7层）；暴伤 +11%（7层）"
+  },
+  {
+    "id": "chance_320",
+    "name": "荒城暗巷·08",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          5,
+          8
+        ],
+        [
+          "critd",
+          4,
+          8
+        ]
+      ],
+      "jade": 89
+    },
+    "numeric": "灵石 +89；暴击 +5.0%（8层）；暴伤 +4.0%（8层）"
+  },
+  {
+    "id": "chance_321",
+    "name": "荒城暗巷·09",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          6,
+          9
+        ],
+        [
+          "critd",
+          5,
+          9
+        ]
+      ],
+      "jade": 109
+    },
+    "numeric": "灵石 +109；暴击 +6.0%（9层）；暴伤 +5.0%（9层）"
+  },
+  {
+    "id": "chance_322",
+    "name": "荒城暗巷·10",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          2,
+          10
+        ],
+        [
+          "critd",
+          6,
+          10
+        ]
+      ],
+      "jade": 116
+    },
+    "numeric": "灵石 +116；暴击 +2.0%（10层）；暴伤 +6.0%（10层）"
+  },
+  {
+    "id": "chance_323",
+    "name": "荒城暗巷·11",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          3,
+          11
+        ],
+        [
+          "critd",
+          7,
+          11
+        ]
+      ],
+      "jade": 122
+    },
+    "numeric": "灵石 +122；暴击 +3.0%（11层）；暴伤 +7.0%（11层）"
+  },
+  {
+    "id": "chance_324",
+    "name": "荒城暗巷·12",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          12
+        ],
+        [
+          "critd",
+          8,
+          12
+        ]
+      ],
+      "jade": 129
+    },
+    "numeric": "灵石 +129；暴击 +4.0%（12层）；暴伤 +8.0%（12层）"
+  },
+  {
+    "id": "chance_325",
+    "name": "荒城暗巷·13",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          5,
+          13
+        ],
+        [
+          "critd",
+          9,
+          13
+        ]
+      ],
+      "jade": 154
+    },
+    "numeric": "灵石 +154；暴击 +5.0%（13层）；暴伤 +9.0%（13层）"
+  },
+  {
+    "id": "chance_326",
+    "name": "荒城暗巷·14",
+    "kind": "neutral",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          6,
+          14
+        ],
+        [
+          "critd",
+          10,
+          14
+        ]
+      ],
+      "jade": 162
+    },
+    "numeric": "灵石 +162；暴击 +6.0%（14层）；暴伤 +10%（14层）"
+  },
+  {
+    "id": "chance_327",
+    "name": "荒城暗巷·15",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          2,
+          6
+        ],
+        [
+          "critd",
+          11,
+          6
+        ]
+      ],
+      "jade": 169
+    },
+    "numeric": "灵石 +169；暴击 +2.0%（6层）；暴伤 +11%（6层）"
+  },
+  {
+    "id": "chance_328",
+    "name": "荒城暗巷·16",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          3,
+          7
+        ],
+        [
+          "critd",
+          4,
+          7
+        ]
+      ],
+      "jade": 177
+    },
+    "numeric": "灵石 +177；暴击 +3.0%（7层）；暴伤 +4.0%（7层）"
+  },
+  {
+    "id": "chance_329",
+    "name": "荒城暗巷·17",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          8
+        ],
+        [
+          "critd",
+          5,
+          8
+        ]
+      ],
+      "jade": 206
+    },
+    "numeric": "灵石 +206；暴击 +4.0%（8层）；暴伤 +5.0%（8层）"
+  },
+  {
+    "id": "chance_330",
+    "name": "荒城暗巷·18",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          5,
+          9
+        ],
+        [
+          "critd",
+          6,
+          9
+        ]
+      ],
+      "jade": 215
+    },
+    "numeric": "灵石 +215；暴击 +5.0%（9层）；暴伤 +6.0%（9层）"
+  },
+  {
+    "id": "chance_331",
+    "name": "荒城暗巷·19",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          6,
+          10
+        ],
+        [
+          "critd",
+          7,
+          10
+        ]
+      ],
+      "jade": 224
+    },
+    "numeric": "灵石 +224；暴击 +6.0%（10层）；暴伤 +7.0%（10层）"
+  },
+  {
+    "id": "chance_332",
+    "name": "荒城暗巷·20",
+    "kind": "good",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          2,
+          11
+        ],
+        [
+          "critd",
+          8,
+          11
+        ]
+      ],
+      "jade": 232
+    },
+    "numeric": "灵石 +232；暴击 +2.0%（11层）；暴伤 +8.0%（11层）"
+  },
+  {
+    "id": "chance_333",
+    "name": "荒城暗巷·21",
+    "kind": "neutral",
+    "description": "参悟残卷，暴击与暴伤临时提高，并获得少量灵石。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          3,
+          12
+        ],
+        [
+          "critd",
+          9,
+          12
+        ]
+      ],
+      "jade": 266
+    },
+    "numeric": "灵石 +266；暴击 +3.0%（12层）；暴伤 +9.0%（12层）"
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "version": "1.0.7",
+  "generals": 32,
+  "skill_stages": 160,
+  "events": {
+    "opportunity": 333,
+    "misfortune": 29,
+    "lucky": 6,
+    "long_chain_groups": 4,
+    "long_chain_stages": 3,
+    "route_memory_floors": 180
+  },
+  "shop": {
+    "fixed_slots": 10,
+    "detailed_numeric_delta": true,
+    "power_estimate": true,
+    "replacement_target_text": true,
+    "skins_allowed": false
+  },
+  "achievements": {
+    "count": 999,
+    "difficulty_counts": {
+      "简易": 333,
+      "中等": 333,
+      "困难": 333
+    },
+    "page_size": 30,
+    "claim_all_on_page": true,
+    "claim_all_in_settings": true
+  },
+  "recruitment": {
+    "general_count": 32,
+    "avatars": true
+  },
+  "redeem": {
+    "code_hints_visible": false,
+    "legacy_codes_still_valid": true
+  },
+  "boss": {
+    "phases": 3,
+    "frameworks": [
+      "pozhen",
+      "shoushi",
+      "kuanggong",
+      "guizhen"
+    ],
+    "general_signatures": 32,
+    "fairness_samples": 512
+  },
+  "deep_balance": {
+    "floors": [
+      5500,
+      6500,
+      8000
+    ],
+    "profiles": [
+      "回流",
+      "标准",
+      "极品"
+    ],
+    "samples": 1152,
+    "targeted_generals": [
+      "zuoci",
+      "yuji",
+      "taishici",
+      "zhangliao",
+      "dongzhuo",
+      "huangyueying",
+      "sunshangxiang"
+    ],
+    "targeted_samples": 224
+  },
+  "save": {
+    "key": "sgs_idle_v1070",
+    "prefix": "SGST107-"
+  }
+}

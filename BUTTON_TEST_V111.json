@@ -1,0 +1,75 @@
+{
+  "version": "1.1.1",
+  "overall": "PASS",
+  "features": {
+    "飞升": "PASS",
+    "装备强化": "PASS",
+    "商城购买": "PASS",
+    "成就领取": "PASS",
+    "存档导入": "PASS",
+    "手机点击": "PASS"
+  },
+  "scope": {
+    "runtime": "HTML正式入口 / Chrome",
+    "pages": 16,
+    "button_clicks": 131,
+    "mobile_viewports": [
+      {
+        "closeVisible": true,
+        "height": 844,
+        "horizontalOverflow": false,
+        "minTarget": 44,
+        "pages": 16,
+        "width": 360
+      },
+      {
+        "closeVisible": true,
+        "height": 844,
+        "horizontalOverflow": false,
+        "minTarget": 44,
+        "pages": 16,
+        "width": 390
+      },
+      {
+        "closeVisible": true,
+        "height": 844,
+        "horizontalOverflow": false,
+        "minTarget": 44,
+        "pages": 16,
+        "width": 412
+      }
+    ],
+    "mobile_click_method": "浏览器合成TouchEvent及窄视口；不等同真机",
+    "equipment_strengthening": [
+      "重铸",
+      "仙缘淬词",
+      "升阶按钮反馈"
+    ],
+    "logic_tests": 15,
+    "browser_test_groups": 14,
+    "combat_samples": 320
+  },
+  "not_run": [
+    "Android/iOS真机长期实玩",
+    "完整0至8000层挂机时长与资源经济",
+    "Godot原生运行"
+  ],
+  "evidence": [
+    "docs/LOGIC_TEST_V111.json",
+    "docs/BROWSER_TEST_V111.json",
+    "docs/BALANCE_V111.json",
+    "docs/BALANCE_V111_MATRIX.json"
+  ],
+  "github": {
+    "status": "NOT_CONNECTED",
+    "pushed": false
+  },
+  "desktop_followup": {
+    "copy_feedback": "PASS",
+    "copy_message": "存档码已复制",
+    "native_download_event": "UNCONFIRMED",
+    "native_download_reason": "Browser download event timed out after 8 seconds",
+    "final_browser_rerun": "BLOCKED",
+    "final_browser_rerun_reason": "Automatic approval review rejected the action because the account usage limit was reached; no browser workaround used"
+  }
+}

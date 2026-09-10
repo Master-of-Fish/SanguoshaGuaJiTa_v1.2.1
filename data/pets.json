@@ -1,0 +1,178 @@
+[
+  {
+    "id": "qilin",
+    "name": "玉麒麟",
+    "rarity": "SSR",
+    "base_bonus": 12,
+    "growth_per_level": 0.12,
+    "stat": "挂机铜钱",
+    "battle": "Boss奖励 +6%；每20层额外获得1次装备掉落判定。",
+    "max_level": 500,
+    "tags": "挂机/收益"
+  },
+  {
+    "id": "qingluan",
+    "name": "青鸾",
+    "rarity": "SSR",
+    "base_bonus": 12,
+    "growth_per_level": 0.12,
+    "stat": "修为获取",
+    "battle": "离线收益上限 +8小时；突破成功时返还5%修为。",
+    "max_level": 500,
+    "tags": "修炼/离线"
+  },
+  {
+    "id": "leihu",
+    "name": "雷虎",
+    "rarity": "SR",
+    "base_bonus": 8,
+    "growth_per_level": 0.09,
+    "stat": "战斗伤害",
+    "battle": "雷系效果 +15%；每8次攻击追加90%攻击雷击。",
+    "max_level": 500,
+    "tags": "战斗/雷"
+  },
+  {
+    "id": "linghu",
+    "name": "灵狐",
+    "rarity": "SR",
+    "base_bonus": 8,
+    "growth_per_level": 0.08,
+    "stat": "重复资源",
+    "battle": "武魂/铸魂/灵契获得量 +8%；寻访十连额外返还10灵石。",
+    "max_level": 500,
+    "tags": "抽卡/资源"
+  },
+  {
+    "id": "xianhe",
+    "name": "仙鹤",
+    "rarity": "R",
+    "base_bonus": 4,
+    "growth_per_level": 0.06,
+    "stat": "挂机修为",
+    "battle": "普通层结算修为 +4%。",
+    "max_level": 500,
+    "tags": "挂机/修为"
+  },
+  {
+    "id": "xuangui",
+    "name": "玄龟",
+    "rarity": "R",
+    "base_bonus": 5,
+    "growth_per_level": 0.06,
+    "stat": "最大生命",
+    "battle": "Boss首次造成致命伤害时保留1%生命，每场1次。",
+    "max_level": 500,
+    "tags": "生存/Boss"
+  },
+  {
+    "id": "baihu",
+    "name": "白虎幼灵",
+    "rarity": "SSR",
+    "base_bonus": 10,
+    "growth_per_level": 0.11,
+    "stat": "暴击伤害",
+    "battle": "暴击后获得2%攻击，最多10层，战斗结束清空。",
+    "max_level": 500,
+    "tags": "暴击/成长"
+  },
+  {
+    "id": "xuandie",
+    "name": "玄蝶",
+    "rarity": "SR",
+    "base_bonus": 7,
+    "growth_per_level": 0.08,
+    "stat": "技能冷却效率",
+    "battle": "自动战策触发间隔 -7%；每10回合额外摸1张。",
+    "max_level": 500,
+    "tags": "技能/循环"
+  },
+  {
+    "id": "jinchan",
+    "name": "金蟾",
+    "rarity": "R",
+    "base_bonus": 5,
+    "growth_per_level": 0.06,
+    "stat": "铜钱掉落",
+    "battle": "分解装备获得铜钱 +10%。",
+    "max_level": 500,
+    "tags": "经济"
+  },
+  {
+    "id": "huoling",
+    "name": "火灵雀",
+    "rarity": "SR",
+    "base_bonus": 8,
+    "growth_per_level": 0.08,
+    "stat": "持续伤害",
+    "battle": "火系/灼烧伤害 +12%，持续时间 +1回合。",
+    "max_level": 500,
+    "tags": "火/持续伤害"
+  },
+  {
+    "id": "qinglongling",
+    "name": "青龙灵君",
+    "rarity": "SSR",
+    "base_bonus": 10,
+    "growth_per_level": 0.11,
+    "stat": "【杀】伤害",
+    "battle": "每第5次【杀】追加一次90%攻击的青龙追击；关羽额外 +25%。",
+    "max_level": 500,
+    "tags": "杀/追击"
+  },
+  {
+    "id": "zhuqueling",
+    "name": "朱雀灵君",
+    "rarity": "SSR",
+    "base_bonus": 10,
+    "growth_per_level": 0.11,
+    "stat": "锦囊伤害",
+    "battle": "火焰与锦囊伤害 +10%；【火攻】余焰衰减降低。",
+    "max_level": 500,
+    "tags": "锦囊/火"
+  },
+  {
+    "id": "xuanwuling",
+    "name": "玄武灵君",
+    "rarity": "SSR",
+    "base_bonus": 10,
+    "growth_per_level": 0.1,
+    "stat": "最终减伤",
+    "battle": "Boss层受到伤害降低8%；生命低于30%时再降低8%。",
+    "max_level": 500,
+    "tags": "生存/Boss"
+  },
+  {
+    "id": "baize",
+    "name": "白泽",
+    "rarity": "SSR",
+    "base_bonus": 9,
+    "growth_per_level": 0.1,
+    "stat": "幸运",
+    "battle": "幸运额外 +9；高品质装备掉落判定提升，且分解神话/仙品装备返还更多铜钱。",
+    "max_level": 500,
+    "tags": "幸运/掉落"
+  },
+  {
+    "id": "linglu",
+    "name": "灵鹿",
+    "rarity": "SR",
+    "base_bonus": 7,
+    "growth_per_level": 0.08,
+    "stat": "离线修为",
+    "battle": "离线修为收益 +7%；离线结算额外获得少量回忆令进度。",
+    "max_level": 500,
+    "tags": "离线/修为"
+  },
+  {
+    "id": "zhuying",
+    "name": "朱萤",
+    "rarity": "R",
+    "base_bonus": 5,
+    "growth_per_level": 0.06,
+    "stat": "回忆令收益",
+    "battle": "每100层里程碑额外获得1枚回忆令。",
+    "max_level": 500,
+    "tags": "外观/挂机"
+  }
+]

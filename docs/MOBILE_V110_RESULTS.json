@@ -1,0 +1,557 @@
+[
+  {
+    "device": "iphone",
+    "width": 390,
+    "height": 844,
+    "errors": [],
+    "pages": [
+      {
+        "page": "tower",
+        "label": "登塔",
+        "dims": {
+          "iw": 390,
+          "sw": 390,
+          "bw": 390,
+          "active": "tower"
+        },
+        "offenders": []
+      },
+      {
+        "page": "cultivate",
+        "label": "修炼",
+        "dims": {
+          "iw": 390,
+          "sw": 390,
+          "bw": 390,
+          "active": "cultivate"
+        },
+        "offenders": []
+      },
+      {
+        "page": "path",
+        "label": "仙途",
+        "dims": {
+          "iw": 390,
+          "sw": 390,
+          "bw": 390,
+          "active": "path"
+        },
+        "offenders": []
+      },
+      {
+        "page": "adventure",
+        "label": "秘境",
+        "dims": {
+          "iw": 390,
+          "sw": 390,
+          "bw": 390,
+          "active": "adventure"
+        },
+        "offenders": []
+      },
+      {
+        "page": "events",
+        "label": "机缘",
+        "dims": {
+          "iw": 390,
+          "sw": 390,
+          "bw": 390,
+          "active": "events"
+        },
+        "offenders": []
+      },
+      {
+        "page": "shop",
+        "label": "商城",
+        "dims": {
+          "iw": 390,
+          "sw": 390,
+          "bw": 390,
+          "active": "shop"
+        },
+        "offenders": []
+      },
+      {
+        "page": "achievements",
+        "label": "成就",
+        "dims": {
+          "iw": 390,
+          "sw": 390,
+          "bw": 390,
+          "active": "achievements"
+        },
+        "offenders": []
+      },
+      {
+        "page": "generals",
+        "label": "武将",
+        "dims": {
+          "iw": 390,
+          "sw": 390,
+          "bw": 390,
+          "active": "generals"
+        },
+        "offenders": []
+      },
+      {
+        "page": "tactics",
+        "label": "战策",
+        "dims": {
+          "iw": 390,
+          "sw": 390,
+          "bw": 390,
+          "active": "tactics"
+        },
+        "offenders": []
+      },
+      {
+        "page": "weapons",
+        "label": "神兵",
+        "dims": {
+          "iw": 390,
+          "sw": 390,
+          "bw": 390,
+          "active": "weapons"
+        },
+        "offenders": []
+      },
+      {
+        "page": "equipment",
+        "label": "装备",
+        "dims": {
+          "iw": 390,
+          "sw": 390,
+          "bw": 390,
+          "active": "equipment"
+        },
+        "offenders": []
+      },
+      {
+        "page": "pets",
+        "label": "灵宠",
+        "dims": {
+          "iw": 390,
+          "sw": 390,
+          "bw": 390,
+          "active": "pets"
+        },
+        "offenders": []
+      },
+      {
+        "page": "skins",
+        "label": "回廊皮肤",
+        "dims": {
+          "iw": 390,
+          "sw": 390,
+          "bw": 390,
+          "active": "skins"
+        },
+        "offenders": []
+      },
+      {
+        "page": "gacha",
+        "label": "寻访",
+        "dims": {
+          "iw": 390,
+          "sw": 390,
+          "bw": 390,
+          "active": "gacha"
+        },
+        "offenders": []
+      },
+      {
+        "page": "bag",
+        "label": "背包",
+        "dims": {
+          "iw": 390,
+          "sw": 390,
+          "bw": 390,
+          "active": "bag"
+        },
+        "offenders": []
+      },
+      {
+        "page": "settings",
+        "label": "设置",
+        "dims": {
+          "iw": 390,
+          "sw": 390,
+          "bw": 390,
+          "active": "settings"
+        },
+        "offenders": []
+      }
+    ],
+    "screenshot": "/mnt/data/v110_mobile_iphone.png"
+  },
+  {
+    "device": "android_small",
+    "width": 360,
+    "height": 800,
+    "errors": [],
+    "pages": [
+      {
+        "page": "tower",
+        "label": "登塔",
+        "dims": {
+          "iw": 360,
+          "sw": 360,
+          "bw": 360,
+          "active": "tower"
+        },
+        "offenders": []
+      },
+      {
+        "page": "cultivate",
+        "label": "修炼",
+        "dims": {
+          "iw": 360,
+          "sw": 360,
+          "bw": 360,
+          "active": "cultivate"
+        },
+        "offenders": []
+      },
+      {
+        "page": "path",
+        "label": "仙途",
+        "dims": {
+          "iw": 360,
+          "sw": 360,
+          "bw": 360,
+          "active": "path"
+        },
+        "offenders": []
+      },
+      {
+        "page": "adventure",
+        "label": "秘境",
+        "dims": {
+          "iw": 360,
+          "sw": 360,
+          "bw": 360,
+          "active": "adventure"
+        },
+        "offenders": []
+      },
+      {
+        "page": "events",
+        "label": "机缘",
+        "dims": {
+          "iw": 360,
+          "sw": 360,
+          "bw": 360,
+          "active": "events"
+        },
+        "offenders": []
+      },
+      {
+        "page": "shop",
+        "label": "商城",
+        "dims": {
+          "iw": 360,
+          "sw": 360,
+          "bw": 360,
+          "active": "shop"
+        },
+        "offenders": []
+      },
+      {
+        "page": "achievements",
+        "label": "成就",
+        "dims": {
+          "iw": 360,
+          "sw": 360,
+          "bw": 360,
+          "active": "achievements"
+        },
+        "offenders": []
+      },
+      {
+        "page": "generals",
+        "label": "武将",
+        "dims": {
+          "iw": 360,
+          "sw": 360,
+          "bw": 360,
+          "active": "generals"
+        },
+        "offenders": []
+      },
+      {
+        "page": "tactics",
+        "label": "战策",
+        "dims": {
+          "iw": 360,
+          "sw": 360,
+          "bw": 360,
+          "active": "tactics"
+        },
+        "offenders": []
+      },
+      {
+        "page": "weapons",
+        "label": "神兵",
+        "dims": {
+          "iw": 360,
+          "sw": 360,
+          "bw": 360,
+          "active": "weapons"
+        },
+        "offenders": []
+      },
+      {
+        "page": "equipment",
+        "label": "装备",
+        "dims": {
+          "iw": 360,
+          "sw": 360,
+          "bw": 360,
+          "active": "equipment"
+        },
+        "offenders": []
+      },
+      {
+        "page": "pets",
+        "label": "灵宠",
+        "dims": {
+          "iw": 360,
+          "sw": 360,
+          "bw": 360,
+          "active": "pets"
+        },
+        "offenders": []
+      },
+      {
+        "page": "skins",
+        "label": "回廊皮肤",
+        "dims": {
+          "iw": 360,
+          "sw": 360,
+          "bw": 360,
+          "active": "skins"
+        },
+        "offenders": []
+      },
+      {
+        "page": "gacha",
+        "label": "寻访",
+        "dims": {
+          "iw": 360,
+          "sw": 360,
+          "bw": 360,
+          "active": "gacha"
+        },
+        "offenders": []
+      },
+      {
+        "page": "bag",
+        "label": "背包",
+        "dims": {
+          "iw": 360,
+          "sw": 360,
+          "bw": 360,
+          "active": "bag"
+        },
+        "offenders": []
+      },
+      {
+        "page": "settings",
+        "label": "设置",
+        "dims": {
+          "iw": 360,
+          "sw": 360,
+          "bw": 360,
+          "active": "settings"
+        },
+        "offenders": []
+      }
+    ],
+    "screenshot": "/mnt/data/v110_mobile_android_small.png"
+  },
+  {
+    "device": "android_wide",
+    "width": 412,
+    "height": 915,
+    "errors": [],
+    "pages": [
+      {
+        "page": "tower",
+        "label": "登塔",
+        "dims": {
+          "iw": 412,
+          "sw": 412,
+          "bw": 412,
+          "active": "tower"
+        },
+        "offenders": []
+      },
+      {
+        "page": "cultivate",
+        "label": "修炼",
+        "dims": {
+          "iw": 412,
+          "sw": 412,
+          "bw": 412,
+          "active": "cultivate"
+        },
+        "offenders": []
+      },
+      {
+        "page": "path",
+        "label": "仙途",
+        "dims": {
+          "iw": 412,
+          "sw": 412,
+          "bw": 412,
+          "active": "path"
+        },
+        "offenders": []
+      },
+      {
+        "page": "adventure",
+        "label": "秘境",
+        "dims": {
+          "iw": 412,
+          "sw": 412,
+          "bw": 412,
+          "active": "adventure"
+        },
+        "offenders": []
+      },
+      {
+        "page": "events",
+        "label": "机缘",
+        "dims": {
+          "iw": 412,
+          "sw": 412,
+          "bw": 412,
+          "active": "events"
+        },
+        "offenders": []
+      },
+      {
+        "page": "shop",
+        "label": "商城",
+        "dims": {
+          "iw": 412,
+          "sw": 412,
+          "bw": 412,
+          "active": "shop"
+        },
+        "offenders": []
+      },
+      {
+        "page": "achievements",
+        "label": "成就",
+        "dims": {
+          "iw": 412,
+          "sw": 412,
+          "bw": 412,
+          "active": "achievements"
+        },
+        "offenders": []
+      },
+      {
+        "page": "generals",
+        "label": "武将",
+        "dims": {
+          "iw": 412,
+          "sw": 412,
+          "bw": 412,
+          "active": "generals"
+        },
+        "offenders": []
+      },
+      {
+        "page": "tactics",
+        "label": "战策",
+        "dims": {
+          "iw": 412,
+          "sw": 412,
+          "bw": 412,
+          "active": "tactics"
+        },
+        "offenders": []
+      },
+      {
+        "page": "weapons",
+        "label": "神兵",
+        "dims": {
+          "iw": 412,
+          "sw": 412,
+          "bw": 412,
+          "active": "weapons"
+        },
+        "offenders": []
+      },
+      {
+        "page": "equipment",
+        "label": "装备",
+        "dims": {
+          "iw": 412,
+          "sw": 412,
+          "bw": 412,
+          "active": "equipment"
+        },
+        "offenders": []
+      },
+      {
+        "page": "pets",
+        "label": "灵宠",
+        "dims": {
+          "iw": 412,
+          "sw": 412,
+          "bw": 412,
+          "active": "pets"
+        },
+        "offenders": []
+      },
+      {
+        "page": "skins",
+        "label": "回廊皮肤",
+        "dims": {
+          "iw": 412,
+          "sw": 412,
+          "bw": 412,
+          "active": "skins"
+        },
+        "offenders": []
+      },
+      {
+        "page": "gacha",
+        "label": "寻访",
+        "dims": {
+          "iw": 412,
+          "sw": 412,
+          "bw": 412,
+          "active": "gacha"
+        },
+        "offenders": []
+      },
+      {
+        "page": "bag",
+        "label": "背包",
+        "dims": {
+          "iw": 412,
+          "sw": 412,
+          "bw": 412,
+          "active": "bag"
+        },
+        "offenders": []
+      },
+      {
+        "page": "settings",
+        "label": "设置",
+        "dims": {
+          "iw": 412,
+          "sw": 412,
+          "bw": 412,
+          "active": "settings"
+        },
+        "offenders": []
+      }
+    ],
+    "screenshot": "/mnt/data/v110_mobile_android_wide.png"
+  }
+]

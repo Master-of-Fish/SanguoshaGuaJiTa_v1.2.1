@@ -1,0 +1,162 @@
+{
+  "liubei": {
+    "general": "刘备",
+    "name": "仁阵回护",
+    "type": "heal"
+  },
+  "guanyu": {
+    "general": "关羽",
+    "name": "青龙追斩",
+    "type": "counter"
+  },
+  "zhangfei": {
+    "general": "张飞",
+    "name": "咆哮反扑",
+    "type": "counter"
+  },
+  "zhaoyun": {
+    "general": "赵云",
+    "name": "龙胆回转",
+    "type": "guard"
+  },
+  "zhugeliang": {
+    "general": "诸葛亮",
+    "name": "七星扰阵",
+    "type": "judge"
+  },
+  "huangyueying": {
+    "general": "黄月英",
+    "name": "机巧护幕",
+    "type": "guard"
+  },
+  "machao": {
+    "general": "马超",
+    "name": "铁骑封路",
+    "type": "disrupt"
+  },
+  "pangtong": {
+    "general": "庞统",
+    "name": "连环焚阵",
+    "type": "trick"
+  },
+  "caocao": {
+    "general": "曹操",
+    "name": "奸雄映像",
+    "type": "trick"
+  },
+  "simayi": {
+    "general": "司马懿",
+    "name": "天命改判",
+    "type": "judge"
+  },
+  "xiahoudun": {
+    "general": "夏侯惇",
+    "name": "刚烈反噬",
+    "type": "counter"
+  },
+  "zhangliao": {
+    "general": "张辽",
+    "name": "突袭断牌",
+    "type": "disrupt"
+  },
+  "xuchu": {
+    "general": "许褚",
+    "name": "虎痴重击",
+    "type": "counter"
+  },
+  "guojia": {
+    "general": "郭嘉",
+    "name": "遗计续阵",
+    "type": "heal"
+  },
+  "zhenji": {
+    "general": "甄姬",
+    "name": "洛神判阵",
+    "type": "judge"
+  },
+  "xunyu": {
+    "general": "荀彧",
+    "name": "节命调度",
+    "type": "heal"
+  },
+  "sunquan": {
+    "general": "孙权",
+    "name": "制衡整备",
+    "type": "guard"
+  },
+  "zhouyu": {
+    "general": "周瑜",
+    "name": "琴音火计",
+    "type": "trick"
+  },
+  "ganning": {
+    "general": "甘宁",
+    "name": "锦帆拆装",
+    "type": "disrupt"
+  },
+  "lvmeng": {
+    "general": "吕蒙",
+    "name": "白衣蓄势",
+    "type": "guard"
+  },
+  "luxun": {
+    "general": "陆逊",
+    "name": "连营火势",
+    "type": "trick"
+  },
+  "sunshangxiang": {
+    "general": "孙尚香",
+    "name": "枭姬换装",
+    "type": "guard"
+  },
+  "daqiao": {
+    "general": "大乔",
+    "name": "国色延时",
+    "type": "trick"
+  },
+  "taishici": {
+    "general": "太史慈",
+    "name": "天义连击",
+    "type": "counter"
+  },
+  "lvbu": {
+    "general": "吕布",
+    "name": "无双压制",
+    "type": "counter"
+  },
+  "diaochan": {
+    "general": "貂蝉",
+    "name": "离间魅影",
+    "type": "disrupt"
+  },
+  "huatuo": {
+    "general": "华佗",
+    "name": "急救续命",
+    "type": "heal"
+  },
+  "yuanshao": {
+    "general": "袁绍",
+    "name": "乱击箭雨",
+    "type": "trick"
+  },
+  "zhangjiao": {
+    "general": "张角",
+    "name": "雷狱判阵",
+    "type": "judge"
+  },
+  "dongzhuo": {
+    "general": "董卓",
+    "name": "暴虐酒池",
+    "type": "heal"
+  },
+  "yuji": {
+    "general": "于吉",
+    "name": "蛊惑幻术",
+    "type": "disrupt"
+  },
+  "zuoci": {
+    "general": "左慈",
+    "name": "化身万象",
+    "type": "judge"
+  }
+}

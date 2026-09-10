@@ -1,0 +1,17 @@
+{
+  "version": "1.2.0",
+  "overall": "PASS",
+  "features": {
+    "飞升随时确认": "PASS",
+    "飞升实时预览": "PASS",
+    "同层零收益警告": "PASS",
+    "渐进解锁导航": "PASS",
+    "折叠与局部滚动": "PASS",
+    "术语悬浮说明": "PASS",
+    "存档迁移": "PASS",
+    "手机最小点击区域": "PASS"
+  },
+  "evidence": ["docs/LOGIC_TEST_V120.json", "docs/RELEASE_V120.md"],
+  "method": "Node VM执行正式内嵌脚本；静态检查三个入口、触摸处理、44px点击区域和响应式样式",
+  "not_run": ["Android/iOS真机长期实玩", "完整0至8000层挂机经济"]
+}

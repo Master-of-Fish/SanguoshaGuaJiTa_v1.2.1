@@ -1,0 +1,68 @@
+{
+  "version": "1.1.1",
+  "engine": "Node VM executing the shipped inline game script; presentation stubbed",
+  "tests": [
+    {
+      "name": "1250 / 2035 / 2450 / 3000 reward examples",
+      "status": "PASS"
+    },
+    {
+      "name": "Below first threshold cannot settle, highest floor determines eligibility",
+      "status": "PASS"
+    },
+    {
+      "name": "Preview equals settlement; combat, HP, defense, idle and fate bonuses actually apply",
+      "status": "PASS"
+    },
+    {
+      "name": "All growth fields, currencies, inventory and active battle are retained",
+      "status": "PASS"
+    },
+    {
+      "name": "Repeated confirmation cannot award twice; next floor increases and rewards decay",
+      "status": "PASS"
+    },
+    {
+      "name": "Failed persistent save rolls back ascension",
+      "status": "PASS"
+    },
+    {
+      "name": "Deep Boss damage ceiling reflects attack bonus while retaining legacy limits",
+      "status": "PASS"
+    },
+    {
+      "name": "v1.1.0 migration preserves legacy multiplier and never grants it twice",
+      "status": "PASS"
+    },
+    {
+      "name": "All legacy save prefixes and invalid import are checked",
+      "status": "PASS"
+    },
+    {
+      "name": "Online and offline resource settlement share the bonus without double application",
+      "status": "PASS"
+    },
+    {
+      "name": "Button guard reports missing, thrown and rejected actions; conditions do not mutate",
+      "status": "PASS"
+    },
+    {
+      "name": "Async duplicate click executes only once",
+      "status": "PASS"
+    },
+    {
+      "name": "Immediate feedback inside an async handler is not overwritten",
+      "status": "PASS"
+    },
+    {
+      "name": "Corrupt current save falls back to an intact legacy backup",
+      "status": "PASS"
+    },
+    {
+      "name": "Reward curve is monotonic, finite, decays, and four milestones accumulate additively",
+      "status": "PASS"
+    }
+  ],
+  "passed": 15,
+  "failed": 0
+}

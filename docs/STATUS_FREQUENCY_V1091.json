@@ -1,0 +1,110 @@
+{
+  "100": {
+    "N": 4000,
+    "counts": {
+      "invincible": {
+        "player": 0,
+        "enemy": 5
+      },
+      "death_immune": {
+        "player": 0,
+        "enemy": 14
+      },
+      "frozen": {
+        "player": 12,
+        "enemy": 0
+      },
+      "skill_loss": {
+        "player": 18,
+        "enemy": 0
+      },
+      "ignore_status": {
+        "player": 0,
+        "enemy": 8
+      }
+    },
+    "anyPlayer": 30,
+    "anyEnemy": 27
+  },
+  "5500": {
+    "N": 4000,
+    "counts": {
+      "invincible": {
+        "player": 0,
+        "enemy": 3
+      },
+      "death_immune": {
+        "player": 0,
+        "enemy": 13
+      },
+      "frozen": {
+        "player": 22,
+        "enemy": 0
+      },
+      "skill_loss": {
+        "player": 15,
+        "enemy": 0
+      },
+      "ignore_status": {
+        "player": 0,
+        "enemy": 7
+      }
+    },
+    "anyPlayer": 37,
+    "anyEnemy": 23
+  },
+  "6500": {
+    "N": 4000,
+    "counts": {
+      "invincible": {
+        "player": 0,
+        "enemy": 6
+      },
+      "death_immune": {
+        "player": 0,
+        "enemy": 12
+      },
+      "frozen": {
+        "player": 17,
+        "enemy": 0
+      },
+      "skill_loss": {
+        "player": 20,
+        "enemy": 0
+      },
+      "ignore_status": {
+        "player": 0,
+        "enemy": 6
+      }
+    },
+    "anyPlayer": 37,
+    "anyEnemy": 24
+  },
+  "8000": {
+    "N": 4000,
+    "counts": {
+      "invincible": {
+        "player": 0,
+        "enemy": 9
+      },
+      "death_immune": {
+        "player": 0,
+        "enemy": 16
+      },
+      "frozen": {
+        "player": 15,
+        "enemy": 0
+      },
+      "skill_loss": {
+        "player": 11,
+        "enemy": 0
+      },
+      "ignore_status": {
+        "player": 0,
+        "enemy": 11
+      }
+    },
+    "anyPlayer": 26,
+    "anyEnemy": 36
+  }
+}

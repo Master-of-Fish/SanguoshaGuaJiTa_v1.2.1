@@ -1,0 +1,230 @@
+{
+  "version": "1.1.0",
+  "generals": 32,
+  "skill_stages": 160,
+  "events": {
+    "opportunity": 333,
+    "misfortune": 29,
+    "lucky": 6,
+    "unique_names": 333,
+    "unique_descriptions": 333,
+    "categories": 17,
+    "long_chain_groups": 4,
+    "long_chain_stages": 3,
+    "route_memory_floors": 180,
+    "affinities": [
+      "aggressive",
+      "guard",
+      "wealth"
+    ],
+    "quality_tracking": true,
+    "anti_repeat_picker": true,
+    "affinity_soft_balance": true,
+    "quantity_growth_locked": true,
+    "combat_status_resonance": true,
+    "combat_status_resonance_excludes_high_impact": true
+  },
+  "shop": {
+    "fixed_slots": 10,
+    "detailed_numeric_delta": true,
+    "power_estimate": true,
+    "replacement_target_text": true,
+    "skins_allowed": false
+  },
+  "achievements": {
+    "count": 999,
+    "difficulty_counts": {
+      "简易": 333,
+      "中等": 333,
+      "困难": 333
+    },
+    "page_size": 30,
+    "claim_all_on_page": true,
+    "claim_all_in_settings": true,
+    "claimable_filter": true,
+    "recent_completed_sort": true,
+    "type_filter": true,
+    "completion_time_filter": true,
+    "claim_history": true,
+    "claim_summary": true
+  },
+  "balance": {
+    "matrix_floor_cap": 8000,
+    "floors": [
+      5500,
+      6500,
+      8000
+    ],
+    "profiles": [
+      "回流",
+      "标准",
+      "极品"
+    ],
+    "build_variants": [
+      "爆发词缀+副功法",
+      "续航词缀+副功法"
+    ],
+    "samples": 1152,
+    "no_default_deeper_matrix": true,
+    "target_8000_overall": 0.7,
+    "actual_8000_overall": 0.7005,
+    "threat_ramp": {
+      "from_floor": 6500,
+      "from_ratio": 0.7,
+      "to_floor": 8000,
+      "to_ratio": 1.18,
+      "note": "按层平滑提高敌方最低进攻威胁，不额外堆Boss血量墙"
+    }
+  },
+  "boss_fairness": {
+    "floor": 8000,
+    "signatures": 32,
+    "frameworks": [
+      "pozhen",
+      "shoushi",
+      "kuanggong",
+      "guizhen"
+    ],
+    "cross_samples": 512,
+    "representative_attackers": 4
+  },
+  "targeted": {
+    "floor": 8000,
+    "generals": [
+      "ganning",
+      "yuji",
+      "daqiao",
+      "caocao",
+      "yuanshao",
+      "xuchu"
+    ],
+    "variants": 4,
+    "seeds_per_variant": 4,
+    "samples": 96
+  },
+  "save": {
+    "key": "sgs_idle_v1100",
+    "prefix": "SGST110-",
+    "backup_key": "sgs_idle_v1100_backup",
+    "temp_key": "sgs_idle_v1100_tmp",
+    "migrates": [
+      "SGST1091-",
+      "SGST109-",
+      "SGST108-",
+      "SGST107-",
+      "SGST106-",
+      "SGST105-",
+      "SGST104-",
+      "SGST103-",
+      "SGST102-",
+      "SGST101-",
+      "SGST20-"
+    ]
+  },
+  "skins": {
+    "count": 48,
+    "static_only": true,
+    "unlock": "memory_grid_25"
+  },
+  "audio": false,
+  "dynamic_skins": false,
+  "combat_status": {
+    "count": 30,
+    "shared_sides": [
+      "player",
+      "enemy"
+    ],
+    "registry": "COMBAT_STATUS_DEFS",
+    "common_fields": [
+      "source",
+      "turns",
+      "stacks",
+      "dispellable",
+      "bypassable"
+    ],
+    "acquisition": {
+      "player_buffs": [
+        "灵根",
+        "主修功法",
+        "神兵",
+        "灵宠",
+        "高品质装备",
+        "弱势层补偿"
+      ],
+      "player_debuffs": [
+        "敌方词缀/组合技",
+        "Boss阶段",
+        "随机Debuff"
+      ],
+      "enemy_buffs": [
+        "敌方词缀",
+        "组合技",
+        "层数波动",
+        "Boss阶段"
+      ],
+      "enemy_debuffs": [
+        "玩家灵根",
+        "主修功法",
+        "神兵"
+      ]
+    },
+    "enemy_numeric_variation": {
+      "roll_once_per_floor": true,
+      "reroll_on_retry": false,
+      "tiers": [
+        "偏弱",
+        "常态",
+        "偏强",
+        "极强"
+      ]
+    },
+    "high_impact_weighted_rare": true,
+    "frequency_observation": {
+      "samples_per_floor": 4000,
+      "floors": [
+        100,
+        5500,
+        6500,
+        8000
+      ],
+      "high_impact_ids": [
+        "invincible",
+        "death_immune",
+        "frozen",
+        "skill_loss",
+        "ignore_status"
+      ]
+    }
+  },
+  "misfortune_auto_select": {
+    "available": true,
+    "default": false,
+    "manual_mode_pauses_auto": true,
+    "auto_mode_keeps_auto_running": true,
+    "criteria": [
+      "当前Build",
+      "资源余量",
+      "选项风险"
+    ]
+  },
+  "mobile": {
+    "supported": true,
+    "tested_viewports": [
+      [
+        360,
+        800
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        412,
+        915
+      ]
+    ],
+    "nav_touch_scroll": true,
+    "touch_tooltip": true,
+    "responsive_pages": 16
+  }
+}

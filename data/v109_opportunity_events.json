@@ -1,0 +1,9094 @@
+[
+  {
+    "id": "chance_001",
+    "name": "竹林遗匣",
+    "kind": "good",
+    "description": "发现遗落木匣，铜钱与灵石小幅增加。",
+    "effects": {
+      "coins": 1200,
+      "jade": 80
+    },
+    "numeric": "铜钱 +1.20K；灵石 +80",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "资源",
+      "affinity": "wealth",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_002",
+    "name": "旧营残旗",
+    "kind": "neutral",
+    "description": "整理残旗获得修为，但未来10层防御略降。",
+    "effects": {
+      "cult": 900,
+      "mod": [
+        "defPct",
+        -0.04,
+        10
+      ]
+    },
+    "numeric": "修为 +900；防御 -4.0%（10层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_003",
+    "name": "山泉洗剑",
+    "kind": "good",
+    "description": "攻击在未来12层提高6%。",
+    "effects": {
+      "mod": [
+        "atkPct",
+        0.06,
+        12
+      ]
+    },
+    "numeric": "攻击 +6.0%（12层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_004",
+    "name": "迷雾岔路",
+    "kind": "neutral",
+    "description": "绕路获得回忆令，未来8层速度降低4。",
+    "effects": {
+      "memory": 2,
+      "mod": [
+        "speed",
+        -4,
+        8
+      ]
+    },
+    "numeric": "回忆令 +2；速度 -4.0（8层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "行军",
+      "affinity": "aggressive",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_005",
+    "name": "商旅同行",
+    "kind": "good",
+    "description": "铜钱增加，掉落率未来10层提高5%。",
+    "effects": {
+      "coins": 1800,
+      "mod": [
+        "drop",
+        5,
+        10
+      ]
+    },
+    "numeric": "铜钱 +1.80K；掉落 +5.0%（10层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "寻宝",
+      "affinity": "wealth",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_006",
+    "name": "古碑悟道",
+    "kind": "good",
+    "description": "获得修为并提高暴击6%，持续8层。",
+    "effects": {
+      "cult": 1300,
+      "mod": [
+        "crit",
+        6,
+        8
+      ]
+    },
+    "numeric": "修为 +1.30K；暴击 +6.0%（8层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_007",
+    "name": "荒寺夜宿",
+    "kind": "neutral",
+    "description": "生命提高8%，攻击降低3%，持续10层。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.08,
+          10
+        ],
+        [
+          "atkPct",
+          -0.03,
+          10
+        ]
+      ]
+    },
+    "numeric": "生命 +8.0%（10层）；攻击 -3.0%（10层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_008",
+    "name": "断桥捷径",
+    "kind": "neutral",
+    "description": "速度提高6，但闪避降低4%，持续8层。",
+    "effects": {
+      "mods": [
+        [
+          "speed",
+          6,
+          8
+        ],
+        [
+          "dodge",
+          -4,
+          8
+        ]
+      ]
+    },
+    "numeric": "速度 +6.0（8层）；闪避 -4.0%（8层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_009",
+    "name": "游侠赠酒",
+    "kind": "good",
+    "description": "获得灵石并提高Boss伤害5%，持续12层。",
+    "effects": {
+      "jade": 120,
+      "mod": [
+        "boss",
+        5,
+        12
+      ]
+    },
+    "numeric": "灵石 +120；Boss伤害 +5.0%（12层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "破阵",
+      "affinity": "aggressive",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_010",
+    "name": "失落钱袋",
+    "kind": "good",
+    "description": "获得铜钱。",
+    "effects": {
+      "coins": 2600
+    },
+    "numeric": "铜钱 +2.60K",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "资源",
+      "affinity": "wealth",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_011",
+    "name": "铁匠试锋",
+    "kind": "good",
+    "description": "随机获得一件当前层装备。",
+    "effects": {
+      "gear": 1
+    },
+    "numeric": "装备 +1件",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "军械",
+      "affinity": "wealth",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_012",
+    "name": "灵草坡",
+    "kind": "good",
+    "description": "修为与铜钱增加。",
+    "effects": {
+      "cult": 1000,
+      "coins": 1000
+    },
+    "numeric": "铜钱 +1K；修为 +1K",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "资源",
+      "affinity": "wealth",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_013",
+    "name": "落雷余烬",
+    "kind": "neutral",
+    "description": "破甲提高8%，抗暴降低5%，持续8层。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          8,
+          8
+        ],
+        [
+          "antiCrit",
+          -5,
+          8
+        ]
+      ]
+    },
+    "numeric": "穿甲 +8.0%（8层）；抗暴 -5.0%（8层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "破阵",
+      "affinity": "aggressive",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_014",
+    "name": "风口磨砺",
+    "kind": "good",
+    "description": "命中提高7%，持续10层。",
+    "effects": {
+      "mod": [
+        "accuracy",
+        7,
+        10
+      ]
+    },
+    "numeric": "命中 +7.0%（10层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_015",
+    "name": "旧卷残页",
+    "kind": "good",
+    "description": "当前功法获得残页。",
+    "effects": {
+      "page": 2
+    },
+    "numeric": "当前功法残页 +2",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "悟道",
+      "affinity": "wealth",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_016",
+    "name": "残阵推演",
+    "kind": "good",
+    "description": "防御提高7%，持续12层。",
+    "effects": {
+      "mod": [
+        "defPct",
+        0.07,
+        12
+      ]
+    },
+    "numeric": "防御 +7.0%（12层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_017",
+    "name": "赤壁余火",
+    "kind": "neutral",
+    "description": "暴伤提高14%，生命降低5%，持续10层。",
+    "effects": {
+      "mods": [
+        [
+          "critd",
+          14,
+          10
+        ],
+        [
+          "hpPct",
+          -0.05,
+          10
+        ]
+      ]
+    },
+    "numeric": "暴伤 +14%（10层）；生命 -5.0%（10层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_018",
+    "name": "寒潭静修",
+    "kind": "good",
+    "description": "修为增加并提高闪避5%，持续10层。",
+    "effects": {
+      "cult": 1400,
+      "mod": [
+        "dodge",
+        5,
+        10
+      ]
+    },
+    "numeric": "修为 +1.40K；闪避 +5.0%（10层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_019",
+    "name": "山贼赎金",
+    "kind": "neutral",
+    "description": "失去少量铜钱，获得灵石。",
+    "effects": {
+      "coins": -900,
+      "jade": 160
+    },
+    "numeric": "铜钱 -900；灵石 +160",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "资源",
+      "affinity": "wealth",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_020",
+    "name": "猎户指路",
+    "kind": "good",
+    "description": "未来12层挂机与掉落各提高4%。",
+    "effects": {
+      "mods": [
+        [
+          "idle",
+          4,
+          12
+        ],
+        [
+          "drop",
+          4,
+          12
+        ]
+      ]
+    },
+    "numeric": "挂机收益 +4.0%（12层）；掉落 +4.0%（12层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "寻宝",
+      "affinity": "wealth",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_021",
+    "name": "废墟军械",
+    "kind": "good",
+    "description": "获得一件品质至少稀有的装备。",
+    "effects": {
+      "gearRare": 1
+    },
+    "numeric": "稀有+装备 +1件",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "军械",
+      "affinity": "wealth",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_022",
+    "name": "乌云压城",
+    "kind": "bad",
+    "description": "未来8层攻击降低5%，但清除后奖励2回忆令。",
+    "effects": {
+      "mod": [
+        "atkPct",
+        -0.05,
+        8
+      ],
+      "memory": 2
+    },
+    "numeric": "回忆令 +2；攻击 -5.0%（8层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_023",
+    "name": "星夜疾行",
+    "kind": "neutral",
+    "description": "速度提高8，防御降低4%，持续10层。",
+    "effects": {
+      "mods": [
+        [
+          "speed",
+          8,
+          10
+        ],
+        [
+          "defPct",
+          -0.04,
+          10
+        ]
+      ]
+    },
+    "numeric": "速度 +8.0（10层）；防御 -4.0%（10层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_024",
+    "name": "铜雀旧梦",
+    "kind": "good",
+    "description": "获得铜钱与少量仙缘。",
+    "effects": {
+      "coins": 2200,
+      "fate": 1
+    },
+    "numeric": "铜钱 +2.20K；仙缘 +1",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "悟道",
+      "affinity": "wealth",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_025",
+    "name": "石门试炼",
+    "kind": "neutral",
+    "description": "Boss伤害提高10%，普通攻击降低4%，持续12层。",
+    "effects": {
+      "mods": [
+        [
+          "boss",
+          10,
+          12
+        ],
+        [
+          "atkPct",
+          -0.04,
+          12
+        ]
+      ]
+    },
+    "numeric": "Boss伤害 +10%（12层）；攻击 -4.0%（12层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "破阵",
+      "affinity": "aggressive",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_026",
+    "name": "祈雨法坛",
+    "kind": "good",
+    "description": "生命提高6%，吸血提高3%，持续10层。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.06,
+          10
+        ],
+        [
+          "lifesteal",
+          3,
+          10
+        ]
+      ]
+    },
+    "numeric": "生命 +6.0%（10层）；吸血 +3.0%（10层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_027",
+    "name": "野渡横舟",
+    "kind": "good",
+    "description": "获得回忆令并提高速度4，持续6层。",
+    "effects": {
+      "memory": 2,
+      "mod": [
+        "speed",
+        4,
+        6
+      ]
+    },
+    "numeric": "回忆令 +2；速度 +4.0（6层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "行军",
+      "affinity": "aggressive",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_028",
+    "name": "军粮仓",
+    "kind": "good",
+    "description": "铜钱、修为同时增加。",
+    "effects": {
+      "coins": 1600,
+      "cult": 1200
+    },
+    "numeric": "铜钱 +1.60K；修为 +1.20K",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "资源",
+      "affinity": "wealth",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_029",
+    "name": "碎甲残片",
+    "kind": "good",
+    "description": "破甲提高6%，持续14层。",
+    "effects": {
+      "mod": [
+        "armorpen",
+        6,
+        14
+      ]
+    },
+    "numeric": "穿甲 +6.0%（14层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "破阵",
+      "affinity": "aggressive",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_030",
+    "name": "老将点拨",
+    "kind": "good",
+    "description": "抗暴提高7%，持续12层。",
+    "effects": {
+      "mod": [
+        "antiCrit",
+        7,
+        12
+      ]
+    },
+    "numeric": "抗暴 +7.0%（12层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_031",
+    "name": "密林伏线",
+    "kind": "neutral",
+    "description": "掉落提高8%，命中降低4%，持续10层。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          10
+        ],
+        [
+          "accuracy",
+          -4,
+          10
+        ]
+      ]
+    },
+    "numeric": "掉落 +8.0%（10层）；命中 -4.0%（10层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_032",
+    "name": "雨夜借宿",
+    "kind": "good",
+    "description": "恢复冒险节奏：生命与防御各提高4%，持续8层。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.04,
+          8
+        ],
+        [
+          "defPct",
+          0.04,
+          8
+        ]
+      ]
+    },
+    "numeric": "生命 +4.0%（8层）；防御 +4.0%（8层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_033",
+    "name": "残剑共鸣",
+    "kind": "good",
+    "description": "暴击提高5%、暴伤提高8%，持续8层。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          5,
+          8
+        ],
+        [
+          "critd",
+          8,
+          8
+        ]
+      ]
+    },
+    "numeric": "暴击 +5.0%（8层）；暴伤 +8.0%（8层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_034",
+    "name": "驿站悬赏",
+    "kind": "good",
+    "description": "获得铜钱，未来10层Boss伤害提高6%。",
+    "effects": {
+      "coins": 1700,
+      "mod": [
+        "boss",
+        6,
+        10
+      ]
+    },
+    "numeric": "铜钱 +1.70K；Boss伤害 +6.0%（10层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "破阵",
+      "affinity": "aggressive",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_035",
+    "name": "流民相助",
+    "kind": "neutral",
+    "description": "付出铜钱换取修为和幸运。",
+    "effects": {
+      "coins": -1200,
+      "cult": 1800,
+      "mod": [
+        "luck",
+        8,
+        12
+      ]
+    },
+    "numeric": "铜钱 -1.20K；修为 +1.80K；幸运 +8.0（12层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "寻宝",
+      "affinity": "wealth",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_036",
+    "name": "河洛星图",
+    "kind": "good",
+    "description": "获得1仙缘并提高命中5%，持续12层。",
+    "effects": {
+      "fate": 1,
+      "mod": [
+        "accuracy",
+        5,
+        12
+      ]
+    },
+    "numeric": "仙缘 +1；命中 +5.0%（12层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "悟道",
+      "affinity": "wealth",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_037",
+    "name": "旧主军令",
+    "kind": "neutral",
+    "description": "攻击提高8%，防御降低6%，持续10层。",
+    "effects": {
+      "mods": [
+        [
+          "atkPct",
+          0.08,
+          10
+        ],
+        [
+          "defPct",
+          -0.06,
+          10
+        ]
+      ]
+    },
+    "numeric": "攻击 +8.0%（10层）；防御 -6.0%（10层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_038",
+    "name": "云海灵台",
+    "kind": "good",
+    "description": "灵石、回忆令各增加。",
+    "effects": {
+      "jade": 180,
+      "memory": 2
+    },
+    "numeric": "灵石 +180；回忆令 +2",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "行路",
+      "affinity": "wealth",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_039",
+    "name": "百战余威",
+    "kind": "good",
+    "description": "未来15层攻击、防御各提高4%。",
+    "effects": {
+      "mods": [
+        [
+          "atkPct",
+          0.04,
+          15
+        ],
+        [
+          "defPct",
+          0.04,
+          15
+        ]
+      ]
+    },
+    "numeric": "攻击 +4.0%（15层）；防御 +4.0%（15层）",
+    "meta": {
+      "theme": "基础机缘",
+      "tag": "基础",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 0
+    }
+  },
+  {
+    "id": "chance_040",
+    "name": "青竹山径·旧物清点",
+    "kind": "good",
+    "description": "青竹山径·旧物清点：整理旧物换得铜钱与灵石。",
+    "effects": {
+      "coins": 1025,
+      "jade": 56
+    },
+    "numeric": "铜钱 +1.02K；灵石 +56",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "资源",
+      "affinity": "wealth",
+      "tier": 1
+    }
+  },
+  {
+    "id": "chance_041",
+    "name": "青竹山径·险径试探",
+    "kind": "neutral",
+    "description": "青竹山径·险径试探：以险境磨招，换取攻势但承担防守代价。",
+    "effects": {
+      "cult": 1140,
+      "mods": [
+        [
+          "atkPct",
+          0.037000000000000005,
+          9
+        ],
+        [
+          "defPct",
+          -0.016,
+          9
+        ]
+      ]
+    },
+    "numeric": "修为 +1.14K；攻击 +3.7%（9层）；防御 -1.6%（9层）",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 2
+    }
+  },
+  {
+    "id": "chance_042",
+    "name": "青竹山径·残阵推演",
+    "kind": "neutral",
+    "description": "青竹山径·残阵推演：走捷径拾回旧忆，速度提升但闪避下降。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          5,
+          10
+        ],
+        [
+          "dodge",
+          -1,
+          10
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +5.0（10层）；闪避 -1.0%（10层）",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "行路",
+      "affinity": "aggressive",
+      "tier": 3
+    }
+  },
+  {
+    "id": "chance_043",
+    "name": "青竹山径·商队议价",
+    "kind": "good",
+    "description": "青竹山径·商队议价：借地势调息，生命与防御同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.025,
+          11
+        ],
+        [
+          "defPct",
+          0.018,
+          11
+        ]
+      ]
+    },
+    "numeric": "生命 +2.5%（11层）；防御 +1.8%（11层）",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 4
+    }
+  },
+  {
+    "id": "chance_044",
+    "name": "青竹山径·夜宿听风",
+    "kind": "good",
+    "description": "青竹山径·夜宿听风：从残阵中寻找破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          12
+        ],
+        [
+          "boss",
+          7,
+          12
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（12层）；Boss伤害 +7.0%（12层）",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "破阵",
+      "affinity": "aggressive",
+      "tier": 5
+    }
+  },
+  {
+    "id": "chance_045",
+    "name": "青竹山径·断桥择路",
+    "kind": "good",
+    "description": "青竹山径·断桥择路：交换情报，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          13
+        ],
+        [
+          "luck",
+          9,
+          13
+        ]
+      ],
+      "coins": 1140
+    },
+    "numeric": "铜钱 +1.14K；掉落 +8.0%（13层）；幸运 +9.0（13层）",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "寻宝",
+      "affinity": "wealth",
+      "tier": 6
+    }
+  },
+  {
+    "id": "chance_046",
+    "name": "青竹山径·古卷对照",
+    "kind": "good",
+    "description": "青竹山径·古卷对照：参悟战法，暴击路线暂时强化。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          14
+        ],
+        [
+          "critd",
+          12,
+          14
+        ]
+      ],
+      "jade": 86
+    },
+    "numeric": "灵石 +86；暴击 +4.0%（14层）；暴伤 +12%（14层）",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "悟道",
+      "affinity": "aggressive",
+      "tier": 7
+    }
+  },
+  {
+    "id": "chance_047",
+    "name": "青竹山径·灵脉共鸣",
+    "kind": "neutral",
+    "description": "青竹山径·灵脉共鸣：支付整备成本换取军械与命中提升。",
+    "effects": {
+      "coins": -1072,
+      "gear": 0,
+      "gearRare": 0,
+      "mods": [
+        [
+          "accuracy",
+          2,
+          15
+        ]
+      ]
+    },
+    "numeric": "铜钱 -1.07K；命中 +2.0%（15层）",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "整备",
+      "affinity": "wealth",
+      "tier": 8
+    }
+  },
+  {
+    "id": "chance_048",
+    "name": "青竹山径·雨后寻踪",
+    "kind": "good",
+    "description": "青竹山径·雨后寻踪：校对旧卷，获得功法残页并稳定命中与抗暴。",
+    "effects": {
+      "page": 2,
+      "mods": [
+        [
+          "accuracy",
+          7,
+          7
+        ],
+        [
+          "antiCrit",
+          3,
+          7
+        ]
+      ]
+    },
+    "numeric": "命中 +7.0%（7层）；抗暴 +3.0%（7层）；当前功法残页 +2",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "悟道",
+      "affinity": "guard",
+      "tier": 9
+    }
+  },
+  {
+    "id": "chance_049",
+    "name": "青竹山径·军械换修",
+    "kind": "neutral",
+    "description": "青竹山径·军械换修：消耗灵石布阵，换取攻血同步强化。",
+    "effects": {
+      "jade": -148,
+      "mods": [
+        [
+          "atkPct",
+          0.043000000000000003,
+          8
+        ],
+        [
+          "hpPct",
+          0.026000000000000002,
+          8
+        ]
+      ]
+    },
+    "numeric": "灵石 -148；攻击 +4.3%（8层）；生命 +2.6%（8层）",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "布阵",
+      "affinity": "aggressive",
+      "tier": 10
+    }
+  },
+  {
+    "id": "chance_050",
+    "name": "青竹山径·药圃采撷",
+    "kind": "good",
+    "description": "青竹山径·药圃采撷：旧忆提醒防守节奏，提高抗暴与闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "antiCrit",
+          8,
+          9
+        ],
+        [
+          "dodge",
+          5,
+          9
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；抗暴 +8.0%（9层）；闪避 +5.0%（9层）",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 11
+    }
+  },
+  {
+    "id": "chance_051",
+    "name": "青竹山径·驿站交易",
+    "kind": "good",
+    "description": "青竹山径·驿站交易：完成委托，获得铜钱、修为与短期掉落提升。",
+    "effects": {
+      "coins": 2278,
+      "cult": 2138,
+      "mods": [
+        [
+          "drop",
+          2,
+          10
+        ]
+      ]
+    },
+    "numeric": "铜钱 +2.28K；修为 +2.14K；掉落 +2.0%（10层）",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "委托",
+      "affinity": "wealth",
+      "tier": 12
+    }
+  },
+  {
+    "id": "chance_052",
+    "name": "青竹山径·河滩拾遗",
+    "kind": "neutral",
+    "description": "青竹山径·河滩拾遗：抢修残甲，获得装备但暂时牺牲防御换取机动。",
+    "effects": {
+      "gear": 1,
+      "mods": [
+        [
+          "defPct",
+          -0.02,
+          11
+        ],
+        [
+          "speed",
+          5,
+          11
+        ]
+      ]
+    },
+    "numeric": "防御 -2.0%（11层）；速度 +5.0（11层）；装备 +1件",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "军械",
+      "affinity": "aggressive",
+      "tier": 13
+    }
+  },
+  {
+    "id": "chance_053",
+    "name": "青竹山径·遗阵试锋",
+    "kind": "good",
+    "description": "青竹山径·遗阵试锋：记下灵机，获得回忆令并提高幸运。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "luck",
+          8,
+          12
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；幸运 +8.0（12层）",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "天机",
+      "affinity": "wealth",
+      "tier": 14
+    }
+  },
+  {
+    "id": "chance_054",
+    "name": "青竹山径·星象观测",
+    "kind": "good",
+    "description": "青竹山径·星象观测：重排行军路线，速度与命中同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "speed",
+          6,
+          13
+        ],
+        [
+          "accuracy",
+          3,
+          13
+        ]
+      ]
+    },
+    "numeric": "速度 +6.0（13层）；命中 +3.0%（13层）",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "行军",
+      "affinity": "aggressive",
+      "tier": 15
+    }
+  },
+  {
+    "id": "chance_055",
+    "name": "青竹山径·山鬼传闻",
+    "kind": "good",
+    "description": "青竹山径·山鬼传闻：调息养血，提高生命与吸血续航。",
+    "effects": {
+      "mods": [
+        [
+          "lifesteal",
+          2,
+          14
+        ],
+        [
+          "hpPct",
+          0.02,
+          14
+        ]
+      ]
+    },
+    "numeric": "吸血 +2.0%（14层）；生命 +2.0%（14层）",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "续航",
+      "affinity": "guard",
+      "tier": 16
+    }
+  },
+  {
+    "id": "chance_056",
+    "name": "青竹山径·烽火遗迹",
+    "kind": "neutral",
+    "description": "青竹山径·烽火遗迹：押注守关战，Boss伤害和暴击提高但防御略降。",
+    "effects": {
+      "mods": [
+        [
+          "boss",
+          7,
+          15
+        ],
+        [
+          "crit",
+          3,
+          15
+        ],
+        [
+          "defPct",
+          -0.012,
+          15
+        ]
+      ]
+    },
+    "numeric": "Boss伤害 +7.0%（15层）；暴击 +3.0%（15层）；防御 -1.2%（15层）",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "挑战",
+      "affinity": "aggressive",
+      "tier": 17
+    }
+  },
+  {
+    "id": "chance_057",
+    "name": "青竹山径·云路歇脚",
+    "kind": "neutral",
+    "description": "青竹山径·云路歇脚：花钱雇佣向导，换取攻击与穿甲优势。",
+    "effects": {
+      "coins": -2712,
+      "mods": [
+        [
+          "atkPct",
+          0.045,
+          7
+        ],
+        [
+          "armorpen",
+          4,
+          7
+        ]
+      ]
+    },
+    "numeric": "铜钱 -2.71K；攻击 +4.5%（7层）；穿甲 +4.0%（7层）",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "交易",
+      "affinity": "wealth",
+      "tier": 18
+    }
+  },
+  {
+    "id": "chance_058",
+    "name": "青竹山径·石窟封印",
+    "kind": "good",
+    "description": "青竹山径·石窟封印：借地利守势，获得灵石并提高防御与闪避。",
+    "effects": {
+      "jade": 226,
+      "mods": [
+        [
+          "defPct",
+          0.032,
+          8
+        ],
+        [
+          "dodge",
+          6,
+          8
+        ]
+      ]
+    },
+    "numeric": "灵石 +226；防御 +3.2%（8层）；闪避 +6.0%（8层）",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 19
+    }
+  },
+  {
+    "id": "chance_059",
+    "name": "青竹山径·旧友来信",
+    "kind": "good",
+    "description": "青竹山径·旧友来信：清点遗留军械，获得装备并提高短期掉落。",
+    "effects": {
+      "gearRare": 1,
+      "mods": [
+        [
+          "drop",
+          3,
+          9
+        ]
+      ]
+    },
+    "numeric": "掉落 +3.0%（9层）；稀有+装备 +1件",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "军械",
+      "affinity": "wealth",
+      "tier": 20
+    }
+  },
+  {
+    "id": "chance_060",
+    "name": "青竹山径·归途抉择",
+    "kind": "good",
+    "description": "青竹山径·归途抉择：完成一段长途抉择，获得更持久的综合增益。",
+    "effects": {
+      "mods": [
+        [
+          "atkPct",
+          0.025,
+          15
+        ],
+        [
+          "defPct",
+          0.025,
+          15
+        ],
+        [
+          "speed",
+          2,
+          15
+        ]
+      ],
+      "coins": 2746
+    },
+    "numeric": "铜钱 +2.75K；攻击 +2.5%（15层）；防御 +2.5%（15层）；速度 +2.0（15层）",
+    "meta": {
+      "theme": "青竹山径",
+      "tag": "山林",
+      "category": "长线",
+      "affinity": "aggressive",
+      "tier": 21
+    }
+  },
+  {
+    "id": "chance_061",
+    "name": "古战残垒·旧物清点",
+    "kind": "good",
+    "description": "古战残垒·旧物清点：整理旧物换得铜钱与灵石。",
+    "effects": {
+      "coins": 1080,
+      "jade": 56
+    },
+    "numeric": "铜钱 +1.08K；灵石 +56",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "资源",
+      "affinity": "wealth",
+      "tier": 1
+    }
+  },
+  {
+    "id": "chance_062",
+    "name": "古战残垒·险径试探",
+    "kind": "neutral",
+    "description": "古战残垒·险径试探：以险境磨招，换取攻势但承担防守代价。",
+    "effects": {
+      "cult": 1140,
+      "mods": [
+        [
+          "atkPct",
+          0.037000000000000005,
+          12
+        ],
+        [
+          "defPct",
+          -0.016,
+          12
+        ]
+      ]
+    },
+    "numeric": "修为 +1.14K；攻击 +3.7%（12层）；防御 -1.6%（12层）",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 2
+    }
+  },
+  {
+    "id": "chance_063",
+    "name": "古战残垒·残阵推演",
+    "kind": "neutral",
+    "description": "古战残垒·残阵推演：走捷径拾回旧忆，速度提升但闪避下降。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          5,
+          13
+        ],
+        [
+          "dodge",
+          -1,
+          13
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +5.0（13层）；闪避 -1.0%（13层）",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "行路",
+      "affinity": "aggressive",
+      "tier": 3
+    }
+  },
+  {
+    "id": "chance_064",
+    "name": "古战残垒·商队议价",
+    "kind": "good",
+    "description": "古战残垒·商队议价：借地势调息，生命与防御同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.025,
+          14
+        ],
+        [
+          "defPct",
+          0.018,
+          14
+        ]
+      ]
+    },
+    "numeric": "生命 +2.5%（14层）；防御 +1.8%（14层）",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 4
+    }
+  },
+  {
+    "id": "chance_065",
+    "name": "古战残垒·夜宿听风",
+    "kind": "good",
+    "description": "古战残垒·夜宿听风：从残阵中寻找破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          15
+        ],
+        [
+          "boss",
+          7,
+          15
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（15层）；Boss伤害 +7.0%（15层）",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "破阵",
+      "affinity": "aggressive",
+      "tier": 5
+    }
+  },
+  {
+    "id": "chance_066",
+    "name": "古战残垒·断桥择路",
+    "kind": "good",
+    "description": "古战残垒·断桥择路：交换情报，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          7
+        ],
+        [
+          "luck",
+          9,
+          7
+        ]
+      ],
+      "coins": 1140
+    },
+    "numeric": "铜钱 +1.14K；掉落 +8.0%（7层）；幸运 +9.0（7层）",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "寻宝",
+      "affinity": "wealth",
+      "tier": 6
+    }
+  },
+  {
+    "id": "chance_067",
+    "name": "古战残垒·古卷对照",
+    "kind": "good",
+    "description": "古战残垒·古卷对照：参悟战法，暴击路线暂时强化。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          8
+        ],
+        [
+          "critd",
+          12,
+          8
+        ]
+      ],
+      "jade": 86
+    },
+    "numeric": "灵石 +86；暴击 +4.0%（8层）；暴伤 +12%（8层）",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "悟道",
+      "affinity": "aggressive",
+      "tier": 7
+    }
+  },
+  {
+    "id": "chance_068",
+    "name": "古战残垒·灵脉共鸣",
+    "kind": "neutral",
+    "description": "古战残垒·灵脉共鸣：支付整备成本换取军械与命中提升。",
+    "effects": {
+      "coins": -1072,
+      "gear": 0,
+      "gearRare": 0,
+      "mods": [
+        [
+          "accuracy",
+          2,
+          9
+        ]
+      ]
+    },
+    "numeric": "铜钱 -1.07K；命中 +2.0%（9层）",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "整备",
+      "affinity": "wealth",
+      "tier": 8
+    }
+  },
+  {
+    "id": "chance_069",
+    "name": "古战残垒·雨后寻踪",
+    "kind": "good",
+    "description": "古战残垒·雨后寻踪：校对旧卷，获得功法残页并稳定命中与抗暴。",
+    "effects": {
+      "page": 2,
+      "mods": [
+        [
+          "accuracy",
+          7,
+          10
+        ],
+        [
+          "antiCrit",
+          3,
+          10
+        ]
+      ]
+    },
+    "numeric": "命中 +7.0%（10层）；抗暴 +3.0%（10层）；当前功法残页 +2",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "悟道",
+      "affinity": "guard",
+      "tier": 9
+    }
+  },
+  {
+    "id": "chance_070",
+    "name": "古战残垒·军械换修",
+    "kind": "neutral",
+    "description": "古战残垒·军械换修：消耗灵石布阵，换取攻血同步强化。",
+    "effects": {
+      "jade": -148,
+      "mods": [
+        [
+          "atkPct",
+          0.043000000000000003,
+          11
+        ],
+        [
+          "hpPct",
+          0.026000000000000002,
+          11
+        ]
+      ]
+    },
+    "numeric": "灵石 -148；攻击 +4.3%（11层）；生命 +2.6%（11层）",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "布阵",
+      "affinity": "aggressive",
+      "tier": 10
+    }
+  },
+  {
+    "id": "chance_071",
+    "name": "古战残垒·药圃采撷",
+    "kind": "good",
+    "description": "古战残垒·药圃采撷：旧忆提醒防守节奏，提高抗暴与闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "antiCrit",
+          8,
+          12
+        ],
+        [
+          "dodge",
+          5,
+          12
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；抗暴 +8.0%（12层）；闪避 +5.0%（12层）",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 11
+    }
+  },
+  {
+    "id": "chance_072",
+    "name": "古战残垒·驿站交易",
+    "kind": "good",
+    "description": "古战残垒·驿站交易：完成委托，获得铜钱、修为与短期掉落提升。",
+    "effects": {
+      "coins": 2278,
+      "cult": 2138,
+      "mods": [
+        [
+          "drop",
+          2,
+          13
+        ]
+      ]
+    },
+    "numeric": "铜钱 +2.28K；修为 +2.14K；掉落 +2.0%（13层）",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "委托",
+      "affinity": "wealth",
+      "tier": 12
+    }
+  },
+  {
+    "id": "chance_073",
+    "name": "古战残垒·河滩拾遗",
+    "kind": "neutral",
+    "description": "古战残垒·河滩拾遗：抢修残甲，获得装备但暂时牺牲防御换取机动。",
+    "effects": {
+      "gear": 1,
+      "mods": [
+        [
+          "defPct",
+          -0.02,
+          14
+        ],
+        [
+          "speed",
+          5,
+          14
+        ]
+      ]
+    },
+    "numeric": "防御 -2.0%（14层）；速度 +5.0（14层）；装备 +1件",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "军械",
+      "affinity": "aggressive",
+      "tier": 13
+    }
+  },
+  {
+    "id": "chance_074",
+    "name": "古战残垒·遗阵试锋",
+    "kind": "good",
+    "description": "古战残垒·遗阵试锋：记下灵机，获得回忆令并提高幸运。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "luck",
+          8,
+          15
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；幸运 +8.0（15层）",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "天机",
+      "affinity": "wealth",
+      "tier": 14
+    }
+  },
+  {
+    "id": "chance_075",
+    "name": "古战残垒·星象观测",
+    "kind": "good",
+    "description": "古战残垒·星象观测：重排行军路线，速度与命中同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "speed",
+          6,
+          7
+        ],
+        [
+          "accuracy",
+          3,
+          7
+        ]
+      ]
+    },
+    "numeric": "速度 +6.0（7层）；命中 +3.0%（7层）",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "行军",
+      "affinity": "aggressive",
+      "tier": 15
+    }
+  },
+  {
+    "id": "chance_076",
+    "name": "古战残垒·山鬼传闻",
+    "kind": "good",
+    "description": "古战残垒·山鬼传闻：调息养血，提高生命与吸血续航。",
+    "effects": {
+      "mods": [
+        [
+          "lifesteal",
+          2,
+          8
+        ],
+        [
+          "hpPct",
+          0.02,
+          8
+        ]
+      ]
+    },
+    "numeric": "吸血 +2.0%（8层）；生命 +2.0%（8层）",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "续航",
+      "affinity": "guard",
+      "tier": 16
+    }
+  },
+  {
+    "id": "chance_077",
+    "name": "古战残垒·烽火遗迹",
+    "kind": "neutral",
+    "description": "古战残垒·烽火遗迹：押注守关战，Boss伤害和暴击提高但防御略降。",
+    "effects": {
+      "mods": [
+        [
+          "boss",
+          7,
+          9
+        ],
+        [
+          "crit",
+          3,
+          9
+        ],
+        [
+          "defPct",
+          -0.012,
+          9
+        ]
+      ]
+    },
+    "numeric": "Boss伤害 +7.0%（9层）；暴击 +3.0%（9层）；防御 -1.2%（9层）",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "挑战",
+      "affinity": "aggressive",
+      "tier": 17
+    }
+  },
+  {
+    "id": "chance_078",
+    "name": "古战残垒·云路歇脚",
+    "kind": "neutral",
+    "description": "古战残垒·云路歇脚：花钱雇佣向导，换取攻击与穿甲优势。",
+    "effects": {
+      "coins": -2712,
+      "mods": [
+        [
+          "atkPct",
+          0.045,
+          10
+        ],
+        [
+          "armorpen",
+          4,
+          10
+        ]
+      ]
+    },
+    "numeric": "铜钱 -2.71K；攻击 +4.5%（10层）；穿甲 +4.0%（10层）",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "交易",
+      "affinity": "wealth",
+      "tier": 18
+    }
+  },
+  {
+    "id": "chance_079",
+    "name": "古战残垒·石窟封印",
+    "kind": "good",
+    "description": "古战残垒·石窟封印：借地利守势，获得灵石并提高防御与闪避。",
+    "effects": {
+      "jade": 226,
+      "mods": [
+        [
+          "defPct",
+          0.032,
+          11
+        ],
+        [
+          "dodge",
+          6,
+          11
+        ]
+      ]
+    },
+    "numeric": "灵石 +226；防御 +3.2%（11层）；闪避 +6.0%（11层）",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 19
+    }
+  },
+  {
+    "id": "chance_080",
+    "name": "古战残垒·旧友来信",
+    "kind": "good",
+    "description": "古战残垒·旧友来信：清点遗留军械，获得装备并提高短期掉落。",
+    "effects": {
+      "gearRare": 1,
+      "mods": [
+        [
+          "drop",
+          3,
+          12
+        ]
+      ]
+    },
+    "numeric": "掉落 +3.0%（12层）；稀有+装备 +1件",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "军械",
+      "affinity": "wealth",
+      "tier": 20
+    }
+  },
+  {
+    "id": "chance_081",
+    "name": "古战残垒·归途抉择",
+    "kind": "good",
+    "description": "古战残垒·归途抉择：完成一段长途抉择，获得更持久的综合增益。",
+    "effects": {
+      "mods": [
+        [
+          "atkPct",
+          0.025,
+          18
+        ],
+        [
+          "defPct",
+          0.025,
+          18
+        ],
+        [
+          "speed",
+          2,
+          18
+        ]
+      ],
+      "coins": 2746
+    },
+    "numeric": "铜钱 +2.75K；攻击 +2.5%（18层）；防御 +2.5%（18层）；速度 +2.0（18层）",
+    "meta": {
+      "theme": "古战残垒",
+      "tag": "战场",
+      "category": "长线",
+      "affinity": "aggressive",
+      "tier": 21
+    }
+  },
+  {
+    "id": "chance_082",
+    "name": "云海驿路·旧物清点",
+    "kind": "good",
+    "description": "云海驿路·旧物清点：整理旧物换得铜钱与灵石。",
+    "effects": {
+      "coins": 1135,
+      "jade": 56
+    },
+    "numeric": "铜钱 +1.14K；灵石 +56",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "资源",
+      "affinity": "wealth",
+      "tier": 1
+    }
+  },
+  {
+    "id": "chance_083",
+    "name": "云海驿路·险径试探",
+    "kind": "neutral",
+    "description": "云海驿路·险径试探：以险境磨招，换取攻势但承担防守代价。",
+    "effects": {
+      "cult": 1140,
+      "mods": [
+        [
+          "atkPct",
+          0.037000000000000005,
+          15
+        ],
+        [
+          "defPct",
+          -0.016,
+          15
+        ]
+      ]
+    },
+    "numeric": "修为 +1.14K；攻击 +3.7%（15层）；防御 -1.6%（15层）",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 2
+    }
+  },
+  {
+    "id": "chance_084",
+    "name": "云海驿路·残阵推演",
+    "kind": "neutral",
+    "description": "云海驿路·残阵推演：走捷径拾回旧忆，速度提升但闪避下降。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          5,
+          7
+        ],
+        [
+          "dodge",
+          -1,
+          7
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +5.0（7层）；闪避 -1.0%（7层）",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "行路",
+      "affinity": "aggressive",
+      "tier": 3
+    }
+  },
+  {
+    "id": "chance_085",
+    "name": "云海驿路·商队议价",
+    "kind": "good",
+    "description": "云海驿路·商队议价：借地势调息，生命与防御同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.025,
+          8
+        ],
+        [
+          "defPct",
+          0.018,
+          8
+        ]
+      ]
+    },
+    "numeric": "生命 +2.5%（8层）；防御 +1.8%（8层）",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 4
+    }
+  },
+  {
+    "id": "chance_086",
+    "name": "云海驿路·夜宿听风",
+    "kind": "good",
+    "description": "云海驿路·夜宿听风：从残阵中寻找破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          9
+        ],
+        [
+          "boss",
+          7,
+          9
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（9层）；Boss伤害 +7.0%（9层）",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "破阵",
+      "affinity": "aggressive",
+      "tier": 5
+    }
+  },
+  {
+    "id": "chance_087",
+    "name": "云海驿路·断桥择路",
+    "kind": "good",
+    "description": "云海驿路·断桥择路：交换情报，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          10
+        ],
+        [
+          "luck",
+          9,
+          10
+        ]
+      ],
+      "coins": 1140
+    },
+    "numeric": "铜钱 +1.14K；掉落 +8.0%（10层）；幸运 +9.0（10层）",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "寻宝",
+      "affinity": "wealth",
+      "tier": 6
+    }
+  },
+  {
+    "id": "chance_088",
+    "name": "云海驿路·古卷对照",
+    "kind": "good",
+    "description": "云海驿路·古卷对照：参悟战法，暴击路线暂时强化。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          11
+        ],
+        [
+          "critd",
+          12,
+          11
+        ]
+      ],
+      "jade": 86
+    },
+    "numeric": "灵石 +86；暴击 +4.0%（11层）；暴伤 +12%（11层）",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "悟道",
+      "affinity": "aggressive",
+      "tier": 7
+    }
+  },
+  {
+    "id": "chance_089",
+    "name": "云海驿路·灵脉共鸣",
+    "kind": "neutral",
+    "description": "云海驿路·灵脉共鸣：支付整备成本换取军械与命中提升。",
+    "effects": {
+      "coins": -1072,
+      "gear": 0,
+      "gearRare": 0,
+      "mods": [
+        [
+          "accuracy",
+          2,
+          12
+        ]
+      ]
+    },
+    "numeric": "铜钱 -1.07K；命中 +2.0%（12层）",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "整备",
+      "affinity": "wealth",
+      "tier": 8
+    }
+  },
+  {
+    "id": "chance_090",
+    "name": "云海驿路·雨后寻踪",
+    "kind": "good",
+    "description": "云海驿路·雨后寻踪：校对旧卷，获得功法残页并稳定命中与抗暴。",
+    "effects": {
+      "page": 2,
+      "mods": [
+        [
+          "accuracy",
+          7,
+          13
+        ],
+        [
+          "antiCrit",
+          3,
+          13
+        ]
+      ]
+    },
+    "numeric": "命中 +7.0%（13层）；抗暴 +3.0%（13层）；当前功法残页 +2",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "悟道",
+      "affinity": "guard",
+      "tier": 9
+    }
+  },
+  {
+    "id": "chance_091",
+    "name": "云海驿路·军械换修",
+    "kind": "neutral",
+    "description": "云海驿路·军械换修：消耗灵石布阵，换取攻血同步强化。",
+    "effects": {
+      "jade": -148,
+      "mods": [
+        [
+          "atkPct",
+          0.043000000000000003,
+          14
+        ],
+        [
+          "hpPct",
+          0.026000000000000002,
+          14
+        ]
+      ]
+    },
+    "numeric": "灵石 -148；攻击 +4.3%（14层）；生命 +2.6%（14层）",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "布阵",
+      "affinity": "aggressive",
+      "tier": 10
+    }
+  },
+  {
+    "id": "chance_092",
+    "name": "云海驿路·药圃采撷",
+    "kind": "good",
+    "description": "云海驿路·药圃采撷：旧忆提醒防守节奏，提高抗暴与闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "antiCrit",
+          8,
+          15
+        ],
+        [
+          "dodge",
+          5,
+          15
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；抗暴 +8.0%（15层）；闪避 +5.0%（15层）",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 11
+    }
+  },
+  {
+    "id": "chance_093",
+    "name": "云海驿路·驿站交易",
+    "kind": "good",
+    "description": "云海驿路·驿站交易：完成委托，获得铜钱、修为与短期掉落提升。",
+    "effects": {
+      "coins": 2278,
+      "cult": 2138,
+      "mods": [
+        [
+          "drop",
+          2,
+          7
+        ]
+      ]
+    },
+    "numeric": "铜钱 +2.28K；修为 +2.14K；掉落 +2.0%（7层）",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "委托",
+      "affinity": "wealth",
+      "tier": 12
+    }
+  },
+  {
+    "id": "chance_094",
+    "name": "云海驿路·河滩拾遗",
+    "kind": "neutral",
+    "description": "云海驿路·河滩拾遗：抢修残甲，获得装备但暂时牺牲防御换取机动。",
+    "effects": {
+      "gear": 1,
+      "mods": [
+        [
+          "defPct",
+          -0.02,
+          8
+        ],
+        [
+          "speed",
+          5,
+          8
+        ]
+      ]
+    },
+    "numeric": "防御 -2.0%（8层）；速度 +5.0（8层）；装备 +1件",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "军械",
+      "affinity": "aggressive",
+      "tier": 13
+    }
+  },
+  {
+    "id": "chance_095",
+    "name": "云海驿路·遗阵试锋",
+    "kind": "good",
+    "description": "云海驿路·遗阵试锋：记下灵机，获得回忆令并提高幸运。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "luck",
+          8,
+          9
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；幸运 +8.0（9层）",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "天机",
+      "affinity": "wealth",
+      "tier": 14
+    }
+  },
+  {
+    "id": "chance_096",
+    "name": "云海驿路·星象观测",
+    "kind": "good",
+    "description": "云海驿路·星象观测：重排行军路线，速度与命中同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "speed",
+          6,
+          10
+        ],
+        [
+          "accuracy",
+          3,
+          10
+        ]
+      ]
+    },
+    "numeric": "速度 +6.0（10层）；命中 +3.0%（10层）",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "行军",
+      "affinity": "aggressive",
+      "tier": 15
+    }
+  },
+  {
+    "id": "chance_097",
+    "name": "云海驿路·山鬼传闻",
+    "kind": "good",
+    "description": "云海驿路·山鬼传闻：调息养血，提高生命与吸血续航。",
+    "effects": {
+      "mods": [
+        [
+          "lifesteal",
+          2,
+          11
+        ],
+        [
+          "hpPct",
+          0.02,
+          11
+        ]
+      ]
+    },
+    "numeric": "吸血 +2.0%（11层）；生命 +2.0%（11层）",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "续航",
+      "affinity": "guard",
+      "tier": 16
+    }
+  },
+  {
+    "id": "chance_098",
+    "name": "云海驿路·烽火遗迹",
+    "kind": "neutral",
+    "description": "云海驿路·烽火遗迹：押注守关战，Boss伤害和暴击提高但防御略降。",
+    "effects": {
+      "mods": [
+        [
+          "boss",
+          7,
+          12
+        ],
+        [
+          "crit",
+          3,
+          12
+        ],
+        [
+          "defPct",
+          -0.012,
+          12
+        ]
+      ]
+    },
+    "numeric": "Boss伤害 +7.0%（12层）；暴击 +3.0%（12层）；防御 -1.2%（12层）",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "挑战",
+      "affinity": "aggressive",
+      "tier": 17
+    }
+  },
+  {
+    "id": "chance_099",
+    "name": "云海驿路·云路歇脚",
+    "kind": "neutral",
+    "description": "云海驿路·云路歇脚：花钱雇佣向导，换取攻击与穿甲优势。",
+    "effects": {
+      "coins": -2712,
+      "mods": [
+        [
+          "atkPct",
+          0.045,
+          13
+        ],
+        [
+          "armorpen",
+          4,
+          13
+        ]
+      ]
+    },
+    "numeric": "铜钱 -2.71K；攻击 +4.5%（13层）；穿甲 +4.0%（13层）",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "交易",
+      "affinity": "wealth",
+      "tier": 18
+    }
+  },
+  {
+    "id": "chance_100",
+    "name": "云海驿路·石窟封印",
+    "kind": "good",
+    "description": "云海驿路·石窟封印：借地利守势，获得灵石并提高防御与闪避。",
+    "effects": {
+      "jade": 226,
+      "mods": [
+        [
+          "defPct",
+          0.032,
+          14
+        ],
+        [
+          "dodge",
+          6,
+          14
+        ]
+      ]
+    },
+    "numeric": "灵石 +226；防御 +3.2%（14层）；闪避 +6.0%（14层）",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 19
+    }
+  },
+  {
+    "id": "chance_101",
+    "name": "云海驿路·旧友来信",
+    "kind": "good",
+    "description": "云海驿路·旧友来信：清点遗留军械，获得装备并提高短期掉落。",
+    "effects": {
+      "gearRare": 1,
+      "mods": [
+        [
+          "drop",
+          3,
+          15
+        ]
+      ]
+    },
+    "numeric": "掉落 +3.0%（15层）；稀有+装备 +1件",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "军械",
+      "affinity": "wealth",
+      "tier": 20
+    }
+  },
+  {
+    "id": "chance_102",
+    "name": "云海驿路·归途抉择",
+    "kind": "good",
+    "description": "云海驿路·归途抉择：完成一段长途抉择，获得更持久的综合增益。",
+    "effects": {
+      "mods": [
+        [
+          "atkPct",
+          0.025,
+          12
+        ],
+        [
+          "defPct",
+          0.025,
+          12
+        ],
+        [
+          "speed",
+          2,
+          12
+        ]
+      ],
+      "coins": 2746
+    },
+    "numeric": "铜钱 +2.75K；攻击 +2.5%（12层）；防御 +2.5%（12层）；速度 +2.0（12层）",
+    "meta": {
+      "theme": "云海驿路",
+      "tag": "商旅",
+      "category": "长线",
+      "affinity": "aggressive",
+      "tier": 21
+    }
+  },
+  {
+    "id": "chance_103",
+    "name": "灵脉石窟·旧物清点",
+    "kind": "good",
+    "description": "灵脉石窟·旧物清点：整理旧物换得铜钱与灵石。",
+    "effects": {
+      "coins": 1190,
+      "jade": 56
+    },
+    "numeric": "铜钱 +1.19K；灵石 +56",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "资源",
+      "affinity": "wealth",
+      "tier": 1
+    }
+  },
+  {
+    "id": "chance_104",
+    "name": "灵脉石窟·险径试探",
+    "kind": "neutral",
+    "description": "灵脉石窟·险径试探：以险境磨招，换取攻势但承担防守代价。",
+    "effects": {
+      "cult": 1140,
+      "mods": [
+        [
+          "atkPct",
+          0.037000000000000005,
+          9
+        ],
+        [
+          "defPct",
+          -0.016,
+          9
+        ]
+      ]
+    },
+    "numeric": "修为 +1.14K；攻击 +3.7%（9层）；防御 -1.6%（9层）",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 2
+    }
+  },
+  {
+    "id": "chance_105",
+    "name": "灵脉石窟·残阵推演",
+    "kind": "neutral",
+    "description": "灵脉石窟·残阵推演：走捷径拾回旧忆，速度提升但闪避下降。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          5,
+          10
+        ],
+        [
+          "dodge",
+          -1,
+          10
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +5.0（10层）；闪避 -1.0%（10层）",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "行路",
+      "affinity": "aggressive",
+      "tier": 3
+    }
+  },
+  {
+    "id": "chance_106",
+    "name": "灵脉石窟·商队议价",
+    "kind": "good",
+    "description": "灵脉石窟·商队议价：借地势调息，生命与防御同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.025,
+          11
+        ],
+        [
+          "defPct",
+          0.018,
+          11
+        ]
+      ]
+    },
+    "numeric": "生命 +2.5%（11层）；防御 +1.8%（11层）",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 4
+    }
+  },
+  {
+    "id": "chance_107",
+    "name": "灵脉石窟·夜宿听风",
+    "kind": "good",
+    "description": "灵脉石窟·夜宿听风：从残阵中寻找破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          12
+        ],
+        [
+          "boss",
+          7,
+          12
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（12层）；Boss伤害 +7.0%（12层）",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "破阵",
+      "affinity": "aggressive",
+      "tier": 5
+    }
+  },
+  {
+    "id": "chance_108",
+    "name": "灵脉石窟·断桥择路",
+    "kind": "good",
+    "description": "灵脉石窟·断桥择路：交换情报，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          13
+        ],
+        [
+          "luck",
+          9,
+          13
+        ]
+      ],
+      "coins": 1140
+    },
+    "numeric": "铜钱 +1.14K；掉落 +8.0%（13层）；幸运 +9.0（13层）",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "寻宝",
+      "affinity": "wealth",
+      "tier": 6
+    }
+  },
+  {
+    "id": "chance_109",
+    "name": "灵脉石窟·古卷对照",
+    "kind": "good",
+    "description": "灵脉石窟·古卷对照：参悟战法，暴击路线暂时强化。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          14
+        ],
+        [
+          "critd",
+          12,
+          14
+        ]
+      ],
+      "jade": 86
+    },
+    "numeric": "灵石 +86；暴击 +4.0%（14层）；暴伤 +12%（14层）",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "悟道",
+      "affinity": "aggressive",
+      "tier": 7
+    }
+  },
+  {
+    "id": "chance_110",
+    "name": "灵脉石窟·灵脉共鸣",
+    "kind": "neutral",
+    "description": "灵脉石窟·灵脉共鸣：支付整备成本换取军械与命中提升。",
+    "effects": {
+      "coins": -1072,
+      "gear": 0,
+      "gearRare": 0,
+      "mods": [
+        [
+          "accuracy",
+          2,
+          15
+        ]
+      ]
+    },
+    "numeric": "铜钱 -1.07K；命中 +2.0%（15层）",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "整备",
+      "affinity": "wealth",
+      "tier": 8
+    }
+  },
+  {
+    "id": "chance_111",
+    "name": "灵脉石窟·雨后寻踪",
+    "kind": "good",
+    "description": "灵脉石窟·雨后寻踪：校对旧卷，获得功法残页并稳定命中与抗暴。",
+    "effects": {
+      "page": 2,
+      "mods": [
+        [
+          "accuracy",
+          7,
+          7
+        ],
+        [
+          "antiCrit",
+          3,
+          7
+        ]
+      ]
+    },
+    "numeric": "命中 +7.0%（7层）；抗暴 +3.0%（7层）；当前功法残页 +2",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "悟道",
+      "affinity": "guard",
+      "tier": 9
+    }
+  },
+  {
+    "id": "chance_112",
+    "name": "灵脉石窟·军械换修",
+    "kind": "neutral",
+    "description": "灵脉石窟·军械换修：消耗灵石布阵，换取攻血同步强化。",
+    "effects": {
+      "jade": -148,
+      "mods": [
+        [
+          "atkPct",
+          0.043000000000000003,
+          8
+        ],
+        [
+          "hpPct",
+          0.026000000000000002,
+          8
+        ]
+      ]
+    },
+    "numeric": "灵石 -148；攻击 +4.3%（8层）；生命 +2.6%（8层）",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "布阵",
+      "affinity": "aggressive",
+      "tier": 10
+    }
+  },
+  {
+    "id": "chance_113",
+    "name": "灵脉石窟·药圃采撷",
+    "kind": "good",
+    "description": "灵脉石窟·药圃采撷：旧忆提醒防守节奏，提高抗暴与闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "antiCrit",
+          8,
+          9
+        ],
+        [
+          "dodge",
+          5,
+          9
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；抗暴 +8.0%（9层）；闪避 +5.0%（9层）",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 11
+    }
+  },
+  {
+    "id": "chance_114",
+    "name": "灵脉石窟·驿站交易",
+    "kind": "good",
+    "description": "灵脉石窟·驿站交易：完成委托，获得铜钱、修为与短期掉落提升。",
+    "effects": {
+      "coins": 2278,
+      "cult": 2138,
+      "mods": [
+        [
+          "drop",
+          2,
+          10
+        ]
+      ]
+    },
+    "numeric": "铜钱 +2.28K；修为 +2.14K；掉落 +2.0%（10层）",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "委托",
+      "affinity": "wealth",
+      "tier": 12
+    }
+  },
+  {
+    "id": "chance_115",
+    "name": "灵脉石窟·河滩拾遗",
+    "kind": "neutral",
+    "description": "灵脉石窟·河滩拾遗：抢修残甲，获得装备但暂时牺牲防御换取机动。",
+    "effects": {
+      "gear": 1,
+      "mods": [
+        [
+          "defPct",
+          -0.02,
+          11
+        ],
+        [
+          "speed",
+          5,
+          11
+        ]
+      ]
+    },
+    "numeric": "防御 -2.0%（11层）；速度 +5.0（11层）；装备 +1件",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "军械",
+      "affinity": "aggressive",
+      "tier": 13
+    }
+  },
+  {
+    "id": "chance_116",
+    "name": "灵脉石窟·遗阵试锋",
+    "kind": "good",
+    "description": "灵脉石窟·遗阵试锋：记下灵机，获得回忆令并提高幸运。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "luck",
+          8,
+          12
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；幸运 +8.0（12层）",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "天机",
+      "affinity": "wealth",
+      "tier": 14
+    }
+  },
+  {
+    "id": "chance_117",
+    "name": "灵脉石窟·星象观测",
+    "kind": "good",
+    "description": "灵脉石窟·星象观测：重排行军路线，速度与命中同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "speed",
+          6,
+          13
+        ],
+        [
+          "accuracy",
+          3,
+          13
+        ]
+      ]
+    },
+    "numeric": "速度 +6.0（13层）；命中 +3.0%（13层）",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "行军",
+      "affinity": "aggressive",
+      "tier": 15
+    }
+  },
+  {
+    "id": "chance_118",
+    "name": "灵脉石窟·山鬼传闻",
+    "kind": "good",
+    "description": "灵脉石窟·山鬼传闻：调息养血，提高生命与吸血续航。",
+    "effects": {
+      "mods": [
+        [
+          "lifesteal",
+          2,
+          14
+        ],
+        [
+          "hpPct",
+          0.02,
+          14
+        ]
+      ]
+    },
+    "numeric": "吸血 +2.0%（14层）；生命 +2.0%（14层）",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "续航",
+      "affinity": "guard",
+      "tier": 16
+    }
+  },
+  {
+    "id": "chance_119",
+    "name": "灵脉石窟·烽火遗迹",
+    "kind": "neutral",
+    "description": "灵脉石窟·烽火遗迹：押注守关战，Boss伤害和暴击提高但防御略降。",
+    "effects": {
+      "mods": [
+        [
+          "boss",
+          7,
+          15
+        ],
+        [
+          "crit",
+          3,
+          15
+        ],
+        [
+          "defPct",
+          -0.012,
+          15
+        ]
+      ]
+    },
+    "numeric": "Boss伤害 +7.0%（15层）；暴击 +3.0%（15层）；防御 -1.2%（15层）",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "挑战",
+      "affinity": "aggressive",
+      "tier": 17
+    }
+  },
+  {
+    "id": "chance_120",
+    "name": "灵脉石窟·云路歇脚",
+    "kind": "neutral",
+    "description": "灵脉石窟·云路歇脚：花钱雇佣向导，换取攻击与穿甲优势。",
+    "effects": {
+      "coins": -2712,
+      "mods": [
+        [
+          "atkPct",
+          0.045,
+          7
+        ],
+        [
+          "armorpen",
+          4,
+          7
+        ]
+      ]
+    },
+    "numeric": "铜钱 -2.71K；攻击 +4.5%（7层）；穿甲 +4.0%（7层）",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "交易",
+      "affinity": "wealth",
+      "tier": 18
+    }
+  },
+  {
+    "id": "chance_121",
+    "name": "灵脉石窟·石窟封印",
+    "kind": "good",
+    "description": "灵脉石窟·石窟封印：借地利守势，获得灵石并提高防御与闪避。",
+    "effects": {
+      "jade": 226,
+      "mods": [
+        [
+          "defPct",
+          0.032,
+          8
+        ],
+        [
+          "dodge",
+          6,
+          8
+        ]
+      ]
+    },
+    "numeric": "灵石 +226；防御 +3.2%（8层）；闪避 +6.0%（8层）",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 19
+    }
+  },
+  {
+    "id": "chance_122",
+    "name": "灵脉石窟·旧友来信",
+    "kind": "good",
+    "description": "灵脉石窟·旧友来信：清点遗留军械，获得装备并提高短期掉落。",
+    "effects": {
+      "gearRare": 1,
+      "mods": [
+        [
+          "drop",
+          3,
+          9
+        ]
+      ]
+    },
+    "numeric": "掉落 +3.0%（9层）；稀有+装备 +1件",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "军械",
+      "affinity": "wealth",
+      "tier": 20
+    }
+  },
+  {
+    "id": "chance_123",
+    "name": "灵脉石窟·归途抉择",
+    "kind": "good",
+    "description": "灵脉石窟·归途抉择：完成一段长途抉择，获得更持久的综合增益。",
+    "effects": {
+      "mods": [
+        [
+          "atkPct",
+          0.025,
+          15
+        ],
+        [
+          "defPct",
+          0.025,
+          15
+        ],
+        [
+          "speed",
+          2,
+          15
+        ]
+      ],
+      "coins": 2746
+    },
+    "numeric": "铜钱 +2.75K；攻击 +2.5%（15层）；防御 +2.5%（15层）；速度 +2.0（15层）",
+    "meta": {
+      "theme": "灵脉石窟",
+      "tag": "修炼",
+      "category": "长线",
+      "affinity": "aggressive",
+      "tier": 21
+    }
+  },
+  {
+    "id": "chance_124",
+    "name": "江畔古渡·旧物清点",
+    "kind": "good",
+    "description": "江畔古渡·旧物清点：整理旧物换得铜钱与灵石。",
+    "effects": {
+      "coins": 1245,
+      "jade": 56
+    },
+    "numeric": "铜钱 +1.25K；灵石 +56",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "资源",
+      "affinity": "wealth",
+      "tier": 1
+    }
+  },
+  {
+    "id": "chance_125",
+    "name": "江畔古渡·险径试探",
+    "kind": "neutral",
+    "description": "江畔古渡·险径试探：以险境磨招，换取攻势但承担防守代价。",
+    "effects": {
+      "cult": 1140,
+      "mods": [
+        [
+          "atkPct",
+          0.037000000000000005,
+          12
+        ],
+        [
+          "defPct",
+          -0.016,
+          12
+        ]
+      ]
+    },
+    "numeric": "修为 +1.14K；攻击 +3.7%（12层）；防御 -1.6%（12层）",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 2
+    }
+  },
+  {
+    "id": "chance_126",
+    "name": "江畔古渡·残阵推演",
+    "kind": "neutral",
+    "description": "江畔古渡·残阵推演：走捷径拾回旧忆，速度提升但闪避下降。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          5,
+          13
+        ],
+        [
+          "dodge",
+          -1,
+          13
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +5.0（13层）；闪避 -1.0%（13层）",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "行路",
+      "affinity": "aggressive",
+      "tier": 3
+    }
+  },
+  {
+    "id": "chance_127",
+    "name": "江畔古渡·商队议价",
+    "kind": "good",
+    "description": "江畔古渡·商队议价：借地势调息，生命与防御同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.025,
+          14
+        ],
+        [
+          "defPct",
+          0.018,
+          14
+        ]
+      ]
+    },
+    "numeric": "生命 +2.5%（14层）；防御 +1.8%（14层）",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 4
+    }
+  },
+  {
+    "id": "chance_128",
+    "name": "江畔古渡·夜宿听风",
+    "kind": "good",
+    "description": "江畔古渡·夜宿听风：从残阵中寻找破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          15
+        ],
+        [
+          "boss",
+          7,
+          15
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（15层）；Boss伤害 +7.0%（15层）",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "破阵",
+      "affinity": "aggressive",
+      "tier": 5
+    }
+  },
+  {
+    "id": "chance_129",
+    "name": "江畔古渡·断桥择路",
+    "kind": "good",
+    "description": "江畔古渡·断桥择路：交换情报，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          7
+        ],
+        [
+          "luck",
+          9,
+          7
+        ]
+      ],
+      "coins": 1140
+    },
+    "numeric": "铜钱 +1.14K；掉落 +8.0%（7层）；幸运 +9.0（7层）",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "寻宝",
+      "affinity": "wealth",
+      "tier": 6
+    }
+  },
+  {
+    "id": "chance_130",
+    "name": "江畔古渡·古卷对照",
+    "kind": "good",
+    "description": "江畔古渡·古卷对照：参悟战法，暴击路线暂时强化。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          8
+        ],
+        [
+          "critd",
+          12,
+          8
+        ]
+      ],
+      "jade": 86
+    },
+    "numeric": "灵石 +86；暴击 +4.0%（8层）；暴伤 +12%（8层）",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "悟道",
+      "affinity": "aggressive",
+      "tier": 7
+    }
+  },
+  {
+    "id": "chance_131",
+    "name": "江畔古渡·灵脉共鸣",
+    "kind": "neutral",
+    "description": "江畔古渡·灵脉共鸣：支付整备成本换取军械与命中提升。",
+    "effects": {
+      "coins": -1072,
+      "gear": 0,
+      "gearRare": 0,
+      "mods": [
+        [
+          "accuracy",
+          2,
+          9
+        ]
+      ]
+    },
+    "numeric": "铜钱 -1.07K；命中 +2.0%（9层）",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "整备",
+      "affinity": "wealth",
+      "tier": 8
+    }
+  },
+  {
+    "id": "chance_132",
+    "name": "江畔古渡·雨后寻踪",
+    "kind": "good",
+    "description": "江畔古渡·雨后寻踪：校对旧卷，获得功法残页并稳定命中与抗暴。",
+    "effects": {
+      "page": 2,
+      "mods": [
+        [
+          "accuracy",
+          7,
+          10
+        ],
+        [
+          "antiCrit",
+          3,
+          10
+        ]
+      ]
+    },
+    "numeric": "命中 +7.0%（10层）；抗暴 +3.0%（10层）；当前功法残页 +2",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "悟道",
+      "affinity": "guard",
+      "tier": 9
+    }
+  },
+  {
+    "id": "chance_133",
+    "name": "江畔古渡·军械换修",
+    "kind": "neutral",
+    "description": "江畔古渡·军械换修：消耗灵石布阵，换取攻血同步强化。",
+    "effects": {
+      "jade": -148,
+      "mods": [
+        [
+          "atkPct",
+          0.043000000000000003,
+          11
+        ],
+        [
+          "hpPct",
+          0.026000000000000002,
+          11
+        ]
+      ]
+    },
+    "numeric": "灵石 -148；攻击 +4.3%（11层）；生命 +2.6%（11层）",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "布阵",
+      "affinity": "aggressive",
+      "tier": 10
+    }
+  },
+  {
+    "id": "chance_134",
+    "name": "江畔古渡·药圃采撷",
+    "kind": "good",
+    "description": "江畔古渡·药圃采撷：旧忆提醒防守节奏，提高抗暴与闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "antiCrit",
+          8,
+          12
+        ],
+        [
+          "dodge",
+          5,
+          12
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；抗暴 +8.0%（12层）；闪避 +5.0%（12层）",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 11
+    }
+  },
+  {
+    "id": "chance_135",
+    "name": "江畔古渡·驿站交易",
+    "kind": "good",
+    "description": "江畔古渡·驿站交易：完成委托，获得铜钱、修为与短期掉落提升。",
+    "effects": {
+      "coins": 2278,
+      "cult": 2138,
+      "mods": [
+        [
+          "drop",
+          2,
+          13
+        ]
+      ]
+    },
+    "numeric": "铜钱 +2.28K；修为 +2.14K；掉落 +2.0%（13层）",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "委托",
+      "affinity": "wealth",
+      "tier": 12
+    }
+  },
+  {
+    "id": "chance_136",
+    "name": "江畔古渡·河滩拾遗",
+    "kind": "neutral",
+    "description": "江畔古渡·河滩拾遗：抢修残甲，获得装备但暂时牺牲防御换取机动。",
+    "effects": {
+      "gear": 1,
+      "mods": [
+        [
+          "defPct",
+          -0.02,
+          14
+        ],
+        [
+          "speed",
+          5,
+          14
+        ]
+      ]
+    },
+    "numeric": "防御 -2.0%（14层）；速度 +5.0（14层）；装备 +1件",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "军械",
+      "affinity": "aggressive",
+      "tier": 13
+    }
+  },
+  {
+    "id": "chance_137",
+    "name": "江畔古渡·遗阵试锋",
+    "kind": "good",
+    "description": "江畔古渡·遗阵试锋：记下灵机，获得回忆令并提高幸运。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "luck",
+          8,
+          15
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；幸运 +8.0（15层）",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "天机",
+      "affinity": "wealth",
+      "tier": 14
+    }
+  },
+  {
+    "id": "chance_138",
+    "name": "江畔古渡·星象观测",
+    "kind": "good",
+    "description": "江畔古渡·星象观测：重排行军路线，速度与命中同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "speed",
+          6,
+          7
+        ],
+        [
+          "accuracy",
+          3,
+          7
+        ]
+      ]
+    },
+    "numeric": "速度 +6.0（7层）；命中 +3.0%（7层）",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "行军",
+      "affinity": "aggressive",
+      "tier": 15
+    }
+  },
+  {
+    "id": "chance_139",
+    "name": "江畔古渡·山鬼传闻",
+    "kind": "good",
+    "description": "江畔古渡·山鬼传闻：调息养血，提高生命与吸血续航。",
+    "effects": {
+      "mods": [
+        [
+          "lifesteal",
+          2,
+          8
+        ],
+        [
+          "hpPct",
+          0.02,
+          8
+        ]
+      ]
+    },
+    "numeric": "吸血 +2.0%（8层）；生命 +2.0%（8层）",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "续航",
+      "affinity": "guard",
+      "tier": 16
+    }
+  },
+  {
+    "id": "chance_140",
+    "name": "江畔古渡·烽火遗迹",
+    "kind": "neutral",
+    "description": "江畔古渡·烽火遗迹：押注守关战，Boss伤害和暴击提高但防御略降。",
+    "effects": {
+      "mods": [
+        [
+          "boss",
+          7,
+          9
+        ],
+        [
+          "crit",
+          3,
+          9
+        ],
+        [
+          "defPct",
+          -0.012,
+          9
+        ]
+      ]
+    },
+    "numeric": "Boss伤害 +7.0%（9层）；暴击 +3.0%（9层）；防御 -1.2%（9层）",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "挑战",
+      "affinity": "aggressive",
+      "tier": 17
+    }
+  },
+  {
+    "id": "chance_141",
+    "name": "江畔古渡·云路歇脚",
+    "kind": "neutral",
+    "description": "江畔古渡·云路歇脚：花钱雇佣向导，换取攻击与穿甲优势。",
+    "effects": {
+      "coins": -2712,
+      "mods": [
+        [
+          "atkPct",
+          0.045,
+          10
+        ],
+        [
+          "armorpen",
+          4,
+          10
+        ]
+      ]
+    },
+    "numeric": "铜钱 -2.71K；攻击 +4.5%（10层）；穿甲 +4.0%（10层）",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "交易",
+      "affinity": "wealth",
+      "tier": 18
+    }
+  },
+  {
+    "id": "chance_142",
+    "name": "江畔古渡·石窟封印",
+    "kind": "good",
+    "description": "江畔古渡·石窟封印：借地利守势，获得灵石并提高防御与闪避。",
+    "effects": {
+      "jade": 226,
+      "mods": [
+        [
+          "defPct",
+          0.032,
+          11
+        ],
+        [
+          "dodge",
+          6,
+          11
+        ]
+      ]
+    },
+    "numeric": "灵石 +226；防御 +3.2%（11层）；闪避 +6.0%（11层）",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 19
+    }
+  },
+  {
+    "id": "chance_143",
+    "name": "江畔古渡·旧友来信",
+    "kind": "good",
+    "description": "江畔古渡·旧友来信：清点遗留军械，获得装备并提高短期掉落。",
+    "effects": {
+      "gearRare": 1,
+      "mods": [
+        [
+          "drop",
+          3,
+          12
+        ]
+      ]
+    },
+    "numeric": "掉落 +3.0%（12层）；稀有+装备 +1件",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "军械",
+      "affinity": "wealth",
+      "tier": 20
+    }
+  },
+  {
+    "id": "chance_144",
+    "name": "江畔古渡·归途抉择",
+    "kind": "good",
+    "description": "江畔古渡·归途抉择：完成一段长途抉择，获得更持久的综合增益。",
+    "effects": {
+      "mods": [
+        [
+          "atkPct",
+          0.025,
+          18
+        ],
+        [
+          "defPct",
+          0.025,
+          18
+        ],
+        [
+          "speed",
+          2,
+          18
+        ]
+      ],
+      "coins": 2746
+    },
+    "numeric": "铜钱 +2.75K；攻击 +2.5%（18层）；防御 +2.5%（18层）；速度 +2.0（18层）",
+    "meta": {
+      "theme": "江畔古渡",
+      "tag": "行路",
+      "category": "长线",
+      "affinity": "aggressive",
+      "tier": 21
+    }
+  },
+  {
+    "id": "chance_145",
+    "name": "废寺钟声·旧物清点",
+    "kind": "good",
+    "description": "废寺钟声·旧物清点：整理旧物换得铜钱与灵石。",
+    "effects": {
+      "coins": 1300,
+      "jade": 56
+    },
+    "numeric": "铜钱 +1.30K；灵石 +56",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "资源",
+      "affinity": "wealth",
+      "tier": 1
+    }
+  },
+  {
+    "id": "chance_146",
+    "name": "废寺钟声·险径试探",
+    "kind": "neutral",
+    "description": "废寺钟声·险径试探：以险境磨招，换取攻势但承担防守代价。",
+    "effects": {
+      "cult": 1140,
+      "mods": [
+        [
+          "atkPct",
+          0.037000000000000005,
+          15
+        ],
+        [
+          "defPct",
+          -0.016,
+          15
+        ]
+      ]
+    },
+    "numeric": "修为 +1.14K；攻击 +3.7%（15层）；防御 -1.6%（15层）",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 2
+    }
+  },
+  {
+    "id": "chance_147",
+    "name": "废寺钟声·残阵推演",
+    "kind": "neutral",
+    "description": "废寺钟声·残阵推演：走捷径拾回旧忆，速度提升但闪避下降。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          5,
+          7
+        ],
+        [
+          "dodge",
+          -1,
+          7
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +5.0（7层）；闪避 -1.0%（7层）",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "行路",
+      "affinity": "aggressive",
+      "tier": 3
+    }
+  },
+  {
+    "id": "chance_148",
+    "name": "废寺钟声·商队议价",
+    "kind": "good",
+    "description": "废寺钟声·商队议价：借地势调息，生命与防御同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.025,
+          8
+        ],
+        [
+          "defPct",
+          0.018,
+          8
+        ]
+      ]
+    },
+    "numeric": "生命 +2.5%（8层）；防御 +1.8%（8层）",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 4
+    }
+  },
+  {
+    "id": "chance_149",
+    "name": "废寺钟声·夜宿听风",
+    "kind": "good",
+    "description": "废寺钟声·夜宿听风：从残阵中寻找破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          9
+        ],
+        [
+          "boss",
+          7,
+          9
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（9层）；Boss伤害 +7.0%（9层）",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "破阵",
+      "affinity": "aggressive",
+      "tier": 5
+    }
+  },
+  {
+    "id": "chance_150",
+    "name": "废寺钟声·断桥择路",
+    "kind": "good",
+    "description": "废寺钟声·断桥择路：交换情报，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          10
+        ],
+        [
+          "luck",
+          9,
+          10
+        ]
+      ],
+      "coins": 1140
+    },
+    "numeric": "铜钱 +1.14K；掉落 +8.0%（10层）；幸运 +9.0（10层）",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "寻宝",
+      "affinity": "wealth",
+      "tier": 6
+    }
+  },
+  {
+    "id": "chance_151",
+    "name": "废寺钟声·古卷对照",
+    "kind": "good",
+    "description": "废寺钟声·古卷对照：参悟战法，暴击路线暂时强化。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          11
+        ],
+        [
+          "critd",
+          12,
+          11
+        ]
+      ],
+      "jade": 86
+    },
+    "numeric": "灵石 +86；暴击 +4.0%（11层）；暴伤 +12%（11层）",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "悟道",
+      "affinity": "aggressive",
+      "tier": 7
+    }
+  },
+  {
+    "id": "chance_152",
+    "name": "废寺钟声·灵脉共鸣",
+    "kind": "neutral",
+    "description": "废寺钟声·灵脉共鸣：支付整备成本换取军械与命中提升。",
+    "effects": {
+      "coins": -1072,
+      "gear": 0,
+      "gearRare": 0,
+      "mods": [
+        [
+          "accuracy",
+          2,
+          12
+        ]
+      ]
+    },
+    "numeric": "铜钱 -1.07K；命中 +2.0%（12层）",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "整备",
+      "affinity": "wealth",
+      "tier": 8
+    }
+  },
+  {
+    "id": "chance_153",
+    "name": "废寺钟声·雨后寻踪",
+    "kind": "good",
+    "description": "废寺钟声·雨后寻踪：校对旧卷，获得功法残页并稳定命中与抗暴。",
+    "effects": {
+      "page": 2,
+      "mods": [
+        [
+          "accuracy",
+          7,
+          13
+        ],
+        [
+          "antiCrit",
+          3,
+          13
+        ]
+      ]
+    },
+    "numeric": "命中 +7.0%（13层）；抗暴 +3.0%（13层）；当前功法残页 +2",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "悟道",
+      "affinity": "guard",
+      "tier": 9
+    }
+  },
+  {
+    "id": "chance_154",
+    "name": "废寺钟声·军械换修",
+    "kind": "neutral",
+    "description": "废寺钟声·军械换修：消耗灵石布阵，换取攻血同步强化。",
+    "effects": {
+      "jade": -148,
+      "mods": [
+        [
+          "atkPct",
+          0.043000000000000003,
+          14
+        ],
+        [
+          "hpPct",
+          0.026000000000000002,
+          14
+        ]
+      ]
+    },
+    "numeric": "灵石 -148；攻击 +4.3%（14层）；生命 +2.6%（14层）",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "布阵",
+      "affinity": "aggressive",
+      "tier": 10
+    }
+  },
+  {
+    "id": "chance_155",
+    "name": "废寺钟声·药圃采撷",
+    "kind": "good",
+    "description": "废寺钟声·药圃采撷：旧忆提醒防守节奏，提高抗暴与闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "antiCrit",
+          8,
+          15
+        ],
+        [
+          "dodge",
+          5,
+          15
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；抗暴 +8.0%（15层）；闪避 +5.0%（15层）",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 11
+    }
+  },
+  {
+    "id": "chance_156",
+    "name": "废寺钟声·驿站交易",
+    "kind": "good",
+    "description": "废寺钟声·驿站交易：完成委托，获得铜钱、修为与短期掉落提升。",
+    "effects": {
+      "coins": 2278,
+      "cult": 2138,
+      "mods": [
+        [
+          "drop",
+          2,
+          7
+        ]
+      ]
+    },
+    "numeric": "铜钱 +2.28K；修为 +2.14K；掉落 +2.0%（7层）",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "委托",
+      "affinity": "wealth",
+      "tier": 12
+    }
+  },
+  {
+    "id": "chance_157",
+    "name": "废寺钟声·河滩拾遗",
+    "kind": "neutral",
+    "description": "废寺钟声·河滩拾遗：抢修残甲，获得装备但暂时牺牲防御换取机动。",
+    "effects": {
+      "gear": 1,
+      "mods": [
+        [
+          "defPct",
+          -0.02,
+          8
+        ],
+        [
+          "speed",
+          5,
+          8
+        ]
+      ]
+    },
+    "numeric": "防御 -2.0%（8层）；速度 +5.0（8层）；装备 +1件",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "军械",
+      "affinity": "aggressive",
+      "tier": 13
+    }
+  },
+  {
+    "id": "chance_158",
+    "name": "废寺钟声·遗阵试锋",
+    "kind": "good",
+    "description": "废寺钟声·遗阵试锋：记下灵机，获得回忆令并提高幸运。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "luck",
+          8,
+          9
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；幸运 +8.0（9层）",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "天机",
+      "affinity": "wealth",
+      "tier": 14
+    }
+  },
+  {
+    "id": "chance_159",
+    "name": "废寺钟声·星象观测",
+    "kind": "good",
+    "description": "废寺钟声·星象观测：重排行军路线，速度与命中同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "speed",
+          6,
+          10
+        ],
+        [
+          "accuracy",
+          3,
+          10
+        ]
+      ]
+    },
+    "numeric": "速度 +6.0（10层）；命中 +3.0%（10层）",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "行军",
+      "affinity": "aggressive",
+      "tier": 15
+    }
+  },
+  {
+    "id": "chance_160",
+    "name": "废寺钟声·山鬼传闻",
+    "kind": "good",
+    "description": "废寺钟声·山鬼传闻：调息养血，提高生命与吸血续航。",
+    "effects": {
+      "mods": [
+        [
+          "lifesteal",
+          2,
+          11
+        ],
+        [
+          "hpPct",
+          0.02,
+          11
+        ]
+      ]
+    },
+    "numeric": "吸血 +2.0%（11层）；生命 +2.0%（11层）",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "续航",
+      "affinity": "guard",
+      "tier": 16
+    }
+  },
+  {
+    "id": "chance_161",
+    "name": "废寺钟声·烽火遗迹",
+    "kind": "neutral",
+    "description": "废寺钟声·烽火遗迹：押注守关战，Boss伤害和暴击提高但防御略降。",
+    "effects": {
+      "mods": [
+        [
+          "boss",
+          7,
+          12
+        ],
+        [
+          "crit",
+          3,
+          12
+        ],
+        [
+          "defPct",
+          -0.012,
+          12
+        ]
+      ]
+    },
+    "numeric": "Boss伤害 +7.0%（12层）；暴击 +3.0%（12层）；防御 -1.2%（12层）",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "挑战",
+      "affinity": "aggressive",
+      "tier": 17
+    }
+  },
+  {
+    "id": "chance_162",
+    "name": "废寺钟声·云路歇脚",
+    "kind": "neutral",
+    "description": "废寺钟声·云路歇脚：花钱雇佣向导，换取攻击与穿甲优势。",
+    "effects": {
+      "coins": -2712,
+      "mods": [
+        [
+          "atkPct",
+          0.045,
+          13
+        ],
+        [
+          "armorpen",
+          4,
+          13
+        ]
+      ]
+    },
+    "numeric": "铜钱 -2.71K；攻击 +4.5%（13层）；穿甲 +4.0%（13层）",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "交易",
+      "affinity": "wealth",
+      "tier": 18
+    }
+  },
+  {
+    "id": "chance_163",
+    "name": "废寺钟声·石窟封印",
+    "kind": "good",
+    "description": "废寺钟声·石窟封印：借地利守势，获得灵石并提高防御与闪避。",
+    "effects": {
+      "jade": 226,
+      "mods": [
+        [
+          "defPct",
+          0.032,
+          14
+        ],
+        [
+          "dodge",
+          6,
+          14
+        ]
+      ]
+    },
+    "numeric": "灵石 +226；防御 +3.2%（14层）；闪避 +6.0%（14层）",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 19
+    }
+  },
+  {
+    "id": "chance_164",
+    "name": "废寺钟声·旧友来信",
+    "kind": "good",
+    "description": "废寺钟声·旧友来信：清点遗留军械，获得装备并提高短期掉落。",
+    "effects": {
+      "gearRare": 1,
+      "mods": [
+        [
+          "drop",
+          3,
+          15
+        ]
+      ]
+    },
+    "numeric": "掉落 +3.0%（15层）；稀有+装备 +1件",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "军械",
+      "affinity": "wealth",
+      "tier": 20
+    }
+  },
+  {
+    "id": "chance_165",
+    "name": "废寺钟声·归途抉择",
+    "kind": "good",
+    "description": "废寺钟声·归途抉择：完成一段长途抉择，获得更持久的综合增益。",
+    "effects": {
+      "mods": [
+        [
+          "atkPct",
+          0.025,
+          12
+        ],
+        [
+          "defPct",
+          0.025,
+          12
+        ],
+        [
+          "speed",
+          2,
+          12
+        ]
+      ],
+      "coins": 2746
+    },
+    "numeric": "铜钱 +2.75K；攻击 +2.5%（12层）；防御 +2.5%（12层）；速度 +2.0（12层）",
+    "meta": {
+      "theme": "废寺钟声",
+      "tag": "遗迹",
+      "category": "长线",
+      "affinity": "aggressive",
+      "tier": 21
+    }
+  },
+  {
+    "id": "chance_166",
+    "name": "雪岭旧关·旧物清点",
+    "kind": "good",
+    "description": "雪岭旧关·旧物清点：整理旧物换得铜钱与灵石。",
+    "effects": {
+      "coins": 1355,
+      "jade": 56
+    },
+    "numeric": "铜钱 +1.35K；灵石 +56",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "资源",
+      "affinity": "wealth",
+      "tier": 1
+    }
+  },
+  {
+    "id": "chance_167",
+    "name": "雪岭旧关·险径试探",
+    "kind": "neutral",
+    "description": "雪岭旧关·险径试探：以险境磨招，换取攻势但承担防守代价。",
+    "effects": {
+      "cult": 1140,
+      "mods": [
+        [
+          "atkPct",
+          0.037000000000000005,
+          9
+        ],
+        [
+          "defPct",
+          -0.016,
+          9
+        ]
+      ]
+    },
+    "numeric": "修为 +1.14K；攻击 +3.7%（9层）；防御 -1.6%（9层）",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 2
+    }
+  },
+  {
+    "id": "chance_168",
+    "name": "雪岭旧关·残阵推演",
+    "kind": "neutral",
+    "description": "雪岭旧关·残阵推演：走捷径拾回旧忆，速度提升但闪避下降。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          5,
+          10
+        ],
+        [
+          "dodge",
+          -1,
+          10
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +5.0（10层）；闪避 -1.0%（10层）",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "行路",
+      "affinity": "aggressive",
+      "tier": 3
+    }
+  },
+  {
+    "id": "chance_169",
+    "name": "雪岭旧关·商队议价",
+    "kind": "good",
+    "description": "雪岭旧关·商队议价：借地势调息，生命与防御同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.025,
+          11
+        ],
+        [
+          "defPct",
+          0.018,
+          11
+        ]
+      ]
+    },
+    "numeric": "生命 +2.5%（11层）；防御 +1.8%（11层）",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 4
+    }
+  },
+  {
+    "id": "chance_170",
+    "name": "雪岭旧关·夜宿听风",
+    "kind": "good",
+    "description": "雪岭旧关·夜宿听风：从残阵中寻找破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          12
+        ],
+        [
+          "boss",
+          7,
+          12
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（12层）；Boss伤害 +7.0%（12层）",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "破阵",
+      "affinity": "aggressive",
+      "tier": 5
+    }
+  },
+  {
+    "id": "chance_171",
+    "name": "雪岭旧关·断桥择路",
+    "kind": "good",
+    "description": "雪岭旧关·断桥择路：交换情报，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          13
+        ],
+        [
+          "luck",
+          9,
+          13
+        ]
+      ],
+      "coins": 1140
+    },
+    "numeric": "铜钱 +1.14K；掉落 +8.0%（13层）；幸运 +9.0（13层）",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "寻宝",
+      "affinity": "wealth",
+      "tier": 6
+    }
+  },
+  {
+    "id": "chance_172",
+    "name": "雪岭旧关·古卷对照",
+    "kind": "good",
+    "description": "雪岭旧关·古卷对照：参悟战法，暴击路线暂时强化。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          14
+        ],
+        [
+          "critd",
+          12,
+          14
+        ]
+      ],
+      "jade": 86
+    },
+    "numeric": "灵石 +86；暴击 +4.0%（14层）；暴伤 +12%（14层）",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "悟道",
+      "affinity": "aggressive",
+      "tier": 7
+    }
+  },
+  {
+    "id": "chance_173",
+    "name": "雪岭旧关·灵脉共鸣",
+    "kind": "neutral",
+    "description": "雪岭旧关·灵脉共鸣：支付整备成本换取军械与命中提升。",
+    "effects": {
+      "coins": -1072,
+      "gear": 0,
+      "gearRare": 0,
+      "mods": [
+        [
+          "accuracy",
+          2,
+          15
+        ]
+      ]
+    },
+    "numeric": "铜钱 -1.07K；命中 +2.0%（15层）",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "整备",
+      "affinity": "wealth",
+      "tier": 8
+    }
+  },
+  {
+    "id": "chance_174",
+    "name": "雪岭旧关·雨后寻踪",
+    "kind": "good",
+    "description": "雪岭旧关·雨后寻踪：校对旧卷，获得功法残页并稳定命中与抗暴。",
+    "effects": {
+      "page": 2,
+      "mods": [
+        [
+          "accuracy",
+          7,
+          7
+        ],
+        [
+          "antiCrit",
+          3,
+          7
+        ]
+      ]
+    },
+    "numeric": "命中 +7.0%（7层）；抗暴 +3.0%（7层）；当前功法残页 +2",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "悟道",
+      "affinity": "guard",
+      "tier": 9
+    }
+  },
+  {
+    "id": "chance_175",
+    "name": "雪岭旧关·军械换修",
+    "kind": "neutral",
+    "description": "雪岭旧关·军械换修：消耗灵石布阵，换取攻血同步强化。",
+    "effects": {
+      "jade": -148,
+      "mods": [
+        [
+          "atkPct",
+          0.043000000000000003,
+          8
+        ],
+        [
+          "hpPct",
+          0.026000000000000002,
+          8
+        ]
+      ]
+    },
+    "numeric": "灵石 -148；攻击 +4.3%（8层）；生命 +2.6%（8层）",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "布阵",
+      "affinity": "aggressive",
+      "tier": 10
+    }
+  },
+  {
+    "id": "chance_176",
+    "name": "雪岭旧关·药圃采撷",
+    "kind": "good",
+    "description": "雪岭旧关·药圃采撷：旧忆提醒防守节奏，提高抗暴与闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "antiCrit",
+          8,
+          9
+        ],
+        [
+          "dodge",
+          5,
+          9
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；抗暴 +8.0%（9层）；闪避 +5.0%（9层）",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 11
+    }
+  },
+  {
+    "id": "chance_177",
+    "name": "雪岭旧关·驿站交易",
+    "kind": "good",
+    "description": "雪岭旧关·驿站交易：完成委托，获得铜钱、修为与短期掉落提升。",
+    "effects": {
+      "coins": 2278,
+      "cult": 2138,
+      "mods": [
+        [
+          "drop",
+          2,
+          10
+        ]
+      ]
+    },
+    "numeric": "铜钱 +2.28K；修为 +2.14K；掉落 +2.0%（10层）",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "委托",
+      "affinity": "wealth",
+      "tier": 12
+    }
+  },
+  {
+    "id": "chance_178",
+    "name": "雪岭旧关·河滩拾遗",
+    "kind": "neutral",
+    "description": "雪岭旧关·河滩拾遗：抢修残甲，获得装备但暂时牺牲防御换取机动。",
+    "effects": {
+      "gear": 1,
+      "mods": [
+        [
+          "defPct",
+          -0.02,
+          11
+        ],
+        [
+          "speed",
+          5,
+          11
+        ]
+      ]
+    },
+    "numeric": "防御 -2.0%（11层）；速度 +5.0（11层）；装备 +1件",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "军械",
+      "affinity": "aggressive",
+      "tier": 13
+    }
+  },
+  {
+    "id": "chance_179",
+    "name": "雪岭旧关·遗阵试锋",
+    "kind": "good",
+    "description": "雪岭旧关·遗阵试锋：记下灵机，获得回忆令并提高幸运。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "luck",
+          8,
+          12
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；幸运 +8.0（12层）",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "天机",
+      "affinity": "wealth",
+      "tier": 14
+    }
+  },
+  {
+    "id": "chance_180",
+    "name": "雪岭旧关·星象观测",
+    "kind": "good",
+    "description": "雪岭旧关·星象观测：重排行军路线，速度与命中同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "speed",
+          6,
+          13
+        ],
+        [
+          "accuracy",
+          3,
+          13
+        ]
+      ]
+    },
+    "numeric": "速度 +6.0（13层）；命中 +3.0%（13层）",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "行军",
+      "affinity": "aggressive",
+      "tier": 15
+    }
+  },
+  {
+    "id": "chance_181",
+    "name": "雪岭旧关·山鬼传闻",
+    "kind": "good",
+    "description": "雪岭旧关·山鬼传闻：调息养血，提高生命与吸血续航。",
+    "effects": {
+      "mods": [
+        [
+          "lifesteal",
+          2,
+          14
+        ],
+        [
+          "hpPct",
+          0.02,
+          14
+        ]
+      ]
+    },
+    "numeric": "吸血 +2.0%（14层）；生命 +2.0%（14层）",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "续航",
+      "affinity": "guard",
+      "tier": 16
+    }
+  },
+  {
+    "id": "chance_182",
+    "name": "雪岭旧关·烽火遗迹",
+    "kind": "neutral",
+    "description": "雪岭旧关·烽火遗迹：押注守关战，Boss伤害和暴击提高但防御略降。",
+    "effects": {
+      "mods": [
+        [
+          "boss",
+          7,
+          15
+        ],
+        [
+          "crit",
+          3,
+          15
+        ],
+        [
+          "defPct",
+          -0.012,
+          15
+        ]
+      ]
+    },
+    "numeric": "Boss伤害 +7.0%（15层）；暴击 +3.0%（15层）；防御 -1.2%（15层）",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "挑战",
+      "affinity": "aggressive",
+      "tier": 17
+    }
+  },
+  {
+    "id": "chance_183",
+    "name": "雪岭旧关·云路歇脚",
+    "kind": "neutral",
+    "description": "雪岭旧关·云路歇脚：花钱雇佣向导，换取攻击与穿甲优势。",
+    "effects": {
+      "coins": -2712,
+      "mods": [
+        [
+          "atkPct",
+          0.045,
+          7
+        ],
+        [
+          "armorpen",
+          4,
+          7
+        ]
+      ]
+    },
+    "numeric": "铜钱 -2.71K；攻击 +4.5%（7层）；穿甲 +4.0%（7层）",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "交易",
+      "affinity": "wealth",
+      "tier": 18
+    }
+  },
+  {
+    "id": "chance_184",
+    "name": "雪岭旧关·石窟封印",
+    "kind": "good",
+    "description": "雪岭旧关·石窟封印：借地利守势，获得灵石并提高防御与闪避。",
+    "effects": {
+      "jade": 226,
+      "mods": [
+        [
+          "defPct",
+          0.032,
+          8
+        ],
+        [
+          "dodge",
+          6,
+          8
+        ]
+      ]
+    },
+    "numeric": "灵石 +226；防御 +3.2%（8层）；闪避 +6.0%（8层）",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 19
+    }
+  },
+  {
+    "id": "chance_185",
+    "name": "雪岭旧关·旧友来信",
+    "kind": "good",
+    "description": "雪岭旧关·旧友来信：清点遗留军械，获得装备并提高短期掉落。",
+    "effects": {
+      "gearRare": 1,
+      "mods": [
+        [
+          "drop",
+          3,
+          9
+        ]
+      ]
+    },
+    "numeric": "掉落 +3.0%（9层）；稀有+装备 +1件",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "军械",
+      "affinity": "wealth",
+      "tier": 20
+    }
+  },
+  {
+    "id": "chance_186",
+    "name": "雪岭旧关·归途抉择",
+    "kind": "good",
+    "description": "雪岭旧关·归途抉择：完成一段长途抉择，获得更持久的综合增益。",
+    "effects": {
+      "mods": [
+        [
+          "atkPct",
+          0.025,
+          15
+        ],
+        [
+          "defPct",
+          0.025,
+          15
+        ],
+        [
+          "speed",
+          2,
+          15
+        ]
+      ],
+      "coins": 2746
+    },
+    "numeric": "铜钱 +2.75K；攻击 +2.5%（15层）；防御 +2.5%（15层）；速度 +2.0（15层）",
+    "meta": {
+      "theme": "雪岭旧关",
+      "tag": "守备",
+      "category": "长线",
+      "affinity": "aggressive",
+      "tier": 21
+    }
+  },
+  {
+    "id": "chance_187",
+    "name": "赤霞坡地·旧物清点",
+    "kind": "good",
+    "description": "赤霞坡地·旧物清点：整理旧物换得铜钱与灵石。",
+    "effects": {
+      "coins": 1410,
+      "jade": 56
+    },
+    "numeric": "铜钱 +1.41K；灵石 +56",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "资源",
+      "affinity": "wealth",
+      "tier": 1
+    }
+  },
+  {
+    "id": "chance_188",
+    "name": "赤霞坡地·险径试探",
+    "kind": "neutral",
+    "description": "赤霞坡地·险径试探：以险境磨招，换取攻势但承担防守代价。",
+    "effects": {
+      "cult": 1140,
+      "mods": [
+        [
+          "atkPct",
+          0.037000000000000005,
+          12
+        ],
+        [
+          "defPct",
+          -0.016,
+          12
+        ]
+      ]
+    },
+    "numeric": "修为 +1.14K；攻击 +3.7%（12层）；防御 -1.6%（12层）",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 2
+    }
+  },
+  {
+    "id": "chance_189",
+    "name": "赤霞坡地·残阵推演",
+    "kind": "neutral",
+    "description": "赤霞坡地·残阵推演：走捷径拾回旧忆，速度提升但闪避下降。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          5,
+          13
+        ],
+        [
+          "dodge",
+          -1,
+          13
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +5.0（13层）；闪避 -1.0%（13层）",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "行路",
+      "affinity": "aggressive",
+      "tier": 3
+    }
+  },
+  {
+    "id": "chance_190",
+    "name": "赤霞坡地·商队议价",
+    "kind": "good",
+    "description": "赤霞坡地·商队议价：借地势调息，生命与防御同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.025,
+          14
+        ],
+        [
+          "defPct",
+          0.018,
+          14
+        ]
+      ]
+    },
+    "numeric": "生命 +2.5%（14层）；防御 +1.8%（14层）",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 4
+    }
+  },
+  {
+    "id": "chance_191",
+    "name": "赤霞坡地·夜宿听风",
+    "kind": "good",
+    "description": "赤霞坡地·夜宿听风：从残阵中寻找破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          15
+        ],
+        [
+          "boss",
+          7,
+          15
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（15层）；Boss伤害 +7.0%（15层）",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "破阵",
+      "affinity": "aggressive",
+      "tier": 5
+    }
+  },
+  {
+    "id": "chance_192",
+    "name": "赤霞坡地·断桥择路",
+    "kind": "good",
+    "description": "赤霞坡地·断桥择路：交换情报，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          7
+        ],
+        [
+          "luck",
+          9,
+          7
+        ]
+      ],
+      "coins": 1140
+    },
+    "numeric": "铜钱 +1.14K；掉落 +8.0%（7层）；幸运 +9.0（7层）",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "寻宝",
+      "affinity": "wealth",
+      "tier": 6
+    }
+  },
+  {
+    "id": "chance_193",
+    "name": "赤霞坡地·古卷对照",
+    "kind": "good",
+    "description": "赤霞坡地·古卷对照：参悟战法，暴击路线暂时强化。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          8
+        ],
+        [
+          "critd",
+          12,
+          8
+        ]
+      ],
+      "jade": 86
+    },
+    "numeric": "灵石 +86；暴击 +4.0%（8层）；暴伤 +12%（8层）",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "悟道",
+      "affinity": "aggressive",
+      "tier": 7
+    }
+  },
+  {
+    "id": "chance_194",
+    "name": "赤霞坡地·灵脉共鸣",
+    "kind": "neutral",
+    "description": "赤霞坡地·灵脉共鸣：支付整备成本换取军械与命中提升。",
+    "effects": {
+      "coins": -1072,
+      "gear": 0,
+      "gearRare": 0,
+      "mods": [
+        [
+          "accuracy",
+          2,
+          9
+        ]
+      ]
+    },
+    "numeric": "铜钱 -1.07K；命中 +2.0%（9层）",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "整备",
+      "affinity": "wealth",
+      "tier": 8
+    }
+  },
+  {
+    "id": "chance_195",
+    "name": "赤霞坡地·雨后寻踪",
+    "kind": "good",
+    "description": "赤霞坡地·雨后寻踪：校对旧卷，获得功法残页并稳定命中与抗暴。",
+    "effects": {
+      "page": 2,
+      "mods": [
+        [
+          "accuracy",
+          7,
+          10
+        ],
+        [
+          "antiCrit",
+          3,
+          10
+        ]
+      ]
+    },
+    "numeric": "命中 +7.0%（10层）；抗暴 +3.0%（10层）；当前功法残页 +2",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "悟道",
+      "affinity": "guard",
+      "tier": 9
+    }
+  },
+  {
+    "id": "chance_196",
+    "name": "赤霞坡地·军械换修",
+    "kind": "neutral",
+    "description": "赤霞坡地·军械换修：消耗灵石布阵，换取攻血同步强化。",
+    "effects": {
+      "jade": -148,
+      "mods": [
+        [
+          "atkPct",
+          0.043000000000000003,
+          11
+        ],
+        [
+          "hpPct",
+          0.026000000000000002,
+          11
+        ]
+      ]
+    },
+    "numeric": "灵石 -148；攻击 +4.3%（11层）；生命 +2.6%（11层）",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "布阵",
+      "affinity": "aggressive",
+      "tier": 10
+    }
+  },
+  {
+    "id": "chance_197",
+    "name": "赤霞坡地·药圃采撷",
+    "kind": "good",
+    "description": "赤霞坡地·药圃采撷：旧忆提醒防守节奏，提高抗暴与闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "antiCrit",
+          8,
+          12
+        ],
+        [
+          "dodge",
+          5,
+          12
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；抗暴 +8.0%（12层）；闪避 +5.0%（12层）",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 11
+    }
+  },
+  {
+    "id": "chance_198",
+    "name": "赤霞坡地·驿站交易",
+    "kind": "good",
+    "description": "赤霞坡地·驿站交易：完成委托，获得铜钱、修为与短期掉落提升。",
+    "effects": {
+      "coins": 2278,
+      "cult": 2138,
+      "mods": [
+        [
+          "drop",
+          2,
+          13
+        ]
+      ]
+    },
+    "numeric": "铜钱 +2.28K；修为 +2.14K；掉落 +2.0%（13层）",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "委托",
+      "affinity": "wealth",
+      "tier": 12
+    }
+  },
+  {
+    "id": "chance_199",
+    "name": "赤霞坡地·河滩拾遗",
+    "kind": "neutral",
+    "description": "赤霞坡地·河滩拾遗：抢修残甲，获得装备但暂时牺牲防御换取机动。",
+    "effects": {
+      "gear": 1,
+      "mods": [
+        [
+          "defPct",
+          -0.02,
+          14
+        ],
+        [
+          "speed",
+          5,
+          14
+        ]
+      ]
+    },
+    "numeric": "防御 -2.0%（14层）；速度 +5.0（14层）；装备 +1件",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "军械",
+      "affinity": "aggressive",
+      "tier": 13
+    }
+  },
+  {
+    "id": "chance_200",
+    "name": "赤霞坡地·遗阵试锋",
+    "kind": "good",
+    "description": "赤霞坡地·遗阵试锋：记下灵机，获得回忆令并提高幸运。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "luck",
+          8,
+          15
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；幸运 +8.0（15层）",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "天机",
+      "affinity": "wealth",
+      "tier": 14
+    }
+  },
+  {
+    "id": "chance_201",
+    "name": "赤霞坡地·星象观测",
+    "kind": "good",
+    "description": "赤霞坡地·星象观测：重排行军路线，速度与命中同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "speed",
+          6,
+          7
+        ],
+        [
+          "accuracy",
+          3,
+          7
+        ]
+      ]
+    },
+    "numeric": "速度 +6.0（7层）；命中 +3.0%（7层）",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "行军",
+      "affinity": "aggressive",
+      "tier": 15
+    }
+  },
+  {
+    "id": "chance_202",
+    "name": "赤霞坡地·山鬼传闻",
+    "kind": "good",
+    "description": "赤霞坡地·山鬼传闻：调息养血，提高生命与吸血续航。",
+    "effects": {
+      "mods": [
+        [
+          "lifesteal",
+          2,
+          8
+        ],
+        [
+          "hpPct",
+          0.02,
+          8
+        ]
+      ]
+    },
+    "numeric": "吸血 +2.0%（8层）；生命 +2.0%（8层）",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "续航",
+      "affinity": "guard",
+      "tier": 16
+    }
+  },
+  {
+    "id": "chance_203",
+    "name": "赤霞坡地·烽火遗迹",
+    "kind": "neutral",
+    "description": "赤霞坡地·烽火遗迹：押注守关战，Boss伤害和暴击提高但防御略降。",
+    "effects": {
+      "mods": [
+        [
+          "boss",
+          7,
+          9
+        ],
+        [
+          "crit",
+          3,
+          9
+        ],
+        [
+          "defPct",
+          -0.012,
+          9
+        ]
+      ]
+    },
+    "numeric": "Boss伤害 +7.0%（9层）；暴击 +3.0%（9层）；防御 -1.2%（9层）",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "挑战",
+      "affinity": "aggressive",
+      "tier": 17
+    }
+  },
+  {
+    "id": "chance_204",
+    "name": "赤霞坡地·云路歇脚",
+    "kind": "neutral",
+    "description": "赤霞坡地·云路歇脚：花钱雇佣向导，换取攻击与穿甲优势。",
+    "effects": {
+      "coins": -2712,
+      "mods": [
+        [
+          "atkPct",
+          0.045,
+          10
+        ],
+        [
+          "armorpen",
+          4,
+          10
+        ]
+      ]
+    },
+    "numeric": "铜钱 -2.71K；攻击 +4.5%（10层）；穿甲 +4.0%（10层）",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "交易",
+      "affinity": "wealth",
+      "tier": 18
+    }
+  },
+  {
+    "id": "chance_205",
+    "name": "赤霞坡地·石窟封印",
+    "kind": "good",
+    "description": "赤霞坡地·石窟封印：借地利守势，获得灵石并提高防御与闪避。",
+    "effects": {
+      "jade": 226,
+      "mods": [
+        [
+          "defPct",
+          0.032,
+          11
+        ],
+        [
+          "dodge",
+          6,
+          11
+        ]
+      ]
+    },
+    "numeric": "灵石 +226；防御 +3.2%（11层）；闪避 +6.0%（11层）",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 19
+    }
+  },
+  {
+    "id": "chance_206",
+    "name": "赤霞坡地·旧友来信",
+    "kind": "good",
+    "description": "赤霞坡地·旧友来信：清点遗留军械，获得装备并提高短期掉落。",
+    "effects": {
+      "gearRare": 1,
+      "mods": [
+        [
+          "drop",
+          3,
+          12
+        ]
+      ]
+    },
+    "numeric": "掉落 +3.0%（12层）；稀有+装备 +1件",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "军械",
+      "affinity": "wealth",
+      "tier": 20
+    }
+  },
+  {
+    "id": "chance_207",
+    "name": "赤霞坡地·归途抉择",
+    "kind": "good",
+    "description": "赤霞坡地·归途抉择：完成一段长途抉择，获得更持久的综合增益。",
+    "effects": {
+      "mods": [
+        [
+          "atkPct",
+          0.025,
+          18
+        ],
+        [
+          "defPct",
+          0.025,
+          18
+        ],
+        [
+          "speed",
+          2,
+          18
+        ]
+      ],
+      "coins": 2746
+    },
+    "numeric": "铜钱 +2.75K；攻击 +2.5%（18层）；防御 +2.5%（18层）；速度 +2.0（18层）",
+    "meta": {
+      "theme": "赤霞坡地",
+      "tag": "天象",
+      "category": "长线",
+      "affinity": "aggressive",
+      "tier": 21
+    }
+  },
+  {
+    "id": "chance_208",
+    "name": "幽谷药圃·旧物清点",
+    "kind": "good",
+    "description": "幽谷药圃·旧物清点：整理旧物换得铜钱与灵石。",
+    "effects": {
+      "coins": 1465,
+      "jade": 56
+    },
+    "numeric": "铜钱 +1.47K；灵石 +56",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "资源",
+      "affinity": "wealth",
+      "tier": 1
+    }
+  },
+  {
+    "id": "chance_209",
+    "name": "幽谷药圃·险径试探",
+    "kind": "neutral",
+    "description": "幽谷药圃·险径试探：以险境磨招，换取攻势但承担防守代价。",
+    "effects": {
+      "cult": 1140,
+      "mods": [
+        [
+          "atkPct",
+          0.037000000000000005,
+          15
+        ],
+        [
+          "defPct",
+          -0.016,
+          15
+        ]
+      ]
+    },
+    "numeric": "修为 +1.14K；攻击 +3.7%（15层）；防御 -1.6%（15层）",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 2
+    }
+  },
+  {
+    "id": "chance_210",
+    "name": "幽谷药圃·残阵推演",
+    "kind": "neutral",
+    "description": "幽谷药圃·残阵推演：走捷径拾回旧忆，速度提升但闪避下降。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          5,
+          7
+        ],
+        [
+          "dodge",
+          -1,
+          7
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +5.0（7层）；闪避 -1.0%（7层）",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "行路",
+      "affinity": "aggressive",
+      "tier": 3
+    }
+  },
+  {
+    "id": "chance_211",
+    "name": "幽谷药圃·商队议价",
+    "kind": "good",
+    "description": "幽谷药圃·商队议价：借地势调息，生命与防御同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.025,
+          8
+        ],
+        [
+          "defPct",
+          0.018,
+          8
+        ]
+      ]
+    },
+    "numeric": "生命 +2.5%（8层）；防御 +1.8%（8层）",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 4
+    }
+  },
+  {
+    "id": "chance_212",
+    "name": "幽谷药圃·夜宿听风",
+    "kind": "good",
+    "description": "幽谷药圃·夜宿听风：从残阵中寻找破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          9
+        ],
+        [
+          "boss",
+          7,
+          9
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（9层）；Boss伤害 +7.0%（9层）",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "破阵",
+      "affinity": "aggressive",
+      "tier": 5
+    }
+  },
+  {
+    "id": "chance_213",
+    "name": "幽谷药圃·断桥择路",
+    "kind": "good",
+    "description": "幽谷药圃·断桥择路：交换情报，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          10
+        ],
+        [
+          "luck",
+          9,
+          10
+        ]
+      ],
+      "coins": 1140
+    },
+    "numeric": "铜钱 +1.14K；掉落 +8.0%（10层）；幸运 +9.0（10层）",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "寻宝",
+      "affinity": "wealth",
+      "tier": 6
+    }
+  },
+  {
+    "id": "chance_214",
+    "name": "幽谷药圃·古卷对照",
+    "kind": "good",
+    "description": "幽谷药圃·古卷对照：参悟战法，暴击路线暂时强化。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          11
+        ],
+        [
+          "critd",
+          12,
+          11
+        ]
+      ],
+      "jade": 86
+    },
+    "numeric": "灵石 +86；暴击 +4.0%（11层）；暴伤 +12%（11层）",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "悟道",
+      "affinity": "aggressive",
+      "tier": 7
+    }
+  },
+  {
+    "id": "chance_215",
+    "name": "幽谷药圃·灵脉共鸣",
+    "kind": "neutral",
+    "description": "幽谷药圃·灵脉共鸣：支付整备成本换取军械与命中提升。",
+    "effects": {
+      "coins": -1072,
+      "gear": 0,
+      "gearRare": 0,
+      "mods": [
+        [
+          "accuracy",
+          2,
+          12
+        ]
+      ]
+    },
+    "numeric": "铜钱 -1.07K；命中 +2.0%（12层）",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "整备",
+      "affinity": "wealth",
+      "tier": 8
+    }
+  },
+  {
+    "id": "chance_216",
+    "name": "幽谷药圃·雨后寻踪",
+    "kind": "good",
+    "description": "幽谷药圃·雨后寻踪：校对旧卷，获得功法残页并稳定命中与抗暴。",
+    "effects": {
+      "page": 2,
+      "mods": [
+        [
+          "accuracy",
+          7,
+          13
+        ],
+        [
+          "antiCrit",
+          3,
+          13
+        ]
+      ]
+    },
+    "numeric": "命中 +7.0%（13层）；抗暴 +3.0%（13层）；当前功法残页 +2",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "悟道",
+      "affinity": "guard",
+      "tier": 9
+    }
+  },
+  {
+    "id": "chance_217",
+    "name": "幽谷药圃·军械换修",
+    "kind": "neutral",
+    "description": "幽谷药圃·军械换修：消耗灵石布阵，换取攻血同步强化。",
+    "effects": {
+      "jade": -148,
+      "mods": [
+        [
+          "atkPct",
+          0.043000000000000003,
+          14
+        ],
+        [
+          "hpPct",
+          0.026000000000000002,
+          14
+        ]
+      ]
+    },
+    "numeric": "灵石 -148；攻击 +4.3%（14层）；生命 +2.6%（14层）",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "布阵",
+      "affinity": "aggressive",
+      "tier": 10
+    }
+  },
+  {
+    "id": "chance_218",
+    "name": "幽谷药圃·药圃采撷",
+    "kind": "good",
+    "description": "幽谷药圃·药圃采撷：旧忆提醒防守节奏，提高抗暴与闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "antiCrit",
+          8,
+          15
+        ],
+        [
+          "dodge",
+          5,
+          15
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；抗暴 +8.0%（15层）；闪避 +5.0%（15层）",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 11
+    }
+  },
+  {
+    "id": "chance_219",
+    "name": "幽谷药圃·驿站交易",
+    "kind": "good",
+    "description": "幽谷药圃·驿站交易：完成委托，获得铜钱、修为与短期掉落提升。",
+    "effects": {
+      "coins": 2278,
+      "cult": 2138,
+      "mods": [
+        [
+          "drop",
+          2,
+          7
+        ]
+      ]
+    },
+    "numeric": "铜钱 +2.28K；修为 +2.14K；掉落 +2.0%（7层）",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "委托",
+      "affinity": "wealth",
+      "tier": 12
+    }
+  },
+  {
+    "id": "chance_220",
+    "name": "幽谷药圃·河滩拾遗",
+    "kind": "neutral",
+    "description": "幽谷药圃·河滩拾遗：抢修残甲，获得装备但暂时牺牲防御换取机动。",
+    "effects": {
+      "gear": 1,
+      "mods": [
+        [
+          "defPct",
+          -0.02,
+          8
+        ],
+        [
+          "speed",
+          5,
+          8
+        ]
+      ]
+    },
+    "numeric": "防御 -2.0%（8层）；速度 +5.0（8层）；装备 +1件",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "军械",
+      "affinity": "aggressive",
+      "tier": 13
+    }
+  },
+  {
+    "id": "chance_221",
+    "name": "幽谷药圃·遗阵试锋",
+    "kind": "good",
+    "description": "幽谷药圃·遗阵试锋：记下灵机，获得回忆令并提高幸运。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "luck",
+          8,
+          9
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；幸运 +8.0（9层）",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "天机",
+      "affinity": "wealth",
+      "tier": 14
+    }
+  },
+  {
+    "id": "chance_222",
+    "name": "幽谷药圃·星象观测",
+    "kind": "good",
+    "description": "幽谷药圃·星象观测：重排行军路线，速度与命中同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "speed",
+          6,
+          10
+        ],
+        [
+          "accuracy",
+          3,
+          10
+        ]
+      ]
+    },
+    "numeric": "速度 +6.0（10层）；命中 +3.0%（10层）",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "行军",
+      "affinity": "aggressive",
+      "tier": 15
+    }
+  },
+  {
+    "id": "chance_223",
+    "name": "幽谷药圃·山鬼传闻",
+    "kind": "good",
+    "description": "幽谷药圃·山鬼传闻：调息养血，提高生命与吸血续航。",
+    "effects": {
+      "mods": [
+        [
+          "lifesteal",
+          2,
+          11
+        ],
+        [
+          "hpPct",
+          0.02,
+          11
+        ]
+      ]
+    },
+    "numeric": "吸血 +2.0%（11层）；生命 +2.0%（11层）",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "续航",
+      "affinity": "guard",
+      "tier": 16
+    }
+  },
+  {
+    "id": "chance_224",
+    "name": "幽谷药圃·烽火遗迹",
+    "kind": "neutral",
+    "description": "幽谷药圃·烽火遗迹：押注守关战，Boss伤害和暴击提高但防御略降。",
+    "effects": {
+      "mods": [
+        [
+          "boss",
+          7,
+          12
+        ],
+        [
+          "crit",
+          3,
+          12
+        ],
+        [
+          "defPct",
+          -0.012,
+          12
+        ]
+      ]
+    },
+    "numeric": "Boss伤害 +7.0%（12层）；暴击 +3.0%（12层）；防御 -1.2%（12层）",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "挑战",
+      "affinity": "aggressive",
+      "tier": 17
+    }
+  },
+  {
+    "id": "chance_225",
+    "name": "幽谷药圃·云路歇脚",
+    "kind": "neutral",
+    "description": "幽谷药圃·云路歇脚：花钱雇佣向导，换取攻击与穿甲优势。",
+    "effects": {
+      "coins": -2712,
+      "mods": [
+        [
+          "atkPct",
+          0.045,
+          13
+        ],
+        [
+          "armorpen",
+          4,
+          13
+        ]
+      ]
+    },
+    "numeric": "铜钱 -2.71K；攻击 +4.5%（13层）；穿甲 +4.0%（13层）",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "交易",
+      "affinity": "wealth",
+      "tier": 18
+    }
+  },
+  {
+    "id": "chance_226",
+    "name": "幽谷药圃·石窟封印",
+    "kind": "good",
+    "description": "幽谷药圃·石窟封印：借地利守势，获得灵石并提高防御与闪避。",
+    "effects": {
+      "jade": 226,
+      "mods": [
+        [
+          "defPct",
+          0.032,
+          14
+        ],
+        [
+          "dodge",
+          6,
+          14
+        ]
+      ]
+    },
+    "numeric": "灵石 +226；防御 +3.2%（14层）；闪避 +6.0%（14层）",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 19
+    }
+  },
+  {
+    "id": "chance_227",
+    "name": "幽谷药圃·旧友来信",
+    "kind": "good",
+    "description": "幽谷药圃·旧友来信：清点遗留军械，获得装备并提高短期掉落。",
+    "effects": {
+      "gearRare": 1,
+      "mods": [
+        [
+          "drop",
+          3,
+          15
+        ]
+      ]
+    },
+    "numeric": "掉落 +3.0%（15层）；稀有+装备 +1件",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "军械",
+      "affinity": "wealth",
+      "tier": 20
+    }
+  },
+  {
+    "id": "chance_228",
+    "name": "幽谷药圃·归途抉择",
+    "kind": "good",
+    "description": "幽谷药圃·归途抉择：完成一段长途抉择，获得更持久的综合增益。",
+    "effects": {
+      "mods": [
+        [
+          "atkPct",
+          0.025,
+          12
+        ],
+        [
+          "defPct",
+          0.025,
+          12
+        ],
+        [
+          "speed",
+          2,
+          12
+        ]
+      ],
+      "coins": 2746
+    },
+    "numeric": "铜钱 +2.75K；攻击 +2.5%（12层）；防御 +2.5%（12层）；速度 +2.0（12层）",
+    "meta": {
+      "theme": "幽谷药圃",
+      "tag": "灵草",
+      "category": "长线",
+      "affinity": "aggressive",
+      "tier": 21
+    }
+  },
+  {
+    "id": "chance_229",
+    "name": "铜雀商坊·旧物清点",
+    "kind": "good",
+    "description": "铜雀商坊·旧物清点：整理旧物换得铜钱与灵石。",
+    "effects": {
+      "coins": 1520,
+      "jade": 56
+    },
+    "numeric": "铜钱 +1.52K；灵石 +56",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "资源",
+      "affinity": "wealth",
+      "tier": 1
+    }
+  },
+  {
+    "id": "chance_230",
+    "name": "铜雀商坊·险径试探",
+    "kind": "neutral",
+    "description": "铜雀商坊·险径试探：以险境磨招，换取攻势但承担防守代价。",
+    "effects": {
+      "cult": 1140,
+      "mods": [
+        [
+          "atkPct",
+          0.037000000000000005,
+          9
+        ],
+        [
+          "defPct",
+          -0.016,
+          9
+        ]
+      ]
+    },
+    "numeric": "修为 +1.14K；攻击 +3.7%（9层）；防御 -1.6%（9层）",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 2
+    }
+  },
+  {
+    "id": "chance_231",
+    "name": "铜雀商坊·残阵推演",
+    "kind": "neutral",
+    "description": "铜雀商坊·残阵推演：走捷径拾回旧忆，速度提升但闪避下降。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          5,
+          10
+        ],
+        [
+          "dodge",
+          -1,
+          10
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +5.0（10层）；闪避 -1.0%（10层）",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "行路",
+      "affinity": "aggressive",
+      "tier": 3
+    }
+  },
+  {
+    "id": "chance_232",
+    "name": "铜雀商坊·商队议价",
+    "kind": "good",
+    "description": "铜雀商坊·商队议价：借地势调息，生命与防御同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.025,
+          11
+        ],
+        [
+          "defPct",
+          0.018,
+          11
+        ]
+      ]
+    },
+    "numeric": "生命 +2.5%（11层）；防御 +1.8%（11层）",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 4
+    }
+  },
+  {
+    "id": "chance_233",
+    "name": "铜雀商坊·夜宿听风",
+    "kind": "good",
+    "description": "铜雀商坊·夜宿听风：从残阵中寻找破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          12
+        ],
+        [
+          "boss",
+          7,
+          12
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（12层）；Boss伤害 +7.0%（12层）",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "破阵",
+      "affinity": "aggressive",
+      "tier": 5
+    }
+  },
+  {
+    "id": "chance_234",
+    "name": "铜雀商坊·断桥择路",
+    "kind": "good",
+    "description": "铜雀商坊·断桥择路：交换情报，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          13
+        ],
+        [
+          "luck",
+          9,
+          13
+        ]
+      ],
+      "coins": 1140
+    },
+    "numeric": "铜钱 +1.14K；掉落 +8.0%（13层）；幸运 +9.0（13层）",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "寻宝",
+      "affinity": "wealth",
+      "tier": 6
+    }
+  },
+  {
+    "id": "chance_235",
+    "name": "铜雀商坊·古卷对照",
+    "kind": "good",
+    "description": "铜雀商坊·古卷对照：参悟战法，暴击路线暂时强化。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          14
+        ],
+        [
+          "critd",
+          12,
+          14
+        ]
+      ],
+      "jade": 86
+    },
+    "numeric": "灵石 +86；暴击 +4.0%（14层）；暴伤 +12%（14层）",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "悟道",
+      "affinity": "aggressive",
+      "tier": 7
+    }
+  },
+  {
+    "id": "chance_236",
+    "name": "铜雀商坊·灵脉共鸣",
+    "kind": "neutral",
+    "description": "铜雀商坊·灵脉共鸣：支付整备成本换取军械与命中提升。",
+    "effects": {
+      "coins": -1072,
+      "gear": 0,
+      "gearRare": 0,
+      "mods": [
+        [
+          "accuracy",
+          2,
+          15
+        ]
+      ]
+    },
+    "numeric": "铜钱 -1.07K；命中 +2.0%（15层）",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "整备",
+      "affinity": "wealth",
+      "tier": 8
+    }
+  },
+  {
+    "id": "chance_237",
+    "name": "铜雀商坊·雨后寻踪",
+    "kind": "good",
+    "description": "铜雀商坊·雨后寻踪：校对旧卷，获得功法残页并稳定命中与抗暴。",
+    "effects": {
+      "page": 2,
+      "mods": [
+        [
+          "accuracy",
+          7,
+          7
+        ],
+        [
+          "antiCrit",
+          3,
+          7
+        ]
+      ]
+    },
+    "numeric": "命中 +7.0%（7层）；抗暴 +3.0%（7层）；当前功法残页 +2",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "悟道",
+      "affinity": "guard",
+      "tier": 9
+    }
+  },
+  {
+    "id": "chance_238",
+    "name": "铜雀商坊·军械换修",
+    "kind": "neutral",
+    "description": "铜雀商坊·军械换修：消耗灵石布阵，换取攻血同步强化。",
+    "effects": {
+      "jade": -148,
+      "mods": [
+        [
+          "atkPct",
+          0.043000000000000003,
+          8
+        ],
+        [
+          "hpPct",
+          0.026000000000000002,
+          8
+        ]
+      ]
+    },
+    "numeric": "灵石 -148；攻击 +4.3%（8层）；生命 +2.6%（8层）",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "布阵",
+      "affinity": "aggressive",
+      "tier": 10
+    }
+  },
+  {
+    "id": "chance_239",
+    "name": "铜雀商坊·药圃采撷",
+    "kind": "good",
+    "description": "铜雀商坊·药圃采撷：旧忆提醒防守节奏，提高抗暴与闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "antiCrit",
+          8,
+          9
+        ],
+        [
+          "dodge",
+          5,
+          9
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；抗暴 +8.0%（9层）；闪避 +5.0%（9层）",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 11
+    }
+  },
+  {
+    "id": "chance_240",
+    "name": "铜雀商坊·驿站交易",
+    "kind": "good",
+    "description": "铜雀商坊·驿站交易：完成委托，获得铜钱、修为与短期掉落提升。",
+    "effects": {
+      "coins": 2278,
+      "cult": 2138,
+      "mods": [
+        [
+          "drop",
+          2,
+          10
+        ]
+      ]
+    },
+    "numeric": "铜钱 +2.28K；修为 +2.14K；掉落 +2.0%（10层）",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "委托",
+      "affinity": "wealth",
+      "tier": 12
+    }
+  },
+  {
+    "id": "chance_241",
+    "name": "铜雀商坊·河滩拾遗",
+    "kind": "neutral",
+    "description": "铜雀商坊·河滩拾遗：抢修残甲，获得装备但暂时牺牲防御换取机动。",
+    "effects": {
+      "gear": 1,
+      "mods": [
+        [
+          "defPct",
+          -0.02,
+          11
+        ],
+        [
+          "speed",
+          5,
+          11
+        ]
+      ]
+    },
+    "numeric": "防御 -2.0%（11层）；速度 +5.0（11层）；装备 +1件",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "军械",
+      "affinity": "aggressive",
+      "tier": 13
+    }
+  },
+  {
+    "id": "chance_242",
+    "name": "铜雀商坊·遗阵试锋",
+    "kind": "good",
+    "description": "铜雀商坊·遗阵试锋：记下灵机，获得回忆令并提高幸运。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "luck",
+          8,
+          12
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；幸运 +8.0（12层）",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "天机",
+      "affinity": "wealth",
+      "tier": 14
+    }
+  },
+  {
+    "id": "chance_243",
+    "name": "铜雀商坊·星象观测",
+    "kind": "good",
+    "description": "铜雀商坊·星象观测：重排行军路线，速度与命中同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "speed",
+          6,
+          13
+        ],
+        [
+          "accuracy",
+          3,
+          13
+        ]
+      ]
+    },
+    "numeric": "速度 +6.0（13层）；命中 +3.0%（13层）",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "行军",
+      "affinity": "aggressive",
+      "tier": 15
+    }
+  },
+  {
+    "id": "chance_244",
+    "name": "铜雀商坊·山鬼传闻",
+    "kind": "good",
+    "description": "铜雀商坊·山鬼传闻：调息养血，提高生命与吸血续航。",
+    "effects": {
+      "mods": [
+        [
+          "lifesteal",
+          2,
+          14
+        ],
+        [
+          "hpPct",
+          0.02,
+          14
+        ]
+      ]
+    },
+    "numeric": "吸血 +2.0%（14层）；生命 +2.0%（14层）",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "续航",
+      "affinity": "guard",
+      "tier": 16
+    }
+  },
+  {
+    "id": "chance_245",
+    "name": "铜雀商坊·烽火遗迹",
+    "kind": "neutral",
+    "description": "铜雀商坊·烽火遗迹：押注守关战，Boss伤害和暴击提高但防御略降。",
+    "effects": {
+      "mods": [
+        [
+          "boss",
+          7,
+          15
+        ],
+        [
+          "crit",
+          3,
+          15
+        ],
+        [
+          "defPct",
+          -0.012,
+          15
+        ]
+      ]
+    },
+    "numeric": "Boss伤害 +7.0%（15层）；暴击 +3.0%（15层）；防御 -1.2%（15层）",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "挑战",
+      "affinity": "aggressive",
+      "tier": 17
+    }
+  },
+  {
+    "id": "chance_246",
+    "name": "铜雀商坊·云路歇脚",
+    "kind": "neutral",
+    "description": "铜雀商坊·云路歇脚：花钱雇佣向导，换取攻击与穿甲优势。",
+    "effects": {
+      "coins": -2712,
+      "mods": [
+        [
+          "atkPct",
+          0.045,
+          7
+        ],
+        [
+          "armorpen",
+          4,
+          7
+        ]
+      ]
+    },
+    "numeric": "铜钱 -2.71K；攻击 +4.5%（7层）；穿甲 +4.0%（7层）",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "交易",
+      "affinity": "wealth",
+      "tier": 18
+    }
+  },
+  {
+    "id": "chance_247",
+    "name": "铜雀商坊·石窟封印",
+    "kind": "good",
+    "description": "铜雀商坊·石窟封印：借地利守势，获得灵石并提高防御与闪避。",
+    "effects": {
+      "jade": 226,
+      "mods": [
+        [
+          "defPct",
+          0.032,
+          8
+        ],
+        [
+          "dodge",
+          6,
+          8
+        ]
+      ]
+    },
+    "numeric": "灵石 +226；防御 +3.2%（8层）；闪避 +6.0%（8层）",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 19
+    }
+  },
+  {
+    "id": "chance_248",
+    "name": "铜雀商坊·旧友来信",
+    "kind": "good",
+    "description": "铜雀商坊·旧友来信：清点遗留军械，获得装备并提高短期掉落。",
+    "effects": {
+      "gearRare": 1,
+      "mods": [
+        [
+          "drop",
+          3,
+          9
+        ]
+      ]
+    },
+    "numeric": "掉落 +3.0%（9层）；稀有+装备 +1件",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "军械",
+      "affinity": "wealth",
+      "tier": 20
+    }
+  },
+  {
+    "id": "chance_249",
+    "name": "铜雀商坊·归途抉择",
+    "kind": "good",
+    "description": "铜雀商坊·归途抉择：完成一段长途抉择，获得更持久的综合增益。",
+    "effects": {
+      "mods": [
+        [
+          "atkPct",
+          0.025,
+          15
+        ],
+        [
+          "defPct",
+          0.025,
+          15
+        ],
+        [
+          "speed",
+          2,
+          15
+        ]
+      ],
+      "coins": 2746
+    },
+    "numeric": "铜钱 +2.75K；攻击 +2.5%（15层）；防御 +2.5%（15层）；速度 +2.0（15层）",
+    "meta": {
+      "theme": "铜雀商坊",
+      "tag": "商路",
+      "category": "长线",
+      "affinity": "aggressive",
+      "tier": 21
+    }
+  },
+  {
+    "id": "chance_250",
+    "name": "雷泽断碑·旧物清点",
+    "kind": "good",
+    "description": "雷泽断碑·旧物清点：整理旧物换得铜钱与灵石。",
+    "effects": {
+      "coins": 1575,
+      "jade": 56
+    },
+    "numeric": "铜钱 +1.57K；灵石 +56",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "资源",
+      "affinity": "wealth",
+      "tier": 1
+    }
+  },
+  {
+    "id": "chance_251",
+    "name": "雷泽断碑·险径试探",
+    "kind": "neutral",
+    "description": "雷泽断碑·险径试探：以险境磨招，换取攻势但承担防守代价。",
+    "effects": {
+      "cult": 1140,
+      "mods": [
+        [
+          "atkPct",
+          0.037000000000000005,
+          12
+        ],
+        [
+          "defPct",
+          -0.016,
+          12
+        ]
+      ]
+    },
+    "numeric": "修为 +1.14K；攻击 +3.7%（12层）；防御 -1.6%（12层）",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 2
+    }
+  },
+  {
+    "id": "chance_252",
+    "name": "雷泽断碑·残阵推演",
+    "kind": "neutral",
+    "description": "雷泽断碑·残阵推演：走捷径拾回旧忆，速度提升但闪避下降。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          5,
+          13
+        ],
+        [
+          "dodge",
+          -1,
+          13
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +5.0（13层）；闪避 -1.0%（13层）",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "行路",
+      "affinity": "aggressive",
+      "tier": 3
+    }
+  },
+  {
+    "id": "chance_253",
+    "name": "雷泽断碑·商队议价",
+    "kind": "good",
+    "description": "雷泽断碑·商队议价：借地势调息，生命与防御同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.025,
+          14
+        ],
+        [
+          "defPct",
+          0.018,
+          14
+        ]
+      ]
+    },
+    "numeric": "生命 +2.5%（14层）；防御 +1.8%（14层）",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 4
+    }
+  },
+  {
+    "id": "chance_254",
+    "name": "雷泽断碑·夜宿听风",
+    "kind": "good",
+    "description": "雷泽断碑·夜宿听风：从残阵中寻找破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          15
+        ],
+        [
+          "boss",
+          7,
+          15
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（15层）；Boss伤害 +7.0%（15层）",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "破阵",
+      "affinity": "aggressive",
+      "tier": 5
+    }
+  },
+  {
+    "id": "chance_255",
+    "name": "雷泽断碑·断桥择路",
+    "kind": "good",
+    "description": "雷泽断碑·断桥择路：交换情报，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          7
+        ],
+        [
+          "luck",
+          9,
+          7
+        ]
+      ],
+      "coins": 1140
+    },
+    "numeric": "铜钱 +1.14K；掉落 +8.0%（7层）；幸运 +9.0（7层）",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "寻宝",
+      "affinity": "wealth",
+      "tier": 6
+    }
+  },
+  {
+    "id": "chance_256",
+    "name": "雷泽断碑·古卷对照",
+    "kind": "good",
+    "description": "雷泽断碑·古卷对照：参悟战法，暴击路线暂时强化。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          8
+        ],
+        [
+          "critd",
+          12,
+          8
+        ]
+      ],
+      "jade": 86
+    },
+    "numeric": "灵石 +86；暴击 +4.0%（8层）；暴伤 +12%（8层）",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "悟道",
+      "affinity": "aggressive",
+      "tier": 7
+    }
+  },
+  {
+    "id": "chance_257",
+    "name": "雷泽断碑·灵脉共鸣",
+    "kind": "neutral",
+    "description": "雷泽断碑·灵脉共鸣：支付整备成本换取军械与命中提升。",
+    "effects": {
+      "coins": -1072,
+      "gear": 0,
+      "gearRare": 0,
+      "mods": [
+        [
+          "accuracy",
+          2,
+          9
+        ]
+      ]
+    },
+    "numeric": "铜钱 -1.07K；命中 +2.0%（9层）",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "整备",
+      "affinity": "wealth",
+      "tier": 8
+    }
+  },
+  {
+    "id": "chance_258",
+    "name": "雷泽断碑·雨后寻踪",
+    "kind": "good",
+    "description": "雷泽断碑·雨后寻踪：校对旧卷，获得功法残页并稳定命中与抗暴。",
+    "effects": {
+      "page": 2,
+      "mods": [
+        [
+          "accuracy",
+          7,
+          10
+        ],
+        [
+          "antiCrit",
+          3,
+          10
+        ]
+      ]
+    },
+    "numeric": "命中 +7.0%（10层）；抗暴 +3.0%（10层）；当前功法残页 +2",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "悟道",
+      "affinity": "guard",
+      "tier": 9
+    }
+  },
+  {
+    "id": "chance_259",
+    "name": "雷泽断碑·军械换修",
+    "kind": "neutral",
+    "description": "雷泽断碑·军械换修：消耗灵石布阵，换取攻血同步强化。",
+    "effects": {
+      "jade": -148,
+      "mods": [
+        [
+          "atkPct",
+          0.043000000000000003,
+          11
+        ],
+        [
+          "hpPct",
+          0.026000000000000002,
+          11
+        ]
+      ]
+    },
+    "numeric": "灵石 -148；攻击 +4.3%（11层）；生命 +2.6%（11层）",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "布阵",
+      "affinity": "aggressive",
+      "tier": 10
+    }
+  },
+  {
+    "id": "chance_260",
+    "name": "雷泽断碑·药圃采撷",
+    "kind": "good",
+    "description": "雷泽断碑·药圃采撷：旧忆提醒防守节奏，提高抗暴与闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "antiCrit",
+          8,
+          12
+        ],
+        [
+          "dodge",
+          5,
+          12
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；抗暴 +8.0%（12层）；闪避 +5.0%（12层）",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 11
+    }
+  },
+  {
+    "id": "chance_261",
+    "name": "雷泽断碑·驿站交易",
+    "kind": "good",
+    "description": "雷泽断碑·驿站交易：完成委托，获得铜钱、修为与短期掉落提升。",
+    "effects": {
+      "coins": 2278,
+      "cult": 2138,
+      "mods": [
+        [
+          "drop",
+          2,
+          13
+        ]
+      ]
+    },
+    "numeric": "铜钱 +2.28K；修为 +2.14K；掉落 +2.0%（13层）",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "委托",
+      "affinity": "wealth",
+      "tier": 12
+    }
+  },
+  {
+    "id": "chance_262",
+    "name": "雷泽断碑·河滩拾遗",
+    "kind": "neutral",
+    "description": "雷泽断碑·河滩拾遗：抢修残甲，获得装备但暂时牺牲防御换取机动。",
+    "effects": {
+      "gear": 1,
+      "mods": [
+        [
+          "defPct",
+          -0.02,
+          14
+        ],
+        [
+          "speed",
+          5,
+          14
+        ]
+      ]
+    },
+    "numeric": "防御 -2.0%（14层）；速度 +5.0（14层）；装备 +1件",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "军械",
+      "affinity": "aggressive",
+      "tier": 13
+    }
+  },
+  {
+    "id": "chance_263",
+    "name": "雷泽断碑·遗阵试锋",
+    "kind": "good",
+    "description": "雷泽断碑·遗阵试锋：记下灵机，获得回忆令并提高幸运。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "luck",
+          8,
+          15
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；幸运 +8.0（15层）",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "天机",
+      "affinity": "wealth",
+      "tier": 14
+    }
+  },
+  {
+    "id": "chance_264",
+    "name": "雷泽断碑·星象观测",
+    "kind": "good",
+    "description": "雷泽断碑·星象观测：重排行军路线，速度与命中同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "speed",
+          6,
+          7
+        ],
+        [
+          "accuracy",
+          3,
+          7
+        ]
+      ]
+    },
+    "numeric": "速度 +6.0（7层）；命中 +3.0%（7层）",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "行军",
+      "affinity": "aggressive",
+      "tier": 15
+    }
+  },
+  {
+    "id": "chance_265",
+    "name": "雷泽断碑·山鬼传闻",
+    "kind": "good",
+    "description": "雷泽断碑·山鬼传闻：调息养血，提高生命与吸血续航。",
+    "effects": {
+      "mods": [
+        [
+          "lifesteal",
+          2,
+          8
+        ],
+        [
+          "hpPct",
+          0.02,
+          8
+        ]
+      ]
+    },
+    "numeric": "吸血 +2.0%（8层）；生命 +2.0%（8层）",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "续航",
+      "affinity": "guard",
+      "tier": 16
+    }
+  },
+  {
+    "id": "chance_266",
+    "name": "雷泽断碑·烽火遗迹",
+    "kind": "neutral",
+    "description": "雷泽断碑·烽火遗迹：押注守关战，Boss伤害和暴击提高但防御略降。",
+    "effects": {
+      "mods": [
+        [
+          "boss",
+          7,
+          9
+        ],
+        [
+          "crit",
+          3,
+          9
+        ],
+        [
+          "defPct",
+          -0.012,
+          9
+        ]
+      ]
+    },
+    "numeric": "Boss伤害 +7.0%（9层）；暴击 +3.0%（9层）；防御 -1.2%（9层）",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "挑战",
+      "affinity": "aggressive",
+      "tier": 17
+    }
+  },
+  {
+    "id": "chance_267",
+    "name": "雷泽断碑·云路歇脚",
+    "kind": "neutral",
+    "description": "雷泽断碑·云路歇脚：花钱雇佣向导，换取攻击与穿甲优势。",
+    "effects": {
+      "coins": -2712,
+      "mods": [
+        [
+          "atkPct",
+          0.045,
+          10
+        ],
+        [
+          "armorpen",
+          4,
+          10
+        ]
+      ]
+    },
+    "numeric": "铜钱 -2.71K；攻击 +4.5%（10层）；穿甲 +4.0%（10层）",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "交易",
+      "affinity": "wealth",
+      "tier": 18
+    }
+  },
+  {
+    "id": "chance_268",
+    "name": "雷泽断碑·石窟封印",
+    "kind": "good",
+    "description": "雷泽断碑·石窟封印：借地利守势，获得灵石并提高防御与闪避。",
+    "effects": {
+      "jade": 226,
+      "mods": [
+        [
+          "defPct",
+          0.032,
+          11
+        ],
+        [
+          "dodge",
+          6,
+          11
+        ]
+      ]
+    },
+    "numeric": "灵石 +226；防御 +3.2%（11层）；闪避 +6.0%（11层）",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 19
+    }
+  },
+  {
+    "id": "chance_269",
+    "name": "雷泽断碑·旧友来信",
+    "kind": "good",
+    "description": "雷泽断碑·旧友来信：清点遗留军械，获得装备并提高短期掉落。",
+    "effects": {
+      "gearRare": 1,
+      "mods": [
+        [
+          "drop",
+          3,
+          12
+        ]
+      ]
+    },
+    "numeric": "掉落 +3.0%（12层）；稀有+装备 +1件",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "军械",
+      "affinity": "wealth",
+      "tier": 20
+    }
+  },
+  {
+    "id": "chance_270",
+    "name": "雷泽断碑·归途抉择",
+    "kind": "good",
+    "description": "雷泽断碑·归途抉择：完成一段长途抉择，获得更持久的综合增益。",
+    "effects": {
+      "mods": [
+        [
+          "atkPct",
+          0.025,
+          18
+        ],
+        [
+          "defPct",
+          0.025,
+          18
+        ],
+        [
+          "speed",
+          2,
+          18
+        ]
+      ],
+      "coins": 2746
+    },
+    "numeric": "铜钱 +2.75K；攻击 +2.5%（18层）；防御 +2.5%（18层）；速度 +2.0（18层）",
+    "meta": {
+      "theme": "雷泽断碑",
+      "tag": "判定",
+      "category": "长线",
+      "affinity": "aggressive",
+      "tier": 21
+    }
+  },
+  {
+    "id": "chance_271",
+    "name": "月下军帐·旧物清点",
+    "kind": "good",
+    "description": "月下军帐·旧物清点：整理旧物换得铜钱与灵石。",
+    "effects": {
+      "coins": 1630,
+      "jade": 56
+    },
+    "numeric": "铜钱 +1.63K；灵石 +56",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "资源",
+      "affinity": "wealth",
+      "tier": 1
+    }
+  },
+  {
+    "id": "chance_272",
+    "name": "月下军帐·险径试探",
+    "kind": "neutral",
+    "description": "月下军帐·险径试探：以险境磨招，换取攻势但承担防守代价。",
+    "effects": {
+      "cult": 1140,
+      "mods": [
+        [
+          "atkPct",
+          0.037000000000000005,
+          15
+        ],
+        [
+          "defPct",
+          -0.016,
+          15
+        ]
+      ]
+    },
+    "numeric": "修为 +1.14K；攻击 +3.7%（15层）；防御 -1.6%（15层）",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 2
+    }
+  },
+  {
+    "id": "chance_273",
+    "name": "月下军帐·残阵推演",
+    "kind": "neutral",
+    "description": "月下军帐·残阵推演：走捷径拾回旧忆，速度提升但闪避下降。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          5,
+          7
+        ],
+        [
+          "dodge",
+          -1,
+          7
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +5.0（7层）；闪避 -1.0%（7层）",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "行路",
+      "affinity": "aggressive",
+      "tier": 3
+    }
+  },
+  {
+    "id": "chance_274",
+    "name": "月下军帐·商队议价",
+    "kind": "good",
+    "description": "月下军帐·商队议价：借地势调息，生命与防御同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.025,
+          8
+        ],
+        [
+          "defPct",
+          0.018,
+          8
+        ]
+      ]
+    },
+    "numeric": "生命 +2.5%（8层）；防御 +1.8%（8层）",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 4
+    }
+  },
+  {
+    "id": "chance_275",
+    "name": "月下军帐·夜宿听风",
+    "kind": "good",
+    "description": "月下军帐·夜宿听风：从残阵中寻找破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          9
+        ],
+        [
+          "boss",
+          7,
+          9
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（9层）；Boss伤害 +7.0%（9层）",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "破阵",
+      "affinity": "aggressive",
+      "tier": 5
+    }
+  },
+  {
+    "id": "chance_276",
+    "name": "月下军帐·断桥择路",
+    "kind": "good",
+    "description": "月下军帐·断桥择路：交换情报，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          10
+        ],
+        [
+          "luck",
+          9,
+          10
+        ]
+      ],
+      "coins": 1140
+    },
+    "numeric": "铜钱 +1.14K；掉落 +8.0%（10层）；幸运 +9.0（10层）",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "寻宝",
+      "affinity": "wealth",
+      "tier": 6
+    }
+  },
+  {
+    "id": "chance_277",
+    "name": "月下军帐·古卷对照",
+    "kind": "good",
+    "description": "月下军帐·古卷对照：参悟战法，暴击路线暂时强化。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          11
+        ],
+        [
+          "critd",
+          12,
+          11
+        ]
+      ],
+      "jade": 86
+    },
+    "numeric": "灵石 +86；暴击 +4.0%（11层）；暴伤 +12%（11层）",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "悟道",
+      "affinity": "aggressive",
+      "tier": 7
+    }
+  },
+  {
+    "id": "chance_278",
+    "name": "月下军帐·灵脉共鸣",
+    "kind": "neutral",
+    "description": "月下军帐·灵脉共鸣：支付整备成本换取军械与命中提升。",
+    "effects": {
+      "coins": -1072,
+      "gear": 0,
+      "gearRare": 0,
+      "mods": [
+        [
+          "accuracy",
+          2,
+          12
+        ]
+      ]
+    },
+    "numeric": "铜钱 -1.07K；命中 +2.0%（12层）",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "整备",
+      "affinity": "wealth",
+      "tier": 8
+    }
+  },
+  {
+    "id": "chance_279",
+    "name": "月下军帐·雨后寻踪",
+    "kind": "good",
+    "description": "月下军帐·雨后寻踪：校对旧卷，获得功法残页并稳定命中与抗暴。",
+    "effects": {
+      "page": 2,
+      "mods": [
+        [
+          "accuracy",
+          7,
+          13
+        ],
+        [
+          "antiCrit",
+          3,
+          13
+        ]
+      ]
+    },
+    "numeric": "命中 +7.0%（13层）；抗暴 +3.0%（13层）；当前功法残页 +2",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "悟道",
+      "affinity": "guard",
+      "tier": 9
+    }
+  },
+  {
+    "id": "chance_280",
+    "name": "月下军帐·军械换修",
+    "kind": "neutral",
+    "description": "月下军帐·军械换修：消耗灵石布阵，换取攻血同步强化。",
+    "effects": {
+      "jade": -148,
+      "mods": [
+        [
+          "atkPct",
+          0.043000000000000003,
+          14
+        ],
+        [
+          "hpPct",
+          0.026000000000000002,
+          14
+        ]
+      ]
+    },
+    "numeric": "灵石 -148；攻击 +4.3%（14层）；生命 +2.6%（14层）",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "布阵",
+      "affinity": "aggressive",
+      "tier": 10
+    }
+  },
+  {
+    "id": "chance_281",
+    "name": "月下军帐·药圃采撷",
+    "kind": "good",
+    "description": "月下军帐·药圃采撷：旧忆提醒防守节奏，提高抗暴与闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "antiCrit",
+          8,
+          15
+        ],
+        [
+          "dodge",
+          5,
+          15
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；抗暴 +8.0%（15层）；闪避 +5.0%（15层）",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 11
+    }
+  },
+  {
+    "id": "chance_282",
+    "name": "月下军帐·驿站交易",
+    "kind": "good",
+    "description": "月下军帐·驿站交易：完成委托，获得铜钱、修为与短期掉落提升。",
+    "effects": {
+      "coins": 2278,
+      "cult": 2138,
+      "mods": [
+        [
+          "drop",
+          2,
+          7
+        ]
+      ]
+    },
+    "numeric": "铜钱 +2.28K；修为 +2.14K；掉落 +2.0%（7层）",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "委托",
+      "affinity": "wealth",
+      "tier": 12
+    }
+  },
+  {
+    "id": "chance_283",
+    "name": "月下军帐·河滩拾遗",
+    "kind": "neutral",
+    "description": "月下军帐·河滩拾遗：抢修残甲，获得装备但暂时牺牲防御换取机动。",
+    "effects": {
+      "gear": 1,
+      "mods": [
+        [
+          "defPct",
+          -0.02,
+          8
+        ],
+        [
+          "speed",
+          5,
+          8
+        ]
+      ]
+    },
+    "numeric": "防御 -2.0%（8层）；速度 +5.0（8层）；装备 +1件",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "军械",
+      "affinity": "aggressive",
+      "tier": 13
+    }
+  },
+  {
+    "id": "chance_284",
+    "name": "月下军帐·遗阵试锋",
+    "kind": "good",
+    "description": "月下军帐·遗阵试锋：记下灵机，获得回忆令并提高幸运。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "luck",
+          8,
+          9
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；幸运 +8.0（9层）",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "天机",
+      "affinity": "wealth",
+      "tier": 14
+    }
+  },
+  {
+    "id": "chance_285",
+    "name": "月下军帐·星象观测",
+    "kind": "good",
+    "description": "月下军帐·星象观测：重排行军路线，速度与命中同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "speed",
+          6,
+          10
+        ],
+        [
+          "accuracy",
+          3,
+          10
+        ]
+      ]
+    },
+    "numeric": "速度 +6.0（10层）；命中 +3.0%（10层）",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "行军",
+      "affinity": "aggressive",
+      "tier": 15
+    }
+  },
+  {
+    "id": "chance_286",
+    "name": "月下军帐·山鬼传闻",
+    "kind": "good",
+    "description": "月下军帐·山鬼传闻：调息养血，提高生命与吸血续航。",
+    "effects": {
+      "mods": [
+        [
+          "lifesteal",
+          2,
+          11
+        ],
+        [
+          "hpPct",
+          0.02,
+          11
+        ]
+      ]
+    },
+    "numeric": "吸血 +2.0%（11层）；生命 +2.0%（11层）",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "续航",
+      "affinity": "guard",
+      "tier": 16
+    }
+  },
+  {
+    "id": "chance_287",
+    "name": "月下军帐·烽火遗迹",
+    "kind": "neutral",
+    "description": "月下军帐·烽火遗迹：押注守关战，Boss伤害和暴击提高但防御略降。",
+    "effects": {
+      "mods": [
+        [
+          "boss",
+          7,
+          12
+        ],
+        [
+          "crit",
+          3,
+          12
+        ],
+        [
+          "defPct",
+          -0.012,
+          12
+        ]
+      ]
+    },
+    "numeric": "Boss伤害 +7.0%（12层）；暴击 +3.0%（12层）；防御 -1.2%（12层）",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "挑战",
+      "affinity": "aggressive",
+      "tier": 17
+    }
+  },
+  {
+    "id": "chance_288",
+    "name": "月下军帐·云路歇脚",
+    "kind": "neutral",
+    "description": "月下军帐·云路歇脚：花钱雇佣向导，换取攻击与穿甲优势。",
+    "effects": {
+      "coins": -2712,
+      "mods": [
+        [
+          "atkPct",
+          0.045,
+          13
+        ],
+        [
+          "armorpen",
+          4,
+          13
+        ]
+      ]
+    },
+    "numeric": "铜钱 -2.71K；攻击 +4.5%（13层）；穿甲 +4.0%（13层）",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "交易",
+      "affinity": "wealth",
+      "tier": 18
+    }
+  },
+  {
+    "id": "chance_289",
+    "name": "月下军帐·石窟封印",
+    "kind": "good",
+    "description": "月下军帐·石窟封印：借地利守势，获得灵石并提高防御与闪避。",
+    "effects": {
+      "jade": 226,
+      "mods": [
+        [
+          "defPct",
+          0.032,
+          14
+        ],
+        [
+          "dodge",
+          6,
+          14
+        ]
+      ]
+    },
+    "numeric": "灵石 +226；防御 +3.2%（14层）；闪避 +6.0%（14层）",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 19
+    }
+  },
+  {
+    "id": "chance_290",
+    "name": "月下军帐·旧友来信",
+    "kind": "good",
+    "description": "月下军帐·旧友来信：清点遗留军械，获得装备并提高短期掉落。",
+    "effects": {
+      "gearRare": 1,
+      "mods": [
+        [
+          "drop",
+          3,
+          15
+        ]
+      ]
+    },
+    "numeric": "掉落 +3.0%（15层）；稀有+装备 +1件",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "军械",
+      "affinity": "wealth",
+      "tier": 20
+    }
+  },
+  {
+    "id": "chance_291",
+    "name": "月下军帐·归途抉择",
+    "kind": "good",
+    "description": "月下军帐·归途抉择：完成一段长途抉择，获得更持久的综合增益。",
+    "effects": {
+      "mods": [
+        [
+          "atkPct",
+          0.025,
+          12
+        ],
+        [
+          "defPct",
+          0.025,
+          12
+        ],
+        [
+          "speed",
+          2,
+          12
+        ]
+      ],
+      "coins": 2746
+    },
+    "numeric": "铜钱 +2.75K；攻击 +2.5%（12层）；防御 +2.5%（12层）；速度 +2.0（12层）",
+    "meta": {
+      "theme": "月下军帐",
+      "tag": "军阵",
+      "category": "长线",
+      "affinity": "aggressive",
+      "tier": 21
+    }
+  },
+  {
+    "id": "chance_292",
+    "name": "星台残卷·旧物清点",
+    "kind": "good",
+    "description": "星台残卷·旧物清点：整理旧物换得铜钱与灵石。",
+    "effects": {
+      "coins": 1685,
+      "jade": 56
+    },
+    "numeric": "铜钱 +1.69K；灵石 +56",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "资源",
+      "affinity": "wealth",
+      "tier": 1
+    }
+  },
+  {
+    "id": "chance_293",
+    "name": "星台残卷·险径试探",
+    "kind": "neutral",
+    "description": "星台残卷·险径试探：以险境磨招，换取攻势但承担防守代价。",
+    "effects": {
+      "cult": 1140,
+      "mods": [
+        [
+          "atkPct",
+          0.037000000000000005,
+          9
+        ],
+        [
+          "defPct",
+          -0.016,
+          9
+        ]
+      ]
+    },
+    "numeric": "修为 +1.14K；攻击 +3.7%（9层）；防御 -1.6%（9层）",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 2
+    }
+  },
+  {
+    "id": "chance_294",
+    "name": "星台残卷·残阵推演",
+    "kind": "neutral",
+    "description": "星台残卷·残阵推演：走捷径拾回旧忆，速度提升但闪避下降。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          5,
+          10
+        ],
+        [
+          "dodge",
+          -1,
+          10
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +5.0（10层）；闪避 -1.0%（10层）",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "行路",
+      "affinity": "aggressive",
+      "tier": 3
+    }
+  },
+  {
+    "id": "chance_295",
+    "name": "星台残卷·商队议价",
+    "kind": "good",
+    "description": "星台残卷·商队议价：借地势调息，生命与防御同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.025,
+          11
+        ],
+        [
+          "defPct",
+          0.018,
+          11
+        ]
+      ]
+    },
+    "numeric": "生命 +2.5%（11层）；防御 +1.8%（11层）",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 4
+    }
+  },
+  {
+    "id": "chance_296",
+    "name": "星台残卷·夜宿听风",
+    "kind": "good",
+    "description": "星台残卷·夜宿听风：从残阵中寻找破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          12
+        ],
+        [
+          "boss",
+          7,
+          12
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（12层）；Boss伤害 +7.0%（12层）",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "破阵",
+      "affinity": "aggressive",
+      "tier": 5
+    }
+  },
+  {
+    "id": "chance_297",
+    "name": "星台残卷·断桥择路",
+    "kind": "good",
+    "description": "星台残卷·断桥择路：交换情报，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          13
+        ],
+        [
+          "luck",
+          9,
+          13
+        ]
+      ],
+      "coins": 1140
+    },
+    "numeric": "铜钱 +1.14K；掉落 +8.0%（13层）；幸运 +9.0（13层）",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "寻宝",
+      "affinity": "wealth",
+      "tier": 6
+    }
+  },
+  {
+    "id": "chance_298",
+    "name": "星台残卷·古卷对照",
+    "kind": "good",
+    "description": "星台残卷·古卷对照：参悟战法，暴击路线暂时强化。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          14
+        ],
+        [
+          "critd",
+          12,
+          14
+        ]
+      ],
+      "jade": 86
+    },
+    "numeric": "灵石 +86；暴击 +4.0%（14层）；暴伤 +12%（14层）",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "悟道",
+      "affinity": "aggressive",
+      "tier": 7
+    }
+  },
+  {
+    "id": "chance_299",
+    "name": "星台残卷·灵脉共鸣",
+    "kind": "neutral",
+    "description": "星台残卷·灵脉共鸣：支付整备成本换取军械与命中提升。",
+    "effects": {
+      "coins": -1072,
+      "gear": 0,
+      "gearRare": 0,
+      "mods": [
+        [
+          "accuracy",
+          2,
+          15
+        ]
+      ]
+    },
+    "numeric": "铜钱 -1.07K；命中 +2.0%（15层）",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "整备",
+      "affinity": "wealth",
+      "tier": 8
+    }
+  },
+  {
+    "id": "chance_300",
+    "name": "星台残卷·雨后寻踪",
+    "kind": "good",
+    "description": "星台残卷·雨后寻踪：校对旧卷，获得功法残页并稳定命中与抗暴。",
+    "effects": {
+      "page": 2,
+      "mods": [
+        [
+          "accuracy",
+          7,
+          7
+        ],
+        [
+          "antiCrit",
+          3,
+          7
+        ]
+      ]
+    },
+    "numeric": "命中 +7.0%（7层）；抗暴 +3.0%（7层）；当前功法残页 +2",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "悟道",
+      "affinity": "guard",
+      "tier": 9
+    }
+  },
+  {
+    "id": "chance_301",
+    "name": "星台残卷·军械换修",
+    "kind": "neutral",
+    "description": "星台残卷·军械换修：消耗灵石布阵，换取攻血同步强化。",
+    "effects": {
+      "jade": -148,
+      "mods": [
+        [
+          "atkPct",
+          0.043000000000000003,
+          8
+        ],
+        [
+          "hpPct",
+          0.026000000000000002,
+          8
+        ]
+      ]
+    },
+    "numeric": "灵石 -148；攻击 +4.3%（8层）；生命 +2.6%（8层）",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "布阵",
+      "affinity": "aggressive",
+      "tier": 10
+    }
+  },
+  {
+    "id": "chance_302",
+    "name": "星台残卷·药圃采撷",
+    "kind": "good",
+    "description": "星台残卷·药圃采撷：旧忆提醒防守节奏，提高抗暴与闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "antiCrit",
+          8,
+          9
+        ],
+        [
+          "dodge",
+          5,
+          9
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；抗暴 +8.0%（9层）；闪避 +5.0%（9层）",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 11
+    }
+  },
+  {
+    "id": "chance_303",
+    "name": "星台残卷·驿站交易",
+    "kind": "good",
+    "description": "星台残卷·驿站交易：完成委托，获得铜钱、修为与短期掉落提升。",
+    "effects": {
+      "coins": 2278,
+      "cult": 2138,
+      "mods": [
+        [
+          "drop",
+          2,
+          10
+        ]
+      ]
+    },
+    "numeric": "铜钱 +2.28K；修为 +2.14K；掉落 +2.0%（10层）",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "委托",
+      "affinity": "wealth",
+      "tier": 12
+    }
+  },
+  {
+    "id": "chance_304",
+    "name": "星台残卷·河滩拾遗",
+    "kind": "neutral",
+    "description": "星台残卷·河滩拾遗：抢修残甲，获得装备但暂时牺牲防御换取机动。",
+    "effects": {
+      "gear": 1,
+      "mods": [
+        [
+          "defPct",
+          -0.02,
+          11
+        ],
+        [
+          "speed",
+          5,
+          11
+        ]
+      ]
+    },
+    "numeric": "防御 -2.0%（11层）；速度 +5.0（11层）；装备 +1件",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "军械",
+      "affinity": "aggressive",
+      "tier": 13
+    }
+  },
+  {
+    "id": "chance_305",
+    "name": "星台残卷·遗阵试锋",
+    "kind": "good",
+    "description": "星台残卷·遗阵试锋：记下灵机，获得回忆令并提高幸运。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "luck",
+          8,
+          12
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；幸运 +8.0（12层）",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "天机",
+      "affinity": "wealth",
+      "tier": 14
+    }
+  },
+  {
+    "id": "chance_306",
+    "name": "星台残卷·星象观测",
+    "kind": "good",
+    "description": "星台残卷·星象观测：重排行军路线，速度与命中同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "speed",
+          6,
+          13
+        ],
+        [
+          "accuracy",
+          3,
+          13
+        ]
+      ]
+    },
+    "numeric": "速度 +6.0（13层）；命中 +3.0%（13层）",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "行军",
+      "affinity": "aggressive",
+      "tier": 15
+    }
+  },
+  {
+    "id": "chance_307",
+    "name": "星台残卷·山鬼传闻",
+    "kind": "good",
+    "description": "星台残卷·山鬼传闻：调息养血，提高生命与吸血续航。",
+    "effects": {
+      "mods": [
+        [
+          "lifesteal",
+          2,
+          14
+        ],
+        [
+          "hpPct",
+          0.02,
+          14
+        ]
+      ]
+    },
+    "numeric": "吸血 +2.0%（14层）；生命 +2.0%（14层）",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "续航",
+      "affinity": "guard",
+      "tier": 16
+    }
+  },
+  {
+    "id": "chance_308",
+    "name": "星台残卷·烽火遗迹",
+    "kind": "neutral",
+    "description": "星台残卷·烽火遗迹：押注守关战，Boss伤害和暴击提高但防御略降。",
+    "effects": {
+      "mods": [
+        [
+          "boss",
+          7,
+          15
+        ],
+        [
+          "crit",
+          3,
+          15
+        ],
+        [
+          "defPct",
+          -0.012,
+          15
+        ]
+      ]
+    },
+    "numeric": "Boss伤害 +7.0%（15层）；暴击 +3.0%（15层）；防御 -1.2%（15层）",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "挑战",
+      "affinity": "aggressive",
+      "tier": 17
+    }
+  },
+  {
+    "id": "chance_309",
+    "name": "星台残卷·云路歇脚",
+    "kind": "neutral",
+    "description": "星台残卷·云路歇脚：花钱雇佣向导，换取攻击与穿甲优势。",
+    "effects": {
+      "coins": -2712,
+      "mods": [
+        [
+          "atkPct",
+          0.045,
+          7
+        ],
+        [
+          "armorpen",
+          4,
+          7
+        ]
+      ]
+    },
+    "numeric": "铜钱 -2.71K；攻击 +4.5%（7层）；穿甲 +4.0%（7层）",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "交易",
+      "affinity": "wealth",
+      "tier": 18
+    }
+  },
+  {
+    "id": "chance_310",
+    "name": "星台残卷·石窟封印",
+    "kind": "good",
+    "description": "星台残卷·石窟封印：借地利守势，获得灵石并提高防御与闪避。",
+    "effects": {
+      "jade": 226,
+      "mods": [
+        [
+          "defPct",
+          0.032,
+          8
+        ],
+        [
+          "dodge",
+          6,
+          8
+        ]
+      ]
+    },
+    "numeric": "灵石 +226；防御 +3.2%（8层）；闪避 +6.0%（8层）",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 19
+    }
+  },
+  {
+    "id": "chance_311",
+    "name": "星台残卷·旧友来信",
+    "kind": "good",
+    "description": "星台残卷·旧友来信：清点遗留军械，获得装备并提高短期掉落。",
+    "effects": {
+      "gearRare": 1,
+      "mods": [
+        [
+          "drop",
+          3,
+          9
+        ]
+      ]
+    },
+    "numeric": "掉落 +3.0%（9层）；稀有+装备 +1件",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "军械",
+      "affinity": "wealth",
+      "tier": 20
+    }
+  },
+  {
+    "id": "chance_312",
+    "name": "星台残卷·归途抉择",
+    "kind": "good",
+    "description": "星台残卷·归途抉择：完成一段长途抉择，获得更持久的综合增益。",
+    "effects": {
+      "mods": [
+        [
+          "atkPct",
+          0.025,
+          15
+        ],
+        [
+          "defPct",
+          0.025,
+          15
+        ],
+        [
+          "speed",
+          2,
+          15
+        ]
+      ],
+      "coins": 2746
+    },
+    "numeric": "铜钱 +2.75K；攻击 +2.5%（15层）；防御 +2.5%（15层）；速度 +2.0（15层）",
+    "meta": {
+      "theme": "星台残卷",
+      "tag": "悟道",
+      "category": "长线",
+      "affinity": "aggressive",
+      "tier": 21
+    }
+  },
+  {
+    "id": "chance_313",
+    "name": "荒城暗巷·旧物清点",
+    "kind": "good",
+    "description": "荒城暗巷·旧物清点：整理旧物换得铜钱与灵石。",
+    "effects": {
+      "coins": 1740,
+      "jade": 56
+    },
+    "numeric": "铜钱 +1.74K；灵石 +56",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "资源",
+      "affinity": "wealth",
+      "tier": 1
+    }
+  },
+  {
+    "id": "chance_314",
+    "name": "荒城暗巷·险径试探",
+    "kind": "neutral",
+    "description": "荒城暗巷·险径试探：以险境磨招，换取攻势但承担防守代价。",
+    "effects": {
+      "cult": 1140,
+      "mods": [
+        [
+          "atkPct",
+          0.037000000000000005,
+          12
+        ],
+        [
+          "defPct",
+          -0.016,
+          12
+        ]
+      ]
+    },
+    "numeric": "修为 +1.14K；攻击 +3.7%（12层）；防御 -1.6%（12层）",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "攻势",
+      "affinity": "aggressive",
+      "tier": 2
+    }
+  },
+  {
+    "id": "chance_315",
+    "name": "荒城暗巷·残阵推演",
+    "kind": "neutral",
+    "description": "荒城暗巷·残阵推演：走捷径拾回旧忆，速度提升但闪避下降。",
+    "effects": {
+      "memory": 1,
+      "mods": [
+        [
+          "speed",
+          5,
+          13
+        ],
+        [
+          "dodge",
+          -1,
+          13
+        ]
+      ]
+    },
+    "numeric": "回忆令 +1；速度 +5.0（13层）；闪避 -1.0%（13层）",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "行路",
+      "affinity": "aggressive",
+      "tier": 3
+    }
+  },
+  {
+    "id": "chance_316",
+    "name": "荒城暗巷·商队议价",
+    "kind": "good",
+    "description": "荒城暗巷·商队议价：借地势调息，生命与防御同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "hpPct",
+          0.025,
+          14
+        ],
+        [
+          "defPct",
+          0.018,
+          14
+        ]
+      ]
+    },
+    "numeric": "生命 +2.5%（14层）；防御 +1.8%（14层）",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 4
+    }
+  },
+  {
+    "id": "chance_317",
+    "name": "荒城暗巷·夜宿听风",
+    "kind": "good",
+    "description": "荒城暗巷·夜宿听风：从残阵中寻找破绽，提高穿甲与Boss伤害。",
+    "effects": {
+      "mods": [
+        [
+          "armorpen",
+          7,
+          15
+        ],
+        [
+          "boss",
+          7,
+          15
+        ]
+      ]
+    },
+    "numeric": "穿甲 +7.0%（15层）；Boss伤害 +7.0%（15层）",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "破阵",
+      "affinity": "aggressive",
+      "tier": 5
+    }
+  },
+  {
+    "id": "chance_318",
+    "name": "荒城暗巷·断桥择路",
+    "kind": "good",
+    "description": "荒城暗巷·断桥择路：交换情报，提高掉落与幸运并获得铜钱。",
+    "effects": {
+      "mods": [
+        [
+          "drop",
+          8,
+          7
+        ],
+        [
+          "luck",
+          9,
+          7
+        ]
+      ],
+      "coins": 1140
+    },
+    "numeric": "铜钱 +1.14K；掉落 +8.0%（7层）；幸运 +9.0（7层）",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "寻宝",
+      "affinity": "wealth",
+      "tier": 6
+    }
+  },
+  {
+    "id": "chance_319",
+    "name": "荒城暗巷·古卷对照",
+    "kind": "good",
+    "description": "荒城暗巷·古卷对照：参悟战法，暴击路线暂时强化。",
+    "effects": {
+      "mods": [
+        [
+          "crit",
+          4,
+          8
+        ],
+        [
+          "critd",
+          12,
+          8
+        ]
+      ],
+      "jade": 86
+    },
+    "numeric": "灵石 +86；暴击 +4.0%（8层）；暴伤 +12%（8层）",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "悟道",
+      "affinity": "aggressive",
+      "tier": 7
+    }
+  },
+  {
+    "id": "chance_320",
+    "name": "荒城暗巷·灵脉共鸣",
+    "kind": "neutral",
+    "description": "荒城暗巷·灵脉共鸣：支付整备成本换取军械与命中提升。",
+    "effects": {
+      "coins": -1072,
+      "gear": 0,
+      "gearRare": 0,
+      "mods": [
+        [
+          "accuracy",
+          2,
+          9
+        ]
+      ]
+    },
+    "numeric": "铜钱 -1.07K；命中 +2.0%（9层）",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "整备",
+      "affinity": "wealth",
+      "tier": 8
+    }
+  },
+  {
+    "id": "chance_321",
+    "name": "荒城暗巷·雨后寻踪",
+    "kind": "good",
+    "description": "荒城暗巷·雨后寻踪：校对旧卷，获得功法残页并稳定命中与抗暴。",
+    "effects": {
+      "page": 2,
+      "mods": [
+        [
+          "accuracy",
+          7,
+          10
+        ],
+        [
+          "antiCrit",
+          3,
+          10
+        ]
+      ]
+    },
+    "numeric": "命中 +7.0%（10层）；抗暴 +3.0%（10层）；当前功法残页 +2",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "悟道",
+      "affinity": "guard",
+      "tier": 9
+    }
+  },
+  {
+    "id": "chance_322",
+    "name": "荒城暗巷·军械换修",
+    "kind": "neutral",
+    "description": "荒城暗巷·军械换修：消耗灵石布阵，换取攻血同步强化。",
+    "effects": {
+      "jade": -148,
+      "mods": [
+        [
+          "atkPct",
+          0.043000000000000003,
+          11
+        ],
+        [
+          "hpPct",
+          0.026000000000000002,
+          11
+        ]
+      ]
+    },
+    "numeric": "灵石 -148；攻击 +4.3%（11层）；生命 +2.6%（11层）",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "布阵",
+      "affinity": "aggressive",
+      "tier": 10
+    }
+  },
+  {
+    "id": "chance_323",
+    "name": "荒城暗巷·药圃采撷",
+    "kind": "good",
+    "description": "荒城暗巷·药圃采撷：旧忆提醒防守节奏，提高抗暴与闪避。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "antiCrit",
+          8,
+          12
+        ],
+        [
+          "dodge",
+          5,
+          12
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；抗暴 +8.0%（12层）；闪避 +5.0%（12层）",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 11
+    }
+  },
+  {
+    "id": "chance_324",
+    "name": "荒城暗巷·驿站交易",
+    "kind": "good",
+    "description": "荒城暗巷·驿站交易：完成委托，获得铜钱、修为与短期掉落提升。",
+    "effects": {
+      "coins": 2278,
+      "cult": 2138,
+      "mods": [
+        [
+          "drop",
+          2,
+          13
+        ]
+      ]
+    },
+    "numeric": "铜钱 +2.28K；修为 +2.14K；掉落 +2.0%（13层）",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "委托",
+      "affinity": "wealth",
+      "tier": 12
+    }
+  },
+  {
+    "id": "chance_325",
+    "name": "荒城暗巷·河滩拾遗",
+    "kind": "neutral",
+    "description": "荒城暗巷·河滩拾遗：抢修残甲，获得装备但暂时牺牲防御换取机动。",
+    "effects": {
+      "gear": 1,
+      "mods": [
+        [
+          "defPct",
+          -0.02,
+          14
+        ],
+        [
+          "speed",
+          5,
+          14
+        ]
+      ]
+    },
+    "numeric": "防御 -2.0%（14层）；速度 +5.0（14层）；装备 +1件",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "军械",
+      "affinity": "aggressive",
+      "tier": 13
+    }
+  },
+  {
+    "id": "chance_326",
+    "name": "荒城暗巷·遗阵试锋",
+    "kind": "good",
+    "description": "荒城暗巷·遗阵试锋：记下灵机，获得回忆令并提高幸运。",
+    "effects": {
+      "memory": 2,
+      "mods": [
+        [
+          "luck",
+          8,
+          15
+        ]
+      ]
+    },
+    "numeric": "回忆令 +2；幸运 +8.0（15层）",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "天机",
+      "affinity": "wealth",
+      "tier": 14
+    }
+  },
+  {
+    "id": "chance_327",
+    "name": "荒城暗巷·星象观测",
+    "kind": "good",
+    "description": "荒城暗巷·星象观测：重排行军路线，速度与命中同步提高。",
+    "effects": {
+      "mods": [
+        [
+          "speed",
+          6,
+          7
+        ],
+        [
+          "accuracy",
+          3,
+          7
+        ]
+      ]
+    },
+    "numeric": "速度 +6.0（7层）；命中 +3.0%（7层）",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "行军",
+      "affinity": "aggressive",
+      "tier": 15
+    }
+  },
+  {
+    "id": "chance_328",
+    "name": "荒城暗巷·山鬼传闻",
+    "kind": "good",
+    "description": "荒城暗巷·山鬼传闻：调息养血，提高生命与吸血续航。",
+    "effects": {
+      "mods": [
+        [
+          "lifesteal",
+          2,
+          8
+        ],
+        [
+          "hpPct",
+          0.02,
+          8
+        ]
+      ]
+    },
+    "numeric": "吸血 +2.0%（8层）；生命 +2.0%（8层）",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "续航",
+      "affinity": "guard",
+      "tier": 16
+    }
+  },
+  {
+    "id": "chance_329",
+    "name": "荒城暗巷·烽火遗迹",
+    "kind": "neutral",
+    "description": "荒城暗巷·烽火遗迹：押注守关战，Boss伤害和暴击提高但防御略降。",
+    "effects": {
+      "mods": [
+        [
+          "boss",
+          7,
+          9
+        ],
+        [
+          "crit",
+          3,
+          9
+        ],
+        [
+          "defPct",
+          -0.012,
+          9
+        ]
+      ]
+    },
+    "numeric": "Boss伤害 +7.0%（9层）；暴击 +3.0%（9层）；防御 -1.2%（9层）",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "挑战",
+      "affinity": "aggressive",
+      "tier": 17
+    }
+  },
+  {
+    "id": "chance_330",
+    "name": "荒城暗巷·云路歇脚",
+    "kind": "neutral",
+    "description": "荒城暗巷·云路歇脚：花钱雇佣向导，换取攻击与穿甲优势。",
+    "effects": {
+      "coins": -2712,
+      "mods": [
+        [
+          "atkPct",
+          0.045,
+          10
+        ],
+        [
+          "armorpen",
+          4,
+          10
+        ]
+      ]
+    },
+    "numeric": "铜钱 -2.71K；攻击 +4.5%（10层）；穿甲 +4.0%（10层）",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "交易",
+      "affinity": "wealth",
+      "tier": 18
+    }
+  },
+  {
+    "id": "chance_331",
+    "name": "荒城暗巷·石窟封印",
+    "kind": "good",
+    "description": "荒城暗巷·石窟封印：借地利守势，获得灵石并提高防御与闪避。",
+    "effects": {
+      "jade": 226,
+      "mods": [
+        [
+          "defPct",
+          0.032,
+          11
+        ],
+        [
+          "dodge",
+          6,
+          11
+        ]
+      ]
+    },
+    "numeric": "灵石 +226；防御 +3.2%（11层）；闪避 +6.0%（11层）",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "守备",
+      "affinity": "guard",
+      "tier": 19
+    }
+  },
+  {
+    "id": "chance_332",
+    "name": "荒城暗巷·旧友来信",
+    "kind": "good",
+    "description": "荒城暗巷·旧友来信：清点遗留军械，获得装备并提高短期掉落。",
+    "effects": {
+      "gearRare": 1,
+      "mods": [
+        [
+          "drop",
+          3,
+          12
+        ]
+      ]
+    },
+    "numeric": "掉落 +3.0%（12层）；稀有+装备 +1件",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "军械",
+      "affinity": "wealth",
+      "tier": 20
+    }
+  },
+  {
+    "id": "chance_333",
+    "name": "荒城暗巷·归途抉择",
+    "kind": "good",
+    "description": "荒城暗巷·归途抉择：完成一段长途抉择，获得更持久的综合增益。",
+    "effects": {
+      "mods": [
+        [
+          "atkPct",
+          0.025,
+          18
+        ],
+        [
+          "defPct",
+          0.025,
+          18
+        ],
+        [
+          "speed",
+          2,
+          18
+        ]
+      ],
+      "coins": 2746
+    },
+    "numeric": "铜钱 +2.75K；攻击 +2.5%（18层）；防御 +2.5%（18层）；速度 +2.0（18层）",
+    "meta": {
+      "theme": "荒城暗巷",
+      "tag": "奇遇",
+      "category": "长线",
+      "affinity": "aggressive",
+      "tier": 21
+    }
+  }
+]

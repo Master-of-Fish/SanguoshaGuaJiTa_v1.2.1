@@ -1,0 +1,3522 @@
+{
+  "liubei": {
+    "id": "liubei",
+    "name": "刘备",
+    "faction": "蜀",
+    "rarity": "SR",
+    "skill_name": "仁德",
+    "archetype": "资源循环",
+    "description": "给予与恢复资源，适合长线续航。",
+    "base_attack": 110,
+    "base_hp": 900,
+    "implemented": true,
+    "base_defense": 88,
+    "base_speed": 104,
+    "growth_attack": 1.095,
+    "growth_hp": 1.082,
+    "growth_defense": 1.073,
+    "skill_description": "手牌达到6张以上时，AI优先将2张低价值牌“仁德”出去：回复8%最大生命并摸1张；每3回合至多触发1次。",
+    "skill_value_a": 6,
+    "skill_value_b": 4,
+    "tags": "仁德/手牌/续航",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "仁德·初识",
+        "description": "手牌达到6张以上时，AI优先将2张低价值牌“仁德”出去：回复8%最大生命并摸1张；每3回合至多触发1次。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "仁德·精进",
+        "description": "手牌达到6张以上时，AI优先将2张低价值牌“仁德”出去：回复8%最大生命并摸1张；每3回合至多触发1次。\n2星强化：仁德消耗的低价值牌更少拖慢牌序，治疗与补牌效率提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "hpPct": 0.04
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "仁德消耗的低价值牌更少拖慢牌序，治疗与补牌效率提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "仁德·入微",
+        "description": "手牌达到6张以上时，AI优先将2张低价值牌“仁德”出去：回复8%最大生命并摸1张；每3回合至多触发1次。\n3星新增机制：新增机制【德印】：每次仁德获得1枚德印；累计3枚时自动净化1个不利判定并摸2张。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "hpPct": 0.05,
+          "lifesteal": 2
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【德印】：每次仁德获得1枚德印；累计3枚时自动净化1个不利判定并摸2张。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "仁德·化境",
+        "description": "手牌达到6张以上时，AI优先将2张低价值牌“仁德”出去：回复8%最大生命并摸1张；每3回合至多触发1次。\n4星规则改变：规则改变：仁德不再只按固定3回合触发；当生命低于50%或手牌达到阈值时可提前发动，但每回合至多1次。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "hpPct": 0.07,
+          "lifesteal": 3,
+          "antiCrit": 3
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：仁德不再只按固定3回合触发；当生命低于50%或手牌达到阈值时可提前发动，但每回合至多1次。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "仁德·极意",
+        "description": "手牌达到6张以上时，AI优先将2张低价值牌“仁德”出去：回复8%最大生命并摸1张；每3回合至多触发1次。\n5星终极效果：终极效果【昭烈济世】：每场首次生命跌至30%以下时立即发动一次不消耗手牌的仁德，回复生命、摸3张并清空德印后再获得一次行动。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "hpPct": 0.1,
+          "lifesteal": 5,
+          "antiCrit": 5,
+          "idle": 4
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【昭烈济世】：每场首次生命跌至30%以下时立即发动一次不消耗手牌的仁德，回复生命、摸3张并清空德印后再获得一次行动。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_heal",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "guanyu": {
+    "id": "guanyu",
+    "name": "关羽",
+    "faction": "蜀",
+    "rarity": "SSR",
+    "skill_name": "武圣",
+    "archetype": "红牌转杀",
+    "description": "红色战牌可转化为强化【杀】，连续攻击追加青龙斩。",
+    "base_attack": 124,
+    "base_hp": 1100,
+    "implemented": true,
+    "base_defense": 82,
+    "base_speed": 106,
+    "growth_attack": 1.105,
+    "growth_hp": 1.08,
+    "growth_defense": 1.07,
+    "skill_description": "红色牌可转化为【杀】；转化【杀】伤害+18%，每第3次【杀】追加180%攻击的青龙斩。",
+    "skill_value_a": 18,
+    "skill_value_b": 180,
+    "tags": "红牌/连杀",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "武圣·初识",
+        "description": "红色牌可转化为【杀】；转化【杀】伤害+18%，每第3次【杀】追加180%攻击的青龙斩。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "武圣·精进",
+        "description": "红色牌可转化为【杀】；转化【杀】伤害+18%，每第3次【杀】追加180%攻击的青龙斩。\n2星强化：武圣转化伤害与红牌利用率提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "crit": 2
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "武圣转化伤害与红牌利用率提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "武圣·入微",
+        "description": "红色牌可转化为【杀】；转化【杀】伤害+18%，每第3次【杀】追加180%攻击的青龙斩。\n3星新增机制：新增机制【青龙印】：每次以武圣转化的【杀】命中后积累1枚青龙印。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "crit": 3,
+          "armorpen": 4
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【青龙印】：每次以武圣转化的【杀】命中后积累1枚青龙印。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "武圣·化境",
+        "description": "红色牌可转化为【杀】；转化【杀】伤害+18%，每第3次【杀】追加180%攻击的青龙斩。\n4星规则改变：规则改变：第3次武圣【杀】不再随机，必定消耗青龙印发动【青龙斩】。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "crit": 4,
+          "armorpen": 6,
+          "boss": 5
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：第3次武圣【杀】不再随机，必定消耗青龙印发动【青龙斩】。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "武圣·极意",
+        "description": "红色牌可转化为【杀】；转化【杀】伤害+18%，每第3次【杀】追加180%攻击的青龙斩。\n5星终极效果：终极效果【义绝追青龙】：青龙斩结算后回收1张红牌，并获得一次不计普通次数的追击机会。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "crit": 5,
+          "armorpen": 8,
+          "boss": 8,
+          "critd": 10
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【义绝追青龙】：青龙斩结算后回收1张红牌，并获得一次不计普通次数的追击机会。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_slash",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "zhangfei": {
+    "id": "zhangfei",
+    "name": "张飞",
+    "faction": "蜀",
+    "rarity": "SR",
+    "skill_name": "咆哮",
+    "archetype": "连杀爆发",
+    "description": "单回合可连续使用多张【杀】，越打越快。",
+    "base_attack": 118,
+    "base_hp": 1060,
+    "implemented": true,
+    "base_defense": 76,
+    "base_speed": 112,
+    "growth_attack": 1.102,
+    "growth_hp": 1.084,
+    "growth_defense": 1.068,
+    "skill_description": "【杀】不受常规次数限制；同一回合第2/3/4次【杀】分别获得+8%/+16%/+28%伤害。",
+    "skill_value_a": 8,
+    "skill_value_b": 28,
+    "tags": "连杀/爆发",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "咆哮·初识",
+        "description": "【杀】不受常规次数限制；同一回合第2/3/4次【杀】分别获得+8%/+16%/+28%伤害。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "咆哮·精进",
+        "description": "【杀】不受常规次数限制；同一回合第2/3/4次【杀】分别获得+8%/+16%/+28%伤害。\n2星强化：连续【杀】的伤害衰减降低，第二次以后更容易形成连杀。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "speed": 2
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "连续【杀】的伤害衰减降低，第二次以后更容易形成连杀。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "咆哮·入微",
+        "description": "【杀】不受常规次数限制；同一回合第2/3/4次【杀】分别获得+8%/+16%/+28%伤害。\n3星新增机制：新增机制【咆哮值】：连续使用【杀】积累咆哮值，咆哮值越高，后续【杀】越强。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "speed": 3,
+          "crit": 3
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【咆哮值】：连续使用【杀】积累咆哮值，咆哮值越高，后续【杀】越强。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "咆哮·化境",
+        "description": "【杀】不受常规次数限制；同一回合第2/3/4次【杀】分别获得+8%/+16%/+28%伤害。\n4星规则改变：规则改变：连杀次数直接提高暴击与穿透，且该加成在本回合持续到连杀中断。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "speed": 4,
+          "crit": 4,
+          "critd": 10
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：连杀次数直接提高暴击与穿透，且该加成在本回合持续到连杀中断。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "咆哮·极意",
+        "description": "【杀】不受常规次数限制；同一回合第2/3/4次【杀】分别获得+8%/+16%/+28%伤害。\n5星终极效果：终极效果【燕人震阵】：单次【杀】重创目标后立即追加一次不计普通次数的【杀】，每回合至多触发1次。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "speed": 5,
+          "crit": 5,
+          "critd": 16,
+          "boss": 6
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【燕人震阵】：单次【杀】重创目标后立即追加一次不计普通次数的【杀】，每回合至多触发1次。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_rush",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "zhaoyun": {
+    "id": "zhaoyun",
+    "name": "赵云",
+    "faction": "蜀",
+    "rarity": "SSR",
+    "skill_name": "龙胆",
+    "archetype": "攻防转换",
+    "description": "【杀】与【闪】可以互相转化，攻守资源高度灵活。",
+    "base_attack": 132,
+    "base_hp": 1260,
+    "implemented": true,
+    "base_defense": 86,
+    "base_speed": 118,
+    "growth_attack": 1.104,
+    "growth_hp": 1.083,
+    "growth_defense": 1.074,
+    "skill_description": "【杀】与【闪】可互转；每次成功转化获得6%攻防增益，持续本场，最多5层。",
+    "skill_value_a": 6,
+    "skill_value_b": 5,
+    "tags": "攻防转换",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "龙胆·初识",
+        "description": "【杀】与【闪】可互转；每次成功转化获得6%攻防增益，持续本场，最多5层。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "龙胆·精进",
+        "description": "【杀】与【闪】可互转；每次成功转化获得6%攻防增益，持续本场，最多5层。\n2星强化：杀/闪互转后的攻防增益提高，转化牌价值更稳定。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "dodge": 2
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "杀/闪互转后的攻防增益提高，转化牌价值更稳定。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "龙胆·入微",
+        "description": "【杀】与【闪】可互转；每次成功转化获得6%攻防增益，持续本场，最多5层。\n3星新增机制：新增机制【龙胆】：每次杀/闪转换积累1层龙胆，最多3层。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "dodge": 3,
+          "accuracy": 3
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【龙胆】：每次杀/闪转换积累1层龙胆，最多3层。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "龙胆·化境",
+        "description": "【杀】与【闪】可互转；每次成功转化获得6%攻防增益，持续本场，最多5层。\n4星规则改变：规则改变：受到伤害时可消耗3层龙胆抵消该次伤害，抵消后重新开始积累。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "dodge": 4,
+          "accuracy": 4,
+          "speed": 3
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：受到伤害时可消耗3层龙胆抵消该次伤害，抵消后重新开始积累。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "龙胆·极意",
+        "description": "【杀】与【闪】可互转；每次成功转化获得6%攻防增益，持续本场，最多5层。\n5星终极效果：终极效果【七进七出】：成功使用【闪】或触发闪避后立即自动反击一次，反击不消耗普通行动。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "dodge": 6,
+          "accuracy": 6,
+          "speed": 5,
+          "antiCrit": 4
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【七进七出】：成功使用【闪】或触发闪避后立即自动反击一次，反击不消耗普通行动。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_agile",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "zhugeliang": {
+    "id": "zhugeliang",
+    "name": "诸葛亮",
+    "faction": "蜀",
+    "rarity": "SSR",
+    "skill_name": "观星",
+    "archetype": "牌序控制",
+    "description": "优先整理牌序，低血找防御，爆发期找攻击。",
+    "base_attack": 136,
+    "base_hp": 1340,
+    "implemented": true,
+    "base_defense": 78,
+    "base_speed": 108,
+    "growth_attack": 1.106,
+    "growth_hp": 1.08,
+    "growth_defense": 1.076,
+    "skill_description": "回合开始观星5张：AI按当前生命、判定区和攻击距离挑选最有价值的1张置入手牌；同时提高本回合判定稳定性。",
+    "skill_value_a": 5,
+    "skill_value_b": 20,
+    "tags": "观星/判定/牌序",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "观星·初识",
+        "description": "回合开始观星5张：AI按当前生命、判定区和攻击距离挑选最有价值的1张置入手牌；同时提高本回合判定稳定性。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "观星·精进",
+        "description": "回合开始观星5张：AI按当前生命、判定区和攻击距离挑选最有价值的1张置入手牌；同时提高本回合判定稳定性。\n2星强化：观星选牌更偏向解决判定区与当前牌序缺口。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "accuracy": 2
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "观星选牌更偏向解决判定区与当前牌序缺口。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "观星·入微",
+        "description": "回合开始观星5张：AI按当前生命、判定区和攻击距离挑选最有价值的1张置入手牌；同时提高本回合判定稳定性。\n3星新增机制：新增机制【星位】：观星选中的牌会记录花色星位；红色提高下一次输出，黑色提高下一次判定稳定性。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "accuracy": 3,
+          "luck": 4
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【星位】：观星选中的牌会记录花色星位；红色提高下一次输出，黑色提高下一次判定稳定性。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "观星·化境",
+        "description": "回合开始观星5张：AI按当前生命、判定区和攻击距离挑选最有价值的1张置入手牌；同时提高本回合判定稳定性。\n4星规则改变：规则改变：遇到不利延时判定时，可消耗星位将其移到观星序列末端并重新判定一次。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "accuracy": 4,
+          "luck": 6,
+          "critd": 8
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：遇到不利延时判定时，可消耗星位将其移到观星序列末端并重新判定一次。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "观星·极意",
+        "description": "回合开始观星5张：AI按当前生命、判定区和攻击距离挑选最有价值的1张置入手牌；同时提高本回合判定稳定性。\n5星终极效果：终极效果【七星借风】：每4回合首次有利判定后，立即复制下一张非延时锦囊的核心效果并获得一次额外选牌。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "accuracy": 5,
+          "luck": 8,
+          "critd": 12,
+          "boss": 6
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【七星借风】：每4回合首次有利判定后，立即复制下一张非延时锦囊的核心效果并获得一次额外选牌。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_trick",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "huangyueying": {
+    "id": "huangyueying",
+    "name": "黄月英",
+    "faction": "蜀",
+    "rarity": "SR",
+    "skill_name": "集智",
+    "archetype": "锦囊循环",
+    "description": "使用锦囊后更容易补充手牌，形成术法连锁。",
+    "base_attack": 130,
+    "base_hp": 1300,
+    "implemented": true,
+    "base_defense": 72,
+    "base_speed": 111,
+    "growth_attack": 1.105,
+    "growth_hp": 1.079,
+    "growth_defense": 1.071,
+    "skill_description": "每使用1张非延时锦囊有45%概率额外摸1张；连续锦囊会叠加术法增幅，适合高频锦囊流。",
+    "skill_value_a": 45,
+    "skill_value_b": 25,
+    "tags": "集智/锦囊/摸牌",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "集智·初识",
+        "description": "每使用1张非延时锦囊有45%概率额外摸1张；连续锦囊会叠加术法增幅，适合高频锦囊流。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "集智·精进",
+        "description": "每使用1张非延时锦囊有45%概率额外摸1张；连续锦囊会叠加术法增幅，适合高频锦囊流。\n2星强化：集智摸牌触发更稳定，连续锦囊的手牌回补提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "accuracy": 2
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "集智摸牌触发更稳定，连续锦囊的手牌回补提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "集智·入微",
+        "description": "每使用1张非延时锦囊有45%概率额外摸1张；连续锦囊会叠加术法增幅，适合高频锦囊流。\n3星新增机制：新增机制【机巧】：每使用1张非延时锦囊获得1层机巧；3层时下一张锦囊不计入常规资源消耗并追加抽牌。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "accuracy": 3,
+          "luck": 4
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【机巧】：每使用1张非延时锦囊获得1层机巧；3层时下一张锦囊不计入常规资源消耗并追加抽牌。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "集智·化境",
+        "description": "每使用1张非延时锦囊有45%概率额外摸1张；连续锦囊会叠加术法增幅，适合高频锦囊流。\n4星规则改变：规则改变：集智由纯概率改为“每两张非延时锦囊至少触发一次”，连续锦囊可以跨回合保留1层机巧。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "accuracy": 4,
+          "luck": 6,
+          "critd": 8
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：集智由纯概率改为“每两张非延时锦囊至少触发一次”，连续锦囊可以跨回合保留1层机巧。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "集智·极意",
+        "description": "每使用1张非延时锦囊有45%概率额外摸1张；连续锦囊会叠加术法增幅，适合高频锦囊流。\n5星终极效果：终极效果【木牛流马】：每回合首张非延时锦囊结算后回收1张低价值牌并以45%效果再结算一次。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "accuracy": 5,
+          "luck": 8,
+          "critd": 12,
+          "boss": 6
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【木牛流马】：每回合首张非延时锦囊结算后回收1张低价值牌并以45%效果再结算一次。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_trick",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "caocao": {
+    "id": "caocao",
+    "name": "曹操",
+    "faction": "魏",
+    "rarity": "SSR",
+    "skill_name": "奸雄",
+    "archetype": "受击反制",
+    "description": "受到牌伤害后复制战法并积累反击强度。",
+    "base_attack": 120,
+    "base_hp": 1020,
+    "implemented": true,
+    "base_defense": 90,
+    "base_speed": 100,
+    "growth_attack": 1.1,
+    "growth_hp": 1.086,
+    "growth_defense": 1.075,
+    "skill_description": "受到牌伤害后获得1层「奸雄」，每层使下一次攻击+10%，最多5层；满层时复制本次战法造成40%回击。",
+    "skill_value_a": 10,
+    "skill_value_b": 40,
+    "tags": "受击/反制",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "奸雄·初识",
+        "description": "受到牌伤害后获得1层「奸雄」，每层使下一次攻击+10%，最多5层；满层时复制本次战法造成40%回击。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "奸雄·精进",
+        "description": "受到牌伤害后获得1层「奸雄」，每层使下一次攻击+10%，最多5层；满层时复制本次战法造成40%回击。\n2星强化：奸雄受击后的战法回收更稳定，反制伤害提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "lifesteal": 2
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "奸雄受击后的战法回收更稳定，反制伤害提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "奸雄·入微",
+        "description": "受到牌伤害后获得1层「奸雄」，每层使下一次攻击+10%，最多5层；满层时复制本次战法造成40%回击。\n3星新增机制：新增机制【战法映像】：受到锦囊影响后记录该锦囊，之后可由AI主动复制。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "lifesteal": 3,
+          "hpPct": 0.04
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【战法映像】：受到锦囊影响后记录该锦囊，之后可由AI主动复制。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "奸雄·化境",
+        "description": "受到牌伤害后获得1层「奸雄」，每层使下一次攻击+10%，最多5层；满层时复制本次战法造成40%回击。\n4星规则改变：规则改变：战法映像容量从1种提高到2种；新映像只覆盖价值更低的旧映像。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "lifesteal": 4,
+          "hpPct": 0.06,
+          "antiCrit": 3
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：战法映像容量从1种提高到2种；新映像只覆盖价值更低的旧映像。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "奸雄·极意",
+        "description": "受到牌伤害后获得1层「奸雄」，每层使下一次攻击+10%，最多5层；满层时复制本次战法造成40%回击。\n5星终极效果：终极效果【奸雄追击】：复制战法映像结算后立即追加一次基于当前攻击的追击。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "lifesteal": 5,
+          "hpPct": 0.08,
+          "antiCrit": 5,
+          "boss": 5
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【奸雄追击】：复制战法映像结算后立即追加一次基于当前攻击的追击。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_sustain",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "simayi": {
+    "id": "simayi",
+    "name": "司马懿",
+    "faction": "魏",
+    "rarity": "SSR",
+    "skill_name": "鬼才",
+    "archetype": "改判控制",
+    "description": "可干预判定结果，适合雷法与控制流。",
+    "base_attack": 124,
+    "base_hp": 1100,
+    "implemented": true,
+    "base_defense": 80,
+    "base_speed": 105,
+    "growth_attack": 1.103,
+    "growth_hp": 1.081,
+    "growth_defense": 1.078,
+    "skill_description": "出现不利判定时有65%概率发动鬼才改判；对【乐不思蜀】【兵粮寸断】【闪电】均生效。",
+    "skill_value_a": 3,
+    "skill_value_b": 22,
+    "tags": "鬼才/改判/控制",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "鬼才·初识",
+        "description": "出现不利判定时有65%概率发动鬼才改判；对【乐不思蜀】【兵粮寸断】【闪电】均生效。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "鬼才·精进",
+        "description": "出现不利判定时有65%概率发动鬼才改判；对【乐不思蜀】【兵粮寸断】【闪电】均生效。\n2星强化：鬼才改判成功率提高，保留关键判定牌的优先级上升。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "accuracy": 2
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "鬼才改判成功率提高，保留关键判定牌的优先级上升。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "鬼才·入微",
+        "description": "出现不利判定时有65%概率发动鬼才改判；对【乐不思蜀】【兵粮寸断】【闪电】均生效。\n3星新增机制：新增机制【天命】：每次成功改判获得1层天命，最多2层。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "accuracy": 3,
+          "luck": 4
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【天命】：每次成功改判获得1层天命，最多2层。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "鬼才·化境",
+        "description": "出现不利判定时有65%概率发动鬼才改判；对【乐不思蜀】【兵粮寸断】【闪电】均生效。\n4星规则改变：规则改变：可消耗1层天命主动介入敌方判定；有天命时首次关键改判必定发动。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "accuracy": 4,
+          "luck": 6,
+          "critd": 8
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：可消耗1层天命主动介入敌方判定；有天命时首次关键改判必定发动。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "鬼才·极意",
+        "description": "出现不利判定时有65%概率发动鬼才改判；对【乐不思蜀】【兵粮寸断】【闪电】均生效。\n5星终极效果：终极效果【鬼才天罚】：成功改判后对敌方追加一次雷/暗属性伤害；改判敌方【闪电】时伤害翻倍。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "accuracy": 5,
+          "luck": 8,
+          "critd": 12,
+          "boss": 6
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【鬼才天罚】：成功改判后对敌方追加一次雷/暗属性伤害；改判敌方【闪电】时伤害翻倍。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_trick",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "xiahoudun": {
+    "id": "xiahoudun",
+    "name": "夏侯惇",
+    "faction": "魏",
+    "rarity": "R",
+    "skill_name": "刚烈",
+    "archetype": "受击反伤",
+    "description": "承伤后触发强力反击，越挨打越危险。",
+    "base_attack": 108,
+    "base_hp": 1060,
+    "implemented": true,
+    "base_defense": 96,
+    "base_speed": 92,
+    "growth_attack": 1.098,
+    "growth_hp": 1.089,
+    "growth_defense": 1.08,
+    "skill_description": "受到伤害后35%概率刚烈反击，造成120%攻击伤害；Boss层反击伤害额外提高。",
+    "skill_value_a": 35,
+    "skill_value_b": 120,
+    "tags": "刚烈/反伤/Boss",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "刚烈·初识",
+        "description": "受到伤害后35%概率刚烈反击，造成120%攻击伤害；Boss层反击伤害额外提高。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "刚烈·精进",
+        "description": "受到伤害后35%概率刚烈反击，造成120%攻击伤害；Boss层反击伤害额外提高。\n2星强化：刚烈触发率与反击伤害提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "hpPct": 0.04
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "刚烈触发率与反击伤害提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "刚烈·入微",
+        "description": "受到伤害后35%概率刚烈反击，造成120%攻击伤害；Boss层反击伤害额外提高。\n3星新增机制：新增机制【烈印】：每次刚烈反击获得1枚烈印；下次主动攻击消耗烈印获得破防。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "hpPct": 0.06,
+          "defPct": 0.04
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【烈印】：每次刚烈反击获得1枚烈印；下次主动攻击消耗烈印获得破防。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "刚烈·化境",
+        "description": "受到伤害后35%概率刚烈反击，造成120%攻击伤害；Boss层反击伤害额外提高。\n4星规则改变：规则改变：生命低于50%时，刚烈由概率触发改为每回合首次受伤必定触发。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "hpPct": 0.08,
+          "defPct": 0.06,
+          "antiCrit": 4
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：生命低于50%时，刚烈由概率触发改为每回合首次受伤必定触发。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "刚烈·极意",
+        "description": "受到伤害后35%概率刚烈反击，造成120%攻击伤害；Boss层反击伤害额外提高。\n5星终极效果：终极效果【独眼怒战】：每场首次受到致命伤害时保留1点生命，立即发动强化刚烈并按造成伤害的一部分回复生命。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "hpPct": 0.12,
+          "defPct": 0.08,
+          "antiCrit": 6,
+          "boss": 5
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【独眼怒战】：每场首次受到致命伤害时保留1点生命，立即发动强化刚烈并按造成伤害的一部分回复生命。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_tank",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "zhangliao": {
+    "id": "zhangliao",
+    "name": "张辽",
+    "faction": "魏",
+    "rarity": "R",
+    "skill_name": "突袭",
+    "archetype": "资源压制",
+    "description": "削弱敌方手牌与防御资源，提高穿透率。",
+    "base_attack": 112,
+    "base_hp": 1140,
+    "implemented": true,
+    "base_defense": 84,
+    "base_speed": 110,
+    "growth_attack": 1.101,
+    "growth_hp": 1.083,
+    "growth_defense": 1.075,
+    "skill_description": "每2回合在摸牌阶段发动突袭：额外获得1张牌，并使敌方本回合防御响应降低12%。",
+    "skill_value_a": 2,
+    "skill_value_b": 12,
+    "tags": "突袭/偷牌/压制",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "突袭·初识",
+        "description": "每2回合在摸牌阶段发动突袭：额外获得1张牌，并使敌方本回合防御响应降低12%。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "突袭·精进",
+        "description": "每2回合在摸牌阶段发动突袭：额外获得1张牌，并使敌方本回合防御响应降低12%。\n2星强化：突袭夺牌后的响应压制提高，额外牌更偏向高价值。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "accuracy": 3
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "突袭夺牌后的响应压制提高，额外牌更偏向高价值。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "突袭·入微",
+        "description": "每2回合在摸牌阶段发动突袭：额外获得1张牌，并使敌方本回合防御响应降低12%。\n3星新增机制：新增机制【威震】：突袭后获得1层威震，使下一张【杀】降低敌方闪避并附带破甲。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "accuracy": 4,
+          "armorpen": 4
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【威震】：突袭后获得1层威震，使下一张【杀】降低敌方闪避并附带破甲。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "突袭·化境",
+        "description": "每2回合在摸牌阶段发动突袭：额外获得1张牌，并使敌方本回合防御响应降低12%。\n4星规则改变：规则改变：当敌方处于判定控制或弱化状态时，突袭不再受“每2回合”限制，可在下一回合再次发动。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "accuracy": 5,
+          "armorpen": 6,
+          "speed": 3
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：当敌方处于判定控制或弱化状态时，突袭不再受“每2回合”限制，可在下一回合再次发动。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "突袭·极意",
+        "description": "每2回合在摸牌阶段发动突袭：额外获得1张牌，并使敌方本回合防御响应降低12%。\n5星终极效果：终极效果【逍遥津】：Boss战前3回合首次突袭后立即获得一次追加行动，并令该回合敌方响应上限进一步下降。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "accuracy": 8,
+          "armorpen": 8,
+          "speed": 5,
+          "boss": 6
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【逍遥津】：Boss战前3回合首次突袭后立即获得一次追加行动，并令该回合敌方响应上限进一步下降。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_pierce",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "xuchu": {
+    "id": "xuchu",
+    "name": "许褚",
+    "faction": "魏",
+    "rarity": "R",
+    "skill_name": "裸衣",
+    "archetype": "蓄势重击",
+    "description": "牺牲摸牌换取高倍率重击与破甲。",
+    "base_attack": 116,
+    "base_hp": 1220,
+    "implemented": true,
+    "base_defense": 90,
+    "base_speed": 88,
+    "growth_attack": 1.108,
+    "growth_hp": 1.087,
+    "growth_defense": 1.068,
+    "skill_description": "回合开始少摸1张，换取本回合首次【杀】伤害+55%、破甲+20%；AI只在生命安全时自动启用。",
+    "skill_value_a": 55,
+    "skill_value_b": 20,
+    "tags": "裸衣/重击/破甲",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "裸衣·初识",
+        "description": "回合开始少摸1张，换取本回合首次【杀】伤害+55%、破甲+20%；AI只在生命安全时自动启用。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "裸衣·精进",
+        "description": "回合开始少摸1张，换取本回合首次【杀】伤害+55%、破甲+20%；AI只在生命安全时自动启用。\n2星强化：裸衣重击的破甲与暴击更高，AI更谨慎评估低血风险。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "crit": 3
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "裸衣重击的破甲与暴击更高，AI更谨慎评估低血风险。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "裸衣·入微",
+        "description": "回合开始少摸1张，换取本回合首次【杀】伤害+55%、破甲+20%；AI只在生命安全时自动启用。\n3星新增机制：新增机制【虎痴】：裸衣重击命中后获得1层虎痴，下一次受伤减免并提高反击伤害。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "crit": 4,
+          "critd": 8
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【虎痴】：裸衣重击命中后获得1层虎痴，下一次受伤减免并提高反击伤害。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "裸衣·化境",
+        "description": "回合开始少摸1张，换取本回合首次【杀】伤害+55%、破甲+20%；AI只在生命安全时自动启用。\n4星规则改变：规则改变：手牌不少于3张时，裸衣可改为弃1张最低价值牌而不是少摸1张。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "crit": 5,
+          "critd": 12,
+          "armorpen": 5
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：手牌不少于3张时，裸衣可改为弃1张最低价值牌而不是少摸1张。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "裸衣·极意",
+        "description": "回合开始少摸1张，换取本回合首次【杀】伤害+55%、破甲+20%；AI只在生命安全时自动启用。\n5星终极效果：终极效果【裸衣决】：生命低于50%时首次裸衣重击必定暴击，并追加一次50%伤害的震击。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "crit": 6,
+          "critd": 18,
+          "armorpen": 8,
+          "boss": 8
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【裸衣决】：生命低于50%时首次裸衣重击必定暴击，并追加一次50%伤害的震击。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_burst",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "guojia": {
+    "id": "guojia",
+    "name": "郭嘉",
+    "faction": "魏",
+    "rarity": "SR",
+    "skill_name": "遗计",
+    "archetype": "卖血资源",
+    "description": "受伤换牌与战术资源，擅长逆风滚雪球。",
+    "base_attack": 130,
+    "base_hp": 1420,
+    "implemented": true,
+    "base_defense": 74,
+    "base_speed": 103,
+    "growth_attack": 1.104,
+    "growth_hp": 1.078,
+    "growth_defense": 1.074,
+    "skill_description": "每次受伤后摸1张并获得8%技能增幅；低于50%生命时效果翻倍，最多叠4层。",
+    "skill_value_a": 15,
+    "skill_value_b": 8,
+    "tags": "遗计/卖血/资源",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "遗计·初识",
+        "description": "每次受伤后摸1张并获得8%技能增幅；低于50%生命时效果翻倍，最多叠4层。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "遗计·精进",
+        "description": "每次受伤后摸1张并获得8%技能增幅；低于50%生命时效果翻倍，最多叠4层。\n2星强化：遗计补牌与低血技能增幅提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "lifesteal": 2
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "遗计补牌与低血技能增幅提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "遗计·入微",
+        "description": "每次受伤后摸1张并获得8%技能增幅；低于50%生命时效果翻倍，最多叠4层。\n3星新增机制：新增机制【遗策】：受伤后获得1枚遗策，可在不利延时判定前自动消耗以重判一次。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "lifesteal": 3,
+          "hpPct": 0.04
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【遗策】：受伤后获得1枚遗策，可在不利延时判定前自动消耗以重判一次。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "遗计·化境",
+        "description": "每次受伤后摸1张并获得8%技能增幅；低于50%生命时效果翻倍，最多叠4层。\n4星规则改变：规则改变：生命低于50%时遗计每次受伤摸2张，且技能增幅层数上限提高。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "lifesteal": 4,
+          "hpPct": 0.06,
+          "antiCrit": 3
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：生命低于50%时遗计每次受伤摸2张，且技能增幅层数上限提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "遗计·极意",
+        "description": "每次受伤后摸1张并获得8%技能增幅；低于50%生命时效果翻倍，最多叠4层。\n5星终极效果：终极效果【奉孝天机】：每场首次濒死时保留1点生命，立即获得满层遗计并摸3张。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "lifesteal": 5,
+          "hpPct": 0.08,
+          "antiCrit": 5,
+          "boss": 5
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【奉孝天机】：每场首次濒死时保留1点生命，立即获得满层遗计并摸3张。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_sustain",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "sunquan": {
+    "id": "sunquan",
+    "name": "孙权",
+    "faction": "吴",
+    "rarity": "SSR",
+    "skill_name": "制衡",
+    "archetype": "手牌优化",
+    "description": "周期性弃置低价值手牌并重抽，稳定寻找关键牌。",
+    "base_attack": 120,
+    "base_hp": 1020,
+    "implemented": true,
+    "base_defense": 82,
+    "base_speed": 103,
+    "growth_attack": 1.101,
+    "growth_hp": 1.084,
+    "growth_defense": 1.074,
+    "skill_description": "每3回合自动弃置至多2张低价值牌并等量摸牌；制衡后下一张牌效果+15%。",
+    "skill_value_a": 3,
+    "skill_value_b": 15,
+    "tags": "换牌/优化",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "制衡·初识",
+        "description": "每3回合自动弃置至多2张低价值牌并等量摸牌；制衡后下一张牌效果+15%。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "制衡·精进",
+        "description": "每3回合自动弃置至多2张低价值牌并等量摸牌；制衡后下一张牌效果+15%。\n2星强化：制衡换牌数量与低价值牌识别精度提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "dodge": 2
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "制衡换牌数量与低价值牌识别精度提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "制衡·入微",
+        "description": "每3回合自动弃置至多2张低价值牌并等量摸牌；制衡后下一张牌效果+15%。\n3星新增机制：新增机制【制衡层】：每次制衡获得1层制衡，提升下一张牌的基础效果。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "dodge": 3,
+          "accuracy": 3
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【制衡层】：每次制衡获得1层制衡，提升下一张牌的基础效果。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "制衡·化境",
+        "description": "每3回合自动弃置至多2张低价值牌并等量摸牌；制衡后下一张牌效果+15%。\n4星规则改变：规则改变：AI优先识别低价值牌重铸；当手牌结构明显失衡时可提前制衡，不再只看固定回合。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "dodge": 4,
+          "accuracy": 4,
+          "speed": 3
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：AI优先识别低价值牌重铸；当手牌结构明显失衡时可提前制衡，不再只看固定回合。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "制衡·极意",
+        "description": "每3回合自动弃置至多2张低价值牌并等量摸牌；制衡后下一张牌效果+15%。\n5星终极效果：终极效果【江东权略】：制衡后的下一张牌获得强化效果；若为锦囊则复制部分效果，若为【杀】则附带破防。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "dodge": 6,
+          "accuracy": 6,
+          "speed": 5,
+          "antiCrit": 4
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【江东权略】：制衡后的下一张牌获得强化效果；若为锦囊则复制部分效果，若为【杀】则附带破防。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_agile",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "zhouyu": {
+    "id": "zhouyu",
+    "name": "周瑜",
+    "faction": "吴",
+    "rarity": "SSR",
+    "skill_name": "英姿",
+    "archetype": "火计循环",
+    "description": "额外摸牌并强化锦囊，擅长持续火焰伤害。",
+    "base_attack": 124,
+    "base_hp": 1100,
+    "implemented": true,
+    "base_defense": 76,
+    "base_speed": 109,
+    "growth_attack": 1.106,
+    "growth_hp": 1.08,
+    "growth_defense": 1.07,
+    "skill_description": "每回合摸牌+1；锦囊伤害+12%，【火攻】余焰持续更久。",
+    "skill_value_a": 12,
+    "skill_value_b": 1,
+    "tags": "英姿/锦囊/火",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "英姿·初识",
+        "description": "每回合摸牌+1；锦囊伤害+12%，【火攻】余焰持续更久。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "英姿·精进",
+        "description": "每回合摸牌+1；锦囊伤害+12%，【火攻】余焰持续更久。\n2星强化：英姿额外摸牌与火计伤害提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "accuracy": 2
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "英姿额外摸牌与火计伤害提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "英姿·入微",
+        "description": "每回合摸牌+1；锦囊伤害+12%，【火攻】余焰持续更久。\n3星新增机制：新增机制【琴势】：每使用1张锦囊积累1层琴势；3层时下一次火焰/锦囊伤害附加灼烧。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "accuracy": 3,
+          "luck": 4
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【琴势】：每使用1张锦囊积累1层琴势；3层时下一次火焰/锦囊伤害附加灼烧。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "英姿·化境",
+        "description": "每回合摸牌+1；锦囊伤害+12%，【火攻】余焰持续更久。\n4星规则改变：规则改变：英姿在手牌低于上限一半时改为额外摸2张，否则仍额外摸1张。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "accuracy": 4,
+          "luck": 6,
+          "critd": 8
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：英姿在手牌低于上限一半时改为额外摸2张，否则仍额外摸1张。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "英姿·极意",
+        "description": "每回合摸牌+1；锦囊伤害+12%，【火攻】余焰持续更久。\n5星终极效果：终极效果【赤壁英姿】：每回合首张伤害锦囊结算后，自动以较低倍率追加一张不同类型的锦囊效果。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "accuracy": 5,
+          "luck": 8,
+          "critd": 12,
+          "boss": 6
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【赤壁英姿】：每回合首张伤害锦囊结算后，自动以较低倍率追加一张不同类型的锦囊效果。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_trick",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "ganning": {
+    "id": "ganning",
+    "name": "甘宁",
+    "faction": "吴",
+    "rarity": "SR",
+    "skill_name": "奇袭",
+    "archetype": "黑牌控制",
+    "description": "黑色战牌可转化为破防锦囊，压制敌方响应。",
+    "base_attack": 118,
+    "base_hp": 1060,
+    "implemented": true,
+    "base_defense": 80,
+    "base_speed": 114,
+    "growth_attack": 1.103,
+    "growth_hp": 1.082,
+    "growth_defense": 1.072,
+    "skill_description": "AI可将黑色手牌转化为【过河拆桥】，移除敌方防御并提高当回合破甲。",
+    "skill_value_a": 10,
+    "skill_value_b": 2,
+    "tags": "奇袭/黑牌/拆牌",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "奇袭·初识",
+        "description": "AI可将黑色手牌转化为【过河拆桥】，移除敌方防御并提高当回合破甲。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "奇袭·精进",
+        "description": "AI可将黑色手牌转化为【过河拆桥】，移除敌方防御并提高当回合破甲。\n2星强化：奇袭转换更积极，黑牌转化后的破甲提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "accuracy": 3
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "奇袭转换更积极，黑牌转化后的破甲提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "奇袭·入微",
+        "description": "AI可将黑色手牌转化为【过河拆桥】，移除敌方防御并提高当回合破甲。\n3星新增机制：新增机制【夜袭印】：每次奇袭获得1枚夜袭印；2枚时下一次攻击忽略部分防御并压低响应。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "accuracy": 4,
+          "armorpen": 4
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【夜袭印】：每次奇袭获得1枚夜袭印；2枚时下一次攻击忽略部分防御并压低响应。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "奇袭·化境",
+        "description": "AI可将黑色手牌转化为【过河拆桥】，移除敌方防御并提高当回合破甲。\n4星规则改变：规则改变：奇袭可使用黑色装备牌或低价值黑牌，AI会避免消耗救命牌。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "accuracy": 5,
+          "armorpen": 6,
+          "speed": 3
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：奇袭可使用黑色装备牌或低价值黑牌，AI会避免消耗救命牌。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "奇袭·极意",
+        "description": "AI可将黑色手牌转化为【过河拆桥】，移除敌方防御并提高当回合破甲。\n5星终极效果：终极效果【锦帆破阵】：Boss战每场首次奇袭不可被无懈，并在结算后追加一次破甲突击。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "accuracy": 8,
+          "armorpen": 8,
+          "speed": 5,
+          "boss": 6
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【锦帆破阵】：Boss战每场首次奇袭不可被无懈，并在结算后追加一次破甲突击。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_pierce",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "lvmeng": {
+    "id": "lvmeng",
+    "name": "吕蒙",
+    "faction": "吴",
+    "rarity": "R",
+    "skill_name": "克己",
+    "archetype": "蓄牌爆发",
+    "description": "主动减少无效出牌以保留资源，等待爆发窗口。",
+    "base_attack": 112,
+    "base_hp": 1140,
+    "implemented": true,
+    "base_defense": 88,
+    "base_speed": 95,
+    "growth_attack": 1.099,
+    "growth_hp": 1.087,
+    "growth_defense": 1.077,
+    "skill_description": "若本回合未使用【杀】，手牌上限临时+3并保留更多牌；下一次【杀】获得蓄势伤害。",
+    "skill_value_a": 3,
+    "skill_value_b": 12,
+    "tags": "克己/蓄牌/爆发",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "克己·初识",
+        "description": "若本回合未使用【杀】，手牌上限临时+3并保留更多牌；下一次【杀】获得蓄势伤害。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "克己·精进",
+        "description": "若本回合未使用【杀】，手牌上限临时+3并保留更多牌；下一次【杀】获得蓄势伤害。\n2星强化：克己蓄势收益提高，保留关键手牌的阈值更合理。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "boss": 3
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "克己蓄势收益提高，保留关键手牌的阈值更合理。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "克己·入微",
+        "description": "若本回合未使用【杀】，手牌上限临时+3并保留更多牌；下一次【杀】获得蓄势伤害。\n3星新增机制：新增机制【谋势】：未使用【杀】的回合获得1层谋势，提升下一回合手牌上限与首次攻击。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "boss": 5,
+          "armorpen": 3
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【谋势】：未使用【杀】的回合获得1层谋势，提升下一回合手牌上限与首次攻击。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "克己·化境",
+        "description": "若本回合未使用【杀】，手牌上限临时+3并保留更多牌；下一次【杀】获得蓄势伤害。\n4星规则改变：规则改变：连续2回合克己后，下一回合【杀】次数限制解除，消耗全部谋势。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "boss": 7,
+          "armorpen": 5,
+          "crit": 3
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：连续2回合克己后，下一回合【杀】次数限制解除，消耗全部谋势。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "克己·极意",
+        "description": "若本回合未使用【杀】，手牌上限临时+3并保留更多牌；下一次【杀】获得蓄势伤害。\n5星终极效果：终极效果【白衣渡江】：消耗3层谋势时先削弱敌方防御，再连续执行两次不计普通次数的攻击。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "boss": 10,
+          "armorpen": 7,
+          "crit": 4,
+          "critd": 10
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【白衣渡江】：消耗3层谋势时先削弱敌方防御，再连续执行两次不计普通次数的攻击。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_boss",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "luxun": {
+    "id": "luxun",
+    "name": "陆逊",
+    "faction": "吴",
+    "rarity": "SR",
+    "skill_name": "连营",
+    "archetype": "空手连锁",
+    "description": "手牌耗尽时持续补牌，构成高速技能循环。",
+    "base_attack": 126,
+    "base_hp": 1340,
+    "implemented": true,
+    "base_defense": 74,
+    "base_speed": 116,
+    "growth_attack": 1.105,
+    "growth_hp": 1.078,
+    "growth_defense": 1.073,
+    "skill_description": "当手牌首次耗尽时立即摸2张，每场最多3次；第三次连营后获得20%技能伤害。",
+    "skill_value_a": 2,
+    "skill_value_b": 20,
+    "tags": "连营/空手/摸牌",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "连营·初识",
+        "description": "当手牌首次耗尽时立即摸2张，每场最多3次；第三次连营后获得20%技能伤害。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "连营·精进",
+        "description": "当手牌首次耗尽时立即摸2张，每场最多3次；第三次连营后获得20%技能伤害。\n2星强化：连营补牌更稳定，空手后的行动中断概率降低。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "dodge": 2
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "连营补牌更稳定，空手后的行动中断概率降低。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "连营·入微",
+        "description": "当手牌首次耗尽时立即摸2张，每场最多3次；第三次连营后获得20%技能伤害。\n3星新增机制：新增机制【营火】：手牌降至0时获得1层营火；下一张锦囊伤害提高并可点燃目标。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "dodge": 3,
+          "accuracy": 3
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【营火】：手牌降至0时获得1层营火；下一张锦囊伤害提高并可点燃目标。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "连营·化境",
+        "description": "当手牌首次耗尽时立即摸2张，每场最多3次；第三次连营后获得20%技能伤害。\n4星规则改变：规则改变：连营触发条件由“手牌为0”放宽为“手牌≤1”，但每回合最多触发2次。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "dodge": 4,
+          "accuracy": 4,
+          "speed": 3
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：连营触发条件由“手牌为0”放宽为“手牌≤1”，但每回合最多触发2次。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "连营·极意",
+        "description": "当手牌首次耗尽时立即摸2张，每场最多3次；第三次连营后获得20%技能伤害。\n5星终极效果：终极效果【火烧连营】：连营第二次触发后立即摸3张，并使下一张伤害锦囊附加持续灼烧与连锁。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "dodge": 6,
+          "accuracy": 6,
+          "speed": 5,
+          "antiCrit": 4
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【火烧连营】：连营第二次触发后立即摸3张，并使下一张伤害锦囊附加持续灼烧与连锁。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_agile",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "sunshangxiang": {
+    "id": "sunshangxiang",
+    "name": "孙尚香",
+    "faction": "吴",
+    "rarity": "R",
+    "skill_name": "枭姬",
+    "archetype": "装备循环",
+    "description": "装备变动触发补牌与恢复，和高阶装备成长联动。",
+    "base_attack": 120,
+    "base_hp": 1420,
+    "implemented": true,
+    "base_defense": 78,
+    "base_speed": 112,
+    "growth_attack": 1.101,
+    "growth_hp": 1.083,
+    "growth_defense": 1.072,
+    "skill_description": "战斗中替换装备牌时触发枭姬：摸1张并回复5%最大生命；每回合最多1次。",
+    "skill_value_a": 5,
+    "skill_value_b": 1,
+    "tags": "枭姬/装备/恢复",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "枭姬·初识",
+        "description": "战斗中替换装备牌时触发枭姬：摸1张并回复5%最大生命；每回合最多1次。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "枭姬·精进",
+        "description": "战斗中替换装备牌时触发枭姬：摸1张并回复5%最大生命；每回合最多1次。\n2星强化：枭姬换装后的回复与摸牌提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "lifesteal": 2
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "枭姬换装后的回复与摸牌提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "枭姬·入微",
+        "description": "战斗中替换装备牌时触发枭姬：摸1张并回复5%最大生命；每回合最多1次。\n3星新增机制：新增机制【妆印】：每次装备区发生变化获得1枚妆印；3枚时自动回复生命并摸1张。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "lifesteal": 3,
+          "hpPct": 0.04
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【妆印】：每次装备区发生变化获得1枚妆印；3枚时自动回复生命并摸1张。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "枭姬·化境",
+        "description": "战斗中替换装备牌时触发枭姬：摸1张并回复5%最大生命；每回合最多1次。\n4星规则改变：规则改变：替换已有装备同样视为枭姬触发，且每回合首个装备变化额外获得1枚妆印。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "lifesteal": 4,
+          "hpPct": 0.06,
+          "antiCrit": 3
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：替换已有装备同样视为枭姬触发，且每回合首个装备变化额外获得1枚妆印。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "枭姬·极意",
+        "description": "战斗中替换装备牌时触发枭姬：摸1张并回复5%最大生命；每回合最多1次。\n5星终极效果：终极效果【弓腰姬】：每回合首次装备变化后立即发动一次不计普通次数的【杀】；低血时同时回复生命。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "lifesteal": 5,
+          "hpPct": 0.08,
+          "antiCrit": 5,
+          "boss": 5
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【弓腰姬】：每回合首次装备变化后立即发动一次不计普通次数的【杀】；低血时同时回复生命。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_sustain",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "lvbu": {
+    "id": "lvbu",
+    "name": "吕布",
+    "faction": "群",
+    "rarity": "SSR",
+    "skill_name": "无双",
+    "archetype": "响应压制",
+    "description": "【杀】需要敌人连续两次响应，否则直接击穿防御。",
+    "base_attack": 120,
+    "base_hp": 1020,
+    "implemented": true,
+    "base_defense": 72,
+    "base_speed": 96,
+    "growth_attack": 1.11,
+    "growth_hp": 1.088,
+    "growth_defense": 1.066,
+    "skill_description": "【杀】需要敌人连续2次响应；若第二次响应失败，本次伤害额外+35%。",
+    "skill_value_a": 2,
+    "skill_value_b": 35,
+    "tags": "压制/爆发",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "无双·初识",
+        "description": "【杀】需要敌人连续2次响应；若第二次响应失败，本次伤害额外+35%。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "无双·精进",
+        "description": "【杀】需要敌人连续2次响应；若第二次响应失败，本次伤害额外+35%。\n2星强化：无双的双响应压力提高，首击伤害更稳定。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "crit": 3
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "无双的双响应压力提高，首击伤害更稳定。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "无双·入微",
+        "description": "【杀】需要敌人连续2次响应；若第二次响应失败，本次伤害额外+35%。\n3星新增机制：新增机制【无双压制】：无双攻击要求更高响应，敌方成功闪避后仍承受小幅穿透伤害。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "crit": 4,
+          "critd": 8
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【无双压制】：无双攻击要求更高响应，敌方成功闪避后仍承受小幅穿透伤害。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "无双·化境",
+        "description": "【杀】需要敌人连续2次响应；若第二次响应失败，本次伤害额外+35%。\n4星规则改变：规则改变：所有无双【杀】即使被【闪】响应，也固定造成部分穿透伤害，不再降为普通极低伤害。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "crit": 5,
+          "critd": 12,
+          "armorpen": 5
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：所有无双【杀】即使被【闪】响应，也固定造成部分穿透伤害，不再降为普通极低伤害。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "无双·极意",
+        "description": "【杀】需要敌人连续2次响应；若第二次响应失败，本次伤害额外+35%。\n5星终极效果：终极效果【无双连斩】：对Boss的每场首次无双攻击结算后立即发动两段递减追击。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "crit": 6,
+          "critd": 18,
+          "armorpen": 8,
+          "boss": 8
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【无双连斩】：对Boss的每场首次无双攻击结算后立即发动两段递减追击。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_burst",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "diaochan": {
+    "id": "diaochan",
+    "name": "貂蝉",
+    "faction": "群",
+    "rarity": "SR",
+    "skill_name": "离间",
+    "archetype": "额外战斗",
+    "description": "制造额外冲突与追加攻击，擅长打乱Boss节奏。",
+    "base_attack": 114,
+    "base_hp": 1100,
+    "implemented": true,
+    "base_defense": 70,
+    "base_speed": 119,
+    "growth_attack": 1.104,
+    "growth_hp": 1.079,
+    "growth_defense": 1.076,
+    "skill_description": "每4回合发动离间，强制触发一次额外【决斗】事件并降低敌方下一次攻击。",
+    "skill_value_a": 4,
+    "skill_value_b": 80,
+    "tags": "离间/决斗/干扰",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "离间·初识",
+        "description": "每4回合发动离间，强制触发一次额外【决斗】事件并降低敌方下一次攻击。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "离间·精进",
+        "description": "每4回合发动离间，强制触发一次额外【决斗】事件并降低敌方下一次攻击。\n2星强化：离间伤害与敌方攻击削弱提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "accuracy": 2
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "离间伤害与敌方攻击削弱提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "离间·入微",
+        "description": "每4回合发动离间，强制触发一次额外【决斗】事件并降低敌方下一次攻击。\n3星新增机制：新增机制【魅影】：离间命中后获得1层魅影，使下一次受到的伤害降低。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "accuracy": 3,
+          "luck": 4
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【魅影】：离间命中后获得1层魅影，使下一次受到的伤害降低。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "离间·化境",
+        "description": "每4回合发动离间，强制触发一次额外【决斗】事件并降低敌方下一次攻击。\n4星规则改变：规则改变：敌方存在强化状态时，离间冷却由4回合缩短为3回合，并优先清除强化。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "accuracy": 4,
+          "luck": 6,
+          "critd": 8
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：敌方存在强化状态时，离间冷却由4回合缩短为3回合，并优先清除强化。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "离间·极意",
+        "description": "每4回合发动离间，强制触发一次额外【决斗】事件并降低敌方下一次攻击。\n5星终极效果：终极效果【闭月倾城】：离间结算后立即摸2张并获得一次额外行动；该行动的首张牌降低敌方响应。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "accuracy": 5,
+          "luck": 8,
+          "critd": 12,
+          "boss": 6
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【闭月倾城】：离间结算后立即摸2张并获得一次额外行动；该行动的首张牌降低敌方响应。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_trick",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "huatuo": {
+    "id": "huatuo",
+    "name": "华佗",
+    "faction": "群",
+    "rarity": "R",
+    "skill_name": "急救",
+    "archetype": "持续恢复",
+    "description": "红牌可转为治疗，长线挂机容错极高。",
+    "base_attack": 108,
+    "base_hp": 1060,
+    "implemented": true,
+    "base_defense": 82,
+    "base_speed": 101,
+    "growth_attack": 1.094,
+    "growth_hp": 1.09,
+    "growth_defense": 1.078,
+    "skill_description": "生命低于45%时，AI可将红色手牌当【桃】使用；每回合最多1次。",
+    "skill_value_a": 8,
+    "skill_value_b": 50,
+    "tags": "急救/红牌/治疗",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "急救·初识",
+        "description": "生命低于45%时，AI可将红色手牌当【桃】使用；每回合最多1次。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "急救·精进",
+        "description": "生命低于45%时，AI可将红色手牌当【桃】使用；每回合最多1次。\n2星强化：急救红牌识别与治疗效率提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "hpPct": 0.04
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "急救红牌识别与治疗效率提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "急救·入微",
+        "description": "生命低于45%时，AI可将红色手牌当【桃】使用；每回合最多1次。\n3星新增机制：新增机制【药囊】：每次以红牌急救获得1味药；3味药自动净化1个负面判定并追加治疗。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "hpPct": 0.05,
+          "lifesteal": 2
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【药囊】：每次以红牌急救获得1味药；3味药自动净化1个负面判定并追加治疗。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "急救·化境",
+        "description": "生命低于45%时，AI可将红色手牌当【桃】使用；每回合最多1次。\n4星规则改变：规则改变：急救可在即将受到致命伤害前自动触发，不再只等待主动行动阶段。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "hpPct": 0.07,
+          "lifesteal": 3,
+          "antiCrit": 3
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：急救可在即将受到致命伤害前自动触发，不再只等待主动行动阶段。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "急救·极意",
+        "description": "生命低于45%时，AI可将红色手牌当【桃】使用；每回合最多1次。\n5星终极效果：终极效果【五禽济世】：每场首次濒死时立即回复25%最大生命，获得2回合强化吸血与治疗，并清空药囊。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "hpPct": 0.1,
+          "lifesteal": 5,
+          "antiCrit": 5,
+          "idle": 4
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【五禽济世】：每场首次濒死时立即回复25%最大生命，获得2回合强化吸血与治疗，并清空药囊。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_heal",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "yuanshao": {
+    "id": "yuanshao",
+    "name": "袁绍",
+    "faction": "群",
+    "rarity": "R",
+    "skill_name": "乱击",
+    "archetype": "群体锦囊",
+    "description": "消耗多张同类牌换取范围/多段爆发。",
+    "base_attack": 112,
+    "base_hp": 1140,
+    "implemented": true,
+    "base_defense": 80,
+    "base_speed": 99,
+    "growth_attack": 1.106,
+    "growth_hp": 1.083,
+    "growth_defense": 1.07,
+    "skill_description": "手牌中存在2张同色牌时，AI有概率将它们转化为【万箭齐发】，高层Boss时优先使用。",
+    "skill_value_a": 160,
+    "skill_value_b": 220,
+    "tags": "乱击/同色/万箭",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "乱击·初识",
+        "description": "手牌中存在2张同色牌时，AI有概率将它们转化为【万箭齐发】，高层Boss时优先使用。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "乱击·精进",
+        "description": "手牌中存在2张同色牌时，AI有概率将它们转化为【万箭齐发】，高层Boss时优先使用。\n2星强化：乱击选牌更谨慎，万箭齐发的基础伤害提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "boss": 3
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "乱击选牌更谨慎，万箭齐发的基础伤害提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "乱击·入微",
+        "description": "手牌中存在2张同色牌时，AI有概率将它们转化为【万箭齐发】，高层Boss时优先使用。\n3星新增机制：新增机制【箭势】：每次乱击命中获得1层箭势；3层时自动追加一轮弱化箭雨。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "boss": 5,
+          "armorpen": 3
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【箭势】：每次乱击命中获得1层箭势；3层时自动追加一轮弱化箭雨。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "乱击·化境",
+        "description": "手牌中存在2张同色牌时，AI有概率将它们转化为【万箭齐发】，高层Boss时优先使用。\n4星规则改变：规则改变：乱击配牌由“两张同色”放宽为“两张同花色或同色”，AI优先保留桃/闪等关键牌。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "boss": 7,
+          "armorpen": 5,
+          "crit": 3
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：乱击配牌由“两张同色”放宽为“两张同花色或同色”，AI优先保留桃/闪等关键牌。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "乱击·极意",
+        "description": "手牌中存在2张同色牌时，AI有概率将它们转化为【万箭齐发】，高层Boss时优先使用。\n5星终极效果：终极效果【河北雄兵】：Boss战首次乱击会根据敌方未能完整响应的次数追加箭雨，最多追加2轮。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "boss": 10,
+          "armorpen": 7,
+          "crit": 4,
+          "critd": 10
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【河北雄兵】：Boss战首次乱击会根据敌方未能完整响应的次数追加箭雨，最多追加2轮。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_boss",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "zhangjiao": {
+    "id": "zhangjiao",
+    "name": "张角",
+    "faction": "群",
+    "rarity": "SR",
+    "skill_name": "雷击",
+    "archetype": "判定反击",
+    "description": "成功闪避后触发雷击，并围绕判定构筑。",
+    "base_attack": 126,
+    "base_hp": 1340,
+    "implemented": true,
+    "base_defense": 76,
+    "base_speed": 107,
+    "growth_attack": 1.106,
+    "growth_hp": 1.079,
+    "growth_defense": 1.076,
+    "skill_description": "成功使用【闪】后进行一次判定；黑桃命中则追加雷击伤害。判定可被司马懿类改判机制影响。",
+    "skill_value_a": 40,
+    "skill_value_b": 200,
+    "tags": "雷击/闪/判定",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "雷击·初识",
+        "description": "成功使用【闪】后进行一次判定；黑桃命中则追加雷击伤害。判定可被司马懿类改判机制影响。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "雷击·精进",
+        "description": "成功使用【闪】后进行一次判定；黑桃命中则追加雷击伤害。判定可被司马懿类改判机制影响。\n2星强化：雷击伤害与判定稳定性提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "accuracy": 2
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "雷击伤害与判定稳定性提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "雷击·入微",
+        "description": "成功使用【闪】后进行一次判定；黑桃命中则追加雷击伤害。判定可被司马懿类改判机制影响。\n3星新增机制：新增机制【雷势】：雷击判定失败时获得1层雷势。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "accuracy": 3,
+          "luck": 4
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【雷势】：雷击判定失败时获得1层雷势。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "雷击·化境",
+        "description": "成功使用【闪】后进行一次判定；黑桃命中则追加雷击伤害。判定可被司马懿类改判机制影响。\n4星规则改变：规则改变：雷势提高下一次判定成功率；达到3层时下一次雷击判定可重判一次并清空雷势。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "accuracy": 4,
+          "luck": 6,
+          "critd": 8
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：雷势提高下一次判定成功率；达到3层时下一次雷击判定可重判一次并清空雷势。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "雷击·极意",
+        "description": "成功使用【闪】后进行一次判定；黑桃命中则追加雷击伤害。判定可被司马懿类改判机制影响。\n5星终极效果：终极效果【黄天雷狱】：黑桃雷击命中后进行一次额外连锁判定；再次命中则追加雷伤并使敌方短暂弱化。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "accuracy": 5,
+          "luck": 8,
+          "critd": 12,
+          "boss": 6
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【黄天雷狱】：黑桃雷击命中后进行一次额外连锁判定；再次命中则追加雷伤并使敌方短暂弱化。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_trick",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "dongzhuo": {
+    "id": "dongzhuo",
+    "name": "董卓",
+    "faction": "群",
+    "rarity": "R",
+    "skill_name": "酒池·崩坏",
+    "archetype": "高血压制",
+    "description": "超高生命与吸血，但持续承受腐化代价。",
+    "base_attack": 120,
+    "base_hp": 1300,
+    "implemented": true,
+    "base_defense": 110,
+    "base_speed": 82,
+    "growth_attack": 1.105,
+    "growth_hp": 1.094,
+    "growth_defense": 1.062,
+    "skill_description": "黑桃牌可转化为【酒】强化下一次【杀】；每5回合触发崩坏损失少量生命并换取攻击增幅。",
+    "skill_value_a": 20,
+    "skill_value_b": 10,
+    "tags": "酒池/崩坏/高血",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "酒池·崩坏·初识",
+        "description": "黑桃牌可转化为【酒】强化下一次【杀】；每5回合触发崩坏损失少量生命并换取攻击增幅。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "酒池·崩坏·精进",
+        "description": "黑桃牌可转化为【酒】强化下一次【杀】；每5回合触发崩坏损失少量生命并换取攻击增幅。\n2星强化：酒池强化与崩坏后的攻击收益提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "hpPct": 0.04
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "酒池强化与崩坏后的攻击收益提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "酒池·崩坏·入微",
+        "description": "黑桃牌可转化为【酒】强化下一次【杀】；每5回合触发崩坏损失少量生命并换取攻击增幅。\n3星新增机制：新增机制【暴虐】：以黑桃转化【酒】或触发崩坏时获得1层暴虐，提高下一次重击。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "hpPct": 0.06,
+          "defPct": 0.04
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【暴虐】：以黑桃转化【酒】或触发崩坏时获得1层暴虐，提高下一次重击。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "酒池·崩坏·化境",
+        "description": "黑桃牌可转化为【酒】强化下一次【杀】；每5回合触发崩坏损失少量生命并换取攻击增幅。\n4星规则改变：规则改变：进入战斗即获得1层暴虐；高生命时崩坏优先消耗1层暴虐代替部分生命损失，并提高当回合伤害。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "hpPct": 0.08,
+          "defPct": 0.06,
+          "antiCrit": 4
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：进入战斗即获得1层暴虐；高生命时崩坏优先消耗1层暴虐代替部分生命损失，并提高当回合伤害。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "酒池·崩坏·极意",
+        "description": "黑桃牌可转化为【酒】强化下一次【杀】；每5回合触发崩坏损失少量生命并换取攻击增幅。\n5星终极效果：终极效果【魔王酒池】：每场首次濒死时消耗全部暴虐回复生命，并按消耗层数连续发动酒池重击。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "hpPct": 0.12,
+          "defPct": 0.08,
+          "antiCrit": 6,
+          "boss": 5
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【魔王酒池】：每场首次濒死时消耗全部暴虐回复生命，并按消耗层数连续发动酒池重击。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_tank",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "machao": {
+    "id": "machao",
+    "name": "马超",
+    "faction": "蜀",
+    "rarity": "SSR",
+    "skill_name": "铁骑",
+    "archetype": "判定破防",
+    "description": "以【杀】触发判定，压制【闪】并提升破甲。",
+    "base_attack": 134,
+    "base_hp": 1160,
+    "implemented": true,
+    "base_defense": 78,
+    "base_speed": 121,
+    "growth_attack": 1.107,
+    "growth_hp": 1.082,
+    "growth_defense": 1.071,
+    "skill_description": "使用【杀】时35%触发铁骑判定；判定成功令本次【杀】不可被【闪】响应并获得25%破甲。",
+    "skill_value_a": 35,
+    "skill_value_b": 25,
+    "tags": "杀/判定/破防",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "铁骑·初识",
+        "description": "使用【杀】时35%触发铁骑判定；判定成功令本次【杀】不可被【闪】响应并获得25%破甲。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "铁骑·精进",
+        "description": "使用【杀】时35%触发铁骑判定；判定成功令本次【杀】不可被【闪】响应并获得25%破甲。\n2星强化：铁骑判定成功率与破甲提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "accuracy": 3
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "铁骑判定成功率与破甲提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "铁骑·入微",
+        "description": "使用【杀】时35%触发铁骑判定；判定成功令本次【杀】不可被【闪】响应并获得25%破甲。\n3星新增机制：新增机制【骑势】：铁骑成功后获得1层骑势，提升下一次【杀】的命中与破甲。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "accuracy": 4,
+          "armorpen": 4
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【骑势】：铁骑成功后获得1层骑势，提升下一次【杀】的命中与破甲。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "铁骑·化境",
+        "description": "使用【杀】时35%触发铁骑判定；判定成功令本次【杀】不可被【闪】响应并获得25%破甲。\n4星规则改变：规则改变：敌方处于判定控制/弱化状态时，铁骑首次判定必定成功且不可被【闪】响应。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "accuracy": 5,
+          "armorpen": 6,
+          "speed": 3
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：敌方处于判定控制/弱化状态时，铁骑首次判定必定成功且不可被【闪】响应。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "铁骑·极意",
+        "description": "使用【杀】时35%触发铁骑判定；判定成功令本次【杀】不可被【闪】响应并获得25%破甲。\n5星终极效果：终极效果【西凉突阵】：Boss战每场首次铁骑命中后追加两段递减冲锋伤害，并清空骑势。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "accuracy": 8,
+          "armorpen": 8,
+          "speed": 5,
+          "boss": 6
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【西凉突阵】：Boss战每场首次铁骑命中后追加两段递减冲锋伤害，并清空骑势。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_pierce",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "pangtong": {
+    "id": "pangtong",
+    "name": "庞统",
+    "faction": "蜀",
+    "rarity": "SR",
+    "skill_name": "连环·涅槃",
+    "archetype": "连环火伤",
+    "description": "围绕【铁索连环】强化属性伤害，并拥有一次涅槃容错。",
+    "base_attack": 126,
+    "base_hp": 980,
+    "implemented": true,
+    "base_defense": 72,
+    "base_speed": 108,
+    "growth_attack": 1.104,
+    "growth_hp": 1.081,
+    "growth_defense": 1.073,
+    "skill_description": "锦囊有30%附加「连环」2回合；连环目标受到火/雷伤害+28%。每场首次濒死触发涅槃，恢复35%生命。",
+    "skill_value_a": 30,
+    "skill_value_b": 35,
+    "tags": "锦囊/连环/复生",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "连环·涅槃·初识",
+        "description": "锦囊有30%附加「连环」2回合；连环目标受到火/雷伤害+28%。每场首次濒死触发涅槃，恢复35%生命。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "连环·涅槃·精进",
+        "description": "锦囊有30%附加「连环」2回合；连环目标受到火/雷伤害+28%。每场首次濒死触发涅槃，恢复35%生命。\n2星强化：连环附着率与涅槃恢复提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "lifesteal": 2
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "连环附着率与涅槃恢复提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "连环·涅槃·入微",
+        "description": "锦囊有30%附加「连环」2回合；连环目标受到火/雷伤害+28%。每场首次濒死触发涅槃，恢复35%生命。\n3星新增机制：新增机制【凤雏印】：连环目标受到火/雷伤害时获得凤雏印；3层时触发一次额外连锁伤害。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "lifesteal": 3,
+          "hpPct": 0.04
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【凤雏印】：连环目标受到火/雷伤害时获得凤雏印；3层时触发一次额外连锁伤害。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "连环·涅槃·化境",
+        "description": "锦囊有30%附加「连环」2回合；连环目标受到火/雷伤害+28%。每场首次濒死触发涅槃，恢复35%生命。\n4星规则改变：规则改变：涅槃发动时清空自身判定区并立即获得一次行动，不再仅恢复生命。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "lifesteal": 4,
+          "hpPct": 0.06,
+          "antiCrit": 3
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：涅槃发动时清空自身判定区并立即获得一次行动，不再仅恢复生命。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "连环·涅槃·极意",
+        "description": "锦囊有30%附加「连环」2回合；连环目标受到火/雷伤害+28%。每场首次濒死触发涅槃，恢复35%生命。\n5星终极效果：终极效果【浴火重生】：涅槃后的2回合火/雷伤害显著提高，且首次再次受到致命伤害时保留1点生命。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "lifesteal": 5,
+          "hpPct": 0.08,
+          "antiCrit": 5,
+          "boss": 5
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【浴火重生】：涅槃后的2回合火/雷伤害显著提高，且首次再次受到致命伤害时保留1点生命。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_sustain",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "zhenji": {
+    "id": "zhenji",
+    "name": "甄姬",
+    "faction": "魏",
+    "rarity": "SR",
+    "skill_name": "洛神·倾国",
+    "archetype": "判定防御",
+    "description": "黑色判定持续补充资源，黑牌可化【闪】。",
+    "base_attack": 122,
+    "base_hp": 960,
+    "implemented": true,
+    "base_defense": 70,
+    "base_speed": 116,
+    "growth_attack": 1.103,
+    "growth_hp": 1.08,
+    "growth_defense": 1.074,
+    "skill_description": "每回合开始进行洛神判定：黑色则获得15%本回合牌效并有35%概率追加一次行动；受到【杀】时额外获得12%闪避。",
+    "skill_value_a": 15,
+    "skill_value_b": 12,
+    "tags": "判定/闪避/循环",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "洛神·倾国·初识",
+        "description": "每回合开始进行洛神判定：黑色则获得15%本回合牌效并有35%概率追加一次行动；受到【杀】时额外获得12%闪避。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "洛神·倾国·精进",
+        "description": "每回合开始进行洛神判定：黑色则获得15%本回合牌效并有35%概率追加一次行动；受到【杀】时额外获得12%闪避。\n2星强化：洛神连续判定上限与倾国闪避收益提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "dodge": 2
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "洛神连续判定上限与倾国闪避收益提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "洛神·倾国·入微",
+        "description": "每回合开始进行洛神判定：黑色则获得15%本回合牌效并有35%概率追加一次行动；受到【杀】时额外获得12%闪避。\n3星新增机制：新增机制【洛影】：连续黑色洛神判定获得洛影；3层时下一次成功闪避会自动反击。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "dodge": 3,
+          "accuracy": 3
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【洛影】：连续黑色洛神判定获得洛影；3层时下一次成功闪避会自动反击。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "洛神·倾国·化境",
+        "description": "每回合开始进行洛神判定：黑色则获得15%本回合牌效并有35%概率追加一次行动；受到【杀】时额外获得12%闪避。\n4星规则改变：规则改变：每回合首次红色洛神判定可重判一次，重判仍为红色才结束洛神。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "dodge": 4,
+          "accuracy": 4,
+          "speed": 3
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：每回合首次红色洛神判定可重判一次，重判仍为红色才结束洛神。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "洛神·倾国·极意",
+        "description": "每回合开始进行洛神判定：黑色则获得15%本回合牌效并有35%概率追加一次行动；受到【杀】时额外获得12%闪避。\n5星终极效果：终极效果【洛神凌波】：成功使用倾国或触发闪避后立即获得一次低倍率反击，并提高下一次判定。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "dodge": 6,
+          "accuracy": 6,
+          "speed": 5,
+          "antiCrit": 4
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【洛神凌波】：成功使用倾国或触发闪避后立即获得一次低倍率反击，并提高下一次判定。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_agile",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "xunyu": {
+    "id": "xunyu",
+    "name": "荀彧",
+    "faction": "魏",
+    "rarity": "SR",
+    "skill_name": "驱虎·节命",
+    "archetype": "受击补牌",
+    "description": "通过拼点制造额外伤害，受伤后恢复战术资源。",
+    "base_attack": 118,
+    "base_hp": 1020,
+    "implemented": true,
+    "base_defense": 84,
+    "base_speed": 106,
+    "growth_attack": 1.101,
+    "growth_hp": 1.085,
+    "growth_defense": 1.078,
+    "skill_description": "每3回合发动驱虎拼点，胜则追加135%攻击伤害；受到伤害后触发节命，使下回合伤害+18%并回复6%生命。",
+    "skill_value_a": 135,
+    "skill_value_b": 18,
+    "tags": "拼点/受击/资源",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "驱虎·节命·初识",
+        "description": "每3回合发动驱虎拼点，胜则追加135%攻击伤害；受到伤害后触发节命，使下回合伤害+18%并回复6%生命。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "驱虎·节命·精进",
+        "description": "每3回合发动驱虎拼点，胜则追加135%攻击伤害；受到伤害后触发节命，使下回合伤害+18%并回复6%生命。\n2星强化：节命回复与驱虎拼点收益提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "hpPct": 0.04
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "节命回复与驱虎拼点收益提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "驱虎·节命·入微",
+        "description": "每3回合发动驱虎拼点，胜则追加135%攻击伤害；受到伤害后触发节命，使下回合伤害+18%并回复6%生命。\n3星新增机制：新增机制【节命筹】：受到伤害后获得1枚筹；2枚筹可在下回合开始时自动转化为摸牌或治疗。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "hpPct": 0.05,
+          "lifesteal": 2
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【节命筹】：受到伤害后获得1枚筹；2枚筹可在下回合开始时自动转化为摸牌或治疗。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "驱虎·节命·化境",
+        "description": "每3回合发动驱虎拼点，胜则追加135%攻击伤害；受到伤害后触发节命，使下回合伤害+18%并回复6%生命。\n4星规则改变：规则改变：AI会根据生命与手牌在“回复/摸牌/强化驱虎”之间自动选择节命收益。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "hpPct": 0.07,
+          "lifesteal": 3,
+          "antiCrit": 3
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：AI会根据生命与手牌在“回复/摸牌/强化驱虎”之间自动选择节命收益。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "驱虎·节命·极意",
+        "description": "每3回合发动驱虎拼点，胜则追加135%攻击伤害；受到伤害后触发节命，使下回合伤害+18%并回复6%生命。\n5星终极效果：终极效果【王佐定局】：生命低于35%时首次触发节命会清除1个负面判定，并使下一次驱虎必定按胜利结算。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "hpPct": 0.1,
+          "lifesteal": 5,
+          "antiCrit": 5,
+          "idle": 4
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【王佐定局】：生命低于35%时首次触发节命会清除1个负面判定，并使下一次驱虎必定按胜利结算。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_heal",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "daqiao": {
+    "id": "daqiao",
+    "name": "大乔",
+    "faction": "吴",
+    "rarity": "SR",
+    "skill_name": "国色·流离",
+    "archetype": "延时控制",
+    "description": "方片转化【乐不思蜀】，并通过流离规避攻击。",
+    "base_attack": 112,
+    "base_hp": 940,
+    "implemented": true,
+    "base_defense": 74,
+    "base_speed": 119,
+    "growth_attack": 1.099,
+    "growth_hp": 1.083,
+    "growth_defense": 1.075,
+    "skill_description": "每4回合自动施放【乐不思蜀】，使敌方有45%概率跳过下一次行动；受到【杀】时20%触发流离，使伤害降低75%。",
+    "skill_value_a": 45,
+    "skill_value_b": 75,
+    "tags": "延时/控制/闪避",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "国色·流离·初识",
+        "description": "每4回合自动施放【乐不思蜀】，使敌方有45%概率跳过下一次行动；受到【杀】时20%触发流离，使伤害降低75%。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "国色·流离·精进",
+        "description": "每4回合自动施放【乐不思蜀】，使敌方有45%概率跳过下一次行动；受到【杀】时20%触发流离，使伤害降低75%。\n2星强化：国色控制稳定性与流离减伤提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "dodge": 2
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "国色控制稳定性与流离减伤提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "国色·流离·入微",
+        "description": "每4回合自动施放【乐不思蜀】，使敌方有45%概率跳过下一次行动；受到【杀】时20%触发流离，使伤害降低75%。\n3星新增机制：新增机制【流离印】：成功流离后获得1枚流离印，使下一次国色判定更有利。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "dodge": 3,
+          "accuracy": 3
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【流离印】：成功流离后获得1枚流离印，使下一次国色判定更有利。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "国色·流离·化境",
+        "description": "每4回合自动施放【乐不思蜀】，使敌方有45%概率跳过下一次行动；受到【杀】时20%触发流离，使伤害降低75%。\n4星规则改变：规则改变：手牌中有方片时可消耗1张方片保证本回合首次流离触发，不再完全依赖概率。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "dodge": 4,
+          "accuracy": 4,
+          "speed": 3
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：手牌中有方片时可消耗1张方片保证本回合首次流离触发，不再完全依赖概率。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "国色·流离·极意",
+        "description": "每4回合自动施放【乐不思蜀】，使敌方有45%概率跳过下一次行动；受到【杀】时20%触发流离，使伤害降低75%。\n5星终极效果：终极效果【江东国色】：国色成功令敌方跳过行动后，立即追加一次弱化并摸1张；Boss仅降低一次行动强度。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "dodge": 6,
+          "accuracy": 6,
+          "speed": 5,
+          "antiCrit": 4
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【江东国色】：国色成功令敌方跳过行动后，立即追加一次弱化并摸1张；Boss仅降低一次行动强度。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_agile",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "taishici": {
+    "id": "taishici",
+    "name": "太史慈",
+    "faction": "吴",
+    "rarity": "SSR",
+    "skill_name": "天义",
+    "archetype": "拼点连杀",
+    "description": "拼点胜利后获得额外【杀】与多段爆发。",
+    "base_attack": 132,
+    "base_hp": 1180,
+    "implemented": true,
+    "base_defense": 80,
+    "base_speed": 114,
+    "growth_attack": 1.106,
+    "growth_hp": 1.084,
+    "growth_defense": 1.072,
+    "skill_description": "每3回合进行天义拼点；胜利后本回合追加2次【杀】并获得15%命中，失败则本回合【杀】伤害-20%。",
+    "skill_value_a": 2,
+    "skill_value_b": 15,
+    "tags": "拼点/连杀/命中",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "天义·初识",
+        "description": "每3回合进行天义拼点；胜利后本回合追加2次【杀】并获得15%命中，失败则本回合【杀】伤害-20%。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "天义·精进",
+        "description": "每3回合进行天义拼点；胜利后本回合追加2次【杀】并获得15%命中，失败则本回合【杀】伤害-20%。\n2星强化：天义胜利后的连杀命中与伤害提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "crit": 2
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "天义胜利后的连杀命中与伤害提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "天义·入微",
+        "description": "每3回合进行天义拼点；胜利后本回合追加2次【杀】并获得15%命中，失败则本回合【杀】伤害-20%。\n3星新增机制：新增机制【义势】：天义拼点胜利获得1层义势，下一次【杀】附带破甲。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "crit": 3,
+          "armorpen": 4
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【义势】：天义拼点胜利获得1层义势，下一次【杀】附带破甲。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "天义·化境",
+        "description": "每3回合进行天义拼点；胜利后本回合追加2次【杀】并获得15%命中，失败则本回合【杀】伤害-20%。\n4星规则改变：规则改变：天义拼点失败不再降低本回合【杀】伤害，并可在本回合首次使用锦囊后重试一次。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "crit": 4,
+          "armorpen": 6,
+          "boss": 5
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：天义拼点失败不再降低本回合【杀】伤害，并可在本回合首次使用锦囊后重试一次。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "天义·极意",
+        "description": "每3回合进行天义拼点；胜利后本回合追加2次【杀】并获得15%命中，失败则本回合【杀】伤害-20%。\n5星终极效果：终极效果【笃烈破阵】：Boss战每场首次天义胜利后追加3次递减的自由【杀】，不计普通次数。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "crit": 5,
+          "armorpen": 8,
+          "boss": 8,
+          "critd": 10
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【笃烈破阵】：Boss战每场首次天义胜利后追加3次递减的自由【杀】，不计普通次数。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_slash",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "yuji": {
+    "id": "yuji",
+    "name": "于吉",
+    "faction": "群",
+    "rarity": "SSR",
+    "skill_name": "蛊惑",
+    "archetype": "伪装锦囊",
+    "description": "将任意牌伪装成基本牌或锦囊，依赖敌方是否质疑。",
+    "base_attack": 128,
+    "base_hp": 920,
+    "implemented": true,
+    "base_defense": 68,
+    "base_speed": 111,
+    "growth_attack": 1.105,
+    "growth_hp": 1.078,
+    "growth_defense": 1.072,
+    "skill_description": "使用锦囊时发动蛊惑：65%无人质疑，牌效+20%；若被质疑，55%判定为真并使敌方额外承受100%攻击伤害。",
+    "skill_value_a": 65,
+    "skill_value_b": 55,
+    "tags": "锦囊/随机/爆发",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "蛊惑·初识",
+        "description": "使用锦囊时发动蛊惑：65%无人质疑，牌效+20%；若被质疑，55%判定为真并使敌方额外承受100%攻击伤害。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "蛊惑·精进",
+        "description": "使用锦囊时发动蛊惑：65%无人质疑，牌效+20%；若被质疑，55%判定为真并使敌方额外承受100%攻击伤害。\n2星强化：蛊惑成功率与被质疑时的反制伤害提高。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "accuracy": 2
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "蛊惑成功率与被质疑时的反制伤害提高。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "蛊惑·入微",
+        "description": "使用锦囊时发动蛊惑：65%无人质疑，牌效+20%；若被质疑，55%判定为真并使敌方额外承受100%攻击伤害。\n3星新增机制：新增机制【惑印】：蛊惑被验证为真后获得1枚惑印，使敌方下一次响应成功率降低。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "accuracy": 3,
+          "luck": 4
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【惑印】：蛊惑被验证为真后获得1枚惑印，使敌方下一次响应成功率降低。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "蛊惑·化境",
+        "description": "使用锦囊时发动蛊惑：65%无人质疑，牌效+20%；若被质疑，55%判定为真并使敌方额外承受100%攻击伤害。\n4星规则改变：规则改变：每回合首次被质疑且失败时可重新声明一次不同牌名，不直接中断整套行动。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "accuracy": 4,
+          "luck": 6,
+          "critd": 8
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：每回合首次被质疑且失败时可重新声明一次不同牌名，不直接中断整套行动。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "蛊惑·极意",
+        "description": "使用锦囊时发动蛊惑：65%无人质疑，牌效+20%；若被质疑，55%判定为真并使敌方额外承受100%攻击伤害。\n5星终极效果：终极效果【太平幻术】：每回合首张锦囊蛊惑成功后，复制一张不同类型锦囊的部分效果并消耗1枚惑印。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "accuracy": 5,
+          "luck": 8,
+          "critd": 12,
+          "boss": 6
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【太平幻术】：每回合首张锦囊蛊惑成功后，复制一张不同类型锦囊的部分效果并消耗1枚惑印。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_trick",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  },
+  "zuoci": {
+    "id": "zuoci",
+    "name": "左慈",
+    "faction": "群",
+    "rarity": "SSR",
+    "skill_name": "化身·新生",
+    "archetype": "技能借用",
+    "description": "周期性从其他武将借用一个自动战策，受击后加速更换。",
+    "base_attack": 120,
+    "base_hp": 940,
+    "implemented": true,
+    "base_defense": 72,
+    "base_speed": 113,
+    "growth_attack": 1.103,
+    "growth_hp": 1.081,
+    "growth_defense": 1.076,
+    "skill_description": "每4回合随机获得一名已解锁武将的核心战策1回合；受到伤害后有35%概率立即刷新化身。",
+    "skill_value_a": 4,
+    "skill_value_b": 35,
+    "tags": "化身/随机/适应",
+    "level_cap": 9999,
+    "soul_thresholds": [
+      30,
+      60,
+      120,
+      240
+    ],
+    "star_bonus_per_level": 0.06,
+    "soul_skill_scale": [
+      1.0,
+      1.1,
+      1.22,
+      1.36,
+      1.52
+    ],
+    "soul_trigger_bonus_per_star": 0.025,
+    "skill_versions": [
+      {
+        "star": 1,
+        "name": "化身·新生·初识",
+        "description": "每4回合随机获得一名已解锁武将的核心战策1回合；受到伤害后有35%概率立即刷新化身。",
+        "skill_scale": 1.0,
+        "trigger_bonus": 0,
+        "combat_bonus": {},
+        "mechanic_grade": "identity",
+        "stage_delta": "建立身份机制",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 2,
+        "name": "化身·新生·精进",
+        "description": "每4回合随机获得一名已解锁武将的核心战策1回合；受到伤害后有35%概率立即刷新化身。\n2星强化：化身刷新后的技能收益提高，并更偏向当前战况需要。",
+        "skill_scale": 1.1,
+        "trigger_bonus": 0.025,
+        "combat_bonus": {
+          "luck": 3
+        },
+        "mechanic_grade": "enhance",
+        "stage_delta": "化身刷新后的技能收益提高，并更偏向当前战况需要。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 3,
+        "name": "化身·新生·入微",
+        "description": "每4回合随机获得一名已解锁武将的核心战策1回合；受到伤害后有35%概率立即刷新化身。\n3星新增机制：新增机制【化身谱】：刷新化身时保留前一化身的1个被动特征，持续到下次刷新。",
+        "skill_scale": 1.22,
+        "trigger_bonus": 0.05,
+        "combat_bonus": {
+          "luck": 4,
+          "crit": 2
+        },
+        "mechanic_grade": "new_mechanic",
+        "stage_delta": "新增机制【化身谱】：刷新化身时保留前一化身的1个被动特征，持续到下次刷新。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 4,
+        "name": "化身·新生·化境",
+        "description": "每4回合随机获得一名已解锁武将的核心战策1回合；受到伤害后有35%概率立即刷新化身。\n4星规则改变：规则改变：受到伤害或回合结束时可根据当前生命/手牌主动刷新化身，不再只按固定4回合。",
+        "skill_scale": 1.36,
+        "trigger_bonus": 0.075,
+        "combat_bonus": {
+          "luck": 6,
+          "crit": 3,
+          "dodge": 3
+        },
+        "mechanic_grade": "rule_change",
+        "stage_delta": "规则改变：受到伤害或回合结束时可根据当前生命/手牌主动刷新化身，不再只按固定4回合。",
+        "shared_for_enemy": true
+      },
+      {
+        "star": 5,
+        "name": "化身·新生·极意",
+        "description": "每4回合随机获得一名已解锁武将的核心战策1回合；受到伤害后有35%概率立即刷新化身。\n5星终极效果：终极效果【万象归一】：每场一次，同时借用两名已解锁武将的核心战策2回合，期间所有化身触发共享次数限制。",
+        "skill_scale": 1.52,
+        "trigger_bonus": 0.1,
+        "combat_bonus": {
+          "luck": 8,
+          "crit": 4,
+          "dodge": 4,
+          "boss": 4
+        },
+        "mechanic_grade": "ultimate",
+        "stage_delta": "终极效果【万象归一】：每场一次，同时借用两名已解锁武将的核心战策2回合，期间所有化身触发共享次数限制。",
+        "shared_for_enemy": true
+      }
+    ],
+    "skill_version_profile": "v020_hybrid",
+    "skill_design_rule": "3星新增机制 / 4星改变规则或触发 / 5星专属终极效果"
+  }
+}

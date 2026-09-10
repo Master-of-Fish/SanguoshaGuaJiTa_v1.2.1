@@ -1,0 +1,243 @@
+{
+  "version": "0.15.0",
+  "memory_token_rule": {
+    "every_floors": 20,
+    "amount": 1,
+    "zhuying_extra_every_floors": 100,
+    "zhuying_extra_amount": 1,
+    "settlement": "跨层累计补发"
+  },
+  "root_system": {
+    "max_level": 20,
+    "cost_resource": "修为",
+    "cost_formula": "floor(900 * 1.34^(Lv-1))",
+    "milestone": "每5级进一步提高牌色权重"
+  },
+  "technique_system": {
+    "max_level": 30,
+    "level_resource": "铜钱",
+    "level_formula": "floor(1800 * 1.235^(Lv-1))",
+    "break_levels": [
+      5,
+      10,
+      20
+    ],
+    "break_cost_jade": [
+      300,
+      900,
+      2500
+    ],
+    "secondary_unlock_best_floor": 100,
+    "secondary_effect_ratio": 0.45
+  },
+  "destiny_system": {
+    "affix_count": 2,
+    "reroll_cost_jade": 300,
+    "affix_pool": [
+      "会心",
+      "破势",
+      "身法",
+      "洞察",
+      "饮血",
+      "穿云",
+      "镇岳",
+      "鸿运",
+      "寻宝",
+      "静修",
+      "长生",
+      "金身"
+    ]
+  },
+  "roots": [
+    {
+      "id": "fire",
+      "name": "火灵根",
+      "max_level": 20
+    },
+    {
+      "id": "metal",
+      "name": "金灵根",
+      "max_level": 20
+    },
+    {
+      "id": "wood",
+      "name": "木灵根",
+      "max_level": 20
+    },
+    {
+      "id": "water",
+      "name": "水灵根",
+      "max_level": 20
+    },
+    {
+      "id": "thunder",
+      "name": "雷灵根",
+      "max_level": 20
+    }
+  ],
+  "techniques": [
+    {
+      "id": "qinglong",
+      "name": "青龙诀",
+      "max_level": 30
+    },
+    {
+      "id": "bazi",
+      "name": "八阵真解",
+      "max_level": 30
+    },
+    {
+      "id": "taiping",
+      "name": "太平要术",
+      "max_level": 30
+    },
+    {
+      "id": "xuesha",
+      "name": "血煞经",
+      "max_level": 30
+    },
+    {
+      "id": "lingxu",
+      "name": "灵虚步",
+      "max_level": 30
+    },
+    {
+      "id": "tianji",
+      "name": "天机篇",
+      "max_level": 30
+    }
+  ],
+  "destinies": [
+    "武曲",
+    "破军",
+    "天罡",
+    "瑶光",
+    "天机",
+    "灵犀"
+  ],
+  "synergies": [
+    {
+      "general": "关羽",
+      "root": "金灵根",
+      "technique": "青龙诀",
+      "name": "青龙武圣",
+      "effect": "杀伤+12%，破甲+5%"
+    },
+    {
+      "general": "张飞",
+      "root": "火灵根",
+      "technique": "青龙诀",
+      "name": "烈焰咆哮",
+      "effect": "杀伤+10%，暴击+4%"
+    },
+    {
+      "general": "赵云",
+      "root": "水灵根",
+      "technique": "八阵真解",
+      "name": "龙胆归元",
+      "effect": "闪避+5%，命中+4%"
+    },
+    {
+      "general": "曹操",
+      "root": "木灵根",
+      "technique": "血煞经",
+      "name": "奸雄血煞",
+      "effect": "吸血+5%，Boss伤害+8%"
+    },
+    {
+      "general": "吕布",
+      "root": "金灵根",
+      "technique": "青龙诀",
+      "name": "无双破军",
+      "effect": "破甲+8%，Boss伤害+10%"
+    },
+    {
+      "general": "司马懿",
+      "root": "雷灵根",
+      "technique": "太平要术",
+      "name": "鬼才驭雷",
+      "effect": "锦囊+12%，雷电+15%"
+    },
+    {
+      "general": "张角",
+      "root": "雷灵根",
+      "technique": "太平要术",
+      "name": "天公雷法",
+      "effect": "雷电+25%，锦囊+8%"
+    },
+    {
+      "general": "周瑜",
+      "root": "火灵根",
+      "technique": "太平要术",
+      "name": "赤壁真火",
+      "effect": "锦囊+15%"
+    },
+    {
+      "general": "黄月英",
+      "root": "火灵根",
+      "technique": "太平要术",
+      "name": "机关奇术",
+      "effect": "锦囊+12%，幸运+8"
+    },
+    {
+      "general": "甄姬",
+      "root": "水灵根",
+      "technique": "八阵真解",
+      "name": "洛水倾国",
+      "effect": "闪避+6%，抗暴+4%"
+    },
+    {
+      "general": "大乔",
+      "root": "水灵根",
+      "technique": "灵虚步",
+      "name": "流离凌波",
+      "effect": "闪避+6%，速度+4"
+    },
+    {
+      "general": "郭嘉",
+      "root": "木灵根",
+      "technique": "血煞经",
+      "name": "遗计养命",
+      "effect": "吸血+4%，生命+6%"
+    },
+    {
+      "general": "庞统",
+      "root": "火灵根",
+      "technique": "太平要术",
+      "name": "凤雏连环",
+      "effect": "锦囊+12%，Boss伤害+6%"
+    }
+  ],
+  "fate_insight": {
+    "uses_current_fate": true,
+    "multiplier_uses_total_fate": true,
+    "paths": [
+      {
+        "id": "war",
+        "name": "战意道印",
+        "attack_per_level": 0.04,
+        "skill_per_level": 0.03
+      },
+      {
+        "id": "idle",
+        "name": "静修道印",
+        "idle_per_level": 0.06
+      },
+      {
+        "id": "fortune",
+        "name": "天运道印",
+        "luck_per_level": 5,
+        "drop_per_level": 0.02
+      }
+    ]
+  },
+  "v015": {
+    "fixed_roster": 32,
+    "fate_uses": [
+      "五大道印",
+      "装备仙缘淬词"
+    ],
+    "equipment_reroll": true,
+    "offline_harvest": true
+  }
+}

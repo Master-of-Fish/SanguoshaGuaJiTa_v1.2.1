@@ -1,0 +1,38 @@
+{
+  "version": "0.20.0",
+  "save": {
+    "key": "sgs_idle_v0200",
+    "code_prefix": "SGST20-",
+    "migrate_from": ["sgs_idle_v0190"],
+    "office_is_session_only": true
+  },
+  "ui": {
+    "showImages": true,
+    "playDynamicSkins": true,
+    "office_hotkey": "Alt+Q",
+    "office_overrides_images": true,
+    "office_overrides_dynamic_skins": true
+  },
+  "skill_stages": {
+    "generals": 32,
+    "stages_per_general": 5,
+    "total": 160,
+    "star3": "new_mechanic",
+    "star4": "rule_change",
+    "star5": "ultimate",
+    "shared_player_enemy_versions": true,
+    "enemy_tower_bands": [[1,99,1],[100,299,2],[300,699,3],[700,1499,4],[1500,null,5]],
+    "elite_boss_advance": 1,
+    "max_star": 5
+  },
+  "skins": {
+    "source_skins": 47,
+    "selected_dynamic_skins": 32,
+    "selected_generals": 16,
+    "unlock_method": "memory_grid_25",
+    "combat_bonus": 0,
+    "audio_enabled": false,
+    "browser_preview": "local_layer_motion",
+    "spine_source_assets_retained": true
+  }
+}

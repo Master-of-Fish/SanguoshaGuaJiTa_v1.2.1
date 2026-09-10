@@ -1,0 +1,280 @@
+{
+  "version": "0.9.0",
+  "basic_cards": [
+    {
+      "id": "slash",
+      "name": "杀",
+      "role": "attack",
+      "effect": "造成基础攻击伤害；受命中、暴击、破甲、神兵与武将技能影响。"
+    },
+    {
+      "id": "dodge",
+      "name": "闪",
+      "role": "response",
+      "effect": "响应【杀】并规避伤害；受闪避、命中、龙胆、倾国等影响。"
+    },
+    {
+      "id": "peach",
+      "name": "桃",
+      "role": "heal",
+      "effect": "恢复约18%最大生命；低血量时AI优先使用。"
+    },
+    {
+      "id": "wine",
+      "name": "酒",
+      "role": "buff",
+      "effect": "强化下一次【杀】约25%，或在濒死时转化为急救资源。"
+    },
+    {
+      "id": "nullification",
+      "name": "无懈可击",
+      "role": "response",
+      "effect": "抵消普通锦囊或延时锦囊效果。"
+    }
+  ],
+  "tricks": [
+    {
+      "id": "wuzhong",
+      "name": "无中生有",
+      "kind": "normal",
+      "effect": "摸2张，获得后续行动资源优势。"
+    },
+    {
+      "id": "guohe",
+      "name": "过河拆桥",
+      "kind": "normal",
+      "effect": "拆除防御资源，提高本次破甲。"
+    },
+    {
+      "id": "shunshou",
+      "name": "顺手牵羊",
+      "kind": "normal",
+      "effect": "夺取铜钱并造成较低伤害。"
+    },
+    {
+      "id": "juedou",
+      "name": "决斗",
+      "kind": "normal",
+      "effect": "对攻型高倍率锦囊，可被【无懈可击】响应。"
+    },
+    {
+      "id": "nanman",
+      "name": "南蛮入侵",
+      "kind": "aoe",
+      "effect": "敌方需要以【杀】响应，否则受到高额伤害。"
+    },
+    {
+      "id": "wanjian",
+      "name": "万箭齐发",
+      "kind": "aoe",
+      "effect": "敌方需要以【闪】响应，否则受到高额伤害。"
+    },
+    {
+      "id": "taoyuan",
+      "name": "桃园结义",
+      "kind": "normal",
+      "effect": "恢复生命并提高短时续航。"
+    },
+    {
+      "id": "wugu",
+      "name": "五谷丰登",
+      "kind": "normal",
+      "effect": "获得铜钱、修为与一次资源增益。"
+    },
+    {
+      "id": "jiedao",
+      "name": "借刀杀人",
+      "kind": "normal",
+      "effect": "造成额外攻击并短暂降低敌方防御。"
+    },
+    {
+      "id": "tiesuo",
+      "name": "铁索连环",
+      "kind": "normal",
+      "effect": "施加连环状态，使后续火/雷伤害提高。"
+    },
+    {
+      "id": "huogong",
+      "name": "火攻",
+      "kind": "normal",
+      "effect": "造成火焰伤害并留下余焰。"
+    },
+    {
+      "id": "lebu",
+      "name": "乐不思蜀",
+      "kind": "delayed",
+      "effect": "延时锦囊，可能令敌方跳过下一次行动。"
+    },
+    {
+      "id": "bingliang",
+      "name": "兵粮寸断",
+      "kind": "delayed",
+      "effect": "延时锦囊，降低敌方下一次攻击强度。"
+    },
+    {
+      "id": "shandian",
+      "name": "闪电",
+      "kind": "delayed",
+      "effect": "判定成功造成高额雷电伤害；失败则延后再次判定。"
+    }
+  ],
+  "equipment_cards": [
+    {
+      "id": "zhuge_crossbow",
+      "name": "诸葛连弩",
+      "slot": "weapon",
+      "range": 1,
+      "effect": "本回合可连续使用更多【杀】。"
+    },
+    {
+      "id": "cixiong",
+      "name": "雌雄双股剑",
+      "slot": "weapon",
+      "range": 2,
+      "effect": "攻击时提高响应压力。"
+    },
+    {
+      "id": "qinggang",
+      "name": "青釭剑",
+      "slot": "weapon",
+      "range": 2,
+      "effect": "【杀】无视部分防具减伤。"
+    },
+    {
+      "id": "hanbing",
+      "name": "寒冰剑",
+      "slot": "weapon",
+      "range": 2,
+      "effect": "命中后压制敌方下回合输出。"
+    },
+    {
+      "id": "guding",
+      "name": "古锭刀",
+      "slot": "weapon",
+      "range": 2,
+      "effect": "敌方资源稀少时伤害提高。"
+    },
+    {
+      "id": "qinglong",
+      "name": "青龙偃月刀",
+      "slot": "weapon",
+      "range": 3,
+      "effect": "【杀】被闪避后有概率立即追加一张【杀】。"
+    },
+    {
+      "id": "zhangba",
+      "name": "丈八蛇矛",
+      "slot": "weapon",
+      "range": 3,
+      "effect": "可将两张手牌转化为【杀】。"
+    },
+    {
+      "id": "guanshi",
+      "name": "贯石斧",
+      "slot": "weapon",
+      "range": 3,
+      "effect": "【杀】被闪避时可弃牌强行贯穿。"
+    },
+    {
+      "id": "fangtian",
+      "name": "方天画戟",
+      "slot": "weapon",
+      "range": 4,
+      "effect": "资源见底时获得额外攻击增幅。"
+    },
+    {
+      "id": "qilinbow",
+      "name": "麒麟弓",
+      "slot": "weapon",
+      "range": 5,
+      "effect": "远距离攻击稳定，压制敌方距离。"
+    },
+    {
+      "id": "bagua",
+      "name": "八卦阵",
+      "slot": "armor",
+      "range": 0,
+      "effect": "没有【闪】时可进行红色判定视为【闪】。"
+    },
+    {
+      "id": "renwang",
+      "name": "仁王盾",
+      "slot": "armor",
+      "range": 0,
+      "effect": "对黑色【杀】有额外减伤。"
+    },
+    {
+      "id": "baiyin",
+      "name": "白银狮子",
+      "slot": "armor",
+      "range": 0,
+      "effect": "限制单次承伤并提高长线生存。"
+    },
+    {
+      "id": "chitu",
+      "name": "赤兔",
+      "slot": "offhorse",
+      "range": 0,
+      "effect": "攻击距离+1。"
+    },
+    {
+      "id": "dilu",
+      "name": "的卢",
+      "slot": "defhorse",
+      "range": 0,
+      "effect": "敌方攻击距离需求+1，提高闪避压力。"
+    }
+  ],
+  "suit_rules": [
+    {
+      "suit": "♠",
+      "name": "黑桃",
+      "color": "黑色",
+      "note": "常用于雷击、闪电、酒池等判定与转化。"
+    },
+    {
+      "suit": "♥",
+      "name": "红桃",
+      "color": "红色",
+      "note": "【乐不思蜀】红桃判定为通过；也是武圣/急救等红牌体系的重要资源。"
+    },
+    {
+      "suit": "♣",
+      "name": "梅花",
+      "color": "黑色",
+      "note": "【兵粮寸断】梅花判定为通过；可用于奇袭等黑牌体系。"
+    },
+    {
+      "suit": "♦",
+      "name": "方片",
+      "color": "红色",
+      "note": "大乔可将方片转化为【乐不思蜀】；同样属于红牌。"
+    }
+  ],
+  "rank_rules": "点数使用 A、2-10、J、Q、K；【闪电】仅在黑桃2-9时命中。",
+  "deck_profile": {
+    "basic": 55,
+    "trick": 30,
+    "equipment": 15,
+    "initial_hand": 4,
+    "draw_per_turn": 2,
+    "base_hand_limit": 4
+  },
+  "judgment_rules": [
+    {
+      "name": "乐不思蜀",
+      "pass": "♥",
+      "fail": "非♥：跳过一次主动行动"
+    },
+    {
+      "name": "兵粮寸断",
+      "pass": "♣",
+      "fail": "非♣：本回合摸牌-1 / 输出受限"
+    },
+    {
+      "name": "闪电",
+      "pass": "非♠2-9",
+      "fail": "♠2-9：受到高额雷电伤害"
+    }
+  ]
+}

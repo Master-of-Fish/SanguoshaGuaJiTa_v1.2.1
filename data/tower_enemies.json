@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "enemy_pool": "32 configured generals",
+  "rules": {
+    "normal_traits": 1,
+    "boss_traits": 2,
+    "reroll_on_win": true,
+    "keep_opponent_on_loss": true
+  },
+  "traits": [
+    {
+      "id": "fierce",
+      "name": "狂战",
+      "effect": "伤害提高，暴击率提高"
+    },
+    {
+      "id": "iron",
+      "name": "铁壁",
+      "effect": "减伤与抗暴提高"
+    },
+    {
+      "id": "agile",
+      "name": "迅捷",
+      "effect": "速度与闪避提高"
+    },
+    {
+      "id": "pierce",
+      "name": "破军",
+      "effect": "命中与破甲提高"
+    },
+    {
+      "id": "blood",
+      "name": "嗜血",
+      "effect": "吸血与伤害提高"
+    },
+    {
+      "id": "mystic",
+      "name": "谋略",
+      "effect": "锦囊使用率与锦囊伤害提高"
+    },
+    {
+      "id": "resolute",
+      "name": "坚韧",
+      "effect": "抗暴与低血执行伤害提高"
+    },
+    {
+      "id": "lucky",
+      "name": "天命",
+      "effect": "判定与响应更稳定"
+    }
+  ]
+}

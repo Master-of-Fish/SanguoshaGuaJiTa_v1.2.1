@@ -1,0 +1,456 @@
+{
+  "version": "0.15.0",
+  "general_count_fixed": 32,
+  "no_more_general_expansion": true,
+  "awakening": {
+    "liubei": {
+      "name": "仁德济世",
+      "desc": "治疗与续航进一步强化，适合长线挂机。",
+      "bonus": {
+        "hpPct": 0.08,
+        "heal": 0.15,
+        "idle": 5
+      }
+    },
+    "guanyu": {
+      "name": "武圣极意",
+      "desc": "强化【杀】、暴伤与破甲，青龙流完成体。",
+      "bonus": {
+        "slash": 0.15,
+        "armorpen": 6,
+        "critd": 10
+      }
+    },
+    "zhangfei": {
+      "name": "咆哮震军",
+      "desc": "连续【杀】更暴烈，提升暴击与速度。",
+      "bonus": {
+        "slash": 0.12,
+        "crit": 5,
+        "speed": 5
+      }
+    },
+    "zhaoyun": {
+      "name": "龙胆无双",
+      "desc": "攻防转化后获得更高闪避、命中与杀伤。",
+      "bonus": {
+        "dodge": 6,
+        "accuracy": 6,
+        "slash": 0.08
+      }
+    },
+    "zhugeliang": {
+      "name": "七星观阵",
+      "desc": "牌序、锦囊与命中进一步稳定。",
+      "bonus": {
+        "trick": 0.12,
+        "luck": 8,
+        "accuracy": 4
+      }
+    },
+    "huangyueying": {
+      "name": "集智机关",
+      "desc": "锦囊循环与寻宝能力同步强化。",
+      "bonus": {
+        "trick": 0.15,
+        "crit": 3,
+        "luck": 10
+      }
+    },
+    "caocao": {
+      "name": "乱世奸雄",
+      "desc": "受击反制转化为更强续航和Boss攻坚。",
+      "bonus": {
+        "lifesteal": 5,
+        "boss": 8,
+        "hpPct": 0.05
+      }
+    },
+    "simayi": {
+      "name": "鬼才天命",
+      "desc": "改判体系兼顾锦囊、雷法与抗暴。",
+      "bonus": {
+        "trick": 0.1,
+        "lightning": 0.15,
+        "antiCrit": 5
+      }
+    },
+    "xiahoudun": {
+      "name": "刚烈不屈",
+      "desc": "受击流获得生命、防御与Boss稳定性。",
+      "bonus": {
+        "hpPct": 0.1,
+        "defPct": 0.08,
+        "boss": 5
+      }
+    },
+    "zhangliao": {
+      "name": "威震逍遥",
+      "desc": "突袭压制强化命中、破甲与速度。",
+      "bonus": {
+        "accuracy": 8,
+        "armorpen": 5,
+        "speed": 6
+      }
+    },
+    "xuchu": {
+      "name": "虎痴裸衣",
+      "desc": "裸衣重击进一步提高暴击、暴伤和破甲。",
+      "bonus": {
+        "crit": 6,
+        "critd": 18,
+        "armorpen": 5
+      }
+    },
+    "guojia": {
+      "name": "天妒遗计",
+      "desc": "卖血后获得更高续航、闪避和幸运。",
+      "bonus": {
+        "dodge": 4,
+        "lifesteal": 4,
+        "luck": 10
+      }
+    },
+    "sunquan": {
+      "name": "制衡天下",
+      "desc": "资源循环转化为稳定暴击与命中。",
+      "bonus": {
+        "accuracy": 6,
+        "crit": 4,
+        "idle": 4
+      }
+    },
+    "zhouyu": {
+      "name": "神火英姿",
+      "desc": "锦囊与火攻伤害进一步提高。",
+      "bonus": {
+        "trick": 0.16,
+        "critd": 12
+      }
+    },
+    "ganning": {
+      "name": "锦帆奇袭",
+      "desc": "奇袭流进一步提高破甲、命中和掉落。",
+      "bonus": {
+        "armorpen": 8,
+        "accuracy": 5,
+        "drop": 3
+      }
+    },
+    "lvmeng": {
+      "name": "克己拜将",
+      "desc": "蓄势流提升Boss伤害、防御与速度。",
+      "bonus": {
+        "boss": 10,
+        "defPct": 0.05,
+        "speed": 5
+      }
+    },
+    "luxun": {
+      "name": "连营不绝",
+      "desc": "空手补牌路线兼顾锦囊、闪避和速度。",
+      "bonus": {
+        "trick": 0.1,
+        "dodge": 5,
+        "speed": 4
+      }
+    },
+    "sunshangxiang": {
+      "name": "枭姬烈弓",
+      "desc": "装备循环转化为暴击、吸血与幸运。",
+      "bonus": {
+        "crit": 5,
+        "lifesteal": 4,
+        "luck": 6
+      }
+    },
+    "lvbu": {
+      "name": "无双魔神",
+      "desc": "大幅强化破甲、Boss伤害和暴伤。",
+      "bonus": {
+        "armorpen": 10,
+        "boss": 12,
+        "critd": 15
+      }
+    },
+    "diaochan": {
+      "name": "闭月离间",
+      "desc": "离间流获得锦囊、闪避与命中强化。",
+      "bonus": {
+        "trick": 0.1,
+        "dodge": 5,
+        "accuracy": 4
+      }
+    },
+    "huatuo": {
+      "name": "青囊济世",
+      "desc": "治疗、吸血和最大生命显著增强。",
+      "bonus": {
+        "heal": 0.25,
+        "lifesteal": 5,
+        "hpPct": 0.08
+      }
+    },
+    "yuanshao": {
+      "name": "乱击四方",
+      "desc": "群体锦囊获得额外倍率、暴击与Boss伤害。",
+      "bonus": {
+        "trick": 0.14,
+        "crit": 4,
+        "boss": 6
+      }
+    },
+    "zhangjiao": {
+      "name": "雷公助我",
+      "desc": "雷法、锦囊与命中全面强化。",
+      "bonus": {
+        "lightning": 0.3,
+        "trick": 0.08,
+        "accuracy": 4
+      }
+    },
+    "dongzhuo": {
+      "name": "暴虐酒池",
+      "desc": "高生命重击获得生命、暴伤与吸血。",
+      "bonus": {
+        "hpPct": 0.15,
+        "critd": 12,
+        "lifesteal": 3
+      }
+    },
+    "machao": {
+      "name": "西凉铁骑",
+      "desc": "铁骑进一步压制闪避并强化破甲。",
+      "bonus": {
+        "accuracy": 10,
+        "armorpen": 8,
+        "slash": 0.08
+      }
+    },
+    "pangtong": {
+      "name": "凤雏涅槃",
+      "desc": "涅槃与连环兼顾生命、锦囊和抗暴。",
+      "bonus": {
+        "hpPct": 0.1,
+        "trick": 0.12,
+        "antiCrit": 6
+      }
+    },
+    "zhenji": {
+      "name": "洛神倾国",
+      "desc": "闪避、抗暴与术法稳定性提高。",
+      "bonus": {
+        "dodge": 8,
+        "antiCrit": 6,
+        "trick": 0.06
+      }
+    },
+    "xunyu": {
+      "name": "王佐之才",
+      "desc": "节命路线获得防御、治疗与挂机加成。",
+      "bonus": {
+        "defPct": 0.08,
+        "heal": 0.12,
+        "idle": 5
+      }
+    },
+    "daqiao": {
+      "name": "国色流离",
+      "desc": "流离路线获得更高闪避、速度与抗暴。",
+      "bonus": {
+        "dodge": 8,
+        "speed": 5,
+        "antiCrit": 5
+      }
+    },
+    "taishici": {
+      "name": "天义破阵",
+      "desc": "天义连击进一步提高杀伤、命中和暴击。",
+      "bonus": {
+        "slash": 0.12,
+        "accuracy": 8,
+        "crit": 4
+      }
+    },
+    "yuji": {
+      "name": "太平蛊惑",
+      "desc": "锦囊流获得更高术法倍率、幸运和Boss伤害。",
+      "bonus": {
+        "trick": 0.18,
+        "luck": 8,
+        "boss": 5
+      }
+    },
+    "zuoci": {
+      "name": "化身万象",
+      "desc": "化身流全面提高幸运、暴击、闪避和术法。",
+      "bonus": {
+        "luck": 10,
+        "crit": 4,
+        "dodge": 4,
+        "trick": 0.08
+      }
+    }
+  },
+  "preferred_weapons": {
+    "liubei": "cixiong",
+    "guanyu": "qinglong",
+    "zhangfei": "zhangba",
+    "zhaoyun": "qinggang",
+    "zhugeliang": "zhuge",
+    "huangyueying": "zhuque",
+    "machao": "qilinbow",
+    "pangtong": "zhuque",
+    "caocao": "yitian",
+    "simayi": "yitian",
+    "xiahoudun": "renwang",
+    "zhangliao": "guding",
+    "xuchu": "guanshifu",
+    "guojia": "baiyin",
+    "zhenji": "cixiong",
+    "xunyu": "baiyin",
+    "sunquan": "cixiong",
+    "zhouyu": "zhuque",
+    "ganning": "guding",
+    "lvmeng": "hanbing",
+    "luxun": "yitian",
+    "sunshangxiang": "qilinbow",
+    "daqiao": "cixiong",
+    "taishici": "qilinbow",
+    "lvbu": "fangtian",
+    "diaochan": "cixiong",
+    "huatuo": "baiyin",
+    "yuanshao": "zhuge",
+    "zhangjiao": "zhuque",
+    "dongzhuo": "guding",
+    "yuji": "yitian",
+    "zuoci": "bagua"
+  },
+  "weapon_bond_rules": {
+    "qinglong": {
+      "slash": 0.14,
+      "armorpen": 4
+    },
+    "zhangba": {
+      "slash": 0.12,
+      "crit": 4
+    },
+    "qinggang": {
+      "armorpen": 8,
+      "accuracy": 5
+    },
+    "zhuge": {
+      "speed": 5,
+      "crit": 4
+    },
+    "zhuque": {
+      "trick": 0.14,
+      "critd": 8
+    },
+    "cixiong": {
+      "accuracy": 4,
+      "dodge": 3,
+      "idle": 2
+    },
+    "yitian": {
+      "trick": 0.08,
+      "critd": 12
+    },
+    "renwang": {
+      "defPct": 0.08,
+      "antiCrit": 6
+    },
+    "guding": {
+      "critd": 15,
+      "boss": 6
+    },
+    "guanshifu": {
+      "armorpen": 8,
+      "boss": 8
+    },
+    "baiyin": {
+      "hpPct": 0.1,
+      "antiCrit": 6
+    },
+    "qilinbow": {
+      "accuracy": 8,
+      "crit": 4
+    },
+    "fangtian": {
+      "boss": 12,
+      "armorpen": 8
+    },
+    "hanbing": {
+      "dodge": 4,
+      "accuracy": 4
+    },
+    "bagua": {
+      "dodge": 6,
+      "defPct": 0.05
+    }
+  },
+  "equipment_reroll": {
+    "affix_lock_max": 2,
+    "normal_currency": "灵石",
+    "blessed_currency": "仙缘",
+    "blessed_cost": 1,
+    "note": "普通重铸仅重置未锁词条；仙缘淬词保证高值区间。"
+  },
+  "enemy_combo_skills": [
+    {
+      "id": "tiexue",
+      "name": "铁血军阵",
+      "desc": "攻防一体：伤害+12%，减伤+8%。",
+      "damage": 1.12,
+      "reduce": 0.08
+    },
+    {
+      "id": "lianhuo",
+      "name": "连环火计",
+      "desc": "锦囊率+18%，锦囊伤害+18%；每4回合追加火计。",
+      "trick": 18,
+      "trickDamage": 1.18
+    },
+    {
+      "id": "leiting",
+      "name": "五雷天牢",
+      "desc": "命中+10%；每4回合对我方追加一次雷击。",
+      "accuracy": 10
+    },
+    {
+      "id": "beishui",
+      "name": "背水死战",
+      "desc": "吸血+4%；低于40%生命时伤害额外提高25%。",
+      "lifesteal": 4
+    },
+    {
+      "id": "bamen",
+      "name": "八门金锁",
+      "desc": "闪避+10%，减伤+6%。",
+      "dodge": 10,
+      "reduce": 0.06
+    },
+    {
+      "id": "wushuang",
+      "name": "无双冲阵",
+      "desc": "破甲+12%，暴击+8%。",
+      "armor_pen": 12,
+      "crit": 8
+    }
+  ],
+  "offline_harvest": {
+    "cap_hours": 48,
+    "claim_required": true,
+    "one_click_organize": true,
+    "jade_every_hours": 2,
+    "memory_every_hours": 6
+  },
+  "fate_uses": [
+    "战意道印",
+    "静修道印",
+    "天运道印",
+    "仙铸道印",
+    "神魂道印",
+    "装备仙缘淬词"
+  ]
+}

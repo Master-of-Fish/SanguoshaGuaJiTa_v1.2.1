@@ -1,0 +1,16 @@
+{
+  "version":"1.2.1",
+  "overall":"PASS",
+  "features":{
+    "200层内全部解锁":"PASS",
+    "右下角解锁说明":"PASS",
+    "减少折叠分区":"PASS",
+    "展开收起提示":"PASS",
+    "左键术语说明":"PASS",
+    "手机触摸说明":"PASS",
+    "飞升实时结算":"PASS",
+    "v1.2.0存档迁移":"PASS"
+  },
+  "evidence":["docs/LOGIC_TEST_V121.json","docs/RELEASE_V121.md"],
+  "not_run":["Android/iOS真机长期实玩","完整0至8000层挂机经济"]
+}

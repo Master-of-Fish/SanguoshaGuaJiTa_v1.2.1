@@ -1,0 +1,2011 @@
+[
+  {
+    "general": "ganning",
+    "variant": "pozhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 11,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 5,
+      "锦帆拆阵": 1,
+      "锦帆破阵": 1,
+      "夜袭印": 2,
+      "奇袭拆阵": 2
+    },
+    "act": {
+      "converted_trick": 5,
+      "trick": 2,
+      "wine": 2,
+      "slash": 1,
+      "peach": 1
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "pozhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 10,
+      "锦帆拆阵": 1,
+      "锦帆破阵": 1,
+      "夜袭印": 5,
+      "奇袭拆阵": 1
+    },
+    "act": {
+      "equip": 3,
+      "converted_trick": 10,
+      "slash": 2,
+      "trick": 2,
+      "peach": 1
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "pozhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 38,
+    "restarts": 2,
+    "events": {
+      "奇袭低价值黑牌规则": 18,
+      "锦帆拆阵": 3,
+      "锦帆破阵": 3,
+      "夜袭印": 8,
+      "奇袭拆阵": 2
+    },
+    "act": {
+      "converted_trick": 18,
+      "trick": 3,
+      "wine": 6,
+      "equip": 5,
+      "slash": 4,
+      "peach": 1
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "pozhen",
+    "seed": 3,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 6,
+      "锦帆拆阵": 1,
+      "锦帆破阵": 1,
+      "夜袭印": 3,
+      "奇袭拆阵": 1
+    },
+    "act": {
+      "equip": 3,
+      "converted_trick": 6,
+      "wine": 3,
+      "trick": 1,
+      "peach": 2
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "pozhen",
+    "seed": 4,
+    "cleared": true,
+    "actions": 40,
+    "restarts": 1,
+    "events": {
+      "奇袭低价值黑牌规则": 15,
+      "锦帆拆阵": 2,
+      "锦帆破阵": 2,
+      "奇袭拆阵": 2,
+      "夜袭印": 7
+    },
+    "act": {
+      "trick": 6,
+      "converted_trick": 15,
+      "wine": 6,
+      "equip": 4,
+      "slash": 6,
+      "peach": 2
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "pozhen",
+    "seed": 5,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 17,
+      "锦帆拆阵": 1,
+      "锦帆破阵": 1,
+      "夜袭印": 8,
+      "奇袭拆阵": 1
+    },
+    "act": {
+      "converted_trick": 17,
+      "wine": 4,
+      "slash": 3,
+      "equip": 2,
+      "trick": 2,
+      "peach": 5
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "pozhen",
+    "seed": 6,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 7,
+      "锦帆拆阵": 1,
+      "锦帆破阵": 1,
+      "夜袭印": 3,
+      "奇袭拆阵": 1
+    },
+    "act": {
+      "converted_trick": 7,
+      "equip": 2,
+      "slash": 4,
+      "wine": 2,
+      "trick": 1
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "pozhen",
+    "seed": 7,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 1,
+    "events": {
+      "奇袭低价值黑牌规则": 31,
+      "锦帆拆阵": 2,
+      "锦帆破阵": 2,
+      "夜袭印": 15
+    },
+    "act": {
+      "wine": 6,
+      "converted_trick": 31,
+      "trick": 8,
+      "equip": 6,
+      "peach": 5,
+      "slash": 3
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "shoushi",
+    "seed": 0,
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 9,
+      "锦帆破阵": 1,
+      "夜袭印": 4
+    },
+    "act": {
+      "converted_trick": 9,
+      "slash": 6,
+      "equip": 1,
+      "trick": 2
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "shoushi",
+    "seed": 1,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 5,
+      "锦帆破阵": 1,
+      "夜袭印": 2
+    },
+    "act": {
+      "converted_trick": 5,
+      "wine": 1,
+      "equip": 1,
+      "slash": 6,
+      "trick": 3
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "shoushi",
+    "seed": 2,
+    "cleared": true,
+    "actions": 11,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 2,
+      "锦帆破阵": 1,
+      "夜袭印": 1
+    },
+    "act": {
+      "converted_trick": 2,
+      "wine": 2,
+      "trick": 2,
+      "slash": 3,
+      "equip": 1
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "shoushi",
+    "seed": 3,
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 4,
+      "锦帆破阵": 1,
+      "夜袭印": 2
+    },
+    "act": {
+      "converted_trick": 4,
+      "trick": 3,
+      "slash": 8,
+      "peach": 5,
+      "equip": 2
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "shoushi",
+    "seed": 4,
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 7,
+      "锦帆破阵": 1,
+      "夜袭印": 3
+    },
+    "act": {
+      "converted_trick": 7,
+      "trick": 2,
+      "slash": 6,
+      "peach": 1,
+      "equip": 1
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "shoushi",
+    "seed": 5,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 6,
+      "锦帆破阵": 1,
+      "夜袭印": 3
+    },
+    "act": {
+      "converted_trick": 6,
+      "wine": 1,
+      "slash": 5,
+      "trick": 2,
+      "peach": 2,
+      "equip": 1
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "shoushi",
+    "seed": 6,
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 3,
+      "锦帆破阵": 1,
+      "夜袭印": 1
+    },
+    "act": {
+      "converted_trick": 3,
+      "equip": 2,
+      "slash": 6,
+      "trick": 4
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "shoushi",
+    "seed": 7,
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 7,
+      "锦帆破阵": 1,
+      "夜袭印": 3
+    },
+    "act": {
+      "converted_trick": 7,
+      "trick": 1,
+      "slash": 5,
+      "equip": 1
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "kuanggong",
+    "seed": 0,
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 6,
+      "锦帆破阵": 1,
+      "夜袭印": 3
+    },
+    "act": {
+      "converted_trick": 6,
+      "wine": 2,
+      "trick": 3,
+      "equip": 1,
+      "slash": 1,
+      "peach": 2
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "kuanggong",
+    "seed": 1,
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 8,
+      "锦帆破阵": 1,
+      "夜袭印": 4
+    },
+    "act": {
+      "wine": 4,
+      "converted_trick": 8,
+      "slash": 3,
+      "equip": 2,
+      "trick": 2
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "kuanggong",
+    "seed": 2,
+    "cleared": true,
+    "actions": 75,
+    "restarts": 3,
+    "events": {
+      "奇袭低价值黑牌规则": 35,
+      "锦帆破阵": 4,
+      "夜袭印": 17
+    },
+    "act": {
+      "equip": 6,
+      "trick": 8,
+      "converted_trick": 35,
+      "wine": 9,
+      "peach": 9,
+      "slash": 6,
+      "pass": 1
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "kuanggong",
+    "seed": 3,
+    "cleared": true,
+    "actions": 46,
+    "restarts": 1,
+    "events": {
+      "奇袭低价值黑牌规则": 28,
+      "锦帆破阵": 2,
+      "夜袭印": 14
+    },
+    "act": {
+      "converted_trick": 28,
+      "equip": 4,
+      "slash": 3,
+      "wine": 3,
+      "peach": 2,
+      "trick": 4
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "kuanggong",
+    "seed": 4,
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 10,
+      "锦帆破阵": 1,
+      "夜袭印": 5
+    },
+    "act": {
+      "converted_trick": 10,
+      "trick": 3,
+      "equip": 2,
+      "wine": 1
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "kuanggong",
+    "seed": 5,
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 16,
+      "锦帆破阵": 1,
+      "夜袭印": 8
+    },
+    "act": {
+      "wine": 2,
+      "converted_trick": 16,
+      "equip": 3,
+      "trick": 2
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "kuanggong",
+    "seed": 6,
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 11,
+      "锦帆破阵": 1,
+      "夜袭印": 5
+    },
+    "act": {
+      "converted_trick": 11,
+      "slash": 2,
+      "equip": 1,
+      "wine": 2
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "kuanggong",
+    "seed": 7,
+    "cleared": true,
+    "actions": 25,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 8,
+      "锦帆破阵": 1,
+      "夜袭印": 4
+    },
+    "act": {
+      "equip": 6,
+      "wine": 2,
+      "converted_trick": 8,
+      "trick": 5,
+      "peach": 2,
+      "slash": 2
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "guizhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 6,
+      "锦帆破阵": 1,
+      "夜袭印": 3
+    },
+    "act": {
+      "converted_trick": 6,
+      "equip": 2,
+      "wine": 2,
+      "slash": 3,
+      "trick": 1
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "guizhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 82,
+    "restarts": 3,
+    "events": {
+      "奇袭低价值黑牌规则": 40,
+      "锦帆破阵": 4,
+      "夜袭印": 19
+    },
+    "act": {
+      "trick": 7,
+      "converted_trick": 40,
+      "equip": 13,
+      "wine": 5,
+      "slash": 10,
+      "peach": 1,
+      "pass": 1
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "guizhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 53,
+    "restarts": 2,
+    "events": {
+      "奇袭低价值黑牌规则": 23,
+      "锦帆破阵": 3,
+      "夜袭印": 11
+    },
+    "act": {
+      "converted_trick": 23,
+      "wine": 13,
+      "trick": 7,
+      "slash": 3,
+      "equip": 3,
+      "peach": 1
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "guizhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 29,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 13,
+      "锦帆破阵": 1,
+      "夜袭印": 6
+    },
+    "act": {
+      "equip": 3,
+      "converted_trick": 13,
+      "trick": 3,
+      "wine": 4,
+      "slash": 2,
+      "peach": 4
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "guizhen",
+    "seed": 4,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 6,
+      "锦帆破阵": 1,
+      "夜袭印": 3
+    },
+    "act": {
+      "converted_trick": 6,
+      "trick": 8,
+      "equip": 2
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "guizhen",
+    "seed": 5,
+    "cleared": true,
+    "actions": 11,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 5,
+      "锦帆破阵": 1,
+      "夜袭印": 2
+    },
+    "act": {
+      "converted_trick": 5,
+      "slash": 2,
+      "equip": 2,
+      "trick": 2
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "guizhen",
+    "seed": 6,
+    "cleared": true,
+    "actions": 59,
+    "restarts": 1,
+    "events": {
+      "奇袭低价值黑牌规则": 25,
+      "锦帆破阵": 2,
+      "夜袭印": 12
+    },
+    "act": {
+      "equip": 7,
+      "converted_trick": 25,
+      "wine": 5,
+      "trick": 6,
+      "slash": 6,
+      "peach": 6
+    }
+  },
+  {
+    "general": "ganning",
+    "variant": "guizhen",
+    "seed": 7,
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0,
+    "events": {
+      "奇袭低价值黑牌规则": 5,
+      "锦帆破阵": 1,
+      "夜袭印": 2
+    },
+    "act": {
+      "converted_trick": 5,
+      "slash": 2,
+      "equip": 2,
+      "trick": 3,
+      "wine": 1
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "pozhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 8,
+      "主动重判": 4,
+      "天公引雷命中": 1,
+      "黄天雷狱主动连锁": 1
+    },
+    "act": {
+      "trick": 7,
+      "slash": 4,
+      "wine": 2,
+      "equip": 1
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "pozhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 11,
+      "主动重判": 5,
+      "天公引雷命中": 2
+    },
+    "act": {
+      "wine": 1,
+      "trick": 6,
+      "slash": 6,
+      "equip": 2,
+      "peach": 2
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "pozhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 6,
+      "主动重判": 1
+    },
+    "act": {
+      "equip": 3,
+      "trick": 8,
+      "slash": 5,
+      "wine": 1
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "pozhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 96,
+    "restarts": 5,
+    "events": {
+      "主动蓄雷": 66,
+      "主动重判": 31,
+      "天公引雷命中": 3
+    },
+    "act": {
+      "equip": 14,
+      "slash": 32,
+      "wine": 13,
+      "peach": 4,
+      "trick": 28,
+      "pass": 2
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "pozhen",
+    "seed": 4,
+    "cleared": true,
+    "actions": 11,
+    "restarts": 0,
+    "events": {
+      "天公引雷命中": 1,
+      "主动蓄雷": 2,
+      "主动重判": 1
+    },
+    "act": {
+      "slash": 7,
+      "trick": 4
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "pozhen",
+    "seed": 5,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 6,
+      "主动重判": 4,
+      "天公引雷命中": 1
+    },
+    "act": {
+      "equip": 3,
+      "trick": 4,
+      "wine": 1,
+      "slash": 9
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "pozhen",
+    "seed": 6,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 8,
+      "主动重判": 4,
+      "天公引雷命中": 1
+    },
+    "act": {
+      "equip": 2,
+      "trick": 8,
+      "slash": 5
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "pozhen",
+    "seed": 7,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 5,
+    "events": {
+      "主动蓄雷": 83,
+      "主动重判": 42,
+      "天公引雷命中": 11,
+      "黄天雷狱主动连锁": 1
+    },
+    "act": {
+      "trick": 46,
+      "equip": 14,
+      "wine": 14,
+      "slash": 36,
+      "peach": 5,
+      "pass": 1
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "shoushi",
+    "seed": 0,
+    "cleared": true,
+    "actions": 54,
+    "restarts": 1,
+    "events": {
+      "主动蓄雷": 42,
+      "主动重判": 22,
+      "天公引雷命中": 3,
+      "黄天雷狱主动连锁": 1
+    },
+    "act": {
+      "trick": 11,
+      "slash": 16,
+      "equip": 6,
+      "peach": 5
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "shoushi",
+    "seed": 1,
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 6,
+      "主动重判": 3,
+      "天公引雷命中": 1
+    },
+    "act": {
+      "wine": 2,
+      "slash": 6,
+      "trick": 4,
+      "peach": 1
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "shoushi",
+    "seed": 2,
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 16,
+      "主动重判": 10,
+      "天公引雷命中": 1
+    },
+    "act": {
+      "wine": 1,
+      "slash": 11,
+      "trick": 10,
+      "equip": 2,
+      "peach": 2
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "shoushi",
+    "seed": 3,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 6,
+      "主动重判": 4
+    },
+    "act": {
+      "trick": 5,
+      "equip": 2,
+      "slash": 7
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "shoushi",
+    "seed": 4,
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 14,
+      "主动重判": 7,
+      "天公引雷命中": 2,
+      "黄天雷狱主动连锁": 1
+    },
+    "act": {
+      "slash": 11,
+      "equip": 2,
+      "trick": 3,
+      "peach": 2
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "shoushi",
+    "seed": 5,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 7,
+      "主动重判": 5,
+      "天公引雷命中": 2
+    },
+    "act": {
+      "wine": 1,
+      "equip": 3,
+      "slash": 9,
+      "trick": 3
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "shoushi",
+    "seed": 6,
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 16,
+      "主动重判": 8
+    },
+    "act": {
+      "wine": 3,
+      "slash": 11,
+      "equip": 3,
+      "trick": 2,
+      "peach": 3
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "shoushi",
+    "seed": 7,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 11,
+      "主动重判": 5
+    },
+    "act": {
+      "wine": 2,
+      "slash": 11,
+      "trick": 2,
+      "peach": 2
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "kuanggong",
+    "seed": 0,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 5,
+      "主动重判": 4,
+      "天公引雷命中": 2,
+      "黄天雷狱主动连锁": 1
+    },
+    "act": {
+      "slash": 7,
+      "trick": 4,
+      "wine": 3
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "kuanggong",
+    "seed": 1,
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 13,
+      "主动重判": 7,
+      "天公引雷命中": 1
+    },
+    "act": {
+      "slash": 6,
+      "trick": 7,
+      "equip": 2,
+      "peach": 3,
+      "wine": 1
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "kuanggong",
+    "seed": 2,
+    "cleared": true,
+    "actions": 26,
+    "restarts": 1,
+    "events": {
+      "主动蓄雷": 10,
+      "主动重判": 6,
+      "天公引雷命中": 2
+    },
+    "act": {
+      "trick": 13,
+      "equip": 4,
+      "slash": 6,
+      "pass": 1,
+      "wine": 2
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "kuanggong",
+    "seed": 3,
+    "cleared": true,
+    "actions": 52,
+    "restarts": 3,
+    "events": {
+      "主动蓄雷": 35,
+      "主动重判": 19,
+      "天公引雷命中": 2,
+      "黄天雷狱主动连锁": 1
+    },
+    "act": {
+      "trick": 19,
+      "slash": 21,
+      "equip": 4,
+      "wine": 4,
+      "pass": 1,
+      "peach": 1
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "kuanggong",
+    "seed": 4,
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 11,
+      "主动重判": 6,
+      "天公引雷命中": 1
+    },
+    "act": {
+      "slash": 7,
+      "equip": 4,
+      "trick": 6,
+      "peach": 1
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "kuanggong",
+    "seed": 5,
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 5,
+      "主动重判": 3
+    },
+    "act": {
+      "trick": 3,
+      "equip": 4,
+      "slash": 5,
+      "wine": 1
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "kuanggong",
+    "seed": 6,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 10,
+      "主动重判": 5,
+      "天公引雷命中": 3
+    },
+    "act": {
+      "trick": 7,
+      "slash": 4,
+      "equip": 2,
+      "pass": 2,
+      "peach": 2
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "kuanggong",
+    "seed": 7,
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 13,
+      "主动重判": 7
+    },
+    "act": {
+      "slash": 6,
+      "equip": 2,
+      "wine": 3,
+      "trick": 9
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "guizhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 5,
+      "主动重判": 3
+    },
+    "act": {
+      "wine": 1,
+      "slash": 5,
+      "trick": 8,
+      "equip": 1
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "guizhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 25,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 19,
+      "主动重判": 10
+    },
+    "act": {
+      "slash": 9,
+      "equip": 2,
+      "wine": 5,
+      "peach": 3,
+      "trick": 6
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "guizhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 12,
+      "主动重判": 6,
+      "天公引雷命中": 2,
+      "黄天雷狱主动连锁": 1
+    },
+    "act": {
+      "slash": 7,
+      "equip": 2,
+      "trick": 3,
+      "peach": 3,
+      "wine": 1
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "guizhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 46,
+    "restarts": 2,
+    "events": {
+      "主动蓄雷": 28,
+      "主动重判": 13,
+      "天公引雷命中": 3
+    },
+    "act": {
+      "slash": 13,
+      "trick": 20,
+      "peach": 1,
+      "equip": 6,
+      "wine": 5
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "guizhen",
+    "seed": 4,
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 6,
+      "主动重判": 5,
+      "天公引雷命中": 1
+    },
+    "act": {
+      "equip": 2,
+      "slash": 5,
+      "trick": 4,
+      "wine": 1
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "guizhen",
+    "seed": 5,
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 14,
+      "主动重判": 7
+    },
+    "act": {
+      "slash": 6,
+      "equip": 3,
+      "wine": 2,
+      "trick": 8
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "guizhen",
+    "seed": 6,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "events": {
+      "主动蓄雷": 8,
+      "主动重判": 3,
+      "天公引雷命中": 1
+    },
+    "act": {
+      "trick": 4,
+      "wine": 3,
+      "slash": 4,
+      "equip": 2,
+      "peach": 1
+    }
+  },
+  {
+    "general": "zhangjiao",
+    "variant": "guizhen",
+    "seed": 7,
+    "cleared": true,
+    "actions": 38,
+    "restarts": 1,
+    "events": {
+      "主动蓄雷": 26,
+      "主动重判": 13,
+      "天公引雷命中": 1
+    },
+    "act": {
+      "trick": 14,
+      "equip": 5,
+      "slash": 12,
+      "pass": 1,
+      "wine": 4,
+      "peach": 1
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "pozhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 52,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 29,
+      "暴虐护身": 31,
+      "暴虐代偿": 6,
+      "暴虐": 12,
+      "暴虐承崩": 3,
+      "酒池回气": 9
+    },
+    "act": {
+      "wine": 16,
+      "slash": 15,
+      "trick": 14,
+      "equip": 3,
+      "peach": 3
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "pozhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 15,
+      "暴虐护身": 16,
+      "暴虐代偿": 2,
+      "暴虐": 2,
+      "暴虐承崩": 1
+    },
+    "act": {
+      "slash": 6,
+      "trick": 8,
+      "wine": 4,
+      "peach": 2,
+      "equip": 1
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "pozhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐": 5,
+      "暴虐护身": 14,
+      "受创生暴虐": 12,
+      "暴虐代偿": 5,
+      "酒池回气": 2
+    },
+    "act": {
+      "equip": 4,
+      "trick": 7,
+      "wine": 9,
+      "slash": 7
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "pozhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 25,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐": 4,
+      "受创生暴虐": 15,
+      "暴虐护身": 15,
+      "暴虐代偿": 4,
+      "酒池回气": 1
+    },
+    "act": {
+      "wine": 8,
+      "trick": 6,
+      "slash": 7,
+      "pass": 2,
+      "equip": 1,
+      "peach": 1
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "pozhen",
+    "seed": 4,
+    "cleared": true,
+    "actions": 28,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 18,
+      "暴虐护身": 18,
+      "暴虐": 4,
+      "暴虐代偿": 5,
+      "酒池回气": 2
+    },
+    "act": {
+      "wine": 9,
+      "slash": 11,
+      "trick": 6,
+      "equip": 2
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "pozhen",
+    "seed": 5,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 3,
+    "events": {
+      "暴虐先声": 4,
+      "受创生暴虐": 81,
+      "暴虐护身": 81,
+      "暴虐": 22,
+      "酒池回气": 19,
+      "暴虐承崩": 12,
+      "魔王酒池": 2,
+      "暴虐代偿": 2
+    },
+    "act": {
+      "wine": 31,
+      "trick": 21,
+      "slash": 45,
+      "peach": 7,
+      "equip": 14
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "pozhen",
+    "seed": 6,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 12,
+      "暴虐护身": 12,
+      "暴虐代偿": 3,
+      "暴虐": 5,
+      "酒池回气": 3,
+      "暴虐承崩": 1
+    },
+    "act": {
+      "slash": 6,
+      "trick": 4,
+      "equip": 1,
+      "wine": 8
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "pozhen",
+    "seed": 7,
+    "cleared": true,
+    "actions": 39,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 27,
+      "暴虐护身": 28,
+      "暴虐": 11,
+      "暴虐代偿": 1,
+      "酒池回气": 8,
+      "暴虐承崩": 1
+    },
+    "act": {
+      "trick": 11,
+      "wine": 14,
+      "slash": 9,
+      "peach": 3,
+      "equip": 2
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "shoushi",
+    "seed": 0,
+    "cleared": true,
+    "actions": 9,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 6,
+      "暴虐护身": 6,
+      "暴虐代偿": 1
+    },
+    "act": {
+      "trick": 4,
+      "equip": 1,
+      "slash": 4
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "shoushi",
+    "seed": 1,
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 14,
+      "暴虐护身": 14,
+      "暴虐代偿": 1
+    },
+    "act": {
+      "trick": 2,
+      "slash": 15,
+      "equip": 2,
+      "peach": 1
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "shoushi",
+    "seed": 2,
+    "cleared": true,
+    "actions": 32,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 17,
+      "暴虐护身": 21,
+      "暴虐": 4,
+      "暴虐代偿": 3,
+      "酒池回气": 1,
+      "暴虐承崩": 1
+    },
+    "act": {
+      "trick": 6,
+      "wine": 5,
+      "equip": 4,
+      "slash": 13,
+      "peach": 2
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "shoushi",
+    "seed": 3,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 10,
+      "暴虐护身": 10,
+      "暴虐代偿": 1,
+      "暴虐承崩": 1
+    },
+    "act": {
+      "slash": 9,
+      "trick": 5
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "shoushi",
+    "seed": 4,
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 15,
+      "暴虐护身": 15,
+      "暴虐": 1,
+      "暴虐代偿": 1,
+      "暴虐承崩": 2
+    },
+    "act": {
+      "wine": 5,
+      "equip": 3,
+      "slash": 12,
+      "trick": 2,
+      "peach": 1
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "shoushi",
+    "seed": 5,
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 12,
+      "暴虐护身": 12,
+      "暴虐": 2,
+      "暴虐代偿": 2,
+      "酒池回气": 1,
+      "暴虐承崩": 1
+    },
+    "act": {
+      "equip": 3,
+      "slash": 9,
+      "wine": 3,
+      "trick": 4,
+      "peach": 2
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "shoushi",
+    "seed": 6,
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐": 2,
+      "受创生暴虐": 7,
+      "暴虐护身": 7,
+      "暴虐代偿": 2
+    },
+    "act": {
+      "wine": 3,
+      "slash": 8,
+      "trick": 3
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "shoushi",
+    "seed": 7,
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐": 1,
+      "受创生暴虐": 8,
+      "暴虐护身": 8,
+      "暴虐代偿": 3
+    },
+    "act": {
+      "trick": 5,
+      "wine": 1,
+      "slash": 12,
+      "equip": 2
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "kuanggong",
+    "seed": 0,
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 16,
+      "暴虐护身": 16,
+      "暴虐代偿": 2,
+      "暴虐": 5,
+      "酒池回气": 4,
+      "暴虐承崩": 1
+    },
+    "act": {
+      "trick": 8,
+      "slash": 5,
+      "wine": 9,
+      "equip": 3,
+      "peach": 1
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "kuanggong",
+    "seed": 1,
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 7,
+      "暴虐护身": 8,
+      "暴虐代偿": 2,
+      "暴虐": 2,
+      "酒池回气": 2
+    },
+    "act": {
+      "trick": 8,
+      "wine": 3,
+      "slash": 1,
+      "equip": 1
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "kuanggong",
+    "seed": 2,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 2,
+    "events": {
+      "暴虐先声": 3,
+      "暴虐": 22,
+      "受创生暴虐": 74,
+      "暴虐护身": 74,
+      "酒池回气": 18,
+      "暴虐承崩": 16,
+      "魔王酒池": 2,
+      "暴虐代偿": 3
+    },
+    "act": {
+      "wine": 37,
+      "trick": 32,
+      "slash": 33,
+      "peach": 6,
+      "equip": 8
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "kuanggong",
+    "seed": 3,
+    "cleared": true,
+    "actions": 25,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐": 3,
+      "受创生暴虐": 9,
+      "暴虐护身": 9,
+      "暴虐代偿": 3
+    },
+    "act": {
+      "wine": 7,
+      "slash": 6,
+      "trick": 8,
+      "equip": 1,
+      "peach": 2
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "kuanggong",
+    "seed": 4,
+    "cleared": true,
+    "actions": 37,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐": 9,
+      "受创生暴虐": 24,
+      "暴虐护身": 24,
+      "暴虐代偿": 2,
+      "酒池回气": 6,
+      "暴虐承崩": 3
+    },
+    "act": {
+      "wine": 12,
+      "trick": 7,
+      "equip": 3,
+      "slash": 10,
+      "peach": 3
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "kuanggong",
+    "seed": 5,
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐代偿": 2,
+      "受创生暴虐": 13,
+      "暴虐护身": 14,
+      "暴虐": 4,
+      "酒池回气": 4,
+      "暴虐承崩": 2,
+      "魔王酒池": 1
+    },
+    "act": {
+      "trick": 9,
+      "equip": 3,
+      "wine": 4,
+      "slash": 4,
+      "peach": 1
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "kuanggong",
+    "seed": 6,
+    "cleared": true,
+    "actions": 31,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 13,
+      "暴虐护身": 13,
+      "暴虐": 5,
+      "暴虐代偿": 4,
+      "酒池回气": 3
+    },
+    "act": {
+      "trick": 4,
+      "equip": 2,
+      "wine": 9,
+      "slash": 12,
+      "peach": 2
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "kuanggong",
+    "seed": 7,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 2,
+    "events": {
+      "暴虐先声": 3,
+      "暴虐": 33,
+      "受创生暴虐": 75,
+      "暴虐护身": 77,
+      "暴虐代偿": 3,
+      "酒池回气": 26,
+      "暴虐承崩": 16,
+      "魔王酒池": 2
+    },
+    "act": {
+      "wine": 46,
+      "slash": 27,
+      "trick": 23,
+      "peach": 14,
+      "equip": 7
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "guizhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 15,
+      "暴虐护身": 15,
+      "暴虐": 3,
+      "暴虐代偿": 1,
+      "酒池回气": 2,
+      "暴虐承崩": 1
+    },
+    "act": {
+      "trick": 7,
+      "wine": 7,
+      "slash": 5,
+      "equip": 2,
+      "peach": 1
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "guizhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 15,
+      "暴虐护身": 15,
+      "暴虐": 4,
+      "暴虐代偿": 4,
+      "酒池回气": 2
+    },
+    "act": {
+      "slash": 8,
+      "wine": 6,
+      "trick": 6,
+      "equip": 2
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "guizhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 12,
+      "暴虐护身": 12,
+      "暴虐": 3,
+      "暴虐代偿": 3,
+      "暴虐承崩": 1
+    },
+    "act": {
+      "wine": 6,
+      "slash": 7,
+      "trick": 8
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "guizhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐": 1,
+      "受创生暴虐": 10,
+      "暴虐护身": 10,
+      "暴虐代偿": 1,
+      "暴虐承崩": 1
+    },
+    "act": {
+      "wine": 2,
+      "slash": 6,
+      "equip": 2,
+      "trick": 3,
+      "peach": 1
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "guizhen",
+    "seed": 4,
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 14,
+      "暴虐护身": 14,
+      "暴虐代偿": 2,
+      "暴虐": 2,
+      "酒池回气": 1,
+      "暴虐承崩": 1,
+      "魔王酒池": 1
+    },
+    "act": {
+      "slash": 6,
+      "trick": 7,
+      "wine": 7,
+      "equip": 2,
+      "peach": 1
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "guizhen",
+    "seed": 5,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 11,
+      "暴虐护身": 11,
+      "暴虐": 2,
+      "暴虐代偿": 2
+    },
+    "act": {
+      "trick": 6,
+      "equip": 3,
+      "wine": 2,
+      "slash": 6
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "guizhen",
+    "seed": 6,
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 7,
+      "暴虐护身": 7,
+      "暴虐代偿": 1,
+      "暴虐": 2,
+      "酒池回气": 1
+    },
+    "act": {
+      "wine": 3,
+      "trick": 5,
+      "equip": 1,
+      "slash": 3
+    }
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "guizhen",
+    "seed": 7,
+    "cleared": true,
+    "actions": 52,
+    "restarts": 1,
+    "events": {
+      "暴虐先声": 2,
+      "暴虐": 11,
+      "受创生暴虐": 33,
+      "暴虐护身": 35,
+      "暴虐代偿": 2,
+      "暴虐承崩": 6,
+      "酒池回气": 9
+    },
+    "act": {
+      "wine": 13,
+      "trick": 14,
+      "slash": 13,
+      "equip": 4,
+      "peach": 6
+    }
+  }
+]

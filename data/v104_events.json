@@ -1,0 +1,2334 @@
+{
+  "version": "1.0.4",
+  "probability_events": [
+    {
+      "id": "prob_01",
+      "name": "山门遗珍",
+      "desc": "路旁石匣中残留着前人遗物。",
+      "rarity": "common",
+      "effect": {
+        "coins": 1800,
+        "cultivation": 900
+      }
+    },
+    {
+      "id": "prob_02",
+      "name": "残卷悟道",
+      "desc": "破损竹简仍有可用心得。",
+      "rarity": "common",
+      "effect": {
+        "cultivation": 2200
+      }
+    },
+    {
+      "id": "prob_03",
+      "name": "灵泉涌现",
+      "desc": "短暂停驻灵泉，气机更加充盈。",
+      "rarity": "rare",
+      "effect": {
+        "buff": {
+          "hpPct": 0.06,
+          "defPct": 0.05
+        },
+        "duration": 18
+      }
+    },
+    {
+      "id": "prob_04",
+      "name": "商队借道",
+      "desc": "护送商队穿过险地，得到酬谢。",
+      "rarity": "common",
+      "effect": {
+        "coins": 3200
+      }
+    },
+    {
+      "id": "prob_05",
+      "name": "古战场余响",
+      "desc": "战意被残存兵魂激发。",
+      "rarity": "rare",
+      "effect": {
+        "buff": {
+          "atkPct": 0.07,
+          "crit": 2
+        },
+        "duration": 15
+      }
+    },
+    {
+      "id": "prob_06",
+      "name": "避雨古亭",
+      "desc": "片刻休整让状态稳定下来。",
+      "rarity": "common",
+      "effect": {
+        "buff": {
+          "defPct": 0.04,
+          "dodge": 1.5
+        },
+        "duration": 12
+      }
+    },
+    {
+      "id": "prob_07",
+      "name": "星火淬锋",
+      "desc": "以灵火淬炼兵刃，短期攻击提升。",
+      "rarity": "rare",
+      "effect": {
+        "jade": 8,
+        "buff": {
+          "atkPct": 0.08
+        },
+        "duration": 12
+      }
+    },
+    {
+      "id": "prob_08",
+      "name": "迷雾捷径",
+      "desc": "发现一条捷径，但灵气略有损耗。",
+      "rarity": "common",
+      "effect": {
+        "coins": 2500,
+        "cultivation": -700
+      }
+    },
+    {
+      "id": "prob_09",
+      "name": "药圃采集",
+      "desc": "采得灵药，换取修炼资源。",
+      "rarity": "common",
+      "effect": {
+        "coins": 1400,
+        "jade": 5
+      }
+    },
+    {
+      "id": "prob_10",
+      "name": "旧友传书",
+      "desc": "旧友寄来一批登塔物资。",
+      "rarity": "common",
+      "effect": {
+        "coins": 2600,
+        "memory": 1
+      }
+    },
+    {
+      "id": "prob_11",
+      "name": "夜观天象",
+      "desc": "观星后对敌方行动更敏锐。",
+      "rarity": "rare",
+      "effect": {
+        "buff": {
+          "accuracy": 3,
+          "dodge": 2
+        },
+        "duration": 20
+      }
+    },
+    {
+      "id": "prob_12",
+      "name": "断桥寻宝",
+      "desc": "绕行断桥后找到遗落宝箱。",
+      "rarity": "rare",
+      "effect": {
+        "jade": 15,
+        "gear": 1
+      }
+    },
+    {
+      "id": "prob_13",
+      "name": "剑鸣共振",
+      "desc": "神兵与塔中剑意短暂共鸣。",
+      "rarity": "epic",
+      "effect": {
+        "buff": {
+          "atkPct": 0.1,
+          "bossDamage": 5
+        },
+        "duration": 20
+      }
+    },
+    {
+      "id": "prob_14",
+      "name": "灵狐引路",
+      "desc": "灵狐带来意外收获。",
+      "rarity": "rare",
+      "effect": {
+        "coins": 3800,
+        "jade": 10
+      }
+    },
+    {
+      "id": "prob_15",
+      "name": "地脉震荡",
+      "desc": "地脉震荡打乱气息，但逼出潜力。",
+      "rarity": "rare",
+      "effect": {
+        "buff": {
+          "atkPct": 0.09,
+          "defPct": -0.04
+        },
+        "duration": 14
+      }
+    },
+    {
+      "id": "prob_16",
+      "name": "阵眼残光",
+      "desc": "识破残阵后获得防守心得。",
+      "rarity": "rare",
+      "effect": {
+        "buff": {
+          "defPct": 0.08,
+          "antiCrit": 3
+        },
+        "duration": 18
+      }
+    },
+    {
+      "id": "prob_17",
+      "name": "荒村酬谢",
+      "desc": "帮助村民清理妖祟，获得物资。",
+      "rarity": "common",
+      "effect": {
+        "coins": 4200
+      }
+    },
+    {
+      "id": "prob_18",
+      "name": "灵石矿脉",
+      "desc": "发现小型矿脉。",
+      "rarity": "rare",
+      "effect": {
+        "jade": 22
+      }
+    },
+    {
+      "id": "prob_19",
+      "name": "碑文参悟",
+      "desc": "碑文中的古法让当前修炼更顺畅。",
+      "rarity": "rare",
+      "effect": {
+        "cultivation": 5000,
+        "buff": {
+          "idle": 6
+        },
+        "duration": 25
+      }
+    },
+    {
+      "id": "prob_20",
+      "name": "风雷洗身",
+      "desc": "风雷冲刷经脉，风险后带来爆发。",
+      "rarity": "epic",
+      "effect": {
+        "cultivation": -1200,
+        "buff": {
+          "atkPct": 0.12,
+          "speed": 5
+        },
+        "duration": 16
+      }
+    },
+    {
+      "id": "prob_21",
+      "name": "残兵投契",
+      "desc": "旧军残魂认可你的战意。",
+      "rarity": "rare",
+      "effect": {
+        "soul": 12
+      }
+    },
+    {
+      "id": "prob_22",
+      "name": "无名剑冢",
+      "desc": "剑冢中挑到一件可用装备。",
+      "rarity": "epic",
+      "effect": {
+        "gear": 1,
+        "gearMin": "史诗"
+      }
+    },
+    {
+      "id": "prob_23",
+      "name": "月下静修",
+      "desc": "月华稳定心神。",
+      "rarity": "common",
+      "effect": {
+        "cultivation": 3200,
+        "buff": {
+          "crit": 1.5
+        },
+        "duration": 18
+      }
+    },
+    {
+      "id": "prob_24",
+      "name": "山魈争食",
+      "desc": "夺回被抢走的物资，但有少量损失。",
+      "rarity": "common",
+      "effect": {
+        "coins": -900,
+        "jade": 12
+      }
+    },
+    {
+      "id": "prob_25",
+      "name": "奇门残阵",
+      "desc": "破解残阵后，短期破甲提升。",
+      "rarity": "rare",
+      "effect": {
+        "buff": {
+          "armorPen": 5,
+          "accuracy": 2
+        },
+        "duration": 16
+      }
+    },
+    {
+      "id": "prob_26",
+      "name": "灵宠脚印",
+      "desc": "追踪灵宠踪迹，获得灵契感悟。",
+      "rarity": "rare",
+      "effect": {
+        "petLevels": 1
+      }
+    },
+    {
+      "id": "prob_27",
+      "name": "战旗不倒",
+      "desc": "拾起残破战旗，士气短时高涨。",
+      "rarity": "epic",
+      "effect": {
+        "buff": {
+          "atkPct": 0.08,
+          "hpPct": 0.08
+        },
+        "duration": 22
+      }
+    },
+    {
+      "id": "prob_28",
+      "name": "药师遗赠",
+      "desc": "获得一批疗伤与修炼物资。",
+      "rarity": "rare",
+      "effect": {
+        "coins": 2000,
+        "cultivation": 2800,
+        "jade": 8
+      }
+    },
+    {
+      "id": "prob_29",
+      "name": "风穴磨砺",
+      "desc": "迎风修炼，速度与闪避提高。",
+      "rarity": "rare",
+      "effect": {
+        "buff": {
+          "speed": 7,
+          "dodge": 3
+        },
+        "duration": 15
+      }
+    },
+    {
+      "id": "prob_30",
+      "name": "青铜机关",
+      "desc": "拆解机关得到材料与经验。",
+      "rarity": "common",
+      "effect": {
+        "coins": 2400,
+        "cultivation": 1400
+      }
+    },
+    {
+      "id": "prob_31",
+      "name": "旧阵图",
+      "desc": "残阵图帮助理解Boss弱点。",
+      "rarity": "epic",
+      "effect": {
+        "buff": {
+          "bossDamage": 8,
+          "armorPen": 3
+        },
+        "duration": 24
+      }
+    },
+    {
+      "id": "prob_32",
+      "name": "山神赐福",
+      "desc": "短期内体魄更为稳固。",
+      "rarity": "rare",
+      "effect": {
+        "buff": {
+          "hpPct": 0.1
+        },
+        "duration": 20
+      }
+    },
+    {
+      "id": "prob_33",
+      "name": "游商赌局",
+      "desc": "小赌一把，收益并不稳定。",
+      "rarity": "rare",
+      "effect": {
+        "randomCoins": [
+          1200,
+          6800
+        ]
+      }
+    },
+    {
+      "id": "prob_34",
+      "name": "失落军械",
+      "desc": "从废弃军械库找到高阶装备线索。",
+      "rarity": "epic",
+      "effect": {
+        "gear": 1,
+        "gearMin": "史诗",
+        "coins": 1000
+      }
+    },
+    {
+      "id": "prob_35",
+      "name": "星砂落袋",
+      "desc": "夜空星砂凝成灵石。",
+      "rarity": "rare",
+      "effect": {
+        "jade": 30
+      }
+    },
+    {
+      "id": "prob_36",
+      "name": "灵脉回潮",
+      "desc": "修为与防御同时得到补益。",
+      "rarity": "epic",
+      "effect": {
+        "cultivation": 6500,
+        "buff": {
+          "defPct": 0.07
+        },
+        "duration": 22
+      }
+    },
+    {
+      "id": "prob_37",
+      "name": "旧日誓言",
+      "desc": "想起旧日誓言，战意持续一段时间。",
+      "rarity": "epic",
+      "effect": {
+        "buff": {
+          "atkPct": 0.11,
+          "crit": 3,
+          "bossDamage": 4
+        },
+        "duration": 18
+      }
+    },
+    {
+      "id": "prob_38",
+      "name": "塔灵注视",
+      "desc": "塔灵短暂认可你的表现。",
+      "rarity": "legendary",
+      "effect": {
+        "jade": 45,
+        "memory": 2,
+        "buff": {
+          "atkPct": 0.08,
+          "defPct": 0.08
+        },
+        "duration": 30
+      }
+    },
+    {
+      "id": "prob_39",
+      "name": "天外流光",
+      "desc": "流光坠落化作罕见机缘。",
+      "rarity": "legendary",
+      "effect": {
+        "gear": 1,
+        "gearMin": "传说",
+        "jade": 25
+      }
+    }
+  ],
+  "misfortune_events": [
+    {
+      "id": "mis_01",
+      "name": "断粮迷途",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取10层攻防增益。",
+          "effect": {
+            "coins": -2700,
+            "buff": {
+              "atkPct": 0.045000000000000005,
+              "defPct": 0.043000000000000003
+            },
+            "duration": 10
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续9层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.108,
+              "crit": 2.1,
+              "defPct": -0.067
+            },
+            "duration": 9
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 11,
+            "buff": {
+              "atkPct": -0.043000000000000003,
+              "hpPct": 0.08800000000000001,
+              "defPct": 0.05
+            },
+            "duration": 12
+          }
+        }
+      ],
+      "severity": 1
+    },
+    {
+      "id": "mis_02",
+      "name": "逆风陡坡",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取10层攻防增益。",
+          "effect": {
+            "coins": -2700,
+            "buff": {
+              "atkPct": 0.045000000000000005,
+              "defPct": 0.043000000000000003
+            },
+            "duration": 10
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续9层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.108,
+              "crit": 2.1,
+              "defPct": -0.067
+            },
+            "duration": 9
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 11,
+            "buff": {
+              "atkPct": -0.043000000000000003,
+              "hpPct": 0.08800000000000001,
+              "defPct": 0.05
+            },
+            "duration": 12
+          }
+        }
+      ],
+      "severity": 1
+    },
+    {
+      "id": "mis_03",
+      "name": "兵煞缠身",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取10层攻防增益。",
+          "effect": {
+            "coins": -2700,
+            "buff": {
+              "atkPct": 0.045000000000000005,
+              "defPct": 0.043000000000000003
+            },
+            "duration": 10
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续9层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.108,
+              "crit": 2.1,
+              "defPct": -0.067
+            },
+            "duration": 9
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 11,
+            "buff": {
+              "atkPct": -0.043000000000000003,
+              "hpPct": 0.08800000000000001,
+              "defPct": 0.05
+            },
+            "duration": 12
+          }
+        }
+      ],
+      "severity": 1
+    },
+    {
+      "id": "mis_04",
+      "name": "灵脉枯竭",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取10层攻防增益。",
+          "effect": {
+            "coins": -2700,
+            "buff": {
+              "atkPct": 0.045000000000000005,
+              "defPct": 0.043000000000000003
+            },
+            "duration": 10
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续9层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.108,
+              "crit": 2.1,
+              "defPct": -0.067
+            },
+            "duration": 9
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 11,
+            "buff": {
+              "atkPct": -0.043000000000000003,
+              "hpPct": 0.08800000000000001,
+              "defPct": 0.05
+            },
+            "duration": 12
+          }
+        }
+      ],
+      "severity": 1
+    },
+    {
+      "id": "mis_05",
+      "name": "诅咒石门",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取10层攻防增益。",
+          "effect": {
+            "coins": -2700,
+            "buff": {
+              "atkPct": 0.045000000000000005,
+              "defPct": 0.043000000000000003
+            },
+            "duration": 10
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续9层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.108,
+              "crit": 2.1,
+              "defPct": -0.067
+            },
+            "duration": 9
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 11,
+            "buff": {
+              "atkPct": -0.043000000000000003,
+              "hpPct": 0.08800000000000001,
+              "defPct": 0.05
+            },
+            "duration": 12
+          }
+        }
+      ],
+      "severity": 1
+    },
+    {
+      "id": "mis_06",
+      "name": "暗箭伏击",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取10层攻防增益。",
+          "effect": {
+            "coins": -2700,
+            "buff": {
+              "atkPct": 0.045000000000000005,
+              "defPct": 0.043000000000000003
+            },
+            "duration": 10
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续9层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.108,
+              "crit": 2.1,
+              "defPct": -0.067
+            },
+            "duration": 9
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 11,
+            "buff": {
+              "atkPct": -0.043000000000000003,
+              "hpPct": 0.08800000000000001,
+              "defPct": 0.05
+            },
+            "duration": 12
+          }
+        }
+      ],
+      "severity": 1
+    },
+    {
+      "id": "mis_07",
+      "name": "毒雾峡谷",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取10层攻防增益。",
+          "effect": {
+            "coins": -2700,
+            "buff": {
+              "atkPct": 0.045000000000000005,
+              "defPct": 0.043000000000000003
+            },
+            "duration": 10
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续9层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.108,
+              "crit": 2.1,
+              "defPct": -0.067
+            },
+            "duration": 9
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 11,
+            "buff": {
+              "atkPct": -0.043000000000000003,
+              "hpPct": 0.08800000000000001,
+              "defPct": 0.05
+            },
+            "duration": 12
+          }
+        }
+      ],
+      "severity": 2
+    },
+    {
+      "id": "mis_08",
+      "name": "破损阵眼",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取12层攻防增益。",
+          "effect": {
+            "coins": -3600,
+            "buff": {
+              "atkPct": 0.05500000000000001,
+              "defPct": 0.051000000000000004
+            },
+            "duration": 12
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续11层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.126,
+              "crit": 2.7,
+              "defPct": -0.079
+            },
+            "duration": 11
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 16,
+            "buff": {
+              "atkPct": -0.051000000000000004,
+              "hpPct": 0.10600000000000001,
+              "defPct": 0.06
+            },
+            "duration": 14
+          }
+        }
+      ],
+      "severity": 2
+    },
+    {
+      "id": "mis_09",
+      "name": "失控灵火",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取12层攻防增益。",
+          "effect": {
+            "coins": -3600,
+            "buff": {
+              "atkPct": 0.05500000000000001,
+              "defPct": 0.051000000000000004
+            },
+            "duration": 12
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续11层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.126,
+              "crit": 2.7,
+              "defPct": -0.079
+            },
+            "duration": 11
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 16,
+            "buff": {
+              "atkPct": -0.051000000000000004,
+              "hpPct": 0.10600000000000001,
+              "defPct": 0.06
+            },
+            "duration": 14
+          }
+        }
+      ],
+      "severity": 2
+    },
+    {
+      "id": "mis_10",
+      "name": "旧债来客",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取12层攻防增益。",
+          "effect": {
+            "coins": -3600,
+            "buff": {
+              "atkPct": 0.05500000000000001,
+              "defPct": 0.051000000000000004
+            },
+            "duration": 12
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续11层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.126,
+              "crit": 2.7,
+              "defPct": -0.079
+            },
+            "duration": 11
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 16,
+            "buff": {
+              "atkPct": -0.051000000000000004,
+              "hpPct": 0.10600000000000001,
+              "defPct": 0.06
+            },
+            "duration": 14
+          }
+        }
+      ],
+      "severity": 2
+    },
+    {
+      "id": "mis_11",
+      "name": "贪念试炼",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取12层攻防增益。",
+          "effect": {
+            "coins": -3600,
+            "buff": {
+              "atkPct": 0.05500000000000001,
+              "defPct": 0.051000000000000004
+            },
+            "duration": 12
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续11层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.126,
+              "crit": 2.7,
+              "defPct": -0.079
+            },
+            "duration": 11
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 16,
+            "buff": {
+              "atkPct": -0.051000000000000004,
+              "hpPct": 0.10600000000000001,
+              "defPct": 0.06
+            },
+            "duration": 14
+          }
+        }
+      ],
+      "severity": 2
+    },
+    {
+      "id": "mis_12",
+      "name": "夜半惊雷",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取12层攻防增益。",
+          "effect": {
+            "coins": -3600,
+            "buff": {
+              "atkPct": 0.05500000000000001,
+              "defPct": 0.051000000000000004
+            },
+            "duration": 12
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续11层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.126,
+              "crit": 2.7,
+              "defPct": -0.079
+            },
+            "duration": 11
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 16,
+            "buff": {
+              "atkPct": -0.051000000000000004,
+              "hpPct": 0.10600000000000001,
+              "defPct": 0.06
+            },
+            "duration": 14
+          }
+        }
+      ],
+      "severity": 2
+    },
+    {
+      "id": "mis_13",
+      "name": "迷魂古道",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取12层攻防增益。",
+          "effect": {
+            "coins": -3600,
+            "buff": {
+              "atkPct": 0.05500000000000001,
+              "defPct": 0.051000000000000004
+            },
+            "duration": 12
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续11层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.126,
+              "crit": 2.7,
+              "defPct": -0.079
+            },
+            "duration": 11
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 16,
+            "buff": {
+              "atkPct": -0.051000000000000004,
+              "hpPct": 0.10600000000000001,
+              "defPct": 0.06
+            },
+            "duration": 14
+          }
+        }
+      ],
+      "severity": 3
+    },
+    {
+      "id": "mis_14",
+      "name": "腐朽兵库",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取12层攻防增益。",
+          "effect": {
+            "coins": -3600,
+            "buff": {
+              "atkPct": 0.05500000000000001,
+              "defPct": 0.051000000000000004
+            },
+            "duration": 12
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续11层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.126,
+              "crit": 2.7,
+              "defPct": -0.079
+            },
+            "duration": 11
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 16,
+            "buff": {
+              "atkPct": -0.051000000000000004,
+              "hpPct": 0.10600000000000001,
+              "defPct": 0.06
+            },
+            "duration": 14
+          }
+        }
+      ],
+      "severity": 3
+    },
+    {
+      "id": "mis_15",
+      "name": "残魂索命",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取14层攻防增益。",
+          "effect": {
+            "coins": -4500,
+            "buff": {
+              "atkPct": 0.065,
+              "defPct": 0.059000000000000004
+            },
+            "duration": 14
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续13层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.144,
+              "crit": 3.3,
+              "defPct": -0.091
+            },
+            "duration": 13
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 21,
+            "buff": {
+              "atkPct": -0.059000000000000004,
+              "hpPct": 0.124,
+              "defPct": 0.07
+            },
+            "duration": 16
+          }
+        }
+      ],
+      "severity": 3
+    },
+    {
+      "id": "mis_16",
+      "name": "深渊回声",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取14层攻防增益。",
+          "effect": {
+            "coins": -4500,
+            "buff": {
+              "atkPct": 0.065,
+              "defPct": 0.059000000000000004
+            },
+            "duration": 14
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续13层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.144,
+              "crit": 3.3,
+              "defPct": -0.091
+            },
+            "duration": 13
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 21,
+            "buff": {
+              "atkPct": -0.059000000000000004,
+              "hpPct": 0.124,
+              "defPct": 0.07
+            },
+            "duration": 16
+          }
+        }
+      ],
+      "severity": 3
+    },
+    {
+      "id": "mis_17",
+      "name": "血契石碑",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取14层攻防增益。",
+          "effect": {
+            "coins": -4500,
+            "buff": {
+              "atkPct": 0.065,
+              "defPct": 0.059000000000000004
+            },
+            "duration": 14
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续13层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.144,
+              "crit": 3.3,
+              "defPct": -0.091
+            },
+            "duration": 13
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 21,
+            "buff": {
+              "atkPct": -0.059000000000000004,
+              "hpPct": 0.124,
+              "defPct": 0.07
+            },
+            "duration": 16
+          }
+        }
+      ],
+      "severity": 3
+    },
+    {
+      "id": "mis_18",
+      "name": "风沙封路",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取14层攻防增益。",
+          "effect": {
+            "coins": -4500,
+            "buff": {
+              "atkPct": 0.065,
+              "defPct": 0.059000000000000004
+            },
+            "duration": 14
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续13层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.144,
+              "crit": 3.3,
+              "defPct": -0.091
+            },
+            "duration": 13
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 21,
+            "buff": {
+              "atkPct": -0.059000000000000004,
+              "hpPct": 0.124,
+              "defPct": 0.07
+            },
+            "duration": 16
+          }
+        }
+      ],
+      "severity": 3
+    },
+    {
+      "id": "mis_19",
+      "name": "裂隙震荡",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取14层攻防增益。",
+          "effect": {
+            "coins": -4500,
+            "buff": {
+              "atkPct": 0.065,
+              "defPct": 0.059000000000000004
+            },
+            "duration": 14
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续13层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.144,
+              "crit": 3.3,
+              "defPct": -0.091
+            },
+            "duration": 13
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 21,
+            "buff": {
+              "atkPct": -0.059000000000000004,
+              "hpPct": 0.124,
+              "defPct": 0.07
+            },
+            "duration": 16
+          }
+        }
+      ],
+      "severity": 4
+    },
+    {
+      "id": "mis_20",
+      "name": "荒兽围猎",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取14层攻防增益。",
+          "effect": {
+            "coins": -4500,
+            "buff": {
+              "atkPct": 0.065,
+              "defPct": 0.059000000000000004
+            },
+            "duration": 14
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续13层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.144,
+              "crit": 3.3,
+              "defPct": -0.091
+            },
+            "duration": 13
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 21,
+            "buff": {
+              "atkPct": -0.059000000000000004,
+              "hpPct": 0.124,
+              "defPct": 0.07
+            },
+            "duration": 16
+          }
+        }
+      ],
+      "severity": 4
+    },
+    {
+      "id": "mis_21",
+      "name": "镜中恶相",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取14层攻防增益。",
+          "effect": {
+            "coins": -4500,
+            "buff": {
+              "atkPct": 0.065,
+              "defPct": 0.059000000000000004
+            },
+            "duration": 14
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续13层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.144,
+              "crit": 3.3,
+              "defPct": -0.091
+            },
+            "duration": 13
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 21,
+            "buff": {
+              "atkPct": -0.059000000000000004,
+              "hpPct": 0.124,
+              "defPct": 0.07
+            },
+            "duration": 16
+          }
+        }
+      ],
+      "severity": 4
+    },
+    {
+      "id": "mis_22",
+      "name": "断桥追兵",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取16层攻防增益。",
+          "effect": {
+            "coins": -5400,
+            "buff": {
+              "atkPct": 0.07500000000000001,
+              "defPct": 0.067
+            },
+            "duration": 16
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续15层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.16199999999999998,
+              "crit": 3.9,
+              "defPct": -0.10300000000000001
+            },
+            "duration": 15
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 26,
+            "buff": {
+              "atkPct": -0.067,
+              "hpPct": 0.14200000000000002,
+              "defPct": 0.08
+            },
+            "duration": 18
+          }
+        }
+      ],
+      "severity": 4
+    },
+    {
+      "id": "mis_23",
+      "name": "寒潮压境",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取16层攻防增益。",
+          "effect": {
+            "coins": -5400,
+            "buff": {
+              "atkPct": 0.07500000000000001,
+              "defPct": 0.067
+            },
+            "duration": 16
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续15层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.16199999999999998,
+              "crit": 3.9,
+              "defPct": -0.10300000000000001
+            },
+            "duration": 15
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 26,
+            "buff": {
+              "atkPct": -0.067,
+              "hpPct": 0.14200000000000002,
+              "defPct": 0.08
+            },
+            "duration": 18
+          }
+        }
+      ],
+      "severity": 4
+    },
+    {
+      "id": "mis_24",
+      "name": "黑市勒索",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取16层攻防增益。",
+          "effect": {
+            "coins": -5400,
+            "buff": {
+              "atkPct": 0.07500000000000001,
+              "defPct": 0.067
+            },
+            "duration": 16
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续15层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.16199999999999998,
+              "crit": 3.9,
+              "defPct": -0.10300000000000001
+            },
+            "duration": 15
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 26,
+            "buff": {
+              "atkPct": -0.067,
+              "hpPct": 0.14200000000000002,
+              "defPct": 0.08
+            },
+            "duration": 18
+          }
+        }
+      ],
+      "severity": 4
+    },
+    {
+      "id": "mis_25",
+      "name": "邪阵献祭",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取16层攻防增益。",
+          "effect": {
+            "coins": -5400,
+            "buff": {
+              "atkPct": 0.07500000000000001,
+              "defPct": 0.067
+            },
+            "duration": 16
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续15层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.16199999999999998,
+              "crit": 3.9,
+              "defPct": -0.10300000000000001
+            },
+            "duration": 15
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 26,
+            "buff": {
+              "atkPct": -0.067,
+              "hpPct": 0.14200000000000002,
+              "defPct": 0.08
+            },
+            "duration": 18
+          }
+        }
+      ],
+      "severity": 5
+    },
+    {
+      "id": "mis_26",
+      "name": "枯井低语",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取16层攻防增益。",
+          "effect": {
+            "coins": -5400,
+            "buff": {
+              "atkPct": 0.07500000000000001,
+              "defPct": 0.067
+            },
+            "duration": 16
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续15层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.16199999999999998,
+              "crit": 3.9,
+              "defPct": -0.10300000000000001
+            },
+            "duration": 15
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 26,
+            "buff": {
+              "atkPct": -0.067,
+              "hpPct": 0.14200000000000002,
+              "defPct": 0.08
+            },
+            "duration": 18
+          }
+        }
+      ],
+      "severity": 5
+    },
+    {
+      "id": "mis_27",
+      "name": "失衡天象",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取16层攻防增益。",
+          "effect": {
+            "coins": -5400,
+            "buff": {
+              "atkPct": 0.07500000000000001,
+              "defPct": 0.067
+            },
+            "duration": 16
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续15层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.16199999999999998,
+              "crit": 3.9,
+              "defPct": -0.10300000000000001
+            },
+            "duration": 15
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 26,
+            "buff": {
+              "atkPct": -0.067,
+              "hpPct": 0.14200000000000002,
+              "defPct": 0.08
+            },
+            "duration": 18
+          }
+        }
+      ],
+      "severity": 5
+    },
+    {
+      "id": "mis_28",
+      "name": "孤军困阵",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取16层攻防增益。",
+          "effect": {
+            "coins": -5400,
+            "buff": {
+              "atkPct": 0.07500000000000001,
+              "defPct": 0.067
+            },
+            "duration": 16
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续15层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.16199999999999998,
+              "crit": 3.9,
+              "defPct": -0.10300000000000001
+            },
+            "duration": 15
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 26,
+            "buff": {
+              "atkPct": -0.067,
+              "hpPct": 0.14200000000000002,
+              "defPct": 0.08
+            },
+            "duration": 18
+          }
+        }
+      ],
+      "severity": 5
+    },
+    {
+      "id": "mis_29",
+      "name": "塔灵拷问",
+      "desc": "厄运逼近，必须从三种代价中选择一种。",
+      "choices": [
+        {
+          "id": "a",
+          "name": "破财消灾",
+          "desc": "支付铜钱稳定局势，换取18层攻防增益。",
+          "effect": {
+            "coins": -6300,
+            "buff": {
+              "atkPct": 0.085,
+              "defPct": 0.07500000000000001
+            },
+            "duration": 18
+          }
+        },
+        {
+          "id": "b",
+          "name": "迎难强攻",
+          "desc": "牺牲防御换取强攻，持续17层。",
+          "effect": {
+            "buff": {
+              "atkPct": 0.18,
+              "crit": 4.5,
+              "defPct": -0.11499999999999999
+            },
+            "duration": 17
+          }
+        },
+        {
+          "id": "c",
+          "name": "退守蓄势",
+          "desc": "接受短期攻击下降，换取灵石与更强生存。",
+          "effect": {
+            "jade": 31,
+            "buff": {
+              "atkPct": -0.07500000000000001,
+              "hpPct": 0.16,
+              "defPct": 0.09
+            },
+            "duration": 20
+          }
+        }
+      ],
+      "severity": 5
+    }
+  ],
+  "lucky_events": [
+    {
+      "id": "luck_01",
+      "name": "鸿运当头",
+      "desc": "塔灵直接赐下大量常用资源。",
+      "reward": {
+        "coins": 10000,
+        "jade": 35,
+        "memory": 1
+      }
+    },
+    {
+      "id": "luck_02",
+      "name": "紫气东来",
+      "desc": "获得大量修为并得到短期全属性增益。",
+      "reward": {
+        "cultivation": 12000,
+        "buff": {
+          "atkPct": 0.08,
+          "hpPct": 0.08,
+          "defPct": 0.08
+        },
+        "duration": 30
+      }
+    },
+    {
+      "id": "luck_03",
+      "name": "仙匣自开",
+      "desc": "获得一件至少传说品质装备。",
+      "reward": {
+        "gear": 1,
+        "gearMin": "传说"
+      }
+    },
+    {
+      "id": "luck_04",
+      "name": "灵宠来投",
+      "desc": "随机获得或强化一只高品质灵宠。",
+      "reward": {
+        "premiumPet": 1
+      }
+    },
+    {
+      "id": "luck_05",
+      "name": "星河洗礼",
+      "desc": "获得灵石、回忆令与Boss攻坚祝福。",
+      "reward": {
+        "jade": 80,
+        "memory": 3,
+        "buff": {
+          "bossDamage": 12,
+          "armorPen": 5
+        },
+        "duration": 35
+      }
+    },
+    {
+      "id": "luck_06",
+      "name": "天命垂青",
+      "desc": "获得稀有装备、将魂与大量铜钱。",
+      "reward": {
+        "gear": 1,
+        "gearMin": "传说",
+        "soul": 30,
+        "coins": 18000
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach_01",
+      "name": "初登十层",
+      "difficulty": "简单",
+      "desc": "最高层达到10层",
+      "metric": "bestFloor",
+      "target": 10,
+      "reward": {
+        "coins": 3000
+      }
+    },
+    {
+      "id": "ach_02",
+      "name": "百战起步",
+      "difficulty": "简单",
+      "desc": "累计自动战斗100回合",
+      "metric": "turns",
+      "target": 100,
+      "reward": {
+        "coins": 4500,
+        "jade": 8
+      }
+    },
+    {
+      "id": "ach_03",
+      "name": "装备入门",
+      "difficulty": "简单",
+      "desc": "背包拥有10件装备",
+      "metric": "inventory",
+      "target": 10,
+      "reward": {
+        "coins": 3500
+      }
+    },
+    {
+      "id": "ach_04",
+      "name": "六装齐备",
+      "difficulty": "简单",
+      "desc": "六个装备部位全部装备",
+      "metric": "equippedSlots",
+      "target": 6,
+      "reward": {
+        "jade": 12
+      }
+    },
+    {
+      "id": "ach_05",
+      "name": "武将同袍",
+      "difficulty": "简单",
+      "desc": "解锁8名武将",
+      "metric": "unlockedGenerals",
+      "target": 8,
+      "reward": {
+        "coins": 5000
+      }
+    },
+    {
+      "id": "ach_06",
+      "name": "星途初现",
+      "difficulty": "简单",
+      "desc": "拥有1名3星武将",
+      "metric": "star3",
+      "target": 1,
+      "reward": {
+        "jade": 15
+      }
+    },
+    {
+      "id": "ach_07",
+      "name": "灵根淬体",
+      "difficulty": "简单",
+      "desc": "任意灵根达到Lv.5",
+      "metric": "rootMax",
+      "target": 5,
+      "reward": {
+        "coins": 4200
+      }
+    },
+    {
+      "id": "ach_08",
+      "name": "功法小成",
+      "difficulty": "简单",
+      "desc": "任意功法达到Lv.8",
+      "metric": "techMax",
+      "target": 8,
+      "reward": {
+        "jade": 12
+      }
+    },
+    {
+      "id": "ach_09",
+      "name": "回廊初忆",
+      "difficulty": "简单",
+      "desc": "任意皮肤阵盘点亮5格",
+      "metric": "memoryUniqueMax",
+      "target": 5,
+      "reward": {
+        "memory": 2
+      }
+    },
+    {
+      "id": "ach_10",
+      "name": "秘境来客",
+      "difficulty": "简单",
+      "desc": "累计秘境通关3次",
+      "metric": "secretClears",
+      "target": 3,
+      "reward": {
+        "coins": 4000,
+        "jade": 8
+      }
+    },
+    {
+      "id": "ach_11",
+      "name": "三百层关",
+      "difficulty": "中等",
+      "desc": "最高层达到300层",
+      "metric": "bestFloor",
+      "target": 300,
+      "reward": {
+        "coins": 18000,
+        "jade": 50
+      }
+    },
+    {
+      "id": "ach_12",
+      "name": "千回合磨炼",
+      "difficulty": "中等",
+      "desc": "累计自动战斗1000回合",
+      "metric": "turns",
+      "target": 1000,
+      "reward": {
+        "coins": 22000,
+        "jade": 45
+      }
+    },
+    {
+      "id": "ach_13",
+      "name": "史诗收藏",
+      "difficulty": "中等",
+      "desc": "拥有3件史诗及以上装备",
+      "metric": "epicGear",
+      "target": 3,
+      "reward": {
+        "jade": 60
+      }
+    },
+    {
+      "id": "ach_14",
+      "name": "群英汇聚",
+      "difficulty": "中等",
+      "desc": "解锁16名武将",
+      "metric": "unlockedGenerals",
+      "target": 16,
+      "reward": {
+        "coins": 20000,
+        "jade": 40
+      }
+    },
+    {
+      "id": "ach_15",
+      "name": "五星初成",
+      "difficulty": "中等",
+      "desc": "拥有3名5星武将",
+      "metric": "star5",
+      "target": 3,
+      "reward": {
+        "jade": 70
+      }
+    },
+    {
+      "id": "ach_16",
+      "name": "飞升初证",
+      "difficulty": "中等",
+      "desc": "完成1次飞升",
+      "metric": "ascensions",
+      "target": 1,
+      "reward": {
+        "fate": 2
+      }
+    },
+    {
+      "id": "ach_17",
+      "name": "灵根圆融",
+      "difficulty": "中等",
+      "desc": "任意灵根达到Lv.15",
+      "metric": "rootMax",
+      "target": 15,
+      "reward": {
+        "jade": 55
+      }
+    },
+    {
+      "id": "ach_18",
+      "name": "功法大成",
+      "difficulty": "中等",
+      "desc": "任意功法达到Lv.20",
+      "metric": "techMax",
+      "target": 20,
+      "reward": {
+        "coins": 16000,
+        "jade": 45
+      }
+    },
+    {
+      "id": "ach_19",
+      "name": "回廊成线",
+      "difficulty": "中等",
+      "desc": "任意皮肤完成1条阵盘线路",
+      "metric": "memoryLines",
+      "target": 1,
+      "reward": {
+        "memory": 5,
+        "jade": 20
+      }
+    },
+    {
+      "id": "ach_20",
+      "name": "镇塔装备",
+      "difficulty": "中等",
+      "desc": "累计获得3件Boss专属装备",
+      "metric": "bossDrops",
+      "target": 3,
+      "reward": {
+        "jade": 60
+      }
+    },
+    {
+      "id": "ach_21",
+      "name": "千层问道",
+      "difficulty": "困难",
+      "desc": "最高层达到1000层",
+      "metric": "bestFloor",
+      "target": 1000,
+      "reward": {
+        "coins": 60000,
+        "jade": 160,
+        "fate": 2
+      }
+    },
+    {
+      "id": "ach_22",
+      "name": "两千层证道",
+      "difficulty": "困难",
+      "desc": "最高层达到2000层",
+      "metric": "bestFloor",
+      "target": 2000,
+      "reward": {
+        "coins": 120000,
+        "jade": 300,
+        "fate": 4
+      }
+    },
+    {
+      "id": "ach_23",
+      "name": "全将同心",
+      "difficulty": "困难",
+      "desc": "解锁全部32名武将",
+      "metric": "unlockedGenerals",
+      "target": 32,
+      "reward": {
+        "coins": 80000,
+        "jade": 220
+      }
+    },
+    {
+      "id": "ach_24",
+      "name": "群星极意",
+      "difficulty": "困难",
+      "desc": "拥有8名5星武将",
+      "metric": "star5",
+      "target": 8,
+      "reward": {
+        "jade": 250,
+        "fate": 2
+      }
+    },
+    {
+      "id": "ach_25",
+      "name": "极品武库",
+      "difficulty": "困难",
+      "desc": "拥有6件传说及以上装备",
+      "metric": "legendGear",
+      "target": 6,
+      "reward": {
+        "coins": 70000,
+        "jade": 180
+      }
+    },
+    {
+      "id": "ach_26",
+      "name": "六槽传说",
+      "difficulty": "困难",
+      "desc": "六个装备位均装备传说及以上",
+      "metric": "legendEquipped",
+      "target": 6,
+      "reward": {
+        "jade": 260
+      }
+    },
+    {
+      "id": "ach_27",
+      "name": "十次飞升",
+      "difficulty": "困难",
+      "desc": "完成10次飞升",
+      "metric": "ascensions",
+      "target": 10,
+      "reward": {
+        "fate": 8,
+        "jade": 180
+      }
+    },
+    {
+      "id": "ach_28",
+      "name": "回廊圆满",
+      "difficulty": "困难",
+      "desc": "完整解锁3套回廊皮肤",
+      "metric": "skinUnlocked",
+      "target": 3,
+      "reward": {
+        "memory": 18,
+        "jade": 120
+      }
+    },
+    {
+      "id": "ach_29",
+      "name": "秘境百胜",
+      "difficulty": "困难",
+      "desc": "累计秘境通关100次",
+      "metric": "secretClears",
+      "target": 100,
+      "reward": {
+        "coins": 90000,
+        "jade": 200
+      }
+    },
+    {
+      "id": "ach_30",
+      "name": "万回合不息",
+      "difficulty": "困难",
+      "desc": "累计自动战斗10000回合",
+      "metric": "turns",
+      "target": 10000,
+      "reward": {
+        "coins": 100000,
+        "jade": 240,
+        "fate": 3
+      }
+    }
+  ],
+  "boss_mechanics": [
+    {
+      "id": "ironwall",
+      "name": "铁壁换阵",
+      "desc": "70%与35%生命各切换一次防御阵。使用锦囊可更快撕开阵势。",
+      "counter": "锦囊破阵",
+      "phase1": 0.7,
+      "phase2": 0.35
+    },
+    {
+      "id": "fury",
+      "name": "背水狂攻",
+      "desc": "生命越低攻击越高，但进入35%以下后自身减伤降低，适合把握爆发窗口。",
+      "counter": "低血爆发",
+      "phase1": 0.6,
+      "phase2": 0.35
+    },
+    {
+      "id": "thunder",
+      "name": "雷狱判势",
+      "desc": "进入第二阶段后周期雷击。保留闪/无懈可以显著降低风险。",
+      "counter": "保留响应牌",
+      "phase1": 0.65,
+      "phase2": 0.38
+    },
+    {
+      "id": "reversal",
+      "name": "反制连环",
+      "desc": "连续使用同类行动会叠加反制；杀与锦囊交替可清除反制层。",
+      "counter": "行动交替",
+      "phase1": 0.7,
+      "phase2": 0.4
+    },
+    {
+      "id": "renewal",
+      "name": "枯荣再生",
+      "desc": "中段会触发一次再生，随后进入易伤阶段；先稳住再追击。",
+      "counter": "再生后追击",
+      "phase1": 0.55,
+      "phase2": 0.28
+    },
+    {
+      "id": "wushuang",
+      "name": "无双决阵",
+      "desc": "40%以下进入决阵，输出上升但受到Boss伤害词条和五星终极效果的额外克制。",
+      "counter": "五星终极/Boss伤害",
+      "phase1": 0.62,
+      "phase2": 0.4
+    }
+  ],
+  "shop": {
+    "slots": 10,
+    "manual_refresh_base_coins": 2400,
+    "auto_refresh_floor_step": 20,
+    "rarity_rates": {
+      "普通": 0.54,
+      "稀有": 0.28,
+      "史诗": 0.12,
+      "传说": 0.05,
+      "极品": 0.01
+    },
+    "notes": [
+      "固定10个商品格。",
+      "商品不会出售皮肤。",
+      "直接战力提升越大的商品稀有度越高，极品格只占约1%。",
+      "手动刷新消耗铜钱；每跨20层自动刷新一次且不新增货币。"
+    ]
+  }
+}

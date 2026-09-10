@@ -1,0 +1,32 @@
+[
+  {
+    "floor": 8000,
+    "profile": "回流",
+    "clears": 62,
+    "total": 128,
+    "rate": 0.4844,
+    "median_actions": 39.0,
+    "mean_actions": 52.08,
+    "median_restarts": 7.5
+  },
+  {
+    "floor": 8000,
+    "profile": "标准",
+    "clears": 79,
+    "total": 128,
+    "rate": 0.6172,
+    "median_actions": 34,
+    "mean_actions": 47.89,
+    "median_restarts": 4.5
+  },
+  {
+    "floor": 8000,
+    "profile": "极品",
+    "clears": 104,
+    "total": 128,
+    "rate": 0.8125,
+    "median_actions": 31.5,
+    "mean_actions": 42.73,
+    "median_restarts": 2.0
+  }
+]

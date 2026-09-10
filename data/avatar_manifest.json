@@ -1,0 +1,134 @@
+{
+  "version": "0.9.0",
+  "note": "基础头像来自用户提供的 sgs-card-viewer 参考项目，仅用于本地原型。正式发布前应确认素材授权或替换为自有资源。",
+  "avatars": {
+    "liubei": {
+      "file": "assets/avatars/liubei.jpg",
+      "source_pack": "standard",
+      "source_filename": "liubei.jpg"
+    },
+    "guanyu": {
+      "file": "assets/avatars/guanyu.jpg",
+      "source_pack": "standard",
+      "source_filename": "guanyu.jpg"
+    },
+    "zhangfei": {
+      "file": "assets/avatars/zhangfei.jpg",
+      "source_pack": "standard",
+      "source_filename": "zhangfei.jpg"
+    },
+    "zhaoyun": {
+      "file": "assets/avatars/zhaoyun.jpg",
+      "source_pack": "standard",
+      "source_filename": "zhaoyun.jpg"
+    },
+    "zhugeliang": {
+      "file": "assets/avatars/zhugeliang.jpg",
+      "source_pack": "standard",
+      "source_filename": "zhugeliang.jpg"
+    },
+    "huangyueying": {
+      "file": "assets/avatars/huangyueying.jpg",
+      "source_pack": "standard",
+      "source_filename": "huangyueying.jpg"
+    },
+    "caocao": {
+      "file": "assets/avatars/caocao.jpg",
+      "source_pack": "standard",
+      "source_filename": "caocao.jpg"
+    },
+    "simayi": {
+      "file": "assets/avatars/simayi.jpg",
+      "source_pack": "standard",
+      "source_filename": "simayi.jpg"
+    },
+    "xiahoudun": {
+      "file": "assets/avatars/xiahoudun.jpg",
+      "source_pack": "standard",
+      "source_filename": "xiahoudun.jpg"
+    },
+    "zhangliao": {
+      "file": "assets/avatars/zhangliao.jpg",
+      "source_pack": "standard",
+      "source_filename": "zhangliao.jpg"
+    },
+    "xuchu": {
+      "file": "assets/avatars/xuchu.jpg",
+      "source_pack": "standard",
+      "source_filename": "xuchu.jpg"
+    },
+    "guojia": {
+      "file": "assets/avatars/guojia.jpg",
+      "source_pack": "standard",
+      "source_filename": "guojia.jpg"
+    },
+    "sunquan": {
+      "file": "assets/avatars/sunquan.jpg",
+      "source_pack": "standard",
+      "source_filename": "sunquan.jpg"
+    },
+    "zhouyu": {
+      "file": "assets/avatars/zhouyu.jpg",
+      "source_pack": "standard",
+      "source_filename": "zhouyu.jpg"
+    },
+    "ganning": {
+      "file": "assets/avatars/ganning.jpg",
+      "source_pack": "standard",
+      "source_filename": "ganning.jpg"
+    },
+    "lvmeng": {
+      "file": "assets/avatars/lvmeng.jpg",
+      "source_pack": "standard",
+      "source_filename": "lvmeng.jpg"
+    },
+    "luxun": {
+      "file": "assets/avatars/luxun.jpg",
+      "source_pack": "standard",
+      "source_filename": "luxun.jpg"
+    },
+    "sunshangxiang": {
+      "file": "assets/avatars/sunshangxiang.jpg",
+      "source_pack": "standard",
+      "source_filename": "sunshangxiang.jpg"
+    },
+    "lvbu": {
+      "file": "assets/avatars/lvbu.jpg",
+      "source_pack": "standard",
+      "source_filename": "lvbu.jpg"
+    },
+    "diaochan": {
+      "file": "assets/avatars/diaochan.jpg",
+      "source_pack": "standard",
+      "source_filename": "diaochan.jpg"
+    },
+    "huatuo": {
+      "file": "assets/avatars/huatuo.jpg",
+      "source_pack": "standard",
+      "source_filename": "huatuo.jpg"
+    },
+    "yuanshao": {
+      "file": "assets/avatars/yuanshao.jpg",
+      "source_pack": "shzl",
+      "source_filename": "yuanshao.jpg"
+    },
+    "zhangjiao": {
+      "file": "assets/avatars/zhangjiao.jpg",
+      "source_pack": "shzl",
+      "source_filename": "zhangjiao.jpg"
+    },
+    "dongzhuo": {
+      "file": "assets/avatars/dongzhuo.jpg",
+      "source_pack": "shzl",
+      "source_filename": "dongzhuo.jpg"
+    }
+  },
+  "machao": "assets/avatars/machao.jpg",
+  "pangtong": "assets/avatars/pangtong.jpg",
+  "zhenji": "assets/avatars/zhenji.jpg",
+  "xunyu": "assets/avatars/xunyu.jpg",
+  "daqiao": "assets/avatars/daqiao.jpg",
+  "taishici": "assets/avatars/taishici.jpg",
+  "yuji": "assets/avatars/yuji.jpg",
+  "zuoci": "assets/avatars/zuoci.jpg"
+}

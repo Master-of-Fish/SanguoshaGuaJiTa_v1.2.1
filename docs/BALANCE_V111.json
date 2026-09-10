@@ -1,0 +1,141 @@
+{
+  "version": "1.1.1",
+  "method": "32 generals x 2 deterministic seeds, 120 actions maximum. Level calibrated to power/enemyPower >= 10000 before ascension. Fixed mature skills/build; paired bonus removal is a mechanics probe, not full player economy or universal clear-rate evidence.",
+  "matrixFloorCap": 8000,
+  "cases": 320,
+  "summaries": [
+    {
+      "floor": 2000,
+      "ascensions": 0,
+      "bonus": "enabled",
+      "samples": 64,
+      "cleared": 64,
+      "clearRate": 1,
+      "medianActions": 11,
+      "oneActionClears": 0
+    },
+    {
+      "floor": 5000,
+      "ascensions": 1,
+      "bonus": "enabled",
+      "samples": 64,
+      "cleared": 51,
+      "clearRate": 0.796875,
+      "medianActions": 20,
+      "oneActionClears": 0
+    },
+    {
+      "floor": 5000,
+      "ascensions": 1,
+      "bonus": "removed",
+      "samples": 64,
+      "cleared": 46,
+      "clearRate": 0.71875,
+      "medianActions": 24,
+      "oneActionClears": 0
+    },
+    {
+      "floor": 8000,
+      "ascensions": 3,
+      "bonus": "enabled",
+      "samples": 64,
+      "cleared": 31,
+      "clearRate": 0.484375,
+      "medianActions": 29,
+      "oneActionClears": 0
+    },
+    {
+      "floor": 8000,
+      "ascensions": 3,
+      "bonus": "removed",
+      "samples": 64,
+      "cleared": 14,
+      "clearRate": 0.21875,
+      "medianActions": 64,
+      "oneActionClears": 0
+    }
+  ],
+  "curves": [
+    {
+      "floor": 2000,
+      "count": 1,
+      "reward": {
+        "attack": 0.108,
+        "hp": 0.108,
+        "defense": 0.099,
+        "resource": 0.168,
+        "fate": 0.128
+      },
+      "cumulative": {
+        "attack": 0.108,
+        "hp": 0.108,
+        "defense": 0.099,
+        "resource": 0.168,
+        "fate": 0.128
+      },
+      "resourceMultiplier": 1.168
+    },
+    {
+      "floor": 3000,
+      "count": 2,
+      "reward": {
+        "attack": 0.12,
+        "hp": 0.12,
+        "defense": 0.114,
+        "resource": 0.2,
+        "fate": 0.136
+      },
+      "cumulative": {
+        "attack": 0.22799999999999998,
+        "hp": 0.22799999999999998,
+        "defense": 0.21300000000000002,
+        "resource": 0.368,
+        "fate": 0.264
+      },
+      "resourceMultiplier": 1.3679999999999999
+    },
+    {
+      "floor": 5000,
+      "count": 3,
+      "reward": {
+        "attack": 0.166666667,
+        "hp": 0.166666667,
+        "defense": 0.158333333,
+        "resource": 0.266666667,
+        "fate": 0.173333333
+      },
+      "cumulative": {
+        "attack": 0.39466666699999997,
+        "hp": 0.39466666699999997,
+        "defense": 0.37133333300000004,
+        "resource": 0.6346666670000001,
+        "fate": 0.437333333
+      },
+      "resourceMultiplier": 1.634666667
+    },
+    {
+      "floor": 8000,
+      "count": 4,
+      "reward": {
+        "attack": 0.194285714,
+        "hp": 0.194285714,
+        "defense": 0.184571429,
+        "resource": 0.314285714,
+        "fate": 0.205714286
+      },
+      "cumulative": {
+        "attack": 0.5889523809999999,
+        "hp": 0.5889523809999999,
+        "defense": 0.555904762,
+        "resource": 0.948952381,
+        "fate": 0.643047619
+      },
+      "resourceMultiplier": 1.948952381
+    }
+  ],
+  "limitations": [
+    "No real-time 0-to-8000 progression simulation",
+    "Not comparable to historical 1152-sample three-build matrix",
+    "Godot prototype runtime not tested"
+  ]
+}

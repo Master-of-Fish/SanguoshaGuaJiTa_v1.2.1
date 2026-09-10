@@ -1,0 +1,5402 @@
+[
+  {
+    "general": "zuoci",
+    "variant": "pozhen",
+    "seed": 0,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 20,
+      "化身谱保留被动": 139,
+      "自适应刷新": 110,
+      "化身自适应刷新": 110,
+      "受伤自适应刷新": 10
+    },
+    "act": {
+      "trick": 23,
+      "equip": 4,
+      "slash": 19,
+      "wine": 8,
+      "peach": 6
+    },
+    "damage": 3.0623952241808206e+92,
+    "heals": 5.2672957656287193e+76,
+    "lastPlayerRatio": -0.6139176219200003,
+    "lastEnemyRatio": 0.5762430183939548
+  },
+  {
+    "general": "zuoci",
+    "variant": "pozhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 28,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 9,
+      "化身谱保留被动": 26,
+      "自适应刷新": 13,
+      "化身自适应刷新": 13,
+      "受伤自适应刷新": 5
+    },
+    "act": {
+      "equip": 1,
+      "trick": 6,
+      "slash": 12,
+      "wine": 5,
+      "peach": 3
+    },
+    "damage": 9.834865416026631e+91,
+    "heals": 2.6146338085915494e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "pozhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 31,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 10,
+      "化身谱保留被动": 36,
+      "自适应刷新": 22,
+      "化身自适应刷新": 22,
+      "受伤自适应刷新": 5
+    },
+    "act": {
+      "equip": 4,
+      "wine": 7,
+      "trick": 9,
+      "slash": 9,
+      "peach": 2
+    },
+    "damage": 1.160514119091143e+92,
+    "heals": 1.554283996415032e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "pozhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 7,
+      "化身谱保留被动": 24,
+      "自适应刷新": 15,
+      "化身自适应刷新": 15,
+      "受伤自适应刷新": 3
+    },
+    "act": {
+      "slash": 7,
+      "wine": 4,
+      "trick": 5,
+      "equip": 1,
+      "pass": 3,
+      "peach": 2
+    },
+    "damage": 1.5382271827095595e+92,
+    "heals": 1.943312074082041e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "pozhen",
+    "seed": 4,
+    "cleared": true,
+    "actions": 100,
+    "restarts": 5,
+    "events": {
+      "万象归一": 6,
+      "回合结束刷新": 32,
+      "化身谱保留被动": 110,
+      "自适应刷新": 63,
+      "化身自适应刷新": 63,
+      "受伤自适应刷新": 21
+    },
+    "act": {
+      "equip": 12,
+      "trick": 35,
+      "slash": 32,
+      "wine": 10,
+      "peach": 6
+    },
+    "damage": 4.150227123590229e+92,
+    "heals": 6.865152350228666e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "pozhen",
+    "seed": 5,
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 7,
+      "化身谱保留被动": 19,
+      "自适应刷新": 13,
+      "化身自适应刷新": 13
+    },
+    "act": {
+      "slash": 6,
+      "equip": 4,
+      "trick": 9,
+      "wine": 2
+    },
+    "damage": 1.1852196453440936e+92,
+    "heals": 2.06008253209935e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "pozhen",
+    "seed": 6,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 2,
+    "events": {
+      "万象归一": 3,
+      "回合结束刷新": 16,
+      "化身谱保留被动": 123,
+      "自适应刷新": 102,
+      "化身自适应刷新": 102,
+      "受伤自适应刷新": 8
+    },
+    "act": {
+      "slash": 27,
+      "trick": 13,
+      "wine": 4,
+      "equip": 3,
+      "peach": 3
+    },
+    "damage": 2.4016870468896552e+92,
+    "heals": 5.265558342064807e+76,
+    "lastPlayerRatio": -0.08001274810944384,
+    "lastEnemyRatio": 0.3549160000000002
+  },
+  {
+    "general": "zuoci",
+    "variant": "pozhen",
+    "seed": 7,
+    "cleared": true,
+    "actions": 35,
+    "restarts": 1,
+    "events": {
+      "万象归一": 2,
+      "回合结束刷新": 11,
+      "化身谱保留被动": 31,
+      "自适应刷新": 18,
+      "化身自适应刷新": 18,
+      "受伤自适应刷新": 4
+    },
+    "act": {
+      "equip": 3,
+      "slash": 14,
+      "trick": 15,
+      "wine": 3
+    },
+    "damage": 2.4127520236999486e+92,
+    "heals": 2.5858104753691433e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "shoushi",
+    "seed": 0,
+    "cleared": true,
+    "actions": 45,
+    "restarts": 1,
+    "events": {
+      "万象归一": 2,
+      "回合结束刷新": 14,
+      "化身谱保留被动": 42,
+      "自适应刷新": 26,
+      "化身自适应刷新": 26,
+      "受伤自适应刷新": 4
+    },
+    "act": {
+      "trick": 16,
+      "slash": 24,
+      "equip": 3,
+      "peach": 2
+    },
+    "damage": 2.444039377609002e+92,
+    "heals": 4.4128930231078926e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "shoushi",
+    "seed": 1,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 5,
+      "化身谱保留被动": 8,
+      "自适应刷新": 4,
+      "化身自适应刷新": 4
+    },
+    "act": {
+      "wine": 1,
+      "slash": 7,
+      "trick": 6,
+      "equip": 3
+    },
+    "damage": 1.0278617986876673e+92,
+    "heals": 6.044437763836234e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "shoushi",
+    "seed": 2,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 2,
+    "events": {
+      "万象归一": 3,
+      "回合结束刷新": 20,
+      "化身谱保留被动": 126,
+      "自适应刷新": 99,
+      "化身自适应刷新": 99,
+      "受伤自适应刷新": 10
+    },
+    "act": {
+      "slash": 35,
+      "equip": 8,
+      "wine": 2,
+      "trick": 11,
+      "peach": 5
+    },
+    "damage": 3.600280646557662e+92,
+    "heals": 5.998750956092547e+76,
+    "lastPlayerRatio": -0.3366316948431014,
+    "lastEnemyRatio": 0.5598699999999999
+  },
+  {
+    "general": "zuoci",
+    "variant": "shoushi",
+    "seed": 3,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 1,
+    "events": {
+      "万象归一": 2,
+      "回合结束刷新": 16,
+      "化身谱保留被动": 125,
+      "自适应刷新": 104,
+      "化身自适应刷新": 104,
+      "受伤自适应刷新": 7
+    },
+    "act": {
+      "trick": 13,
+      "pass": 1,
+      "equip": 3,
+      "slash": 24,
+      "wine": 1,
+      "peach": 6
+    },
+    "damage": 2.0057099710583864e+92,
+    "heals": 6.53764216684236e+76,
+    "lastPlayerRatio": -0.008560072347276168,
+    "lastEnemyRatio": 0.40010000000000007
+  },
+  {
+    "general": "zuoci",
+    "variant": "shoushi",
+    "seed": 4,
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 6,
+      "化身谱保留被动": 18,
+      "自适应刷新": 11,
+      "化身自适应刷新": 11,
+      "受伤自适应刷新": 2
+    },
+    "act": {
+      "slash": 10,
+      "trick": 8,
+      "wine": 1,
+      "equip": 1
+    },
+    "damage": 9.985508868788527e+91,
+    "heals": 1.2176079447315559e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "shoushi",
+    "seed": 5,
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 6,
+      "化身谱保留被动": 13,
+      "自适应刷新": 7,
+      "化身自适应刷新": 7,
+      "受伤自适应刷新": 1
+    },
+    "act": {
+      "trick": 8,
+      "wine": 2,
+      "slash": 6,
+      "equip": 1,
+      "peach": 1
+    },
+    "damage": 1.1840144977219982e+92,
+    "heals": 1.1247309753062506e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "shoushi",
+    "seed": 6,
+    "cleared": true,
+    "actions": 28,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 9,
+      "化身谱保留被动": 27,
+      "自适应刷新": 15,
+      "化身自适应刷新": 15,
+      "受伤自适应刷新": 4
+    },
+    "act": {
+      "slash": 14,
+      "trick": 5,
+      "equip": 3,
+      "wine": 2,
+      "peach": 3
+    },
+    "damage": 1.1212176984135394e+92,
+    "heals": 4.018831773593375e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "shoushi",
+    "seed": 7,
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 4,
+      "化身谱保留被动": 11,
+      "自适应刷新": 7,
+      "化身自适应刷新": 7,
+      "受伤自适应刷新": 1
+    },
+    "act": {
+      "trick": 3,
+      "slash": 7,
+      "equip": 2,
+      "peach": 1
+    },
+    "damage": 1.0000142804199685e+92,
+    "heals": 1.6298620324249115e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "kuanggong",
+    "seed": 0,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 6,
+      "化身谱保留被动": 118,
+      "自适应刷新": 111,
+      "化身自适应刷新": 111,
+      "受伤自适应刷新": 2
+    },
+    "act": {
+      "equip": 2,
+      "trick": 9,
+      "slash": 6,
+      "peach": 1,
+      "wine": 1
+    },
+    "damage": 8.909484206203557e+91,
+    "heals": 1.5405125659102438e+76,
+    "lastPlayerRatio": -0.4014666746555726,
+    "lastEnemyRatio": 0.05856400000000028
+  },
+  {
+    "general": "zuoci",
+    "variant": "kuanggong",
+    "seed": 1,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 3,
+    "events": {
+      "万象归一": 4,
+      "回合结束刷新": 27,
+      "化身谱保留被动": 116,
+      "自适应刷新": 82,
+      "化身自适应刷新": 82,
+      "受伤自适应刷新": 11
+    },
+    "act": {
+      "equip": 10,
+      "trick": 29,
+      "slash": 23,
+      "wine": 16,
+      "peach": 6
+    },
+    "damage": 3.4002809747550164e+92,
+    "heals": 5.7242084766264464e+76,
+    "lastPlayerRatio": -0.012084273439999989,
+    "lastEnemyRatio": 0.3177999999999999
+  },
+  {
+    "general": "zuoci",
+    "variant": "kuanggong",
+    "seed": 2,
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 7,
+      "化身谱保留被动": 22,
+      "自适应刷新": 13,
+      "化身自适应刷新": 13,
+      "受伤自适应刷新": 3
+    },
+    "act": {
+      "trick": 11,
+      "wine": 2,
+      "equip": 3,
+      "slash": 5,
+      "peach": 2
+    },
+    "damage": 1.156855635238354e+92,
+    "heals": 1.7526813519900072e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "kuanggong",
+    "seed": 3,
+    "cleared": true,
+    "actions": 57,
+    "restarts": 2,
+    "events": {
+      "万象归一": 3,
+      "回合结束刷新": 17,
+      "化身谱保留被动": 59,
+      "自适应刷新": 35,
+      "化身自适应刷新": 35,
+      "受伤自适应刷新": 10
+    },
+    "act": {
+      "equip": 8,
+      "slash": 16,
+      "trick": 18,
+      "wine": 9,
+      "peach": 3,
+      "pass": 1
+    },
+    "damage": 2.3051030731760272e+92,
+    "heals": 2.6125880654334954e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "kuanggong",
+    "seed": 4,
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 7,
+      "化身谱保留被动": 16,
+      "自适应刷新": 9,
+      "化身自适应刷新": 9,
+      "受伤自适应刷新": 1
+    },
+    "act": {
+      "equip": 3,
+      "slash": 10,
+      "trick": 7,
+      "pass": 1,
+      "peach": 1
+    },
+    "damage": 9.985508868788527e+91,
+    "heals": 1.2293408682705674e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "kuanggong",
+    "seed": 5,
+    "cleared": true,
+    "actions": 45,
+    "restarts": 1,
+    "events": {
+      "万象归一": 2,
+      "回合结束刷新": 14,
+      "化身谱保留被动": 40,
+      "自适应刷新": 23,
+      "化身自适应刷新": 23,
+      "受伤自适应刷新": 5
+    },
+    "act": {
+      "wine": 9,
+      "slash": 19,
+      "equip": 4,
+      "peach": 3,
+      "trick": 10
+    },
+    "damage": 1.8691839618696055e+92,
+    "heals": 2.8302231514773787e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "kuanggong",
+    "seed": 6,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 5,
+      "化身谱保留被动": 121,
+      "自适应刷新": 115,
+      "化身自适应刷新": 115,
+      "受伤自适应刷新": 2
+    },
+    "act": {
+      "wine": 2,
+      "slash": 5,
+      "trick": 7,
+      "peach": 3
+    },
+    "damage": 9.888494485209869e+91,
+    "heals": 2.468042555667843e+76,
+    "lastPlayerRatio": -0.047850358608243555,
+    "lastEnemyRatio": 0.689654
+  },
+  {
+    "general": "zuoci",
+    "variant": "kuanggong",
+    "seed": 7,
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 6,
+      "化身谱保留被动": 20,
+      "自适应刷新": 13,
+      "化身自适应刷新": 13,
+      "受伤自适应刷新": 2
+    },
+    "act": {
+      "equip": 2,
+      "slash": 6,
+      "trick": 8,
+      "peach": 3,
+      "wine": 1
+    },
+    "damage": 1.1377454372308446e+92,
+    "heals": 2.9358697710061714e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "guizhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 5,
+      "化身谱保留被动": 8,
+      "自适应刷新": 4,
+      "化身自适应刷新": 4
+    },
+    "act": {
+      "equip": 2,
+      "slash": 5,
+      "wine": 2,
+      "trick": 8
+    },
+    "damage": 9.969153293917239e+91,
+    "heals": 3.961794870241456e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "guizhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 8,
+      "化身谱保留被动": 20,
+      "自适应刷新": 13,
+      "化身自适应刷新": 13
+    },
+    "act": {
+      "slash": 12,
+      "trick": 8,
+      "wine": 4,
+      "equip": 2
+    },
+    "damage": 1.2352763126475466e+92,
+    "heals": 1.5017809574501396e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "guizhen",
+    "seed": 2,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 4,
+    "events": {
+      "万象归一": 5,
+      "回合结束刷新": 38,
+      "化身谱保留被动": 127,
+      "自适应刷新": 73,
+      "化身自适应刷新": 73,
+      "受伤自适应刷新": 21
+    },
+    "act": {
+      "trick": 47,
+      "slash": 40,
+      "wine": 14,
+      "equip": 12,
+      "peach": 4
+    },
+    "damage": 6.81300570810464e+92,
+    "heals": 8.539418104185632e+76,
+    "lastPlayerRatio": 0.05985625467312253,
+    "lastEnemyRatio": 0.97115
+  },
+  {
+    "general": "zuoci",
+    "variant": "guizhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 67,
+    "restarts": 2,
+    "events": {
+      "万象归一": 3,
+      "回合结束刷新": 20,
+      "化身谱保留被动": 68,
+      "自适应刷新": 45,
+      "化身自适应刷新": 45,
+      "受伤自适应刷新": 6
+    },
+    "act": {
+      "equip": 13,
+      "trick": 25,
+      "slash": 20,
+      "wine": 5,
+      "peach": 3
+    },
+    "damage": 3.435596104181051e+92,
+    "heals": 2.9358697710061714e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "guizhen",
+    "seed": 4,
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 8,
+      "化身谱保留被动": 20,
+      "自适应刷新": 11,
+      "化身自适应刷新": 11,
+      "受伤自适应刷新": 2
+    },
+    "act": {
+      "wine": 4,
+      "slash": 5,
+      "trick": 11,
+      "equip": 2,
+      "pass": 3,
+      "peach": 1
+    },
+    "damage": 1.5143932192169084e+92,
+    "heals": 7.77141998207516e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "guizhen",
+    "seed": 5,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 4,
+      "化身谱保留被动": 12,
+      "自适应刷新": 8,
+      "化身自适应刷新": 8,
+      "受伤自适应刷新": 1
+    },
+    "act": {
+      "trick": 8,
+      "equip": 1,
+      "slash": 5
+    },
+    "damage": 9.905883043757243e+91,
+    "heals": 5.417888615059158e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "guizhen",
+    "seed": 6,
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0,
+    "events": {
+      "万象归一": 1,
+      "回合结束刷新": 6,
+      "化身谱保留被动": 15,
+      "自适应刷新": 8,
+      "化身自适应刷新": 8,
+      "受伤自适应刷新": 2
+    },
+    "act": {
+      "trick": 11,
+      "slash": 5,
+      "equip": 2,
+      "wine": 1
+    },
+    "damage": 1.1708241569981672e+92,
+    "heals": 6.044437763836234e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zuoci",
+    "variant": "guizhen",
+    "seed": 7,
+    "cleared": true,
+    "actions": 56,
+    "restarts": 2,
+    "events": {
+      "万象归一": 3,
+      "回合结束刷新": 17,
+      "化身谱保留被动": 61,
+      "自适应刷新": 36,
+      "化身自适应刷新": 36,
+      "受伤自适应刷新": 11
+    },
+    "act": {
+      "trick": 26,
+      "slash": 17,
+      "wine": 4,
+      "peach": 2,
+      "equip": 5
+    },
+    "damage": 3.311655279445864e+92,
+    "heals": 2.3182497705254694e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "pozhen",
+    "seed": 0,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 6,
+    "events": {
+      "惑印": 29,
+      "太平幻术": 29,
+      "重新声明": 10
+    },
+    "act": {
+      "slash": 43,
+      "equip": 11,
+      "trick": 37,
+      "pass": 1,
+      "wine": 14,
+      "peach": 12
+    },
+    "damage": 4.4891748923044933e+92,
+    "heals": 1.0149383635155925e+77,
+    "lastPlayerRatio": 0.3785598304,
+    "lastEnemyRatio": 0.6589000000000004
+  },
+  {
+    "general": "yuji",
+    "variant": "pozhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 31,
+    "restarts": 0,
+    "events": {
+      "惑印": 10,
+      "太平幻术": 10,
+      "重新声明": 2
+    },
+    "act": {
+      "trick": 11,
+      "equip": 4,
+      "slash": 7,
+      "wine": 3,
+      "peach": 6
+    },
+    "damage": 9.985508868788527e+91,
+    "heals": 5.0304904258711886e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "pozhen",
+    "seed": 2,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 1,
+    "events": {
+      "惑印": 13,
+      "太平幻术": 13,
+      "重新声明": 2
+    },
+    "act": {
+      "trick": 18,
+      "slash": 21,
+      "equip": 7,
+      "wine": 7,
+      "pass": 1,
+      "peach": 1
+    },
+    "damage": 2.475932748608021e+92,
+    "heals": 1.8462286308552373e+76,
+    "lastPlayerRatio": -0.18018526093611859,
+    "lastEnemyRatio": 0.14469999999999966
+  },
+  {
+    "general": "yuji",
+    "variant": "pozhen",
+    "seed": 3,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "惑印": 12,
+      "太平幻术": 12,
+      "重新声明": 3
+    },
+    "act": {
+      "equip": 3,
+      "trick": 19,
+      "slash": 20,
+      "wine": 6,
+      "peach": 5,
+      "pass": 1
+    },
+    "damage": 2.942794784641224e+92,
+    "heals": 5.267133196794252e+76,
+    "lastPlayerRatio": -0.22753719991166377,
+    "lastEnemyRatio": 0.5037319867546196
+  },
+  {
+    "general": "yuji",
+    "variant": "pozhen",
+    "seed": 4,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 1,
+    "events": {
+      "重新声明": 1,
+      "惑印": 3,
+      "太平幻术": 3
+    },
+    "act": {
+      "equip": 5,
+      "slash": 17,
+      "trick": 8,
+      "wine": 2,
+      "peach": 2
+    },
+    "damage": 1.345030828231213e+92,
+    "heals": 1.966934813014715e+76,
+    "lastPlayerRatio": -0.207390304,
+    "lastEnemyRatio": 0.43150000000000027
+  },
+  {
+    "general": "yuji",
+    "variant": "pozhen",
+    "seed": 5,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 7,
+    "events": {
+      "惑印": 26,
+      "太平幻术": 26,
+      "重新声明": 9
+    },
+    "act": {
+      "slash": 39,
+      "equip": 13,
+      "trick": 37,
+      "peach": 6,
+      "wine": 9,
+      "pass": 1
+    },
+    "damage": 5.613393408297052e+92,
+    "heals": 5.677403906675334e+76,
+    "lastPlayerRatio": -0.00040602212335285524,
+    "lastEnemyRatio": 0.6852000000000006
+  },
+  {
+    "general": "yuji",
+    "variant": "pozhen",
+    "seed": 6,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 5,
+    "events": {
+      "惑印": 21,
+      "太平幻术": 21,
+      "重新声明": 4
+    },
+    "act": {
+      "wine": 15,
+      "slash": 44,
+      "trick": 36,
+      "equip": 11,
+      "peach": 13,
+      "pass": 1
+    },
+    "damage": 7.697410204502473e+92,
+    "heals": 9.755996672552981e+76,
+    "lastPlayerRatio": 0.9182306502400001,
+    "lastEnemyRatio": 0.9178
+  },
+  {
+    "general": "yuji",
+    "variant": "pozhen",
+    "seed": 7,
+    "cleared": true,
+    "actions": 83,
+    "restarts": 2,
+    "events": {
+      "惑印": 19,
+      "太平幻术": 19,
+      "重新声明": 2
+    },
+    "act": {
+      "equip": 7,
+      "pass": 1,
+      "trick": 25,
+      "wine": 13,
+      "slash": 30,
+      "peach": 5
+    },
+    "damage": 3.1527522613739646e+92,
+    "heals": 5.917081700491385e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "shoushi",
+    "seed": 0,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "events": {
+      "惑印": 1,
+      "太平幻术": 1
+    },
+    "act": {
+      "slash": 10,
+      "equip": 1,
+      "trick": 2
+    },
+    "damage": 9.589962202822294e+91,
+    "heals": 9.019872325848946e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "shoushi",
+    "seed": 1,
+    "cleared": true,
+    "actions": 34,
+    "restarts": 1,
+    "events": {
+      "惑印": 10,
+      "太平幻术": 10,
+      "重新声明": 3
+    },
+    "act": {
+      "trick": 12,
+      "wine": 1,
+      "slash": 15,
+      "equip": 5
+    },
+    "damage": 2.1178747818862422e+92,
+    "heals": 5.507417476441201e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "shoushi",
+    "seed": 2,
+    "cleared": true,
+    "actions": 59,
+    "restarts": 1,
+    "events": {
+      "惑印": 12,
+      "太平幻术": 12,
+      "重新声明": 2
+    },
+    "act": {
+      "trick": 17,
+      "wine": 1,
+      "slash": 35,
+      "equip": 3,
+      "peach": 2
+    },
+    "damage": 4.0494070559849425e+92,
+    "heals": 5.427977901984637e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "shoushi",
+    "seed": 3,
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0,
+    "events": {
+      "惑印": 6,
+      "太平幻术": 6,
+      "重新声明": 1
+    },
+    "act": {
+      "equip": 2,
+      "trick": 7,
+      "slash": 7
+    },
+    "damage": 1.3234939794046427e+92,
+    "heals": 4.3580471718728425e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "shoushi",
+    "seed": 4,
+    "cleared": true,
+    "actions": 49,
+    "restarts": 2,
+    "events": {
+      "重新声明": 2,
+      "惑印": 11,
+      "太平幻术": 11
+    },
+    "act": {
+      "equip": 4,
+      "slash": 27,
+      "wine": 2,
+      "trick": 14
+    },
+    "damage": 2.9888952257555283e+92,
+    "heals": 2.2024009005068143e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "shoushi",
+    "seed": 5,
+    "cleared": true,
+    "actions": 53,
+    "restarts": 2,
+    "events": {
+      "惑印": 9,
+      "太平幻术": 9
+    },
+    "act": {
+      "equip": 4,
+      "slash": 29,
+      "trick": 15,
+      "peach": 3,
+      "pass": 2
+    },
+    "damage": 2.678225385173993e+92,
+    "heals": 4.330736770994505e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "shoushi",
+    "seed": 6,
+    "cleared": true,
+    "actions": 42,
+    "restarts": 0,
+    "events": {
+      "重新声明": 3,
+      "惑印": 7,
+      "太平幻术": 7
+    },
+    "act": {
+      "trick": 8,
+      "equip": 4,
+      "wine": 1,
+      "slash": 22,
+      "peach": 5
+    },
+    "damage": 2.0953247482373835e+92,
+    "heals": 5.035276880664343e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "shoushi",
+    "seed": 7,
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0,
+    "events": {
+      "惑印": 5,
+      "太平幻术": 5
+    },
+    "act": {
+      "wine": 2,
+      "trick": 5,
+      "equip": 1,
+      "slash": 13,
+      "peach": 3
+    },
+    "damage": 9.985508868788527e+91,
+    "heals": 2.8947326796028383e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "kuanggong",
+    "seed": 0,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 6,
+    "events": {
+      "惑印": 27,
+      "太平幻术": 27,
+      "重新声明": 8
+    },
+    "act": {
+      "slash": 38,
+      "equip": 13,
+      "wine": 13,
+      "trick": 34,
+      "peach": 19
+    },
+    "damage": 4.426765461874564e+92,
+    "heals": 1.7370327164262767e+77,
+    "lastPlayerRatio": 0.9272734944,
+    "lastEnemyRatio": 0.7410310000000001
+  },
+  {
+    "general": "yuji",
+    "variant": "kuanggong",
+    "seed": 1,
+    "cleared": true,
+    "actions": 29,
+    "restarts": 0,
+    "events": {
+      "惑印": 6,
+      "太平幻术": 6,
+      "重新声明": 1
+    },
+    "act": {
+      "equip": 3,
+      "wine": 5,
+      "trick": 8,
+      "slash": 10,
+      "peach": 2
+    },
+    "damage": 9.834865416026631e+91,
+    "heals": 2.2463840314474862e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "kuanggong",
+    "seed": 2,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 6,
+    "events": {
+      "惑印": 29,
+      "太平幻术": 29,
+      "重新声明": 7
+    },
+    "act": {
+      "slash": 47,
+      "trick": 41,
+      "wine": 7,
+      "equip": 13,
+      "peach": 8
+    },
+    "damage": 6.651065384090896e+92,
+    "heals": 9.774163295719409e+76,
+    "lastPlayerRatio": 0.6570460976688548,
+    "lastEnemyRatio": 0.88545
+  },
+  {
+    "general": "yuji",
+    "variant": "kuanggong",
+    "seed": 3,
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0,
+    "events": {
+      "惑印": 8,
+      "太平幻术": 8,
+      "重新声明": 3
+    },
+    "act": {
+      "trick": 10,
+      "equip": 3,
+      "slash": 5,
+      "wine": 6,
+      "pass": 2
+    },
+    "damage": 9.619660483509637e+91,
+    "heals": 5.5074174764412e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "kuanggong",
+    "seed": 4,
+    "cleared": true,
+    "actions": 93,
+    "restarts": 5,
+    "events": {
+      "惑印": 33,
+      "太平幻术": 33,
+      "重新声明": 6
+    },
+    "act": {
+      "trick": 42,
+      "slash": 27,
+      "wine": 7,
+      "equip": 11,
+      "pass": 1,
+      "peach": 5
+    },
+    "damage": 4.6236779751276136e+92,
+    "heals": 4.934119235070998e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "kuanggong",
+    "seed": 5,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "惑印": 3,
+      "太平幻术": 3,
+      "重新声明": 1
+    },
+    "act": {
+      "wine": 2,
+      "slash": 9,
+      "equip": 2,
+      "trick": 4
+    },
+    "damage": 1.3616075993403438e+92,
+    "heals": 7.666840362661797e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "kuanggong",
+    "seed": 6,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 5,
+    "events": {
+      "惑印": 25,
+      "太平幻术": 25,
+      "重新声明": 7
+    },
+    "act": {
+      "slash": 34,
+      "equip": 13,
+      "trick": 33,
+      "wine": 12,
+      "peach": 10
+    },
+    "damage": 3.666016025426993e+92,
+    "heals": 1.0266411299719751e+77,
+    "lastPlayerRatio": -0.15679886493904513,
+    "lastEnemyRatio": 0.31780000000000025
+  },
+  {
+    "general": "yuji",
+    "variant": "kuanggong",
+    "seed": 7,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 6,
+    "events": {
+      "重新声明": 11,
+      "惑印": 28,
+      "太平幻术": 28
+    },
+    "act": {
+      "trick": 40,
+      "wine": 7,
+      "equip": 15,
+      "slash": 41,
+      "peach": 11,
+      "pass": 1
+    },
+    "damage": 6.183270014881683e+92,
+    "heals": 1.0424847666036225e+77,
+    "lastPlayerRatio": 0.23764970241861202,
+    "lastEnemyRatio": 0.4752999999999999
+  },
+  {
+    "general": "yuji",
+    "variant": "guizhen",
+    "seed": 0,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 1,
+    "events": {
+      "惑印": 7,
+      "太平幻术": 7,
+      "重新声明": 1
+    },
+    "act": {
+      "equip": 6,
+      "slash": 19,
+      "trick": 11,
+      "peach": 4,
+      "wine": 2
+    },
+    "damage": 1.659230029706025e+92,
+    "heals": 3.3831278783853096e+76,
+    "lastPlayerRatio": -0.2194227271839998,
+    "lastEnemyRatio": 0.09040000000000022
+  },
+  {
+    "general": "yuji",
+    "variant": "guizhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0,
+    "events": {
+      "惑印": 6,
+      "太平幻术": 6,
+      "重新声明": 2
+    },
+    "act": {
+      "trick": 8,
+      "slash": 8,
+      "equip": 3,
+      "wine": 2
+    },
+    "damage": 9.662701470013039e+91,
+    "heals": 8.54302469252859e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "guizhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 64,
+    "restarts": 2,
+    "events": {
+      "重新声明": 5,
+      "惑印": 15,
+      "太平幻术": 15
+    },
+    "act": {
+      "trick": 24,
+      "equip": 6,
+      "slash": 29,
+      "wine": 2,
+      "peach": 1
+    },
+    "damage": 2.9967286852991436e+92,
+    "heals": 3.5643259500179065e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "guizhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "重新声明": 2,
+      "惑印": 5,
+      "太平幻术": 5
+    },
+    "act": {
+      "trick": 8,
+      "slash": 6,
+      "peach": 1,
+      "wine": 1,
+      "equip": 1
+    },
+    "damage": 1.0692551762277167e+92,
+    "heals": 1.0951615427201055e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "guizhen",
+    "seed": 4,
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0,
+    "events": {
+      "惑印": 6,
+      "太平幻术": 6,
+      "重新声明": 1
+    },
+    "act": {
+      "slash": 3,
+      "trick": 9,
+      "equip": 2,
+      "wine": 1
+    },
+    "damage": 1.0854075976427117e+92,
+    "heals": 1.464072344164452e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "guizhen",
+    "seed": 5,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "惑印": 2,
+      "太平幻术": 2
+    },
+    "act": {
+      "slash": 5,
+      "wine": 1,
+      "trick": 6,
+      "equip": 2,
+      "peach": 1
+    },
+    "damage": 9.776760084247046e+91,
+    "heals": 8.863130252273109e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "guizhen",
+    "seed": 6,
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0,
+    "events": {
+      "惑印": 5,
+      "太平幻术": 5,
+      "重新声明": 1
+    },
+    "act": {
+      "equip": 3,
+      "trick": 8,
+      "wine": 4,
+      "slash": 6,
+      "pass": 1,
+      "peach": 1
+    },
+    "damage": 1.2156065818154931e+92,
+    "heals": 1.2588382803294175e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "yuji",
+    "variant": "guizhen",
+    "seed": 7,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 6,
+    "events": {
+      "惑印": 32,
+      "太平幻术": 32,
+      "重新声明": 7
+    },
+    "act": {
+      "trick": 47,
+      "slash": 29,
+      "wine": 17,
+      "peach": 10,
+      "equip": 17
+    },
+    "damage": 6.426118379083118e+92,
+    "heals": 9.917558066298345e+76,
+    "lastPlayerRatio": 0.7202341620000001,
+    "lastEnemyRatio": 0.5409389999999997
+  },
+  {
+    "general": "taishici",
+    "variant": "pozhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 34,
+    "restarts": 1,
+    "events": {
+      "笃烈破阵": 2,
+      "天义失败保留重试": 1
+    },
+    "act": {
+      "equip": 5,
+      "slash": 9,
+      "trick": 18,
+      "wine": 2
+    },
+    "damage": 1.898107504799889e+92,
+    "heals": 5.911508659247574e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "pozhen",
+    "seed": 1,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 1,
+    "events": {
+      "笃烈破阵": 2
+    },
+    "act": {
+      "slash": 13,
+      "equip": 3,
+      "trick": 16,
+      "wine": 4,
+      "peach": 1
+    },
+    "damage": 2.920793108368682e+92,
+    "heals": 3.87575148064469e+76,
+    "lastPlayerRatio": -0.044387369316283364,
+    "lastEnemyRatio": 0.41904999999999976
+  },
+  {
+    "general": "taishici",
+    "variant": "pozhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0,
+    "events": {
+      "天义失败保留重试": 1
+    },
+    "act": {
+      "trick": 7,
+      "equip": 1,
+      "slash": 4
+    },
+    "damage": 1.0227399212937632e+92,
+    "heals": 0,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "pozhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0,
+    "events": {
+      "天义失败保留重试": 1,
+      "笃烈破阵": 1
+    },
+    "act": {
+      "trick": 8,
+      "slash": 3,
+      "equip": 2
+    },
+    "damage": 9.955810588101183e+91,
+    "heals": 9.509201824766999e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "pozhen",
+    "seed": 4,
+    "cleared": true,
+    "actions": 83,
+    "restarts": 4,
+    "events": {
+      "笃烈破阵": 5,
+      "天义失败保留重试": 5
+    },
+    "act": {
+      "slash": 31,
+      "wine": 10,
+      "equip": 12,
+      "trick": 21,
+      "peach": 8
+    },
+    "damage": 4.054116600728142e+92,
+    "heals": 1.1611605420553158e+77,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "pozhen",
+    "seed": 5,
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0,
+    "events": {
+      "天义失败保留重试": 2,
+      "笃烈破阵": 1
+    },
+    "act": {
+      "trick": 6,
+      "equip": 3,
+      "wine": 2,
+      "slash": 4,
+      "peach": 1
+    },
+    "damage": 1.0667278095002369e+92,
+    "heals": 1.1753125975216977e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "pozhen",
+    "seed": 6,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 3,
+    "events": {
+      "笃烈破阵": 4,
+      "天义失败保留重试": 8
+    },
+    "act": {
+      "trick": 20,
+      "wine": 9,
+      "equip": 7,
+      "slash": 27,
+      "peach": 4,
+      "pass": 2
+    },
+    "damage": 3.2732670235834805e+92,
+    "heals": 5.751010061961898e+76,
+    "lastPlayerRatio": -0.20306008920026783,
+    "lastEnemyRatio": 0.15955000000000008
+  },
+  {
+    "general": "taishici",
+    "variant": "pozhen",
+    "seed": 7,
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0,
+    "events": {
+      "笃烈破阵": 1,
+      "天义失败保留重试": 2
+    },
+    "act": {
+      "trick": 9,
+      "equip": 3,
+      "wine": 1,
+      "slash": 8
+    },
+    "damage": 1.1061533531373498e+92,
+    "heals": 8.111535393122902e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "shoushi",
+    "seed": 0,
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0,
+    "events": {
+      "笃烈破阵": 1
+    },
+    "act": {
+      "wine": 4,
+      "slash": 6,
+      "equip": 2,
+      "trick": 3,
+      "peach": 2
+    },
+    "damage": 9.666575158798343e+91,
+    "heals": 2.344223712808316e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "shoushi",
+    "seed": 1,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 2,
+    "events": {
+      "天义失败保留重试": 15,
+      "笃烈破阵": 3
+    },
+    "act": {
+      "slash": 70,
+      "equip": 10,
+      "trick": 28,
+      "pass": 2,
+      "peach": 5
+    },
+    "damage": 7.451708057529397e+92,
+    "heals": 8.459172624256739e+76,
+    "lastPlayerRatio": 0.2336041180799994,
+    "lastEnemyRatio": 0.49429999999999974
+  },
+  {
+    "general": "taishici",
+    "variant": "shoushi",
+    "seed": 2,
+    "cleared": true,
+    "actions": 31,
+    "restarts": 0,
+    "events": {
+      "天义失败保留重试": 3,
+      "笃烈破阵": 1
+    },
+    "act": {
+      "equip": 3,
+      "slash": 19,
+      "wine": 1,
+      "trick": 5,
+      "peach": 2
+    },
+    "damage": 1.585113450947173e+92,
+    "heals": 5.732308414468845e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "shoushi",
+    "seed": 3,
+    "cleared": true,
+    "actions": 32,
+    "restarts": 1,
+    "events": {
+      "笃烈破阵": 2
+    },
+    "act": {
+      "wine": 1,
+      "slash": 22,
+      "equip": 3,
+      "trick": 3,
+      "peach": 2
+    },
+    "damage": 1.9017229476661754e+92,
+    "heals": 3.469542265830876e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "shoushi",
+    "seed": 4,
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0,
+    "events": {
+      "笃烈破阵": 1
+    },
+    "act": {
+      "slash": 9,
+      "equip": 4,
+      "trick": 7
+    },
+    "damage": 1.1955064411184062e+92,
+    "heals": 2.6591097379215143e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "shoushi",
+    "seed": 5,
+    "cleared": true,
+    "actions": 29,
+    "restarts": 1,
+    "events": {
+      "天义失败保留重试": 4,
+      "笃烈破阵": 1
+    },
+    "act": {
+      "equip": 6,
+      "slash": 11,
+      "trick": 12
+    },
+    "damage": 2.0543893267937287e+92,
+    "heals": 1.2298400830057823e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "shoushi",
+    "seed": 6,
+    "cleared": true,
+    "actions": 35,
+    "restarts": 1,
+    "events": {
+      "天义失败保留重试": 8,
+      "笃烈破阵": 2
+    },
+    "act": {
+      "trick": 13,
+      "wine": 1,
+      "equip": 3,
+      "slash": 15,
+      "peach": 2
+    },
+    "damage": 2.3265374844547222e+92,
+    "heals": 2.0858233868030317e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "shoushi",
+    "seed": 7,
+    "cleared": true,
+    "actions": 27,
+    "restarts": 1,
+    "events": {
+      "天义失败保留重试": 1,
+      "笃烈破阵": 1
+    },
+    "act": {
+      "slash": 14,
+      "trick": 9,
+      "equip": 3,
+      "peach": 1
+    },
+    "damage": 1.734680879046483e+92,
+    "heals": 1.0429116934015159e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "kuanggong",
+    "seed": 0,
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0,
+    "events": {
+      "天义失败保留重试": 1,
+      "笃烈破阵": 1
+    },
+    "act": {
+      "equip": 3,
+      "trick": 8,
+      "wine": 1,
+      "slash": 4
+    },
+    "damage": 1.0008320591635331e+92,
+    "heals": 1.8346710485657077e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "kuanggong",
+    "seed": 1,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 1,
+    "events": {
+      "笃烈破阵": 2,
+      "天义失败保留重试": 2
+    },
+    "act": {
+      "wine": 7,
+      "slash": 9,
+      "trick": 9,
+      "equip": 4
+    },
+    "damage": 1.4203525546121616e+92,
+    "heals": 8.97112955640106e+75,
+    "lastPlayerRatio": -0.05281123168529553,
+    "lastEnemyRatio": 0.5496999999999999
+  },
+  {
+    "general": "taishici",
+    "variant": "kuanggong",
+    "seed": 2,
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0,
+    "events": {
+      "笃烈破阵": 1,
+      "天义失败保留重试": 1
+    },
+    "act": {
+      "trick": 7,
+      "slash": 8,
+      "equip": 1
+    },
+    "damage": 1.160514119091143e+92,
+    "heals": 2.152127447431197e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "kuanggong",
+    "seed": 3,
+    "cleared": true,
+    "actions": 46,
+    "restarts": 1,
+    "events": {
+      "天义失败保留重试": 1,
+      "笃烈破阵": 1
+    },
+    "act": {
+      "slash": 18,
+      "trick": 17,
+      "wine": 5,
+      "equip": 5
+    },
+    "damage": 2.206926582961776e+92,
+    "heals": 7.969712876570613e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "kuanggong",
+    "seed": 4,
+    "cleared": true,
+    "actions": 47,
+    "restarts": 2,
+    "events": {
+      "笃烈破阵": 2
+    },
+    "act": {
+      "slash": 18,
+      "wine": 5,
+      "trick": 11,
+      "equip": 8,
+      "peach": 4
+    },
+    "damage": 2.633376677237452e+92,
+    "heals": 5.891426420868291e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "kuanggong",
+    "seed": 5,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "笃烈破阵": 1
+    },
+    "act": {
+      "trick": 6,
+      "equip": 3,
+      "wine": 2,
+      "slash": 4,
+      "peach": 2
+    },
+    "damage": 1.499309075086927e+92,
+    "heals": 2.320350075105016e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "kuanggong",
+    "seed": 6,
+    "cleared": true,
+    "actions": 91,
+    "restarts": 4,
+    "events": {
+      "天义失败保留重试": 6,
+      "笃烈破阵": 4
+    },
+    "act": {
+      "trick": 21,
+      "equip": 14,
+      "wine": 11,
+      "slash": 33,
+      "peach": 8
+    },
+    "damage": 4.104732800856139e+92,
+    "heals": 1.1325640913880556e+77,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "kuanggong",
+    "seed": 7,
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0,
+    "events": {
+      "笃烈破阵": 1
+    },
+    "act": {
+      "slash": 7,
+      "trick": 5,
+      "equip": 3,
+      "peach": 1
+    },
+    "damage": 1.0643175142560465e+92,
+    "heals": 1.0429116934015155e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "guizhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0,
+    "events": {
+      "天义失败保留重试": 1,
+      "笃烈破阵": 1
+    },
+    "act": {
+      "slash": 5,
+      "trick": 6,
+      "equip": 2
+    },
+    "damage": 9.634294418920797e+91,
+    "heals": 9.657363727463213e+74,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "guizhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0,
+    "events": {
+      "笃烈破阵": 1,
+      "天义失败保留重试": 3
+    },
+    "act": {
+      "trick": 5,
+      "slash": 6,
+      "wine": 1,
+      "equip": 2,
+      "peach": 2
+    },
+    "damage": 1.0991376723372961e+92,
+    "heals": 2.0858233868030314e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "guizhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 41,
+    "restarts": 1,
+    "events": {
+      "笃烈破阵": 2,
+      "天义失败保留重试": 1
+    },
+    "act": {
+      "equip": 6,
+      "slash": 15,
+      "trick": 13,
+      "wine": 4,
+      "peach": 2
+    },
+    "damage": 2.8224316279944424e+92,
+    "heals": 4.1196951200461504e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "guizhen",
+    "seed": 3,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 1,
+    "events": {
+      "天义失败保留重试": 1,
+      "笃烈破阵": 1
+    },
+    "act": {
+      "equip": 4,
+      "trick": 14,
+      "wine": 3,
+      "slash": 11
+    },
+    "damage": 1.6757577685233306e+92,
+    "heals": 9.044801747219035e+75,
+    "lastPlayerRatio": -0.04852513944399933,
+    "lastEnemyRatio": 0.10671400000000017
+  },
+  {
+    "general": "taishici",
+    "variant": "guizhen",
+    "seed": 4,
+    "cleared": true,
+    "actions": 111,
+    "restarts": 2,
+    "events": {
+      "天义失败保留重试": 6,
+      "笃烈破阵": 3
+    },
+    "act": {
+      "equip": 11,
+      "trick": 42,
+      "slash": 42,
+      "peach": 9,
+      "wine": 6
+    },
+    "damage": 7.356289000478155e+92,
+    "heals": 1.9702756556123405e+77,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "guizhen",
+    "seed": 5,
+    "cleared": true,
+    "actions": 49,
+    "restarts": 2,
+    "events": {
+      "笃烈破阵": 2,
+      "天义失败保留重试": 2
+    },
+    "act": {
+      "trick": 19,
+      "wine": 4,
+      "equip": 6,
+      "slash": 16,
+      "peach": 4
+    },
+    "damage": 2.656231441070759e+92,
+    "heals": 6.598494698565424e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "guizhen",
+    "seed": 6,
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0,
+    "events": {
+      "笃烈破阵": 1,
+      "天义失败保留重试": 1
+    },
+    "act": {
+      "wine": 1,
+      "slash": 8,
+      "equip": 4,
+      "trick": 5,
+      "peach": 1
+    },
+    "damage": 1.1224228460356351e+92,
+    "heals": 2.3886736400816137e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "taishici",
+    "variant": "guizhen",
+    "seed": 7,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "events": {
+      "笃烈破阵": 1
+    },
+    "act": {
+      "trick": 9,
+      "equip": 1,
+      "slash": 3,
+      "wine": 1
+    },
+    "damage": 9.633003189325693e+91,
+    "heals": 1.0964061696267198e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "pozhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0,
+    "events": {
+      "威震积累": 20,
+      "逍遥津": 1,
+      "突袭规则刷新": 10
+    },
+    "act": {
+      "equip": 4,
+      "slash": 5,
+      "trick": 8,
+      "wine": 3,
+      "peach": 2
+    },
+    "damage": 1.5064476504847608e+92,
+    "heals": 2.2308083861576726e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "pozhen",
+    "seed": 1,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 1,
+    "events": {
+      "威震积累": 118,
+      "逍遥津": 2,
+      "突袭规则刷新": 59
+    },
+    "act": {
+      "slash": 16,
+      "trick": 10,
+      "equip": 7,
+      "wine": 5,
+      "peach": 1
+    },
+    "damage": 1.795368670016277e+92,
+    "heals": 3.483665689224649e+76,
+    "lastPlayerRatio": -0.10760534022628046,
+    "lastEnemyRatio": 0.26094999999999996
+  },
+  {
+    "general": "zhangliao",
+    "variant": "pozhen",
+    "seed": 2,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 2,
+    "events": {
+      "威震积累": 117,
+      "逍遥津": 3,
+      "突袭规则刷新": 58
+    },
+    "act": {
+      "trick": 18,
+      "wine": 10,
+      "equip": 8,
+      "peach": 12,
+      "slash": 14
+    },
+    "damage": 2.4457644603480583e+92,
+    "heals": 1.321705679474954e+77,
+    "lastPlayerRatio": -0.04894284726510275,
+    "lastEnemyRatio": 0.20409999999999992
+  },
+  {
+    "general": "zhangliao",
+    "variant": "pozhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "events": {
+      "威震积累": 13,
+      "逍遥津": 1,
+      "突袭规则刷新": 6
+    },
+    "act": {
+      "trick": 6,
+      "slash": 4,
+      "equip": 1,
+      "wine": 3,
+      "peach": 1
+    },
+    "damage": 1.1357293974230256e+92,
+    "heals": 1.1980954206851844e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "pozhen",
+    "seed": 4,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "威震积累": 119,
+      "逍遥津": 1,
+      "突袭规则刷新": 59
+    },
+    "act": {
+      "trick": 9,
+      "equip": 3,
+      "wine": 3,
+      "slash": 8,
+      "peach": 2
+    },
+    "damage": 9.985508868788527e+91,
+    "heals": 3.757789844471184e+76,
+    "lastPlayerRatio": -0.4590040589515392,
+    "lastEnemyRatio": 0.14086400000000016
+  },
+  {
+    "general": "zhangliao",
+    "variant": "pozhen",
+    "seed": 5,
+    "cleared": true,
+    "actions": 37,
+    "restarts": 1,
+    "events": {
+      "威震积累": 35,
+      "逍遥津": 2,
+      "突袭规则刷新": 17
+    },
+    "act": {
+      "slash": 16,
+      "trick": 12,
+      "equip": 4,
+      "wine": 3,
+      "peach": 2
+    },
+    "damage": 1.7711365946148617e+92,
+    "heals": 4.081168040860133e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "pozhen",
+    "seed": 6,
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0,
+    "events": {
+      "威震积累": 19,
+      "逍遥津": 1,
+      "突袭规则刷新": 9
+    },
+    "act": {
+      "slash": 7,
+      "trick": 9,
+      "wine": 3,
+      "peach": 1
+    },
+    "damage": 1.0858380075077458e+92,
+    "heals": 2.532589830082298e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "pozhen",
+    "seed": 7,
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0,
+    "events": {
+      "威震积累": 15,
+      "逍遥津": 1,
+      "突袭规则刷新": 7
+    },
+    "act": {
+      "equip": 3,
+      "slash": 5,
+      "wine": 1,
+      "trick": 8
+    },
+    "damage": 1.091092451140081e+92,
+    "heals": 8.409058459210883e+74,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "shoushi",
+    "seed": 0,
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0,
+    "events": {
+      "威震积累": 26,
+      "逍遥津": 1,
+      "突袭规则刷新": 13
+    },
+    "act": {
+      "trick": 7,
+      "slash": 17,
+      "equip": 3,
+      "peach": 1
+    },
+    "damage": 1.5592027770721268e+92,
+    "heals": 1.5619582770412615e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "shoushi",
+    "seed": 1,
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0,
+    "events": {
+      "威震积累": 18,
+      "逍遥津": 1,
+      "突袭规则刷新": 9
+    },
+    "act": {
+      "trick": 5,
+      "equip": 2,
+      "slash": 11,
+      "peach": 2
+    },
+    "damage": 1.0869140321703308e+92,
+    "heals": 1.9717392458750287e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "shoushi",
+    "seed": 2,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 1,
+    "events": {
+      "威震积累": 118,
+      "逍遥津": 2,
+      "突袭规则刷新": 58
+    },
+    "act": {
+      "wine": 2,
+      "slash": 20,
+      "equip": 2,
+      "trick": 5,
+      "peach": 4
+    },
+    "damage": 1.3600951735074028e+92,
+    "heals": 3.9434784917500575e+76,
+    "lastPlayerRatio": -0.14790301423999974,
+    "lastEnemyRatio": 0.017632000000000234
+  },
+  {
+    "general": "zhangliao",
+    "variant": "shoushi",
+    "seed": 3,
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0,
+    "events": {
+      "威震积累": 17,
+      "逍遥津": 1,
+      "突袭规则刷新": 8
+    },
+    "act": {
+      "trick": 4,
+      "slash": 14,
+      "peach": 1
+    },
+    "damage": 1.1782900465170467e+92,
+    "heals": 1.3431510751621304e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "shoushi",
+    "seed": 4,
+    "cleared": true,
+    "actions": 33,
+    "restarts": 1,
+    "events": {
+      "威震积累": 31,
+      "逍遥津": 2,
+      "突袭规则刷新": 15
+    },
+    "act": {
+      "trick": 9,
+      "slash": 19,
+      "wine": 1,
+      "equip": 6
+    },
+    "damage": 1.6613820790311945e+92,
+    "heals": 0,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "shoushi",
+    "seed": 5,
+    "cleared": true,
+    "actions": 29,
+    "restarts": 0,
+    "events": {
+      "威震积累": 28,
+      "逍遥津": 1,
+      "突袭规则刷新": 14
+    },
+    "act": {
+      "trick": 8,
+      "slash": 19,
+      "wine": 1,
+      "equip": 1,
+      "peach": 1
+    },
+    "damage": 1.6013829438454577e+92,
+    "heals": 9.858696229375144e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "shoushi",
+    "seed": 6,
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0,
+    "events": {
+      "威震积累": 18,
+      "逍遥津": 1,
+      "突袭规则刷新": 9
+    },
+    "act": {
+      "trick": 7,
+      "slash": 10,
+      "equip": 1,
+      "peach": 2
+    },
+    "damage": 1.1782900465170467e+92,
+    "heals": 2.4288262902262582e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "shoushi",
+    "seed": 7,
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0,
+    "events": {
+      "威震积累": 18,
+      "逍遥津": 1,
+      "突袭规则刷新": 9
+    },
+    "act": {
+      "trick": 8,
+      "equip": 2,
+      "slash": 10
+    },
+    "damage": 9.834865416026631e+91,
+    "heals": 1.466915823362784e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "kuanggong",
+    "seed": 0,
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0,
+    "events": {
+      "威震积累": 15,
+      "逍遥津": 1,
+      "突袭规则刷新": 7
+    },
+    "act": {
+      "trick": 10,
+      "equip": 2,
+      "slash": 4,
+      "peach": 1
+    },
+    "damage": 9.707033686111537e+91,
+    "heals": 1.1355103958018023e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "kuanggong",
+    "seed": 1,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "威震积累": 16,
+      "逍遥津": 1,
+      "突袭规则刷新": 8
+    },
+    "act": {
+      "slash": 9,
+      "trick": 5,
+      "equip": 1,
+      "wine": 2
+    },
+    "damage": 1.118766083822306e+92,
+    "heals": 9.331737639791015e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "kuanggong",
+    "seed": 2,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "威震积累": 119,
+      "逍遥津": 1,
+      "突袭规则刷新": 59
+    },
+    "act": {
+      "trick": 3,
+      "slash": 5,
+      "wine": 1,
+      "equip": 1
+    },
+    "damage": 4.45474210310178e+91,
+    "heals": 7.544812780332187e+74,
+    "lastPlayerRatio": -0.2725352736632345,
+    "lastEnemyRatio": 0.5292820000000004
+  },
+  {
+    "general": "zhangliao",
+    "variant": "kuanggong",
+    "seed": 3,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "威震积累": 119,
+      "逍遥津": 1,
+      "突袭规则刷新": 59
+    },
+    "act": {
+      "trick": 3,
+      "slash": 2,
+      "wine": 3,
+      "equip": 1,
+      "peach": 1
+    },
+    "damage": 2.905266588979422e+91,
+    "heals": 1.0311048802007768e+76,
+    "lastPlayerRatio": -0.024353010204829276,
+    "lastEnemyRatio": 0.8557500000000005
+  },
+  {
+    "general": "zhangliao",
+    "variant": "kuanggong",
+    "seed": 4,
+    "cleared": true,
+    "actions": 44,
+    "restarts": 1,
+    "events": {
+      "威震积累": 42,
+      "逍遥津": 2,
+      "突袭规则刷新": 21
+    },
+    "act": {
+      "slash": 19,
+      "trick": 13,
+      "wine": 5,
+      "equip": 5,
+      "peach": 4
+    },
+    "damage": 1.8055693838175813e+92,
+    "heals": 4.710265976257014e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "kuanggong",
+    "seed": 5,
+    "cleared": true,
+    "actions": 60,
+    "restarts": 2,
+    "events": {
+      "威震积累": 57,
+      "逍遥津": 3,
+      "突袭规则刷新": 27
+    },
+    "act": {
+      "equip": 7,
+      "wine": 9,
+      "slash": 24,
+      "trick": 20,
+      "peach": 3
+    },
+    "damage": 2.462202673913435e+92,
+    "heals": 4.600465369765547e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "kuanggong",
+    "seed": 6,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "威震积累": 119,
+      "逍遥津": 1,
+      "突袭规则刷新": 59
+    },
+    "act": {
+      "trick": 9,
+      "wine": 4,
+      "slash": 10,
+      "equip": 3
+    },
+    "damage": 1.0372877747319116e+92,
+    "heals": 1.508997405330567e+76,
+    "lastPlayerRatio": -0.025640579288722078,
+    "lastEnemyRatio": 0.07193200000000016
+  },
+  {
+    "general": "zhangliao",
+    "variant": "kuanggong",
+    "seed": 7,
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0,
+    "events": {
+      "威震积累": 22,
+      "逍遥津": 1,
+      "突袭规则刷新": 11
+    },
+    "act": {
+      "trick": 10,
+      "slash": 7,
+      "equip": 3,
+      "wine": 1,
+      "peach": 2
+    },
+    "damage": 9.834865416026631e+91,
+    "heals": 2.7385267303819853e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "guizhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0,
+    "events": {
+      "威震积累": 12,
+      "逍遥津": 1,
+      "突袭规则刷新": 6
+    },
+    "act": {
+      "slash": 5,
+      "trick": 6,
+      "wine": 1,
+      "peach": 1,
+      "equip": 1
+    },
+    "damage": 9.602013679043246e+91,
+    "heals": 1.7562228598489374e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "guizhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "威震积累": 16,
+      "逍遥津": 1,
+      "突袭规则刷新": 8
+    },
+    "act": {
+      "wine": 5,
+      "slash": 5,
+      "trick": 5,
+      "equip": 2
+    },
+    "damage": 1.0736589273431239e+92,
+    "heals": 2.2716346277639615e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "guizhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0,
+    "events": {
+      "威震积累": 14,
+      "逍遥津": 1,
+      "突袭规则刷新": 7
+    },
+    "act": {
+      "slash": 7,
+      "trick": 4,
+      "equip": 2,
+      "wine": 1,
+      "peach": 1
+    },
+    "damage": 1.1168361259874935e+92,
+    "heals": 2.4539571195327103e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "guizhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "events": {
+      "威震积累": 13,
+      "逍遥津": 1,
+      "突袭规则刷新": 6
+    },
+    "act": {
+      "wine": 2,
+      "trick": 7,
+      "slash": 3,
+      "equip": 2
+    },
+    "damage": 1.0174889209403485e+92,
+    "heals": 1.0081019706256764e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "guizhen",
+    "seed": 4,
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0,
+    "events": {
+      "威震积累": 22,
+      "逍遥津": 1,
+      "突袭规则刷新": 11
+    },
+    "act": {
+      "slash": 8,
+      "trick": 10,
+      "equip": 3,
+      "wine": 1,
+      "peach": 2
+    },
+    "damage": 1.2552146192353813e+92,
+    "heals": 2.738526730381985e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "guizhen",
+    "seed": 5,
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0,
+    "events": {
+      "威震积累": 11,
+      "逍遥津": 1,
+      "突袭规则刷新": 5
+    },
+    "act": {
+      "slash": 7,
+      "trick": 4,
+      "equip": 1,
+      "wine": 1
+    },
+    "damage": 1.1433476520341273e+92,
+    "heals": 5.454690628796054e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "guizhen",
+    "seed": 6,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "events": {
+      "威震积累": 13,
+      "逍遥津": 1,
+      "突袭规则刷新": 6
+    },
+    "act": {
+      "slash": 7,
+      "equip": 2,
+      "trick": 4,
+      "wine": 2
+    },
+    "damage": 9.538743428883247e+91,
+    "heals": 5.8380689022883585e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "zhangliao",
+    "variant": "guizhen",
+    "seed": 7,
+    "cleared": true,
+    "actions": 56,
+    "restarts": 2,
+    "events": {
+      "威震积累": 54,
+      "逍遥津": 3,
+      "突袭规则刷新": 27
+    },
+    "act": {
+      "wine": 9,
+      "slash": 14,
+      "trick": 24,
+      "equip": 7,
+      "peach": 5
+    },
+    "damage": 2.7336191348038667e+92,
+    "heals": 5.438345333921011e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "pozhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 14,
+      "暴虐护身": 14,
+      "暴虐代偿": 3,
+      "暴虐": 3,
+      "酒池回气": 3
+    },
+    "act": {
+      "slash": 5,
+      "equip": 2,
+      "trick": 9,
+      "wine": 3
+    },
+    "damage": 9.568441709570593e+91,
+    "heals": 3.1500949896362586e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "pozhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 42,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐": 10,
+      "受创生暴虐": 27,
+      "暴虐护身": 28,
+      "暴虐代偿": 2,
+      "酒池回气": 5,
+      "暴虐承崩": 5
+    },
+    "act": {
+      "wine": 12,
+      "trick": 14,
+      "slash": 9,
+      "equip": 3,
+      "peach": 2
+    },
+    "damage": 1.7573841386072964e+92,
+    "heals": 7.217466490281648e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "pozhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 13,
+      "暴虐护身": 15,
+      "暴虐": 8,
+      "暴虐代偿": 3,
+      "酒池回气": 3,
+      "暴虐承崩": 1
+    },
+    "act": {
+      "trick": 7,
+      "slash": 7,
+      "equip": 3,
+      "wine": 8
+    },
+    "damage": 1.3031398968871857e+92,
+    "heals": 2.8947156525275465e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "pozhen",
+    "seed": 3,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 18,
+      "暴虐护身": 19,
+      "暴虐代偿": 4,
+      "暴虐": 5,
+      "酒池回气": 2,
+      "暴虐承崩": 2
+    },
+    "act": {
+      "slash": 11,
+      "equip": 3,
+      "wine": 10,
+      "trick": 6,
+      "peach": 3,
+      "pass": 1
+    },
+    "damage": 1.065264415959121e+92,
+    "heals": 6.404075315191264e+76,
+    "lastPlayerRatio": -0.014905432800000031,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "pozhen",
+    "seed": 4,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 21,
+      "暴虐护身": 22,
+      "暴虐": 6,
+      "暴虐代偿": 2,
+      "酒池回气": 4,
+      "暴虐承崩": 2
+    },
+    "act": {
+      "slash": 8,
+      "wine": 13,
+      "equip": 2,
+      "trick": 5,
+      "pass": 3,
+      "peach": 2
+    },
+    "damage": 9.658397371362701e+91,
+    "heals": 5.671521953894484e+76,
+    "lastPlayerRatio": -0.21813912333921218,
+    "lastEnemyRatio": 0.661907999999999
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "pozhen",
+    "seed": 5,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 15,
+      "暴虐护身": 16,
+      "暴虐代偿": 1,
+      "暴虐": 4,
+      "酒池回气": 4,
+      "暴虐承崩": 2
+    },
+    "act": {
+      "wine": 8,
+      "trick": 5,
+      "slash": 3,
+      "peach": 3,
+      "equip": 1
+    },
+    "damage": 1.1159398995647601e+92,
+    "heals": 7.278856861231133e+76,
+    "lastPlayerRatio": -0.009144541696184446,
+    "lastEnemyRatio": 0.0006973534676904396
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "pozhen",
+    "seed": 6,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 1,
+    "events": {
+      "暴虐先声": 2,
+      "受创生暴虐": 36,
+      "暴虐护身": 36,
+      "暴虐": 12,
+      "酒池回气": 11,
+      "暴虐代偿": 3,
+      "魔王酒池": 2,
+      "暴虐承崩": 7
+    },
+    "act": {
+      "slash": 21,
+      "equip": 5,
+      "wine": 14,
+      "trick": 17,
+      "peach": 3
+    },
+    "damage": 3.247976644961911e+92,
+    "heals": 1.3431278309939857e+77,
+    "lastPlayerRatio": -0.06872034269250747,
+    "lastEnemyRatio": 0.5887762857568287
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "pozhen",
+    "seed": 7,
+    "cleared": true,
+    "actions": 38,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 25,
+      "暴虐护身": 25,
+      "暴虐代偿": 3,
+      "暴虐": 6,
+      "酒池回气": 3,
+      "暴虐承崩": 2
+    },
+    "act": {
+      "trick": 8,
+      "equip": 2,
+      "wine": 10,
+      "slash": 15,
+      "peach": 2
+    },
+    "damage": 1.3213582856543436e+92,
+    "heals": 8.904826235597666e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "shoushi",
+    "seed": 0,
+    "cleared": true,
+    "actions": 30,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐": 2,
+      "受创生暴虐": 21,
+      "暴虐护身": 21,
+      "暴虐代偿": 3,
+      "酒池回气": 1
+    },
+    "act": {
+      "wine": 4,
+      "slash": 16,
+      "trick": 6,
+      "peach": 2,
+      "equip": 1,
+      "pass": 1
+    },
+    "damage": 1.427066948506692e+92,
+    "heals": 6.495593680495328e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "shoushi",
+    "seed": 1,
+    "cleared": true,
+    "actions": 29,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐": 5,
+      "受创生暴虐": 14,
+      "暴虐护身": 14,
+      "暴虐代偿": 2,
+      "酒池回气": 3,
+      "暴虐承崩": 1
+    },
+    "act": {
+      "wine": 7,
+      "trick": 7,
+      "equip": 2,
+      "slash": 9,
+      "peach": 1
+    },
+    "damage": 1.0805870071543311e+92,
+    "heals": 4.3019113165781015e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "shoushi",
+    "seed": 2,
+    "cleared": true,
+    "actions": 49,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐": 8,
+      "受创生暴虐": 30,
+      "暴虐护身": 36,
+      "暴虐代偿": 1,
+      "酒池回气": 5,
+      "暴虐承崩": 4
+    },
+    "act": {
+      "equip": 4,
+      "wine": 15,
+      "slash": 12,
+      "trick": 15,
+      "peach": 3
+    },
+    "damage": 2.142320340580714e+92,
+    "heals": 8.642699882958149e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "shoushi",
+    "seed": 3,
+    "cleared": true,
+    "actions": 41,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐": 12,
+      "受创生暴虐": 18,
+      "暴虐护身": 24,
+      "暴虐代偿": 6,
+      "酒池回气": 5,
+      "暴虐承崩": 2,
+      "魔王酒池": 1
+    },
+    "act": {
+      "wine": 15,
+      "equip": 3,
+      "slash": 13,
+      "trick": 7,
+      "peach": 1
+    },
+    "damage": 1.2137558193958466e+92,
+    "heals": 5.804153317273923e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "shoushi",
+    "seed": 4,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐": 4,
+      "受创生暴虐": 13,
+      "暴虐护身": 13,
+      "暴虐代偿": 2,
+      "暴虐承崩": 1
+    },
+    "act": {
+      "wine": 5,
+      "trick": 5,
+      "slash": 9,
+      "equip": 3
+    },
+    "damage": 8.457553847917872e+91,
+    "heals": 1.4787630441074052e+76,
+    "lastPlayerRatio": -0.18215629482809695,
+    "lastEnemyRatio": 0.10631800000000029
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "shoushi",
+    "seed": 5,
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐护身": 10,
+      "暴虐": 1,
+      "受创生暴虐": 8,
+      "暴虐代偿": 4
+    },
+    "act": {
+      "trick": 5,
+      "slash": 12,
+      "wine": 3,
+      "equip": 1
+    },
+    "damage": 1.1782900465170467e+92,
+    "heals": 3.509311111532005e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "shoushi",
+    "seed": 6,
+    "cleared": true,
+    "actions": 25,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐": 2,
+      "受创生暴虐": 10,
+      "暴虐护身": 13,
+      "酒池回气": 1
+    },
+    "act": {
+      "equip": 2,
+      "wine": 2,
+      "trick": 5,
+      "slash": 13,
+      "peach": 2
+    },
+    "damage": 1.1782900465170467e+92,
+    "heals": 4.515977248126252e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "shoushi",
+    "seed": 7,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 81,
+      "暴虐护身": 82,
+      "暴虐代偿": 2,
+      "暴虐承崩": 11,
+      "暴虐": 1,
+      "酒池回气": 1,
+      "魔王酒池": 1
+    },
+    "act": {
+      "trick": 40,
+      "wine": 3,
+      "slash": 54,
+      "equip": 6,
+      "peach": 13,
+      "pass": 2
+    },
+    "damage": 6.443412559424462e+92,
+    "heals": 3.89673962022378e+77,
+    "lastPlayerRatio": 0.4580601128442046,
+    "lastEnemyRatio": 0.5112155425838641
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "kuanggong",
+    "seed": 0,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐": 1,
+      "受创生暴虐": 16,
+      "暴虐护身": 16,
+      "暴虐代偿": 2,
+      "暴虐承崩": 1
+    },
+    "act": {
+      "wine": 6,
+      "slash": 8,
+      "trick": 6,
+      "peach": 1
+    },
+    "damage": 8.134746449142383e+91,
+    "heals": 2.8412848387816724e+76,
+    "lastPlayerRatio": -0.2254823927606427,
+    "lastEnemyRatio": 0.8760999999999995
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "kuanggong",
+    "seed": 1,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐": 5,
+      "受创生暴虐": 10,
+      "暴虐护身": 11,
+      "暴虐代偿": 2,
+      "酒池回气": 2,
+      "暴虐承崩": 1
+    },
+    "act": {
+      "wine": 8,
+      "equip": 2,
+      "trick": 4,
+      "slash": 3,
+      "peach": 1
+    },
+    "damage": 6.019944793692479e+91,
+    "heals": 4.150212382963629e+76,
+    "lastPlayerRatio": -0.03215721729713543,
+    "lastEnemyRatio": 0.46092556000000007
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "kuanggong",
+    "seed": 2,
+    "cleared": true,
+    "actions": 35,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐代偿": 1,
+      "受创生暴虐": 17,
+      "暴虐护身": 19,
+      "暴虐": 7,
+      "酒池回气": 7,
+      "暴虐承崩": 4,
+      "魔王酒池": 1
+    },
+    "act": {
+      "trick": 10,
+      "peach": 5,
+      "equip": 5,
+      "wine": 9,
+      "slash": 5
+    },
+    "damage": 9.834865416026631e+91,
+    "heals": 1.2971139489747172e+77,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "kuanggong",
+    "seed": 3,
+    "cleared": true,
+    "actions": 40,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 22,
+      "暴虐护身": 22,
+      "暴虐": 11,
+      "暴虐代偿": 6,
+      "酒池回气": 4
+    },
+    "act": {
+      "equip": 3,
+      "wine": 17,
+      "slash": 9,
+      "trick": 8,
+      "peach": 1
+    },
+    "damage": 9.834865416026631e+91,
+    "heals": 4.983932617036566e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "kuanggong",
+    "seed": 4,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 14,
+      "暴虐护身": 14,
+      "暴虐": 3,
+      "暴虐代偿": 1,
+      "酒池回气": 2,
+      "暴虐承崩": 1
+    },
+    "act": {
+      "slash": 5,
+      "wine": 4,
+      "trick": 10,
+      "peach": 3,
+      "equip": 1
+    },
+    "damage": 1.659832067541028e+92,
+    "heals": 5.978977212372532e+76,
+    "lastPlayerRatio": -0.41475787552,
+    "lastEnemyRatio": 0.5324044057712032
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "kuanggong",
+    "seed": 5,
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐": 3,
+      "受创生暴虐": 14,
+      "暴虐护身": 14,
+      "暴虐代偿": 1,
+      "酒池回气": 2
+    },
+    "act": {
+      "wine": 4,
+      "equip": 3,
+      "trick": 7,
+      "slash": 5,
+      "peach": 1
+    },
+    "damage": 1.0765411544230113e+92,
+    "heals": 3.291160314749429e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "kuanggong",
+    "seed": 6,
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 13,
+      "暴虐护身": 13,
+      "暴虐": 7,
+      "暴虐代偿": 4,
+      "酒池回气": 2
+    },
+    "act": {
+      "trick": 5,
+      "equip": 3,
+      "wine": 7,
+      "slash": 6
+    },
+    "damage": 9.514640476441346e+91,
+    "heals": 2.9064132271565584e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "kuanggong",
+    "seed": 7,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐": 2,
+      "受创生暴虐": 10,
+      "暴虐护身": 10,
+      "暴虐代偿": 3
+    },
+    "act": {
+      "wine": 5,
+      "equip": 4,
+      "slash": 3,
+      "trick": 7
+    },
+    "damage": 6.3700660025030286e+91,
+    "heals": 4.6479325559976946e+75,
+    "lastPlayerRatio": -0.3925267690563839,
+    "lastEnemyRatio": 0.3268960000000003
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "guizhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 41,
+    "restarts": 1,
+    "events": {
+      "暴虐先声": 2,
+      "暴虐": 8,
+      "受创生暴虐": 21,
+      "暴虐护身": 22,
+      "暴虐代偿": 2,
+      "酒池回气": 6,
+      "暴虐承崩": 4
+    },
+    "act": {
+      "wine": 13,
+      "slash": 11,
+      "trick": 12,
+      "equip": 1,
+      "peach": 2
+    },
+    "damage": 1.8562452237018468e+92,
+    "heals": 8.854717950590965e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "guizhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 37,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 20,
+      "暴虐护身": 20,
+      "暴虐": 10,
+      "暴虐代偿": 3,
+      "酒池回气": 4,
+      "暴虐承崩": 2,
+      "魔王酒池": 1
+    },
+    "act": {
+      "trick": 7,
+      "equip": 2,
+      "wine": 15,
+      "slash": 12,
+      "peach": 1
+    },
+    "damage": 1.401500602523673e+92,
+    "heals": 6.570573867027316e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "guizhen",
+    "seed": 2,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 15,
+      "暴虐护身": 15,
+      "暴虐": 4,
+      "暴虐代偿": 2,
+      "酒池回气": 2,
+      "暴虐承崩": 2
+    },
+    "act": {
+      "slash": 9,
+      "wine": 7,
+      "equip": 1,
+      "trick": 6
+    },
+    "damage": 1.1046469186097314e+92,
+    "heals": 2.0199755821414428e+76,
+    "lastPlayerRatio": -0.2907103109950083,
+    "lastEnemyRatio": 0.010809999999999863
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "guizhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 37,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 24,
+      "暴虐护身": 24,
+      "暴虐": 8,
+      "暴虐代偿": 3,
+      "酒池回气": 4,
+      "暴虐承崩": 2
+    },
+    "act": {
+      "trick": 10,
+      "wine": 12,
+      "slash": 7,
+      "equip": 2,
+      "peach": 4
+    },
+    "damage": 9.748783443019835e+91,
+    "heals": 9.054576624359292e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "guizhen",
+    "seed": 4,
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "暴虐": 3,
+      "受创生暴虐": 14,
+      "暴虐护身": 14,
+      "暴虐代偿": 1,
+      "酒池回气": 2,
+      "暴虐承崩": 2,
+      "魔王酒池": 1
+    },
+    "act": {
+      "slash": 8,
+      "wine": 4,
+      "trick": 7,
+      "equip": 1
+    },
+    "damage": 2.0595370137285113e+92,
+    "heals": 2.957679678444514e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "guizhen",
+    "seed": 5,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 7,
+      "暴虐护身": 7,
+      "暴虐代偿": 2
+    },
+    "act": {
+      "slash": 3,
+      "equip": 3,
+      "trick": 8
+    },
+    "damage": 1.1595491401737365e+92,
+    "heals": 4.2020125984657054e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "guizhen",
+    "seed": 6,
+    "cleared": true,
+    "actions": 28,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 14,
+      "暴虐护身": 18,
+      "暴虐代偿": 1,
+      "暴虐": 6,
+      "暴虐承崩": 4,
+      "酒池回气": 5,
+      "魔王酒池": 1
+    },
+    "act": {
+      "equip": 3,
+      "wine": 7,
+      "slash": 11,
+      "peach": 2,
+      "trick": 5
+    },
+    "damage": 9.899426895781733e+91,
+    "heals": 6.050747021939331e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "dongzhuo",
+    "variant": "guizhen",
+    "seed": 7,
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0,
+    "events": {
+      "暴虐先声": 1,
+      "受创生暴虐": 13,
+      "暴虐护身": 13,
+      "暴虐": 5,
+      "暴虐代偿": 1,
+      "酒池回气": 4,
+      "暴虐承崩": 2
+    },
+    "act": {
+      "trick": 7,
+      "wine": 8,
+      "slash": 4,
+      "equip": 2
+    },
+    "damage": 1.271740636413226e+92,
+    "heals": 1.8991395762291335e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "pozhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 8,
+      "集智保底触发": 3,
+      "机巧三层": 2
+    },
+    "act": {
+      "slash": 7,
+      "trick": 9,
+      "equip": 2,
+      "wine": 1
+    },
+    "damage": 1.1031835250686155e+92,
+    "heals": 8.759517324441332e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "pozhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 6,
+      "集智保底触发": 2,
+      "机巧三层": 2
+    },
+    "act": {
+      "equip": 2,
+      "slash": 8,
+      "trick": 7,
+      "wine": 1,
+      "peach": 1
+    },
+    "damage": 1.1754063004213187e+92,
+    "heals": 4.836395413959726e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "pozhen",
+    "seed": 2,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 7,
+      "机巧三层": 2,
+      "集智保底触发": 2
+    },
+    "act": {
+      "wine": 3,
+      "slash": 5,
+      "trick": 9,
+      "peach": 1
+    },
+    "damage": 9.394986533961898e+91,
+    "heals": 2.2330560389522293e+76,
+    "lastPlayerRatio": -0.034973669040000155,
+    "lastEnemyRatio": 0.0072625600000002935
+  },
+  {
+    "general": "huangyueying",
+    "variant": "pozhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 29,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 9,
+      "集智保底触发": 4,
+      "机巧三层": 3
+    },
+    "act": {
+      "trick": 12,
+      "wine": 4,
+      "slash": 6,
+      "equip": 3,
+      "peach": 4
+    },
+    "damage": 9.985508868788527e+91,
+    "heals": 7.168671792808783e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "pozhen",
+    "seed": 4,
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 4,
+      "集智保底触发": 1,
+      "机巧三层": 1
+    },
+    "act": {
+      "trick": 5,
+      "wine": 4,
+      "slash": 6,
+      "equip": 1
+    },
+    "damage": 1.2528378582251522e+92,
+    "heals": 1.182082031996209e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "pozhen",
+    "seed": 5,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 2,
+    "events": {
+      "木牛流马": 23,
+      "机巧三层": 6,
+      "集智保底触发": 9
+    },
+    "act": {
+      "slash": 28,
+      "wine": 15,
+      "trick": 31,
+      "equip": 8,
+      "peach": 12
+    },
+    "damage": 4.761157426600241e+92,
+    "heals": 2.656651634706729e+77,
+    "lastPlayerRatio": -0.1884610713538008,
+    "lastEnemyRatio": 0.5278251636897782
+  },
+  {
+    "general": "huangyueying",
+    "variant": "pozhen",
+    "seed": 6,
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 6,
+      "集智保底触发": 2,
+      "机巧三层": 2
+    },
+    "act": {
+      "equip": 2,
+      "slash": 8,
+      "trick": 6
+    },
+    "damage": 1.0904003520771061e+92,
+    "heals": 1.2717302577405246e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "pozhen",
+    "seed": 7,
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 8,
+      "机巧三层": 2,
+      "集智保底触发": 1
+    },
+    "act": {
+      "trick": 8,
+      "equip": 3,
+      "slash": 3,
+      "wine": 1
+    },
+    "damage": 1.1227275762200788e+92,
+    "heals": 6.226524989104686e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "shoushi",
+    "seed": 0,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 2
+    },
+    "act": {
+      "trick": 3,
+      "equip": 3,
+      "wine": 1,
+      "slash": 7
+    },
+    "damage": 1.0376751436104427e+92,
+    "heals": 1.0219436878514887e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "shoushi",
+    "seed": 1,
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 8,
+      "集智保底触发": 4,
+      "机巧三层": 2
+    },
+    "act": {
+      "equip": 2,
+      "slash": 9,
+      "trick": 9,
+      "wine": 1,
+      "peach": 1
+    },
+    "damage": 9.985508868788527e+91,
+    "heals": 4.486762685304844e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "shoushi",
+    "seed": 2,
+    "cleared": true,
+    "actions": 47,
+    "restarts": 1,
+    "events": {
+      "木牛流马": 6,
+      "集智保底触发": 2,
+      "机巧三层": 1
+    },
+    "act": {
+      "slash": 23,
+      "trick": 11,
+      "equip": 7,
+      "peach": 3
+    },
+    "damage": 1.85937061694683e+92,
+    "heals": 7.429127893893471e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "shoushi",
+    "seed": 3,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 3,
+      "集智保底触发": 1,
+      "机巧三层": 1
+    },
+    "act": {
+      "slash": 8,
+      "wine": 1,
+      "trick": 3,
+      "equip": 1
+    },
+    "damage": 9.689386881645144e+91,
+    "heals": 1.294874232038596e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "shoushi",
+    "seed": 4,
+    "cleared": true,
+    "actions": 37,
+    "restarts": 1,
+    "events": {
+      "木牛流马": 8,
+      "集智保底触发": 3,
+      "机巧三层": 2
+    },
+    "act": {
+      "trick": 9,
+      "equip": 7,
+      "wine": 5,
+      "slash": 15,
+      "peach": 1
+    },
+    "damage": 1.605008716548504e+92,
+    "heals": 7.512478864084993e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "shoushi",
+    "seed": 5,
+    "cleared": true,
+    "actions": 41,
+    "restarts": 1,
+    "events": {
+      "木牛流马": 5,
+      "集智保底触发": 2,
+      "机巧三层": 1
+    },
+    "act": {
+      "equip": 3,
+      "slash": 25,
+      "trick": 6,
+      "wine": 7
+    },
+    "damage": 1.6979669175590843e+92,
+    "heals": 4.293497811820105e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "shoushi",
+    "seed": 6,
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 5,
+      "集智保底触发": 2,
+      "机巧三层": 1
+    },
+    "act": {
+      "equip": 1,
+      "slash": 6,
+      "trick": 5,
+      "peach": 1
+    },
+    "damage": 9.514640476441344e+91,
+    "heals": 2.3980447025658706e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "shoushi",
+    "seed": 7,
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 5,
+      "集智保底触发": 2,
+      "机巧三层": 1
+    },
+    "act": {
+      "slash": 12,
+      "wine": 1,
+      "equip": 1,
+      "trick": 6,
+      "peach": 1,
+      "pass": 1
+    },
+    "damage": 1.1782900465170467e+92,
+    "heals": 4.164763916188294e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "kuanggong",
+    "seed": 0,
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 5,
+      "集智保底触发": 1,
+      "机巧三层": 1
+    },
+    "act": {
+      "equip": 5,
+      "trick": 5,
+      "wine": 2,
+      "slash": 4
+    },
+    "damage": 9.623534172294945e+91,
+    "heals": 9.162591796538421e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "kuanggong",
+    "seed": 1,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 5,
+      "机巧三层": 1,
+      "集智保底触发": 1
+    },
+    "act": {
+      "slash": 8,
+      "trick": 5,
+      "wine": 3,
+      "peach": 1
+    },
+    "damage": 9.889957878750985e+91,
+    "heals": 2.906486958314611e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "kuanggong",
+    "seed": 2,
+    "cleared": true,
+    "actions": 33,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 6,
+      "机巧三层": 2,
+      "集智保底触发": 1
+    },
+    "act": {
+      "slash": 14,
+      "trick": 8,
+      "equip": 3,
+      "wine": 6,
+      "peach": 2
+    },
+    "damage": 1.1836271288434675e+92,
+    "heals": 4.904087944126525e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "kuanggong",
+    "seed": 3,
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 5,
+      "集智保底触发": 2,
+      "机巧三层": 1
+    },
+    "act": {
+      "wine": 3,
+      "equip": 4,
+      "slash": 11,
+      "trick": 8
+    },
+    "damage": 1.1212176984135395e+92,
+    "heals": 2.1392218546932465e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "kuanggong",
+    "seed": 4,
+    "cleared": true,
+    "actions": 28,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 8,
+      "集智保底触发": 2,
+      "机巧三层": 2
+    },
+    "act": {
+      "slash": 11,
+      "equip": 4,
+      "trick": 11,
+      "wine": 1,
+      "peach": 1
+    },
+    "damage": 1.614305569633238e+92,
+    "heals": 3.4512305658188133e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "kuanggong",
+    "seed": 5,
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 7,
+      "集智保底触发": 2,
+      "机巧三层": 2
+    },
+    "act": {
+      "slash": 11,
+      "trick": 7,
+      "wine": 3,
+      "equip": 2,
+      "peach": 3
+    },
+    "damage": 1.1427381916652392e+92,
+    "heals": 6.620675368299792e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "kuanggong",
+    "seed": 6,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 4,
+      "机巧三层": 1
+    },
+    "act": {
+      "slash": 9,
+      "equip": 3,
+      "wine": 7,
+      "trick": 6,
+      "peach": 2
+    },
+    "damage": 9.522818263876993e+91,
+    "heals": 4.862032031084508e+76,
+    "lastPlayerRatio": -0.29869428393419495,
+    "lastEnemyRatio": 0.563749999999999
+  },
+  {
+    "general": "huangyueying",
+    "variant": "kuanggong",
+    "seed": 7,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 4,
+    "events": {
+      "木牛流马": 26,
+      "集智保底触发": 8,
+      "机巧三层": 7
+    },
+    "act": {
+      "slash": 27,
+      "equip": 10,
+      "trick": 35,
+      "wine": 7,
+      "peach": 4
+    },
+    "damage": 3.3658051445657875e+92,
+    "heals": 1.0475954350962803e+77,
+    "lastPlayerRatio": -0.06081796763169597,
+    "lastEnemyRatio": 0.7726000000000003
+  },
+  {
+    "general": "huangyueying",
+    "variant": "guizhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 8,
+      "机巧三层": 2,
+      "集智保底触发": 1
+    },
+    "act": {
+      "equip": 2,
+      "trick": 9,
+      "wine": 2,
+      "slash": 2,
+      "peach": 2
+    },
+    "damage": 1.2649298307089285e+92,
+    "heals": 3.383194152179268e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "guizhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 6,
+      "集智保底触发": 3,
+      "机巧三层": 2
+    },
+    "act": {
+      "trick": 6,
+      "slash": 14,
+      "wine": 5,
+      "peach": 1
+    },
+    "damage": 1.3585887389797846e+92,
+    "heals": 4.607427690946424e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "guizhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 8,
+      "集智保底触发": 3,
+      "机巧三层": 2
+    },
+    "act": {
+      "slash": 9,
+      "trick": 10,
+      "wine": 4,
+      "equip": 1
+    },
+    "damage": 1.1126095011128598e+92,
+    "heals": 1.5003617417543254e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "guizhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 6,
+      "机巧三层": 2,
+      "集智保底触发": 1
+    },
+    "act": {
+      "trick": 7,
+      "slash": 3,
+      "equip": 1,
+      "wine": 1
+    },
+    "damage": 1.2909386380332022e+92,
+    "heals": 3.466461787838122e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "guizhen",
+    "seed": 4,
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 7,
+      "集智保底触发": 2,
+      "机巧三层": 2
+    },
+    "act": {
+      "trick": 8,
+      "equip": 3,
+      "slash": 9,
+      "wine": 2,
+      "peach": 1
+    },
+    "damage": 9.748783443019835e+91,
+    "heals": 3.921181949239942e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "guizhen",
+    "seed": 5,
+    "cleared": true,
+    "actions": 33,
+    "restarts": 1,
+    "events": {
+      "木牛流马": 11,
+      "集智保底触发": 4,
+      "机巧三层": 3
+    },
+    "act": {
+      "slash": 9,
+      "trick": 16,
+      "equip": 5,
+      "peach": 1,
+      "wine": 1
+    },
+    "damage": 2.4608709513582298e+92,
+    "heals": 3.724659689627463e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "guizhen",
+    "seed": 6,
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 5,
+      "集智保底触发": 1,
+      "机巧三层": 1
+    },
+    "act": {
+      "slash": 9,
+      "wine": 2,
+      "equip": 3,
+      "trick": 7
+    },
+    "damage": 1.0633706125529717e+92,
+    "heals": 1.2026869080598643e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "huangyueying",
+    "variant": "guizhen",
+    "seed": 7,
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0,
+    "events": {
+      "木牛流马": 12,
+      "机巧三层": 4,
+      "集智保底触发": 4
+    },
+    "act": {
+      "equip": 2,
+      "trick": 13,
+      "wine": 2,
+      "slash": 3,
+      "pass": 3,
+      "peach": 4
+    },
+    "damage": 1.3369804421156182e+92,
+    "heals": 6.450360913883873e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "pozhen",
+    "seed": 0,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 1,
+    "events": {
+      "妆印积累": 3,
+      "枭姬替换首变双印": 3,
+      "弓腰姬追击": 3
+    },
+    "act": {
+      "slash": 41,
+      "trick": 48,
+      "wine": 14,
+      "equip": 9,
+      "pass": 2,
+      "peach": 4
+    },
+    "damage": 7.280810388709219e+92,
+    "heals": 1.7864828131063435e+77,
+    "lastPlayerRatio": 0.2647216546415669,
+    "lastEnemyRatio": 0.9816499988638747
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "pozhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0,
+    "events": {},
+    "act": {
+      "trick": 9,
+      "equip": 2,
+      "slash": 4,
+      "wine": 1
+    },
+    "damage": 9.654523682577393e+91,
+    "heals": 1.7716087911623132e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "pozhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 74,
+    "restarts": 2,
+    "events": {
+      "妆印积累": 1,
+      "枭姬替换首变双印": 1,
+      "弓腰姬追击": 1
+    },
+    "act": {
+      "slash": 34,
+      "wine": 6,
+      "trick": 18,
+      "equip": 7,
+      "peach": 5
+    },
+    "damage": 3.7713149380878347e+92,
+    "heals": 1.5975114719774306e+77,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "pozhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0,
+    "events": {},
+    "act": {
+      "slash": 2,
+      "trick": 10,
+      "equip": 2,
+      "wine": 1
+    },
+    "damage": 1.2448951123113261e+92,
+    "heals": 0,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "pozhen",
+    "seed": 4,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "events": {},
+    "act": {
+      "trick": 8,
+      "slash": 6,
+      "equip": 2
+    },
+    "damage": 9.707033686111539e+91,
+    "heals": 2.290217662436666e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "pozhen",
+    "seed": 5,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "妆印积累": 2,
+      "枭姬替换首变双印": 2,
+      "弓腰姬追击": 2
+    },
+    "act": {
+      "trick": 6,
+      "slash": 6,
+      "equip": 5,
+      "peach": 2
+    },
+    "damage": 7.833459543618588e+91,
+    "heals": 4.7520695598551427e+76,
+    "lastPlayerRatio": -0.3312866772857405,
+    "lastEnemyRatio": 0.17226400000000028
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "pozhen",
+    "seed": 6,
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0,
+    "events": {},
+    "act": {
+      "trick": 6,
+      "slash": 4,
+      "equip": 1,
+      "wine": 1
+    },
+    "damage": 1.1597015052659586e+92,
+    "heals": 7.185085193904579e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "pozhen",
+    "seed": 7,
+    "cleared": true,
+    "actions": 25,
+    "restarts": 0,
+    "events": {
+      "妆印积累": 1,
+      "枭姬替换首变双印": 1,
+      "弓腰姬追击": 1
+    },
+    "act": {
+      "slash": 9,
+      "trick": 8,
+      "equip": 4,
+      "wine": 1,
+      "peach": 3
+    },
+    "damage": 1.1605141190911429e+92,
+    "heals": 6.565639638956962e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "shoushi",
+    "seed": 0,
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0,
+    "events": {
+      "妆印积累": 1,
+      "枭姬替换首变双印": 1,
+      "弓腰姬追击": 1
+    },
+    "act": {
+      "trick": 8,
+      "equip": 3,
+      "slash": 11,
+      "peach": 2
+    },
+    "damage": 1.0910890078611601e+92,
+    "heals": 4.257275603943581e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "shoushi",
+    "seed": 1,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "妆印积累": 1,
+      "枭姬替换首变双印": 1,
+      "弓腰姬追击": 1
+    },
+    "act": {
+      "trick": 15,
+      "slash": 27,
+      "equip": 5,
+      "wine": 7,
+      "peach": 3
+    },
+    "damage": 2.603979683455632e+92,
+    "heals": 9.980798776569709e+76,
+    "lastPlayerRatio": -0.14860794400000069,
+    "lastEnemyRatio": 0.86845
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "shoushi",
+    "seed": 2,
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0,
+    "events": {
+      "妆印积累": 1,
+      "枭姬替换首变双印": 1,
+      "弓腰姬追击": 1
+    },
+    "act": {
+      "trick": 7,
+      "slash": 10,
+      "equip": 4,
+      "wine": 1
+    },
+    "damage": 1.1782900465170467e+92,
+    "heals": 2.4014070409233662e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "shoushi",
+    "seed": 3,
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0,
+    "events": {},
+    "act": {
+      "trick": 6,
+      "slash": 11,
+      "equip": 1,
+      "peach": 1
+    },
+    "damage": 9.985508868788527e+91,
+    "heals": 5.622203483004636e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "shoushi",
+    "seed": 4,
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0,
+    "events": {
+      "妆印积累": 2,
+      "枭姬替换首变双印": 2,
+      "弓腰姬追击": 2
+    },
+    "act": {
+      "slash": 11,
+      "trick": 5,
+      "equip": 4,
+      "wine": 1,
+      "peach": 1
+    },
+    "damage": 9.985508868788527e+91,
+    "heals": 2.0735109251015646e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "shoushi",
+    "seed": 5,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "events": {},
+    "act": {
+      "slash": 8,
+      "trick": 3,
+      "pass": 1,
+      "peach": 1
+    },
+    "damage": 9.602013679043246e+91,
+    "heals": 2.895650039669504e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "shoushi",
+    "seed": 6,
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0,
+    "events": {},
+    "act": {
+      "trick": 8,
+      "wine": 2,
+      "slash": 12,
+      "equip": 1,
+      "peach": 1
+    },
+    "damage": 1.1061533531373498e+92,
+    "heals": 4.58386403033353e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "shoushi",
+    "seed": 7,
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0,
+    "events": {},
+    "act": {
+      "slash": 13,
+      "trick": 7,
+      "equip": 1,
+      "pass": 1
+    },
+    "damage": 1.1061533531373498e+92,
+    "heals": 3.477434610286622e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "kuanggong",
+    "seed": 0,
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0,
+    "events": {
+      "妆印积累": 1,
+      "枭姬替换首变双印": 1,
+      "弓腰姬追击": 1
+    },
+    "act": {
+      "wine": 4,
+      "equip": 2,
+      "trick": 6,
+      "slash": 3,
+      "pass": 1
+    },
+    "damage": 1.0538155135492171e+92,
+    "heals": 6.600666122777582e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "kuanggong",
+    "seed": 1,
+    "cleared": true,
+    "actions": 49,
+    "restarts": 1,
+    "events": {
+      "妆印积累": 1,
+      "枭姬替换首变双印": 1,
+      "弓腰姬追击": 1
+    },
+    "act": {
+      "trick": 16,
+      "slash": 17,
+      "wine": 8,
+      "equip": 4,
+      "peach": 4
+    },
+    "damage": 2.687720226796643e+92,
+    "heals": 7.63922351361839e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "kuanggong",
+    "seed": 2,
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0,
+    "events": {},
+    "act": {
+      "trick": 7,
+      "equip": 2,
+      "wine": 1,
+      "slash": 12
+    },
+    "damage": 1.3144820576505615e+92,
+    "heals": 2.4326688176562783e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "kuanggong",
+    "seed": 3,
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0,
+    "events": {
+      "妆印积累": 1,
+      "枭姬替换首变双印": 1,
+      "弓腰姬追击": 1
+    },
+    "act": {
+      "trick": 5,
+      "equip": 2,
+      "wine": 3,
+      "slash": 11,
+      "peach": 2
+    },
+    "damage": 9.985508868788527e+91,
+    "heals": 5.271992749314208e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "kuanggong",
+    "seed": 4,
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0,
+    "events": {
+      "妆印积累": 1,
+      "枭姬替换首变双印": 1,
+      "弓腰姬追击": 1
+    },
+    "act": {
+      "wine": 2,
+      "slash": 7,
+      "equip": 4,
+      "trick": 8,
+      "pass": 1,
+      "peach": 1
+    },
+    "damage": 1.101504926594983e+92,
+    "heals": 3.313469874731957e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "kuanggong",
+    "seed": 5,
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0,
+    "events": {},
+    "act": {
+      "trick": 9,
+      "slash": 3,
+      "peach": 2,
+      "equip": 2,
+      "wine": 1
+    },
+    "damage": 9.740605655584191e+91,
+    "heals": 3.169313621162729e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "kuanggong",
+    "seed": 6,
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0,
+    "events": {
+      "妆印积累": 1,
+      "枭姬替换首变双印": 1,
+      "弓腰姬追击": 1
+    },
+    "act": {
+      "equip": 4,
+      "slash": 12,
+      "wine": 4,
+      "trick": 5
+    },
+    "damage": 1.1395101176774841e+92,
+    "heals": 4.620984367835129e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "kuanggong",
+    "seed": 7,
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0,
+    "events": {
+      "妆印积累": 1,
+      "枭姬替换首变双印": 1,
+      "弓腰姬追击": 1
+    },
+    "act": {
+      "equip": 3,
+      "trick": 10,
+      "slash": 1,
+      "peach": 1
+    },
+    "damage": 1.060400784484237e+92,
+    "heals": 2.5036729841121993e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "guizhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 51,
+    "restarts": 1,
+    "events": {
+      "妆印积累": 2,
+      "枭姬替换首变双印": 2,
+      "弓腰姬追击": 2
+    },
+    "act": {
+      "wine": 6,
+      "slash": 16,
+      "trick": 19,
+      "equip": 5
+    },
+    "damage": 2.3311859109970888e+92,
+    "heals": 6.685752420484719e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "guizhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 44,
+    "restarts": 1,
+    "events": {
+      "妆印积累": 1,
+      "枭姬替换首变双印": 1,
+      "弓腰姬追击": 1
+    },
+    "act": {
+      "wine": 4,
+      "equip": 7,
+      "trick": 14,
+      "slash": 15,
+      "peach": 2
+    },
+    "damage": 1.7065751148597635e+92,
+    "heals": 6.469721476836512e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "guizhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 31,
+    "restarts": 1,
+    "events": {},
+    "act": {
+      "slash": 14,
+      "wine": 4,
+      "trick": 10,
+      "peach": 1,
+      "equip": 1
+    },
+    "damage": 2.1867438035706007e+92,
+    "heals": 5.596292978560107e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "guizhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0,
+    "events": {},
+    "act": {
+      "trick": 7,
+      "equip": 2,
+      "slash": 3
+    },
+    "damage": 9.701438357866097e+91,
+    "heals": 4.376638471343871e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "guizhen",
+    "seed": 4,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {},
+    "act": {
+      "wine": 2,
+      "slash": 5,
+      "trick": 5,
+      "peach": 1
+    },
+    "damage": 7.503765587002554e+91,
+    "heals": 2.055693827449393e+76,
+    "lastPlayerRatio": -0.04010873759999997,
+    "lastEnemyRatio": 0.31910168000000005
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "guizhen",
+    "seed": 5,
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0,
+    "events": {
+      "妆印积累": 1,
+      "枭姬替换首变双印": 1,
+      "弓腰姬追击": 1
+    },
+    "act": {
+      "slash": 4,
+      "trick": 11,
+      "equip": 3,
+      "wine": 1
+    },
+    "damage": 1.150356446276341e+92,
+    "heals": 4.376638471343871e+75,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "guizhen",
+    "seed": 6,
+    "cleared": true,
+    "actions": 33,
+    "restarts": 1,
+    "events": {
+      "妆印积累": 1,
+      "枭姬替换首变双印": 1,
+      "弓腰姬追击": 1
+    },
+    "act": {
+      "equip": 6,
+      "slash": 7,
+      "trick": 15,
+      "peach": 2,
+      "pass": 3
+    },
+    "damage": 2.1700852201543263e+92,
+    "heals": 3.673723807764399e+76,
+    "lastPlayerRatio": 1,
+    "lastEnemyRatio": 1
+  },
+  {
+    "general": "sunshangxiang",
+    "variant": "guizhen",
+    "seed": 7,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "events": {
+      "妆印积累": 2,
+      "枭姬替换首变双印": 2,
+      "弓腰姬追击": 2
+    },
+    "act": {
+      "equip": 4,
+      "trick": 8,
+      "slash": 5,
+      "peach": 3,
+      "wine": 2
+    },
+    "damage": 8.371471874911072e+91,
+    "heals": 5.2976482506670726e+76,
+    "lastPlayerRatio": -0.3660710428,
+    "lastEnemyRatio": 0.1154140000000002
+  }
+]

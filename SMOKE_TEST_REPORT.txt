@@ -1,0 +1,6 @@
+v1.2.0 HTML hotfix smoke test
+PASS: anytime ascension and live incremental reward
+PASS: progressive navigation unlocks
+PASS: compact sections and term tooltips
+PASS: SGST120 save with legacy migration
+PASS: identical offline entrypoints

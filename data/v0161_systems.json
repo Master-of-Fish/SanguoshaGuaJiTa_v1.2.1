@@ -1,0 +1,11 @@
+{
+  "version": "0.16.1",
+  "combat_feedback": {
+    "damage_float": true,
+    "critical_float": true,
+    "heal_float": true,
+    "dodge_feedback": true,
+    "hp_live_sync": true,
+    "office_mode_hidden": true
+  }
+}

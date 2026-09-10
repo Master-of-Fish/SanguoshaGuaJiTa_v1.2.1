@@ -1,0 +1,391 @@
+{
+  "samples": 512,
+  "aggregate": [
+    {
+      "floor": 3500,
+      "variant": "pozhen",
+      "clears": 59,
+      "total": 64,
+      "rate": 0.9219,
+      "median_actions": 17
+    },
+    {
+      "floor": 3500,
+      "variant": "shoushi",
+      "clears": 60,
+      "total": 64,
+      "rate": 0.9375,
+      "median_actions": 17.5
+    },
+    {
+      "floor": 3500,
+      "variant": "kuanggong",
+      "clears": 55,
+      "total": 64,
+      "rate": 0.8594,
+      "median_actions": 18
+    },
+    {
+      "floor": 3500,
+      "variant": "guizhen",
+      "clears": 57,
+      "total": 64,
+      "rate": 0.8906,
+      "median_actions": 16
+    },
+    {
+      "floor": 5000,
+      "variant": "pozhen",
+      "clears": 50,
+      "total": 64,
+      "rate": 0.7812,
+      "median_actions": 22.5
+    },
+    {
+      "floor": 5000,
+      "variant": "shoushi",
+      "clears": 55,
+      "total": 64,
+      "rate": 0.8594,
+      "median_actions": 19
+    },
+    {
+      "floor": 5000,
+      "variant": "kuanggong",
+      "clears": 55,
+      "total": 64,
+      "rate": 0.8594,
+      "median_actions": 19
+    },
+    {
+      "floor": 5000,
+      "variant": "guizhen",
+      "clears": 56,
+      "total": 64,
+      "rate": 0.875,
+      "median_actions": 19.0
+    }
+  ],
+  "per_general": [
+    {
+      "name": "于吉",
+      "overall_rate": 0.625,
+      "by_variant": {
+        "pozhen": 0.0,
+        "shoushi": 0.75,
+        "kuanggong": 1.0,
+        "guizhen": 0.75
+      }
+    },
+    {
+      "name": "关羽",
+      "overall_rate": 0.625,
+      "by_variant": {
+        "pozhen": 0.5,
+        "shoushi": 0.5,
+        "kuanggong": 0.75,
+        "guizhen": 0.75
+      }
+    },
+    {
+      "name": "刘备",
+      "overall_rate": 0.9375,
+      "by_variant": {
+        "pozhen": 0.75,
+        "shoushi": 1.0,
+        "kuanggong": 1.0,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "华佗",
+      "overall_rate": 0.9375,
+      "by_variant": {
+        "pozhen": 1.0,
+        "shoushi": 0.75,
+        "kuanggong": 1.0,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "司马懿",
+      "overall_rate": 0.9375,
+      "by_variant": {
+        "pozhen": 0.75,
+        "shoushi": 1.0,
+        "kuanggong": 1.0,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "吕布",
+      "overall_rate": 0.875,
+      "by_variant": {
+        "pozhen": 0.75,
+        "shoushi": 1.0,
+        "kuanggong": 0.75,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "吕蒙",
+      "overall_rate": 1.0,
+      "by_variant": {
+        "pozhen": 1.0,
+        "shoushi": 1.0,
+        "kuanggong": 1.0,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "周瑜",
+      "overall_rate": 0.9375,
+      "by_variant": {
+        "pozhen": 0.75,
+        "shoushi": 1.0,
+        "kuanggong": 1.0,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "夏侯惇",
+      "overall_rate": 0.9375,
+      "by_variant": {
+        "pozhen": 0.75,
+        "shoushi": 1.0,
+        "kuanggong": 1.0,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "大乔",
+      "overall_rate": 0.9375,
+      "by_variant": {
+        "pozhen": 1.0,
+        "shoushi": 1.0,
+        "kuanggong": 0.75,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "太史慈",
+      "overall_rate": 0.8125,
+      "by_variant": {
+        "pozhen": 0.75,
+        "shoushi": 0.75,
+        "kuanggong": 0.75,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "孙尚香",
+      "overall_rate": 0.8125,
+      "by_variant": {
+        "pozhen": 0.75,
+        "shoushi": 0.75,
+        "kuanggong": 1.0,
+        "guizhen": 0.75
+      }
+    },
+    {
+      "name": "孙权",
+      "overall_rate": 0.875,
+      "by_variant": {
+        "pozhen": 0.75,
+        "shoushi": 1.0,
+        "kuanggong": 0.75,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "左慈",
+      "overall_rate": 0.6875,
+      "by_variant": {
+        "pozhen": 0.75,
+        "shoushi": 0.75,
+        "kuanggong": 0.75,
+        "guizhen": 0.5
+      }
+    },
+    {
+      "name": "庞统",
+      "overall_rate": 0.9375,
+      "by_variant": {
+        "pozhen": 1.0,
+        "shoushi": 1.0,
+        "kuanggong": 1.0,
+        "guizhen": 0.75
+      }
+    },
+    {
+      "name": "张角",
+      "overall_rate": 0.8125,
+      "by_variant": {
+        "pozhen": 1.0,
+        "shoushi": 0.75,
+        "kuanggong": 0.5,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "张辽",
+      "overall_rate": 0.875,
+      "by_variant": {
+        "pozhen": 0.75,
+        "shoushi": 1.0,
+        "kuanggong": 1.0,
+        "guizhen": 0.75
+      }
+    },
+    {
+      "name": "张飞",
+      "overall_rate": 0.8125,
+      "by_variant": {
+        "pozhen": 1.0,
+        "shoushi": 0.75,
+        "kuanggong": 0.75,
+        "guizhen": 0.75
+      }
+    },
+    {
+      "name": "曹操",
+      "overall_rate": 1.0,
+      "by_variant": {
+        "pozhen": 1.0,
+        "shoushi": 1.0,
+        "kuanggong": 1.0,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "甄姬",
+      "overall_rate": 1.0,
+      "by_variant": {
+        "pozhen": 1.0,
+        "shoushi": 1.0,
+        "kuanggong": 1.0,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "甘宁",
+      "overall_rate": 0.8125,
+      "by_variant": {
+        "pozhen": 1.0,
+        "shoushi": 0.75,
+        "kuanggong": 0.5,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "荀彧",
+      "overall_rate": 0.9375,
+      "by_variant": {
+        "pozhen": 1.0,
+        "shoushi": 0.75,
+        "kuanggong": 1.0,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "董卓",
+      "overall_rate": 0.625,
+      "by_variant": {
+        "pozhen": 0.75,
+        "shoushi": 0.75,
+        "kuanggong": 0.25,
+        "guizhen": 0.75
+      }
+    },
+    {
+      "name": "袁绍",
+      "overall_rate": 0.875,
+      "by_variant": {
+        "pozhen": 1.0,
+        "shoushi": 1.0,
+        "kuanggong": 1.0,
+        "guizhen": 0.5
+      }
+    },
+    {
+      "name": "许褚",
+      "overall_rate": 0.9375,
+      "by_variant": {
+        "pozhen": 0.75,
+        "shoushi": 1.0,
+        "kuanggong": 1.0,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "诸葛亮",
+      "overall_rate": 1.0,
+      "by_variant": {
+        "pozhen": 1.0,
+        "shoushi": 1.0,
+        "kuanggong": 1.0,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "貂蝉",
+      "overall_rate": 1.0,
+      "by_variant": {
+        "pozhen": 1.0,
+        "shoushi": 1.0,
+        "kuanggong": 1.0,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "赵云",
+      "overall_rate": 1.0,
+      "by_variant": {
+        "pozhen": 1.0,
+        "shoushi": 1.0,
+        "kuanggong": 1.0,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "郭嘉",
+      "overall_rate": 0.9375,
+      "by_variant": {
+        "pozhen": 1.0,
+        "shoushi": 1.0,
+        "kuanggong": 0.75,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "陆逊",
+      "overall_rate": 0.8125,
+      "by_variant": {
+        "pozhen": 1.0,
+        "shoushi": 1.0,
+        "kuanggong": 0.5,
+        "guizhen": 0.75
+      }
+    },
+    {
+      "name": "马超",
+      "overall_rate": 0.9375,
+      "by_variant": {
+        "pozhen": 0.75,
+        "shoushi": 1.0,
+        "kuanggong": 1.0,
+        "guizhen": 1.0
+      }
+    },
+    {
+      "name": "黄月英",
+      "overall_rate": 0.6875,
+      "by_variant": {
+        "pozhen": 1.0,
+        "shoushi": 0.75,
+        "kuanggong": 0.75,
+        "guizhen": 0.25
+      }
+    }
+  ]
+}

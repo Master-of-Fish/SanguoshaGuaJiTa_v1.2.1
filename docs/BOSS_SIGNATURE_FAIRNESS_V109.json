@@ -1,0 +1,5122 @@
+[
+  {
+    "attacker": "guanyu",
+    "boss": "liubei",
+    "variant": "pozhen",
+    "signature": "仁阵回护",
+    "sigType": "heal",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "liubei",
+    "variant": "pozhen",
+    "signature": "仁阵回护",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 28,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "liubei",
+    "variant": "pozhen",
+    "signature": "仁阵回护",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "liubei",
+    "variant": "pozhen",
+    "signature": "仁阵回护",
+    "sigType": "heal",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "liubei",
+    "variant": "shoushi",
+    "signature": "仁阵回护",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 63,
+    "restarts": 2
+  },
+  {
+    "attacker": "guojia",
+    "boss": "liubei",
+    "variant": "shoushi",
+    "signature": "仁阵回护",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "liubei",
+    "variant": "shoushi",
+    "signature": "仁阵回护",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 138,
+    "restarts": 6
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "liubei",
+    "variant": "shoushi",
+    "signature": "仁阵回护",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "liubei",
+    "variant": "kuanggong",
+    "signature": "仁阵回护",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "liubei",
+    "variant": "kuanggong",
+    "signature": "仁阵回护",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "liubei",
+    "variant": "kuanggong",
+    "signature": "仁阵回护",
+    "sigType": "heal",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 2
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "liubei",
+    "variant": "kuanggong",
+    "signature": "仁阵回护",
+    "sigType": "heal",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 2
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "liubei",
+    "variant": "guizhen",
+    "signature": "仁阵回护",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 105,
+    "restarts": 2
+  },
+  {
+    "attacker": "guojia",
+    "boss": "liubei",
+    "variant": "guizhen",
+    "signature": "仁阵回护",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 55,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "liubei",
+    "variant": "guizhen",
+    "signature": "仁阵回护",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 68,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "liubei",
+    "variant": "guizhen",
+    "signature": "仁阵回护",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "guanyu",
+    "variant": "pozhen",
+    "signature": "青龙追斩",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "guanyu",
+    "variant": "pozhen",
+    "signature": "青龙追斩",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "guanyu",
+    "variant": "pozhen",
+    "signature": "青龙追斩",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "guanyu",
+    "variant": "pozhen",
+    "signature": "青龙追斩",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 44,
+    "restarts": 1
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "guanyu",
+    "variant": "shoushi",
+    "signature": "青龙追斩",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "guanyu",
+    "variant": "shoushi",
+    "signature": "青龙追斩",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "guanyu",
+    "variant": "shoushi",
+    "signature": "青龙追斩",
+    "sigType": "counter",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "guanyu",
+    "variant": "shoushi",
+    "signature": "青龙追斩",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 10,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "guanyu",
+    "variant": "kuanggong",
+    "signature": "青龙追斩",
+    "sigType": "counter",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 9
+  },
+  {
+    "attacker": "guojia",
+    "boss": "guanyu",
+    "variant": "kuanggong",
+    "signature": "青龙追斩",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "guanyu",
+    "variant": "kuanggong",
+    "signature": "青龙追斩",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 57,
+    "restarts": 2
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "guanyu",
+    "variant": "kuanggong",
+    "signature": "青龙追斩",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "guanyu",
+    "variant": "guizhen",
+    "signature": "青龙追斩",
+    "sigType": "counter",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "guanyu",
+    "variant": "guizhen",
+    "signature": "青龙追斩",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 30,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "guanyu",
+    "variant": "guizhen",
+    "signature": "青龙追斩",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "guanyu",
+    "variant": "guizhen",
+    "signature": "青龙追斩",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhangfei",
+    "variant": "pozhen",
+    "signature": "咆哮反扑",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 31,
+    "restarts": 1
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhangfei",
+    "variant": "pozhen",
+    "signature": "咆哮反扑",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 43,
+    "restarts": 1
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhangfei",
+    "variant": "pozhen",
+    "signature": "咆哮反扑",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhangfei",
+    "variant": "pozhen",
+    "signature": "咆哮反扑",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhangfei",
+    "variant": "shoushi",
+    "signature": "咆哮反扑",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 35,
+    "restarts": 1
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhangfei",
+    "variant": "shoushi",
+    "signature": "咆哮反扑",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 48,
+    "restarts": 1
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhangfei",
+    "variant": "shoushi",
+    "signature": "咆哮反扑",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 59,
+    "restarts": 3
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhangfei",
+    "variant": "shoushi",
+    "signature": "咆哮反扑",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhangfei",
+    "variant": "kuanggong",
+    "signature": "咆哮反扑",
+    "sigType": "counter",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 1
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhangfei",
+    "variant": "kuanggong",
+    "signature": "咆哮反扑",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhangfei",
+    "variant": "kuanggong",
+    "signature": "咆哮反扑",
+    "sigType": "counter",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 4
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhangfei",
+    "variant": "kuanggong",
+    "signature": "咆哮反扑",
+    "sigType": "counter",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 2
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhangfei",
+    "variant": "guizhen",
+    "signature": "咆哮反扑",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 49,
+    "restarts": 2
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhangfei",
+    "variant": "guizhen",
+    "signature": "咆哮反扑",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 45,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhangfei",
+    "variant": "guizhen",
+    "signature": "咆哮反扑",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhangfei",
+    "variant": "guizhen",
+    "signature": "咆哮反扑",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 10,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhaoyun",
+    "variant": "pozhen",
+    "signature": "龙胆回转",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 31,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhaoyun",
+    "variant": "pozhen",
+    "signature": "龙胆回转",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 36,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhaoyun",
+    "variant": "pozhen",
+    "signature": "龙胆回转",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhaoyun",
+    "variant": "pozhen",
+    "signature": "龙胆回转",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhaoyun",
+    "variant": "shoushi",
+    "signature": "龙胆回转",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhaoyun",
+    "variant": "shoushi",
+    "signature": "龙胆回转",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 28,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhaoyun",
+    "variant": "shoushi",
+    "signature": "龙胆回转",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhaoyun",
+    "variant": "shoushi",
+    "signature": "龙胆回转",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhaoyun",
+    "variant": "kuanggong",
+    "signature": "龙胆回转",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhaoyun",
+    "variant": "kuanggong",
+    "signature": "龙胆回转",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 31,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhaoyun",
+    "variant": "kuanggong",
+    "signature": "龙胆回转",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 70,
+    "restarts": 3
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhaoyun",
+    "variant": "kuanggong",
+    "signature": "龙胆回转",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 11,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhaoyun",
+    "variant": "guizhen",
+    "signature": "龙胆回转",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 75,
+    "restarts": 3
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhaoyun",
+    "variant": "guizhen",
+    "signature": "龙胆回转",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 30,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhaoyun",
+    "variant": "guizhen",
+    "signature": "龙胆回转",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhaoyun",
+    "variant": "guizhen",
+    "signature": "龙胆回转",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 9,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhugeliang",
+    "variant": "pozhen",
+    "signature": "七星扰阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 30,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhugeliang",
+    "variant": "pozhen",
+    "signature": "七星扰阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 49,
+    "restarts": 1
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhugeliang",
+    "variant": "pozhen",
+    "signature": "七星扰阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 31,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhugeliang",
+    "variant": "pozhen",
+    "signature": "七星扰阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhugeliang",
+    "variant": "shoushi",
+    "signature": "七星扰阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhugeliang",
+    "variant": "shoushi",
+    "signature": "七星扰阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 25,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhugeliang",
+    "variant": "shoushi",
+    "signature": "七星扰阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhugeliang",
+    "variant": "shoushi",
+    "signature": "七星扰阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhugeliang",
+    "variant": "kuanggong",
+    "signature": "七星扰阵",
+    "sigType": "judge",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 10
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhugeliang",
+    "variant": "kuanggong",
+    "signature": "七星扰阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhugeliang",
+    "variant": "kuanggong",
+    "signature": "七星扰阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 33,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhugeliang",
+    "variant": "kuanggong",
+    "signature": "七星扰阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 43,
+    "restarts": 2
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhugeliang",
+    "variant": "guizhen",
+    "signature": "七星扰阵",
+    "sigType": "judge",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 2
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhugeliang",
+    "variant": "guizhen",
+    "signature": "七星扰阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhugeliang",
+    "variant": "guizhen",
+    "signature": "七星扰阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhugeliang",
+    "variant": "guizhen",
+    "signature": "七星扰阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "huangyueying",
+    "variant": "pozhen",
+    "signature": "机巧护幕",
+    "sigType": "guard",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "huangyueying",
+    "variant": "pozhen",
+    "signature": "机巧护幕",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "huangyueying",
+    "variant": "pozhen",
+    "signature": "机巧护幕",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 32,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "huangyueying",
+    "variant": "pozhen",
+    "signature": "机巧护幕",
+    "sigType": "guard",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 1
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "huangyueying",
+    "variant": "shoushi",
+    "signature": "机巧护幕",
+    "sigType": "guard",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "huangyueying",
+    "variant": "shoushi",
+    "signature": "机巧护幕",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "huangyueying",
+    "variant": "shoushi",
+    "signature": "机巧护幕",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "huangyueying",
+    "variant": "shoushi",
+    "signature": "机巧护幕",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "huangyueying",
+    "variant": "kuanggong",
+    "signature": "机巧护幕",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "huangyueying",
+    "variant": "kuanggong",
+    "signature": "机巧护幕",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "huangyueying",
+    "variant": "kuanggong",
+    "signature": "机巧护幕",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "huangyueying",
+    "variant": "kuanggong",
+    "signature": "机巧护幕",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "huangyueying",
+    "variant": "guizhen",
+    "signature": "机巧护幕",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "huangyueying",
+    "variant": "guizhen",
+    "signature": "机巧护幕",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "huangyueying",
+    "variant": "guizhen",
+    "signature": "机巧护幕",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "huangyueying",
+    "variant": "guizhen",
+    "signature": "机巧护幕",
+    "sigType": "guard",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 2
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "caocao",
+    "variant": "pozhen",
+    "signature": "奸雄映像",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 9
+  },
+  {
+    "attacker": "guojia",
+    "boss": "caocao",
+    "variant": "pozhen",
+    "signature": "奸雄映像",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "caocao",
+    "variant": "pozhen",
+    "signature": "奸雄映像",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 69,
+    "restarts": 2
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "caocao",
+    "variant": "pozhen",
+    "signature": "奸雄映像",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "caocao",
+    "variant": "shoushi",
+    "signature": "奸雄映像",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 2
+  },
+  {
+    "attacker": "guojia",
+    "boss": "caocao",
+    "variant": "shoushi",
+    "signature": "奸雄映像",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "caocao",
+    "variant": "shoushi",
+    "signature": "奸雄映像",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 135,
+    "restarts": 7
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "caocao",
+    "variant": "shoushi",
+    "signature": "奸雄映像",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "caocao",
+    "variant": "kuanggong",
+    "signature": "奸雄映像",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "caocao",
+    "variant": "kuanggong",
+    "signature": "奸雄映像",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 38,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "caocao",
+    "variant": "kuanggong",
+    "signature": "奸雄映像",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "caocao",
+    "variant": "kuanggong",
+    "signature": "奸雄映像",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 38,
+    "restarts": 1
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "caocao",
+    "variant": "guizhen",
+    "signature": "奸雄映像",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 95,
+    "restarts": 5
+  },
+  {
+    "attacker": "guojia",
+    "boss": "caocao",
+    "variant": "guizhen",
+    "signature": "奸雄映像",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "caocao",
+    "variant": "guizhen",
+    "signature": "奸雄映像",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 100,
+    "restarts": 6
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "caocao",
+    "variant": "guizhen",
+    "signature": "奸雄映像",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "simayi",
+    "variant": "pozhen",
+    "signature": "天命改判",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "simayi",
+    "variant": "pozhen",
+    "signature": "天命改判",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "simayi",
+    "variant": "pozhen",
+    "signature": "天命改判",
+    "sigType": "judge",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "simayi",
+    "variant": "pozhen",
+    "signature": "天命改判",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "simayi",
+    "variant": "shoushi",
+    "signature": "天命改判",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "simayi",
+    "variant": "shoushi",
+    "signature": "天命改判",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "simayi",
+    "variant": "shoushi",
+    "signature": "天命改判",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 30,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "simayi",
+    "variant": "shoushi",
+    "signature": "天命改判",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "simayi",
+    "variant": "kuanggong",
+    "signature": "天命改判",
+    "sigType": "judge",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "simayi",
+    "variant": "kuanggong",
+    "signature": "天命改判",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "simayi",
+    "variant": "kuanggong",
+    "signature": "天命改判",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "simayi",
+    "variant": "kuanggong",
+    "signature": "天命改判",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "simayi",
+    "variant": "guizhen",
+    "signature": "天命改判",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "simayi",
+    "variant": "guizhen",
+    "signature": "天命改判",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "simayi",
+    "variant": "guizhen",
+    "signature": "天命改判",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "simayi",
+    "variant": "guizhen",
+    "signature": "天命改判",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "xiahoudun",
+    "variant": "pozhen",
+    "signature": "刚烈反噬",
+    "sigType": "counter",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 4
+  },
+  {
+    "attacker": "guojia",
+    "boss": "xiahoudun",
+    "variant": "pozhen",
+    "signature": "刚烈反噬",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "xiahoudun",
+    "variant": "pozhen",
+    "signature": "刚烈反噬",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "xiahoudun",
+    "variant": "pozhen",
+    "signature": "刚烈反噬",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 7,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "xiahoudun",
+    "variant": "shoushi",
+    "signature": "刚烈反噬",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "xiahoudun",
+    "variant": "shoushi",
+    "signature": "刚烈反噬",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "xiahoudun",
+    "variant": "shoushi",
+    "signature": "刚烈反噬",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 42,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "xiahoudun",
+    "variant": "shoushi",
+    "signature": "刚烈反噬",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "xiahoudun",
+    "variant": "kuanggong",
+    "signature": "刚烈反噬",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "xiahoudun",
+    "variant": "kuanggong",
+    "signature": "刚烈反噬",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "xiahoudun",
+    "variant": "kuanggong",
+    "signature": "刚烈反噬",
+    "sigType": "counter",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 10
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "xiahoudun",
+    "variant": "kuanggong",
+    "signature": "刚烈反噬",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "xiahoudun",
+    "variant": "guizhen",
+    "signature": "刚烈反噬",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 36,
+    "restarts": 1
+  },
+  {
+    "attacker": "guojia",
+    "boss": "xiahoudun",
+    "variant": "guizhen",
+    "signature": "刚烈反噬",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "xiahoudun",
+    "variant": "guizhen",
+    "signature": "刚烈反噬",
+    "sigType": "counter",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "xiahoudun",
+    "variant": "guizhen",
+    "signature": "刚烈反噬",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 8,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhangliao",
+    "variant": "pozhen",
+    "signature": "突袭断牌",
+    "sigType": "disrupt",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhangliao",
+    "variant": "pozhen",
+    "signature": "突袭断牌",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhangliao",
+    "variant": "pozhen",
+    "signature": "突袭断牌",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhangliao",
+    "variant": "pozhen",
+    "signature": "突袭断牌",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhangliao",
+    "variant": "shoushi",
+    "signature": "突袭断牌",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 52,
+    "restarts": 2
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhangliao",
+    "variant": "shoushi",
+    "signature": "突袭断牌",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhangliao",
+    "variant": "shoushi",
+    "signature": "突袭断牌",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhangliao",
+    "variant": "shoushi",
+    "signature": "突袭断牌",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhangliao",
+    "variant": "kuanggong",
+    "signature": "突袭断牌",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhangliao",
+    "variant": "kuanggong",
+    "signature": "突袭断牌",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhangliao",
+    "variant": "kuanggong",
+    "signature": "突袭断牌",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 31,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhangliao",
+    "variant": "kuanggong",
+    "signature": "突袭断牌",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 11,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhangliao",
+    "variant": "guizhen",
+    "signature": "突袭断牌",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhangliao",
+    "variant": "guizhen",
+    "signature": "突袭断牌",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhangliao",
+    "variant": "guizhen",
+    "signature": "突袭断牌",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 39,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhangliao",
+    "variant": "guizhen",
+    "signature": "突袭断牌",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "xuchu",
+    "variant": "pozhen",
+    "signature": "虎痴重击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 39,
+    "restarts": 1
+  },
+  {
+    "attacker": "guojia",
+    "boss": "xuchu",
+    "variant": "pozhen",
+    "signature": "虎痴重击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 28,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "xuchu",
+    "variant": "pozhen",
+    "signature": "虎痴重击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "xuchu",
+    "variant": "pozhen",
+    "signature": "虎痴重击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "xuchu",
+    "variant": "shoushi",
+    "signature": "虎痴重击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "xuchu",
+    "variant": "shoushi",
+    "signature": "虎痴重击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "xuchu",
+    "variant": "shoushi",
+    "signature": "虎痴重击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "xuchu",
+    "variant": "shoushi",
+    "signature": "虎痴重击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 9,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "xuchu",
+    "variant": "kuanggong",
+    "signature": "虎痴重击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 55,
+    "restarts": 1
+  },
+  {
+    "attacker": "guojia",
+    "boss": "xuchu",
+    "variant": "kuanggong",
+    "signature": "虎痴重击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "xuchu",
+    "variant": "kuanggong",
+    "signature": "虎痴重击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 135,
+    "restarts": 7
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "xuchu",
+    "variant": "kuanggong",
+    "signature": "虎痴重击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "xuchu",
+    "variant": "guizhen",
+    "signature": "虎痴重击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 29,
+    "restarts": 1
+  },
+  {
+    "attacker": "guojia",
+    "boss": "xuchu",
+    "variant": "guizhen",
+    "signature": "虎痴重击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "xuchu",
+    "variant": "guizhen",
+    "signature": "虎痴重击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "xuchu",
+    "variant": "guizhen",
+    "signature": "虎痴重击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 24,
+    "restarts": 1
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "guojia",
+    "variant": "pozhen",
+    "signature": "遗计续阵",
+    "sigType": "heal",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 1
+  },
+  {
+    "attacker": "guojia",
+    "boss": "guojia",
+    "variant": "pozhen",
+    "signature": "遗计续阵",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "guojia",
+    "variant": "pozhen",
+    "signature": "遗计续阵",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 112,
+    "restarts": 4
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "guojia",
+    "variant": "pozhen",
+    "signature": "遗计续阵",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "guojia",
+    "variant": "shoushi",
+    "signature": "遗计续阵",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 34,
+    "restarts": 1
+  },
+  {
+    "attacker": "guojia",
+    "boss": "guojia",
+    "variant": "shoushi",
+    "signature": "遗计续阵",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 33,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "guojia",
+    "variant": "shoushi",
+    "signature": "遗计续阵",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "guojia",
+    "variant": "shoushi",
+    "signature": "遗计续阵",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "guojia",
+    "variant": "kuanggong",
+    "signature": "遗计续阵",
+    "sigType": "heal",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 3
+  },
+  {
+    "attacker": "guojia",
+    "boss": "guojia",
+    "variant": "kuanggong",
+    "signature": "遗计续阵",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 53,
+    "restarts": 1
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "guojia",
+    "variant": "kuanggong",
+    "signature": "遗计续阵",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 108,
+    "restarts": 4
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "guojia",
+    "variant": "kuanggong",
+    "signature": "遗计续阵",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "guojia",
+    "variant": "guizhen",
+    "signature": "遗计续阵",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 25,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "guojia",
+    "variant": "guizhen",
+    "signature": "遗计续阵",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 126,
+    "restarts": 4
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "guojia",
+    "variant": "guizhen",
+    "signature": "遗计续阵",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 25,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "guojia",
+    "variant": "guizhen",
+    "signature": "遗计续阵",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 10,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "sunquan",
+    "variant": "pozhen",
+    "signature": "制衡整备",
+    "sigType": "guard",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "sunquan",
+    "variant": "pozhen",
+    "signature": "制衡整备",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 67,
+    "restarts": 2
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "sunquan",
+    "variant": "pozhen",
+    "signature": "制衡整备",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "sunquan",
+    "variant": "pozhen",
+    "signature": "制衡整备",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "sunquan",
+    "variant": "shoushi",
+    "signature": "制衡整备",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "sunquan",
+    "variant": "shoushi",
+    "signature": "制衡整备",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "sunquan",
+    "variant": "shoushi",
+    "signature": "制衡整备",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "sunquan",
+    "variant": "shoushi",
+    "signature": "制衡整备",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "sunquan",
+    "variant": "kuanggong",
+    "signature": "制衡整备",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 28,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "sunquan",
+    "variant": "kuanggong",
+    "signature": "制衡整备",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 32,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "sunquan",
+    "variant": "kuanggong",
+    "signature": "制衡整备",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 35,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "sunquan",
+    "variant": "kuanggong",
+    "signature": "制衡整备",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 9,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "sunquan",
+    "variant": "guizhen",
+    "signature": "制衡整备",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "sunquan",
+    "variant": "guizhen",
+    "signature": "制衡整备",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 48,
+    "restarts": 1
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "sunquan",
+    "variant": "guizhen",
+    "signature": "制衡整备",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "sunquan",
+    "variant": "guizhen",
+    "signature": "制衡整备",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhouyu",
+    "variant": "pozhen",
+    "signature": "琴音火计",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhouyu",
+    "variant": "pozhen",
+    "signature": "琴音火计",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhouyu",
+    "variant": "pozhen",
+    "signature": "琴音火计",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 37,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhouyu",
+    "variant": "pozhen",
+    "signature": "琴音火计",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhouyu",
+    "variant": "shoushi",
+    "signature": "琴音火计",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhouyu",
+    "variant": "shoushi",
+    "signature": "琴音火计",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhouyu",
+    "variant": "shoushi",
+    "signature": "琴音火计",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhouyu",
+    "variant": "shoushi",
+    "signature": "琴音火计",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhouyu",
+    "variant": "kuanggong",
+    "signature": "琴音火计",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhouyu",
+    "variant": "kuanggong",
+    "signature": "琴音火计",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 29,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhouyu",
+    "variant": "kuanggong",
+    "signature": "琴音火计",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhouyu",
+    "variant": "kuanggong",
+    "signature": "琴音火计",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhouyu",
+    "variant": "guizhen",
+    "signature": "琴音火计",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhouyu",
+    "variant": "guizhen",
+    "signature": "琴音火计",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 28,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhouyu",
+    "variant": "guizhen",
+    "signature": "琴音火计",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhouyu",
+    "variant": "guizhen",
+    "signature": "琴音火计",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "ganning",
+    "variant": "pozhen",
+    "signature": "锦帆拆装",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 37,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "ganning",
+    "variant": "pozhen",
+    "signature": "锦帆拆装",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "ganning",
+    "variant": "pozhen",
+    "signature": "锦帆拆装",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 25,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "ganning",
+    "variant": "pozhen",
+    "signature": "锦帆拆装",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "ganning",
+    "variant": "shoushi",
+    "signature": "锦帆拆装",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 94,
+    "restarts": 5
+  },
+  {
+    "attacker": "guojia",
+    "boss": "ganning",
+    "variant": "shoushi",
+    "signature": "锦帆拆装",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "ganning",
+    "variant": "shoushi",
+    "signature": "锦帆拆装",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "ganning",
+    "variant": "shoushi",
+    "signature": "锦帆拆装",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 32,
+    "restarts": 1
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "ganning",
+    "variant": "kuanggong",
+    "signature": "锦帆拆装",
+    "sigType": "disrupt",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 1
+  },
+  {
+    "attacker": "guojia",
+    "boss": "ganning",
+    "variant": "kuanggong",
+    "signature": "锦帆拆装",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "ganning",
+    "variant": "kuanggong",
+    "signature": "锦帆拆装",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "ganning",
+    "variant": "kuanggong",
+    "signature": "锦帆拆装",
+    "sigType": "disrupt",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 2
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "ganning",
+    "variant": "guizhen",
+    "signature": "锦帆拆装",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "ganning",
+    "variant": "guizhen",
+    "signature": "锦帆拆装",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 48,
+    "restarts": 1
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "ganning",
+    "variant": "guizhen",
+    "signature": "锦帆拆装",
+    "sigType": "disrupt",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "ganning",
+    "variant": "guizhen",
+    "signature": "锦帆拆装",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "lvmeng",
+    "variant": "pozhen",
+    "signature": "白衣蓄势",
+    "sigType": "guard",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 4
+  },
+  {
+    "attacker": "guojia",
+    "boss": "lvmeng",
+    "variant": "pozhen",
+    "signature": "白衣蓄势",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "lvmeng",
+    "variant": "pozhen",
+    "signature": "白衣蓄势",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 107,
+    "restarts": 6
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "lvmeng",
+    "variant": "pozhen",
+    "signature": "白衣蓄势",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "lvmeng",
+    "variant": "shoushi",
+    "signature": "白衣蓄势",
+    "sigType": "guard",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "lvmeng",
+    "variant": "shoushi",
+    "signature": "白衣蓄势",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "lvmeng",
+    "variant": "shoushi",
+    "signature": "白衣蓄势",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 32,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "lvmeng",
+    "variant": "shoushi",
+    "signature": "白衣蓄势",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "lvmeng",
+    "variant": "kuanggong",
+    "signature": "白衣蓄势",
+    "sigType": "guard",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "lvmeng",
+    "variant": "kuanggong",
+    "signature": "白衣蓄势",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "lvmeng",
+    "variant": "kuanggong",
+    "signature": "白衣蓄势",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "lvmeng",
+    "variant": "kuanggong",
+    "signature": "白衣蓄势",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 53,
+    "restarts": 2
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "lvmeng",
+    "variant": "guizhen",
+    "signature": "白衣蓄势",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "lvmeng",
+    "variant": "guizhen",
+    "signature": "白衣蓄势",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 25,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "lvmeng",
+    "variant": "guizhen",
+    "signature": "白衣蓄势",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 37,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "lvmeng",
+    "variant": "guizhen",
+    "signature": "白衣蓄势",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "luxun",
+    "variant": "pozhen",
+    "signature": "连营火势",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 31,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "luxun",
+    "variant": "pozhen",
+    "signature": "连营火势",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "luxun",
+    "variant": "pozhen",
+    "signature": "连营火势",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 42,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "luxun",
+    "variant": "pozhen",
+    "signature": "连营火势",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 35,
+    "restarts": 1
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "luxun",
+    "variant": "shoushi",
+    "signature": "连营火势",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "luxun",
+    "variant": "shoushi",
+    "signature": "连营火势",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "luxun",
+    "variant": "shoushi",
+    "signature": "连营火势",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "luxun",
+    "variant": "shoushi",
+    "signature": "连营火势",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "luxun",
+    "variant": "kuanggong",
+    "signature": "连营火势",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "luxun",
+    "variant": "kuanggong",
+    "signature": "连营火势",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "luxun",
+    "variant": "kuanggong",
+    "signature": "连营火势",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "luxun",
+    "variant": "kuanggong",
+    "signature": "连营火势",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "luxun",
+    "variant": "guizhen",
+    "signature": "连营火势",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "luxun",
+    "variant": "guizhen",
+    "signature": "连营火势",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "luxun",
+    "variant": "guizhen",
+    "signature": "连营火势",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "luxun",
+    "variant": "guizhen",
+    "signature": "连营火势",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "sunshangxiang",
+    "variant": "pozhen",
+    "signature": "枭姬换装",
+    "sigType": "guard",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 1
+  },
+  {
+    "attacker": "guojia",
+    "boss": "sunshangxiang",
+    "variant": "pozhen",
+    "signature": "枭姬换装",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 28,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "sunshangxiang",
+    "variant": "pozhen",
+    "signature": "枭姬换装",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 31,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "sunshangxiang",
+    "variant": "pozhen",
+    "signature": "枭姬换装",
+    "sigType": "guard",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 4
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "sunshangxiang",
+    "variant": "shoushi",
+    "signature": "枭姬换装",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "sunshangxiang",
+    "variant": "shoushi",
+    "signature": "枭姬换装",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "sunshangxiang",
+    "variant": "shoushi",
+    "signature": "枭姬换装",
+    "sigType": "guard",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 4
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "sunshangxiang",
+    "variant": "shoushi",
+    "signature": "枭姬换装",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "sunshangxiang",
+    "variant": "kuanggong",
+    "signature": "枭姬换装",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 39,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "sunshangxiang",
+    "variant": "kuanggong",
+    "signature": "枭姬换装",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "sunshangxiang",
+    "variant": "kuanggong",
+    "signature": "枭姬换装",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "sunshangxiang",
+    "variant": "kuanggong",
+    "signature": "枭姬换装",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 30,
+    "restarts": 1
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "sunshangxiang",
+    "variant": "guizhen",
+    "signature": "枭姬换装",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "sunshangxiang",
+    "variant": "guizhen",
+    "signature": "枭姬换装",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "sunshangxiang",
+    "variant": "guizhen",
+    "signature": "枭姬换装",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "sunshangxiang",
+    "variant": "guizhen",
+    "signature": "枭姬换装",
+    "sigType": "guard",
+    "cleared": true,
+    "actions": 58,
+    "restarts": 1
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "lvbu",
+    "variant": "pozhen",
+    "signature": "无双压制",
+    "sigType": "counter",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 7
+  },
+  {
+    "attacker": "guojia",
+    "boss": "lvbu",
+    "variant": "pozhen",
+    "signature": "无双压制",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "lvbu",
+    "variant": "pozhen",
+    "signature": "无双压制",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "lvbu",
+    "variant": "pozhen",
+    "signature": "无双压制",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 51,
+    "restarts": 2
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "lvbu",
+    "variant": "shoushi",
+    "signature": "无双压制",
+    "sigType": "counter",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 2
+  },
+  {
+    "attacker": "guojia",
+    "boss": "lvbu",
+    "variant": "shoushi",
+    "signature": "无双压制",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "lvbu",
+    "variant": "shoushi",
+    "signature": "无双压制",
+    "sigType": "counter",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 5
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "lvbu",
+    "variant": "shoushi",
+    "signature": "无双压制",
+    "sigType": "counter",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "lvbu",
+    "variant": "kuanggong",
+    "signature": "无双压制",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "lvbu",
+    "variant": "kuanggong",
+    "signature": "无双压制",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "lvbu",
+    "variant": "kuanggong",
+    "signature": "无双压制",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 133,
+    "restarts": 9
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "lvbu",
+    "variant": "kuanggong",
+    "signature": "无双压制",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 69,
+    "restarts": 3
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "lvbu",
+    "variant": "guizhen",
+    "signature": "无双压制",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 131,
+    "restarts": 6
+  },
+  {
+    "attacker": "guojia",
+    "boss": "lvbu",
+    "variant": "guizhen",
+    "signature": "无双压制",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "lvbu",
+    "variant": "guizhen",
+    "signature": "无双压制",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 39,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "lvbu",
+    "variant": "guizhen",
+    "signature": "无双压制",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "diaochan",
+    "variant": "pozhen",
+    "signature": "离间魅影",
+    "sigType": "disrupt",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "diaochan",
+    "variant": "pozhen",
+    "signature": "离间魅影",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "diaochan",
+    "variant": "pozhen",
+    "signature": "离间魅影",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "diaochan",
+    "variant": "pozhen",
+    "signature": "离间魅影",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "diaochan",
+    "variant": "shoushi",
+    "signature": "离间魅影",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "diaochan",
+    "variant": "shoushi",
+    "signature": "离间魅影",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 31,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "diaochan",
+    "variant": "shoushi",
+    "signature": "离间魅影",
+    "sigType": "disrupt",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "diaochan",
+    "variant": "shoushi",
+    "signature": "离间魅影",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "diaochan",
+    "variant": "kuanggong",
+    "signature": "离间魅影",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "diaochan",
+    "variant": "kuanggong",
+    "signature": "离间魅影",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 11,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "diaochan",
+    "variant": "kuanggong",
+    "signature": "离间魅影",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 30,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "diaochan",
+    "variant": "kuanggong",
+    "signature": "离间魅影",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "diaochan",
+    "variant": "guizhen",
+    "signature": "离间魅影",
+    "sigType": "disrupt",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 1
+  },
+  {
+    "attacker": "guojia",
+    "boss": "diaochan",
+    "variant": "guizhen",
+    "signature": "离间魅影",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "diaochan",
+    "variant": "guizhen",
+    "signature": "离间魅影",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "diaochan",
+    "variant": "guizhen",
+    "signature": "离间魅影",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "huatuo",
+    "variant": "pozhen",
+    "signature": "急救续命",
+    "sigType": "heal",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "huatuo",
+    "variant": "pozhen",
+    "signature": "急救续命",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 93,
+    "restarts": 1
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "huatuo",
+    "variant": "pozhen",
+    "signature": "急救续命",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 30,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "huatuo",
+    "variant": "pozhen",
+    "signature": "急救续命",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "huatuo",
+    "variant": "shoushi",
+    "signature": "急救续命",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 78,
+    "restarts": 3
+  },
+  {
+    "attacker": "guojia",
+    "boss": "huatuo",
+    "variant": "shoushi",
+    "signature": "急救续命",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 38,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "huatuo",
+    "variant": "shoushi",
+    "signature": "急救续命",
+    "sigType": "heal",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 6
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "huatuo",
+    "variant": "shoushi",
+    "signature": "急救续命",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 47,
+    "restarts": 1
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "huatuo",
+    "variant": "kuanggong",
+    "signature": "急救续命",
+    "sigType": "heal",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 7
+  },
+  {
+    "attacker": "guojia",
+    "boss": "huatuo",
+    "variant": "kuanggong",
+    "signature": "急救续命",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 42,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "huatuo",
+    "variant": "kuanggong",
+    "signature": "急救续命",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 108,
+    "restarts": 5
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "huatuo",
+    "variant": "kuanggong",
+    "signature": "急救续命",
+    "sigType": "heal",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 7
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "huatuo",
+    "variant": "guizhen",
+    "signature": "急救续命",
+    "sigType": "heal",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "huatuo",
+    "variant": "guizhen",
+    "signature": "急救续命",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 88,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "huatuo",
+    "variant": "guizhen",
+    "signature": "急救续命",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "huatuo",
+    "variant": "guizhen",
+    "signature": "急救续命",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "yuanshao",
+    "variant": "pozhen",
+    "signature": "乱击箭雨",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 3
+  },
+  {
+    "attacker": "guojia",
+    "boss": "yuanshao",
+    "variant": "pozhen",
+    "signature": "乱击箭雨",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "yuanshao",
+    "variant": "pozhen",
+    "signature": "乱击箭雨",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "yuanshao",
+    "variant": "pozhen",
+    "signature": "乱击箭雨",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 108,
+    "restarts": 7
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "yuanshao",
+    "variant": "shoushi",
+    "signature": "乱击箭雨",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "yuanshao",
+    "variant": "shoushi",
+    "signature": "乱击箭雨",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "yuanshao",
+    "variant": "shoushi",
+    "signature": "乱击箭雨",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "yuanshao",
+    "variant": "shoushi",
+    "signature": "乱击箭雨",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 28,
+    "restarts": 1
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "yuanshao",
+    "variant": "kuanggong",
+    "signature": "乱击箭雨",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 28,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "yuanshao",
+    "variant": "kuanggong",
+    "signature": "乱击箭雨",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "yuanshao",
+    "variant": "kuanggong",
+    "signature": "乱击箭雨",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 38,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "yuanshao",
+    "variant": "kuanggong",
+    "signature": "乱击箭雨",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "yuanshao",
+    "variant": "guizhen",
+    "signature": "乱击箭雨",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 32,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "yuanshao",
+    "variant": "guizhen",
+    "signature": "乱击箭雨",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "yuanshao",
+    "variant": "guizhen",
+    "signature": "乱击箭雨",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 27,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "yuanshao",
+    "variant": "guizhen",
+    "signature": "乱击箭雨",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 51,
+    "restarts": 2
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhangjiao",
+    "variant": "pozhen",
+    "signature": "雷狱判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 28,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhangjiao",
+    "variant": "pozhen",
+    "signature": "雷狱判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhangjiao",
+    "variant": "pozhen",
+    "signature": "雷狱判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 83,
+    "restarts": 4
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhangjiao",
+    "variant": "pozhen",
+    "signature": "雷狱判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhangjiao",
+    "variant": "shoushi",
+    "signature": "雷狱判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 43,
+    "restarts": 2
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhangjiao",
+    "variant": "shoushi",
+    "signature": "雷狱判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 25,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhangjiao",
+    "variant": "shoushi",
+    "signature": "雷狱判阵",
+    "sigType": "judge",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhangjiao",
+    "variant": "shoushi",
+    "signature": "雷狱判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 11,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhangjiao",
+    "variant": "kuanggong",
+    "signature": "雷狱判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 33,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhangjiao",
+    "variant": "kuanggong",
+    "signature": "雷狱判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhangjiao",
+    "variant": "kuanggong",
+    "signature": "雷狱判阵",
+    "sigType": "judge",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 3
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhangjiao",
+    "variant": "kuanggong",
+    "signature": "雷狱判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 60,
+    "restarts": 3
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhangjiao",
+    "variant": "guizhen",
+    "signature": "雷狱判阵",
+    "sigType": "judge",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhangjiao",
+    "variant": "guizhen",
+    "signature": "雷狱判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 36,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhangjiao",
+    "variant": "guizhen",
+    "signature": "雷狱判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhangjiao",
+    "variant": "guizhen",
+    "signature": "雷狱判阵",
+    "sigType": "judge",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 4
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "dongzhuo",
+    "variant": "pozhen",
+    "signature": "暴虐酒池",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 47,
+    "restarts": 2
+  },
+  {
+    "attacker": "guojia",
+    "boss": "dongzhuo",
+    "variant": "pozhen",
+    "signature": "暴虐酒池",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 30,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "dongzhuo",
+    "variant": "pozhen",
+    "signature": "暴虐酒池",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 36,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "dongzhuo",
+    "variant": "pozhen",
+    "signature": "暴虐酒池",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 39,
+    "restarts": 1
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "dongzhuo",
+    "variant": "shoushi",
+    "signature": "暴虐酒池",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 36,
+    "restarts": 1
+  },
+  {
+    "attacker": "guojia",
+    "boss": "dongzhuo",
+    "variant": "shoushi",
+    "signature": "暴虐酒池",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "dongzhuo",
+    "variant": "shoushi",
+    "signature": "暴虐酒池",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 26,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "dongzhuo",
+    "variant": "shoushi",
+    "signature": "暴虐酒池",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "dongzhuo",
+    "variant": "kuanggong",
+    "signature": "暴虐酒池",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "dongzhuo",
+    "variant": "kuanggong",
+    "signature": "暴虐酒池",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "dongzhuo",
+    "variant": "kuanggong",
+    "signature": "暴虐酒池",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "dongzhuo",
+    "variant": "kuanggong",
+    "signature": "暴虐酒池",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "dongzhuo",
+    "variant": "guizhen",
+    "signature": "暴虐酒池",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "dongzhuo",
+    "variant": "guizhen",
+    "signature": "暴虐酒池",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "dongzhuo",
+    "variant": "guizhen",
+    "signature": "暴虐酒池",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 34,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "dongzhuo",
+    "variant": "guizhen",
+    "signature": "暴虐酒池",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "machao",
+    "variant": "pozhen",
+    "signature": "铁骑封路",
+    "sigType": "disrupt",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 6
+  },
+  {
+    "attacker": "guojia",
+    "boss": "machao",
+    "variant": "pozhen",
+    "signature": "铁骑封路",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "machao",
+    "variant": "pozhen",
+    "signature": "铁骑封路",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 31,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "machao",
+    "variant": "pozhen",
+    "signature": "铁骑封路",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "machao",
+    "variant": "shoushi",
+    "signature": "铁骑封路",
+    "sigType": "disrupt",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "machao",
+    "variant": "shoushi",
+    "signature": "铁骑封路",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "machao",
+    "variant": "shoushi",
+    "signature": "铁骑封路",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "machao",
+    "variant": "shoushi",
+    "signature": "铁骑封路",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 31,
+    "restarts": 1
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "machao",
+    "variant": "kuanggong",
+    "signature": "铁骑封路",
+    "sigType": "disrupt",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 1
+  },
+  {
+    "attacker": "guojia",
+    "boss": "machao",
+    "variant": "kuanggong",
+    "signature": "铁骑封路",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "machao",
+    "variant": "kuanggong",
+    "signature": "铁骑封路",
+    "sigType": "disrupt",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 6
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "machao",
+    "variant": "kuanggong",
+    "signature": "铁骑封路",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "machao",
+    "variant": "guizhen",
+    "signature": "铁骑封路",
+    "sigType": "disrupt",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 6
+  },
+  {
+    "attacker": "guojia",
+    "boss": "machao",
+    "variant": "guizhen",
+    "signature": "铁骑封路",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 28,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "machao",
+    "variant": "guizhen",
+    "signature": "铁骑封路",
+    "sigType": "disrupt",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 3
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "machao",
+    "variant": "guizhen",
+    "signature": "铁骑封路",
+    "sigType": "disrupt",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 1
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "pangtong",
+    "variant": "pozhen",
+    "signature": "连环焚阵",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "pangtong",
+    "variant": "pozhen",
+    "signature": "连环焚阵",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 34,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "pangtong",
+    "variant": "pozhen",
+    "signature": "连环焚阵",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "pangtong",
+    "variant": "pozhen",
+    "signature": "连环焚阵",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 69,
+    "restarts": 3
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "pangtong",
+    "variant": "shoushi",
+    "signature": "连环焚阵",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 34,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "pangtong",
+    "variant": "shoushi",
+    "signature": "连环焚阵",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 33,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "pangtong",
+    "variant": "shoushi",
+    "signature": "连环焚阵",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 29,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "pangtong",
+    "variant": "shoushi",
+    "signature": "连环焚阵",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 80,
+    "restarts": 3
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "pangtong",
+    "variant": "kuanggong",
+    "signature": "连环焚阵",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "pangtong",
+    "variant": "kuanggong",
+    "signature": "连环焚阵",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 39,
+    "restarts": 1
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "pangtong",
+    "variant": "kuanggong",
+    "signature": "连环焚阵",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "pangtong",
+    "variant": "kuanggong",
+    "signature": "连环焚阵",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 48,
+    "restarts": 2
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "pangtong",
+    "variant": "guizhen",
+    "signature": "连环焚阵",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 53,
+    "restarts": 1
+  },
+  {
+    "attacker": "guojia",
+    "boss": "pangtong",
+    "variant": "guizhen",
+    "signature": "连环焚阵",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 52,
+    "restarts": 1
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "pangtong",
+    "variant": "guizhen",
+    "signature": "连环焚阵",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "pangtong",
+    "variant": "guizhen",
+    "signature": "连环焚阵",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 2
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhenji",
+    "variant": "pozhen",
+    "signature": "洛神判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhenji",
+    "variant": "pozhen",
+    "signature": "洛神判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhenji",
+    "variant": "pozhen",
+    "signature": "洛神判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhenji",
+    "variant": "pozhen",
+    "signature": "洛神判阵",
+    "sigType": "judge",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhenji",
+    "variant": "shoushi",
+    "signature": "洛神判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhenji",
+    "variant": "shoushi",
+    "signature": "洛神判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhenji",
+    "variant": "shoushi",
+    "signature": "洛神判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhenji",
+    "variant": "shoushi",
+    "signature": "洛神判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhenji",
+    "variant": "kuanggong",
+    "signature": "洛神判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhenji",
+    "variant": "kuanggong",
+    "signature": "洛神判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 31,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhenji",
+    "variant": "kuanggong",
+    "signature": "洛神判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhenji",
+    "variant": "kuanggong",
+    "signature": "洛神判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zhenji",
+    "variant": "guizhen",
+    "signature": "洛神判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zhenji",
+    "variant": "guizhen",
+    "signature": "洛神判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zhenji",
+    "variant": "guizhen",
+    "signature": "洛神判阵",
+    "sigType": "judge",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zhenji",
+    "variant": "guizhen",
+    "signature": "洛神判阵",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "xunyu",
+    "variant": "pozhen",
+    "signature": "节命调度",
+    "sigType": "heal",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 7
+  },
+  {
+    "attacker": "guojia",
+    "boss": "xunyu",
+    "variant": "pozhen",
+    "signature": "节命调度",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 48,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "xunyu",
+    "variant": "pozhen",
+    "signature": "节命调度",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "xunyu",
+    "variant": "pozhen",
+    "signature": "节命调度",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "xunyu",
+    "variant": "shoushi",
+    "signature": "节命调度",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 43,
+    "restarts": 1
+  },
+  {
+    "attacker": "guojia",
+    "boss": "xunyu",
+    "variant": "shoushi",
+    "signature": "节命调度",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "xunyu",
+    "variant": "shoushi",
+    "signature": "节命调度",
+    "sigType": "heal",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 6
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "xunyu",
+    "variant": "shoushi",
+    "signature": "节命调度",
+    "sigType": "heal",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "xunyu",
+    "variant": "kuanggong",
+    "signature": "节命调度",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 51,
+    "restarts": 1
+  },
+  {
+    "attacker": "guojia",
+    "boss": "xunyu",
+    "variant": "kuanggong",
+    "signature": "节命调度",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "xunyu",
+    "variant": "kuanggong",
+    "signature": "节命调度",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 61,
+    "restarts": 4
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "xunyu",
+    "variant": "kuanggong",
+    "signature": "节命调度",
+    "sigType": "heal",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 3
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "xunyu",
+    "variant": "guizhen",
+    "signature": "节命调度",
+    "sigType": "heal",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "xunyu",
+    "variant": "guizhen",
+    "signature": "节命调度",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 34,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "xunyu",
+    "variant": "guizhen",
+    "signature": "节命调度",
+    "sigType": "heal",
+    "cleared": true,
+    "actions": 92,
+    "restarts": 5
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "xunyu",
+    "variant": "guizhen",
+    "signature": "节命调度",
+    "sigType": "heal",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 1
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "daqiao",
+    "variant": "pozhen",
+    "signature": "国色延时",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 6
+  },
+  {
+    "attacker": "guojia",
+    "boss": "daqiao",
+    "variant": "pozhen",
+    "signature": "国色延时",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "daqiao",
+    "variant": "pozhen",
+    "signature": "国色延时",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "daqiao",
+    "variant": "pozhen",
+    "signature": "国色延时",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "daqiao",
+    "variant": "shoushi",
+    "signature": "国色延时",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 2
+  },
+  {
+    "attacker": "guojia",
+    "boss": "daqiao",
+    "variant": "shoushi",
+    "signature": "国色延时",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "daqiao",
+    "variant": "shoushi",
+    "signature": "国色延时",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 33,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "daqiao",
+    "variant": "shoushi",
+    "signature": "国色延时",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 27,
+    "restarts": 1
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "daqiao",
+    "variant": "kuanggong",
+    "signature": "国色延时",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "daqiao",
+    "variant": "kuanggong",
+    "signature": "国色延时",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 29,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "daqiao",
+    "variant": "kuanggong",
+    "signature": "国色延时",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "daqiao",
+    "variant": "kuanggong",
+    "signature": "国色延时",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "daqiao",
+    "variant": "guizhen",
+    "signature": "国色延时",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 59,
+    "restarts": 2
+  },
+  {
+    "attacker": "guojia",
+    "boss": "daqiao",
+    "variant": "guizhen",
+    "signature": "国色延时",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "daqiao",
+    "variant": "guizhen",
+    "signature": "国色延时",
+    "sigType": "trick",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 2
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "daqiao",
+    "variant": "guizhen",
+    "signature": "国色延时",
+    "sigType": "trick",
+    "cleared": true,
+    "actions": 31,
+    "restarts": 1
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "taishici",
+    "variant": "pozhen",
+    "signature": "天义连击",
+    "sigType": "counter",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 2
+  },
+  {
+    "attacker": "guojia",
+    "boss": "taishici",
+    "variant": "pozhen",
+    "signature": "天义连击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 28,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "taishici",
+    "variant": "pozhen",
+    "signature": "天义连击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "taishici",
+    "variant": "pozhen",
+    "signature": "天义连击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "taishici",
+    "variant": "shoushi",
+    "signature": "天义连击",
+    "sigType": "counter",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "taishici",
+    "variant": "shoushi",
+    "signature": "天义连击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "taishici",
+    "variant": "shoushi",
+    "signature": "天义连击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "taishici",
+    "variant": "shoushi",
+    "signature": "天义连击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "taishici",
+    "variant": "kuanggong",
+    "signature": "天义连击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "taishici",
+    "variant": "kuanggong",
+    "signature": "天义连击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "taishici",
+    "variant": "kuanggong",
+    "signature": "天义连击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 33,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "taishici",
+    "variant": "kuanggong",
+    "signature": "天义连击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "taishici",
+    "variant": "guizhen",
+    "signature": "天义连击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 57,
+    "restarts": 3
+  },
+  {
+    "attacker": "guojia",
+    "boss": "taishici",
+    "variant": "guizhen",
+    "signature": "天义连击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "taishici",
+    "variant": "guizhen",
+    "signature": "天义连击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "taishici",
+    "variant": "guizhen",
+    "signature": "天义连击",
+    "sigType": "counter",
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "yuji",
+    "variant": "pozhen",
+    "signature": "蛊惑幻术",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "yuji",
+    "variant": "pozhen",
+    "signature": "蛊惑幻术",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "yuji",
+    "variant": "pozhen",
+    "signature": "蛊惑幻术",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "yuji",
+    "variant": "pozhen",
+    "signature": "蛊惑幻术",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "yuji",
+    "variant": "shoushi",
+    "signature": "蛊惑幻术",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "yuji",
+    "variant": "shoushi",
+    "signature": "蛊惑幻术",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "yuji",
+    "variant": "shoushi",
+    "signature": "蛊惑幻术",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "yuji",
+    "variant": "shoushi",
+    "signature": "蛊惑幻术",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "yuji",
+    "variant": "kuanggong",
+    "signature": "蛊惑幻术",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 31,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "yuji",
+    "variant": "kuanggong",
+    "signature": "蛊惑幻术",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 28,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "yuji",
+    "variant": "kuanggong",
+    "signature": "蛊惑幻术",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "yuji",
+    "variant": "kuanggong",
+    "signature": "蛊惑幻术",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "yuji",
+    "variant": "guizhen",
+    "signature": "蛊惑幻术",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 25,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "yuji",
+    "variant": "guizhen",
+    "signature": "蛊惑幻术",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "yuji",
+    "variant": "guizhen",
+    "signature": "蛊惑幻术",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "yuji",
+    "variant": "guizhen",
+    "signature": "蛊惑幻术",
+    "sigType": "disrupt",
+    "cleared": true,
+    "actions": 9,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zuoci",
+    "variant": "pozhen",
+    "signature": "化身万象",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zuoci",
+    "variant": "pozhen",
+    "signature": "化身万象",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 25,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zuoci",
+    "variant": "pozhen",
+    "signature": "化身万象",
+    "sigType": "judge",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 5
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zuoci",
+    "variant": "pozhen",
+    "signature": "化身万象",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zuoci",
+    "variant": "shoushi",
+    "signature": "化身万象",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zuoci",
+    "variant": "shoushi",
+    "signature": "化身万象",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zuoci",
+    "variant": "shoushi",
+    "signature": "化身万象",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zuoci",
+    "variant": "shoushi",
+    "signature": "化身万象",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zuoci",
+    "variant": "kuanggong",
+    "signature": "化身万象",
+    "sigType": "judge",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zuoci",
+    "variant": "kuanggong",
+    "signature": "化身万象",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 34,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zuoci",
+    "variant": "kuanggong",
+    "signature": "化身万象",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 33,
+    "restarts": 1
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zuoci",
+    "variant": "kuanggong",
+    "signature": "化身万象",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "guanyu",
+    "boss": "zuoci",
+    "variant": "guizhen",
+    "signature": "化身万象",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0
+  },
+  {
+    "attacker": "guojia",
+    "boss": "zuoci",
+    "variant": "guizhen",
+    "signature": "化身万象",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 28,
+    "restarts": 0
+  },
+  {
+    "attacker": "zhouyu",
+    "boss": "zuoci",
+    "variant": "guizhen",
+    "signature": "化身万象",
+    "sigType": "judge",
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0
+  },
+  {
+    "attacker": "lvbu",
+    "boss": "zuoci",
+    "variant": "guizhen",
+    "signature": "化身万象",
+    "sigType": "judge",
+    "cleared": false,
+    "actions": 140,
+    "restarts": 1
+  }
+]

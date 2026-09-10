@@ -1,0 +1,124 @@
+{
+  "version": "0.9.0",
+  "slots": {
+    "helmet": {
+      "name": "头冠",
+      "base_name": "玄纹冠",
+      "primary": [
+        "生命",
+        "防御"
+      ]
+    },
+    "armor": {
+      "name": "法衣",
+      "base_name": "玄纹法衣",
+      "primary": [
+        "生命",
+        "防御"
+      ]
+    },
+    "bracer": {
+      "name": "护腕",
+      "base_name": "伏魔护腕",
+      "primary": [
+        "攻击",
+        "防御"
+      ]
+    },
+    "boots": {
+      "name": "云履",
+      "base_name": "踏云靴",
+      "primary": [
+        "速度",
+        "闪避"
+      ]
+    },
+    "ring": {
+      "name": "戒指",
+      "base_name": "聚灵戒",
+      "primary": [
+        "攻击",
+        "暴击"
+      ]
+    },
+    "talisman": {
+      "name": "符佩",
+      "base_name": "护心符",
+      "primary": [
+        "生命",
+        "幸运"
+      ]
+    }
+  },
+  "advanced_stats": {
+    "luck": {
+      "name": "幸运",
+      "unit": "点",
+      "desc": "提高高品质装备掉落倾向，并轻微提高额外掉落概率。"
+    },
+    "crit_rate": {
+      "name": "暴击率",
+      "unit": "%",
+      "desc": "攻击触发暴击的概率，上限75%。"
+    },
+    "crit_damage": {
+      "name": "暴击伤害",
+      "unit": "%",
+      "desc": "暴击时的伤害倍率，基础150%。"
+    },
+    "dodge": {
+      "name": "闪避",
+      "unit": "%",
+      "desc": "规避敌方攻击的概率，上限65%。"
+    },
+    "accuracy": {
+      "name": "命中",
+      "unit": "%",
+      "desc": "降低敌方【闪】与闪避响应成功率。"
+    },
+    "lifesteal": {
+      "name": "吸血",
+      "unit": "%",
+      "desc": "造成有效伤害后恢复部分生命。"
+    },
+    "armor_pen": {
+      "name": "破甲",
+      "unit": "%",
+      "desc": "提高对高防御与Boss目标的有效伤害。"
+    },
+    "anti_crit": {
+      "name": "抗暴",
+      "unit": "%",
+      "desc": "降低敌方暴击概率。"
+    },
+    "boss_damage": {
+      "name": "Boss伤害",
+      "unit": "%",
+      "desc": "仅在每10层Boss战中提供额外伤害。"
+    },
+    "drop_bonus": {
+      "name": "掉落加成",
+      "unit": "%",
+      "desc": "提高战斗掉落装备的概率。"
+    },
+    "idle_bonus": {
+      "name": "挂机收益",
+      "unit": "%",
+      "desc": "提高铜钱与修为的挂机结算。"
+    }
+  },
+  "quality_affix_count": {
+    "普通": 1,
+    "精良": 1,
+    "稀有": 2,
+    "史诗": 2,
+    "传说": 3,
+    "神话": 3,
+    "仙品": 4
+  },
+  "rules": {
+    "luck_quality": "每10点幸运约提高0.5个百分点的高品质倾向，内部有上限。",
+    "quick_equip": "一键换装使用综合评分 + 当前武将流派适配评分，不再只看单一power。",
+    "dismantle": "已装备、锁定、传说及以上、或接近当前部位最佳适配评分的装备默认保留。"
+  }
+}

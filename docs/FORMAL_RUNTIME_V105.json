@@ -1,0 +1,75 @@
+{
+  "runtime_errors": [],
+  "title": "金山文档",
+  "version": "1.0.5",
+  "save_prefix": "SGST105-",
+  "old_save_migration": {
+    "version": "1.0.5",
+    "floor": 777,
+    "chain": true,
+    "upgradeOnly": true
+  },
+  "counts": {
+    "generals": 32,
+    "skillStages": 160,
+    "prob": 39,
+    "mis": 29,
+    "lucky": 6,
+    "shop": 10
+  },
+  "shop": {
+    "slots": 10,
+    "gainsFinite": true,
+    "gainLabels": 10,
+    "noSkin": true
+  },
+  "event_chain": {
+    "chains": 1,
+    "detailHas": true,
+    "route": "wealth",
+    "routeUntil": 21
+  },
+  "boss_rules": {
+    "pozhen": true,
+    "shoushi": true,
+    "kuanggong": true,
+    "guizhen": true
+  },
+  "deep_balance_rules": [
+    {
+      "f": 2000,
+      "p": 3.209385905746003e+38,
+      "hp": 2.7494410046047654e+40,
+      "cap": 0.085,
+      "minThreat": 0.5,
+      "late": 2.00525770121681
+    },
+    {
+      "f": 2500,
+      "p": 1.1209649948882586e+47,
+      "hp": 1.2790630801785791e+49,
+      "cap": 0.075,
+      "minThreat": 0.55,
+      "late": 2.429618362211969
+    },
+    {
+      "f": 3000,
+      "p": 3.519326422013123e+55,
+      "hp": 5.2685021206253386e+57,
+      "cap": 0.065,
+      "minThreat": 0.6,
+      "late": 2.851110586619453
+    }
+  ],
+  "equipment": {
+    "upgradeOnly": true,
+    "count": 3,
+    "allUpgrade": true,
+    "dual": 1
+  },
+  "filesystem": {
+    "dynamic_files": 0,
+    "audio_files": 0,
+    "jpg_skins": 80
+  }
+}

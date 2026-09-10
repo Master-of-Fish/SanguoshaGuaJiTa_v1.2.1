@@ -1,0 +1,56 @@
+{
+  "version": "0.17.0",
+  "general_count_locked": 32,
+  "boss_sets": {
+    "wei": {
+      "name": "魏·镇岳",
+      "thresholds": [
+        2,
+        4,
+        6
+      ]
+    },
+    "shu": {
+      "name": "蜀·破阵",
+      "thresholds": [
+        2,
+        4,
+        6
+      ]
+    },
+    "wu": {
+      "name": "吴·连营",
+      "thresholds": [
+        2,
+        4,
+        6
+      ]
+    },
+    "qun": {
+      "name": "群·无双",
+      "thresholds": [
+        2,
+        4,
+        6
+      ]
+    }
+  },
+  "boss_general_exclusive_drop": "每50层Boss必掉当前守塔武将的专属镇塔套装件；其他Boss仍有15%概率掉落。",
+  "auto_dismantle_protection": [
+    "已装备",
+    "手动锁定",
+    "系统极品",
+    "当前武将适配提升>3%的装备（默认开启）"
+  ],
+  "training_config": [
+    "武魂突破",
+    "铜钱升级",
+    "推荐神兵",
+    "5星默认觉醒方向"
+  ],
+  "fate_shop_advanced": [
+    "阵营套装匣",
+    "灵根顿悟"
+  ],
+  "memory_token_rule": "每清除20层固定获得1枚，跨层累计补发"
+}

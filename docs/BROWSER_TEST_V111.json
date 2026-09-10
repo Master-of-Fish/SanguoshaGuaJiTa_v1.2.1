@@ -1,0 +1,918 @@
+{
+  "buttonClicks": [
+    {
+      "page": "tower",
+      "selector": "#claimOfflineBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "tower",
+      "selector": "#claimOfflineOrganizeBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "tower",
+      "selector": "#autoBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "tower",
+      "selector": "#fightBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "tower",
+      "selector": "#speedBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "cultivate",
+      "selector": "#cultBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "cultivate",
+      "selector": "#breakBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "cultivate",
+      "selector": "#ascBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "cultivate",
+      "selector": "[data-fate-up=\"war\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "cultivate",
+      "selector": "[data-fate-up=\"idle\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "cultivate",
+      "selector": "[data-fate-up=\"fortune\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "cultivate",
+      "selector": "[data-fate-up=\"forge\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "cultivate",
+      "selector": "[data-fate-up=\"soul\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "cultivate",
+      "selector": "[data-fate-shop=\"jade\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "cultivate",
+      "selector": "[data-fate-shop=\"memory\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "cultivate",
+      "selector": "[data-fate-shop=\"pages\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "cultivate",
+      "selector": "[data-fate-shop=\"soul\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "cultivate",
+      "selector": "[data-fate-shop=\"bossgear\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "cultivate",
+      "selector": "[data-fate-shop=\"setgear\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "cultivate",
+      "selector": "[data-fate-shop=\"rootinsight\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-root=\"fire\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-root-up=\"fire\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-root=\"metal\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-root-up=\"metal\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-root=\"wood\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-root-up=\"wood\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-root=\"water\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-root-up=\"water\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-root=\"thunder\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-root-up=\"thunder\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech=\"qinglong\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech-sub=\"qinglong\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech-up=\"qinglong\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech-quality=\"qinglong\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech=\"bazi\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech-sub=\"bazi\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech-up=\"bazi\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech-quality=\"bazi\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech=\"taiping\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech-sub=\"taiping\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech-up=\"taiping\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech-quality=\"taiping\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech=\"xuesha\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech-sub=\"xuesha\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech-up=\"xuesha\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech-quality=\"xuesha\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech=\"lingxu\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech-sub=\"lingxu\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech-up=\"lingxu\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech-quality=\"lingxu\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech=\"tianji\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech-sub=\"tianji\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech-up=\"tianji\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-tech-quality=\"tianji\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-destiny=\"wuqu\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-destiny-roll=\"wuqu\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-destiny=\"pojun\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-destiny-roll=\"pojun\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-destiny=\"tiangang\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-destiny-roll=\"tiangang\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-destiny=\"yaoguang\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-destiny-roll=\"yaoguang\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-destiny=\"tianji\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-destiny-roll=\"tianji\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-destiny=\"lingxi\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "path",
+      "selector": "[data-destiny-roll=\"lingxi\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "adventure",
+      "selector": "[data-secret=\"taoyuan\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "adventure",
+      "selector": "[data-secret-sweep=\"taoyuan\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "adventure",
+      "selector": "[data-secret=\"chibi\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "adventure",
+      "selector": "[data-secret-sweep=\"chibi\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "adventure",
+      "selector": "[data-secret=\"wuzhang\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "adventure",
+      "selector": "[data-secret-sweep=\"wuzhang\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "adventure",
+      "selector": "[data-secret=\"youming\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "adventure",
+      "selector": "[data-secret-sweep=\"youming\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "adventure",
+      "selector": "[data-secret=\"leize\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "adventure",
+      "selector": "[data-secret-sweep=\"leize\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "adventure",
+      "selector": "[data-secret=\"dongfu\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "adventure",
+      "selector": "[data-secret-sweep=\"dongfu\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "adventure",
+      "selector": "#cycleBossBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "adventure",
+      "selector": "[data-dispatch=\"\\32 \"]",
+      "status": "PASS"
+    },
+    {
+      "page": "shop",
+      "selector": "#shopRefreshBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "shop",
+      "selector": "[data-shop-buy=\"\\30 \"]",
+      "status": "PASS"
+    },
+    {
+      "page": "shop",
+      "selector": "[data-shop-buy=\"\\31 \"]",
+      "status": "PASS"
+    },
+    {
+      "page": "shop",
+      "selector": "[data-shop-buy=\"\\32 \"]",
+      "status": "PASS"
+    },
+    {
+      "page": "shop",
+      "selector": "[data-shop-buy=\"\\33 \"]",
+      "status": "PASS"
+    },
+    {
+      "page": "shop",
+      "selector": "[data-shop-buy=\"\\34 \"]",
+      "status": "PASS"
+    },
+    {
+      "page": "shop",
+      "selector": "[data-shop-buy=\"\\35 \"]",
+      "status": "PASS"
+    },
+    {
+      "page": "shop",
+      "selector": "[data-shop-buy=\"\\36 \"]",
+      "status": "PASS"
+    },
+    {
+      "page": "shop",
+      "selector": "[data-shop-buy=\"\\37 \"]",
+      "status": "PASS"
+    },
+    {
+      "page": "shop",
+      "selector": "[data-shop-buy=\"\\38 \"]",
+      "status": "PASS"
+    },
+    {
+      "page": "shop",
+      "selector": "[data-shop-buy=\"\\39 \"]",
+      "status": "PASS"
+    },
+    {
+      "page": "achievements",
+      "selector": "#claimAllAchievementsBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "achievements",
+      "selector": "#achievementPrevBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "achievements",
+      "selector": "#achievementNextBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "generals",
+      "selector": "[data-use-g=\"guanyu\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "generals",
+      "selector": "[data-level-g=\"guanyu\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "generals",
+      "selector": "[data-star-g=\"guanyu\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "generals",
+      "selector": "[data-train-g=\"guanyu\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "weapons",
+      "selector": "[data-equip-w=\"qinglong\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "weapons",
+      "selector": "[data-up-w=\"qinglong\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "equipment",
+      "selector": "#equipBatchUpgradeBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "equipment",
+      "selector": "[data-affix-lock=\"g1789008319650cw5jicrmlwg\\|crit_damage\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "equipment",
+      "selector": "[data-equip-gear=\"g1789008319650cw5jicrmlwg\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "equipment",
+      "selector": "[data-lock-gear=\"g1789008319650cw5jicrmlwg\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "equipment",
+      "selector": "[data-reroll-gear=\"g1789008319650cw5jicrmlwg\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "equipment",
+      "selector": "[data-fate-reroll=\"g1789008319650cw5jicrmlwg\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "pets",
+      "selector": "[data-use-pet=\"qilin\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "pets",
+      "selector": "[data-up-pet=\"qilin\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "skins",
+      "selector": "[data-equip-skin=\"base\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "skins",
+      "selector": "[data-memory-draw=\"\\31 \"]",
+      "status": "PASS"
+    },
+    {
+      "page": "skins",
+      "selector": "[data-memory-draw=\"\\31 0\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "skins",
+      "selector": "[data-equip-skin=\"static_guanyu_01\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "gacha",
+      "selector": "[data-draw=\"general\\|1\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "gacha",
+      "selector": "[data-draw=\"general\\|10\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "gacha",
+      "selector": "[data-draw=\"weapon\\|1\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "gacha",
+      "selector": "[data-draw=\"weapon\\|10\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "gacha",
+      "selector": "[data-draw=\"pet\\|1\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "gacha",
+      "selector": "[data-draw=\"pet\\|10\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "gacha",
+      "selector": "[data-draw=\"equipment\\|1\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "gacha",
+      "selector": "[data-draw=\"equipment\\|10\"]",
+      "status": "PASS"
+    },
+    {
+      "page": "bag",
+      "selector": "#organizeBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "bag",
+      "selector": "#equipBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "bag",
+      "selector": "#mergeBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "bag",
+      "selector": "#dismantleBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "settings",
+      "selector": "#daoNameSave",
+      "status": "PASS"
+    },
+    {
+      "page": "settings",
+      "selector": "#redeemCodeBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "settings",
+      "selector": "#claimAllRewardsBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "settings",
+      "selector": "#saveBtn",
+      "status": "PASS"
+    },
+    {
+      "page": "settings",
+      "selector": "#codeMake",
+      "status": "PASS"
+    },
+    {
+      "page": "settings",
+      "selector": "#codeLoad",
+      "status": "PASS"
+    },
+    {
+      "page": "settings",
+      "selector": "#factoryResetBtn",
+      "status": "PASS"
+    }
+  ],
+  "engine": "Chrome browser with isolated srcdoc fixture",
+  "failed": 0,
+  "mobile": [
+    {
+      "closeVisible": true,
+      "height": 844,
+      "horizontalOverflow": false,
+      "minTarget": 44,
+      "pages": 16,
+      "width": 360
+    },
+    {
+      "closeVisible": true,
+      "height": 844,
+      "horizontalOverflow": false,
+      "minTarget": 44,
+      "pages": 16,
+      "width": 390
+    },
+    {
+      "closeVisible": true,
+      "height": 844,
+      "horizontalOverflow": false,
+      "minTarget": 44,
+      "pages": 16,
+      "width": 412
+    }
+  ],
+  "pages": [
+    {
+      "buttons": 5,
+      "handlers": "PASS",
+      "page": "tower"
+    },
+    {
+      "buttons": 15,
+      "handlers": "PASS",
+      "page": "cultivate"
+    },
+    {
+      "buttons": 46,
+      "handlers": "PASS",
+      "page": "path"
+    },
+    {
+      "buttons": 16,
+      "handlers": "PASS",
+      "page": "adventure"
+    },
+    {
+      "buttons": 0,
+      "handlers": "PASS",
+      "page": "events"
+    },
+    {
+      "buttons": 11,
+      "handlers": "PASS",
+      "page": "shop"
+    },
+    {
+      "buttons": 33,
+      "handlers": "PASS",
+      "page": "achievements"
+    },
+    {
+      "buttons": 4,
+      "handlers": "PASS",
+      "page": "generals"
+    },
+    {
+      "buttons": 0,
+      "handlers": "PASS",
+      "page": "tactics"
+    },
+    {
+      "buttons": 2,
+      "handlers": "PASS",
+      "page": "weapons"
+    },
+    {
+      "buttons": 8,
+      "handlers": "PASS",
+      "page": "equipment"
+    },
+    {
+      "buttons": 2,
+      "handlers": "PASS",
+      "page": "pets"
+    },
+    {
+      "buttons": 4,
+      "handlers": "PASS",
+      "page": "skins"
+    },
+    {
+      "buttons": 8,
+      "handlers": "PASS",
+      "page": "gacha"
+    },
+    {
+      "buttons": 4,
+      "handlers": "PASS",
+      "page": "bag"
+    },
+    {
+      "buttons": 9,
+      "handlers": "PASS",
+      "page": "settings"
+    }
+  ],
+  "passed": 14,
+  "physicalDeviceTested": false,
+  "tests": [
+    {
+      "evidence": {
+        "floor": 1250,
+        "remaining": 750
+      },
+      "name": "飞升：未满足时可打开并显示条件",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "attack2450": "+12.2%",
+        "refresh": "500ms timer without reopening",
+        "resource3000": "+25%"
+      },
+      "name": "飞升：2450层预览实时刷新到3000层",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "count": 1,
+        "floor": 2450
+      },
+      "name": "飞升：确认与重复点击、已飞升面板",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "operations": [
+          "重铸",
+          "仙缘淬词"
+        ]
+      },
+      "name": "装备强化：重铸与仙缘淬词有反馈和扣费",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "purchases": 1
+      },
+      "name": "商城购买：只扣费一次，售出按钮说明原因",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "id": "a1"
+      },
+      "name": "成就领取：成功到账，重复领取被拦截",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "invalidPreserved": true,
+        "migrated": "SGST111-",
+        "prefix": "SGST110-"
+      },
+      "name": "存档导入：v1.1.0档码迁移、非法输入保持原档",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "compression": "gzip",
+        "decoded": true,
+        "format": ".sgst"
+      },
+      "name": "存档导入：压缩 .sgst 文件实际读取与恢复",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "buttonClicks": 131,
+        "excluded": [
+          "clipboard permission",
+          "native download"
+        ],
+        "pages": 16
+      },
+      "name": "全部页面：可见按钮有处理函数、条件反馈和点击响应",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "advancedHandlers": true,
+        "keyboard": true,
+        "misfortune": true
+      },
+      "name": "高级状态：满星觉醒、功法突破、厄运选择与键盘选择武将",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        {
+          "closeVisible": true,
+          "height": 844,
+          "horizontalOverflow": false,
+          "minTarget": 44,
+          "pages": 16,
+          "width": 360
+        },
+        {
+          "closeVisible": true,
+          "height": 844,
+          "horizontalOverflow": false,
+          "minTarget": 44,
+          "pages": 16,
+          "width": 390
+        },
+        {
+          "closeVisible": true,
+          "height": 844,
+          "horizontalOverflow": false,
+          "minTarget": 44,
+          "pages": 16,
+          "width": 412
+        }
+      ],
+      "name": "手机：360/390/412视口、44px点击区、弹窗关闭与遮挡",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "physicalDeviceTested": false,
+        "scrollPurchases": 0,
+        "simulatedTouch": true,
+        "tapPurchases": 1
+      },
+      "name": "手机点击：旧触摸API单次触发，滑动不触发",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedErrors": 4,
+        "persisted": 4
+      },
+      "name": "异常：缺失函数、同步错误、异步拒绝均显示并记录",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "expectedInjected": 4,
+        "unexpected": 0
+      },
+      "name": "全部运行期间无意外脚本异常",
+      "status": "PASS"
+    }
+  ],
+  "version": "1.1.1"
+}

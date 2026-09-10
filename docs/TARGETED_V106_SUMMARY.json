@@ -1,0 +1,163 @@
+[
+  {
+    "general": "ganning",
+    "clears": 29,
+    "total": 32,
+    "rate": 0.9062,
+    "median_actions": 18,
+    "variants": {
+      "pozhen": {
+        "clears": 5,
+        "total": 8,
+        "rate": 0.625
+      },
+      "shoushi": {
+        "clears": 8,
+        "total": 8,
+        "rate": 1.0
+      },
+      "kuanggong": {
+        "clears": 8,
+        "total": 8,
+        "rate": 1.0
+      },
+      "guizhen": {
+        "clears": 8,
+        "total": 8,
+        "rate": 1.0
+      }
+    },
+    "top_events": [
+      [
+        "奇袭低价值黑牌规则",
+        397
+      ],
+      [
+        "夜袭印",
+        188
+      ],
+      [
+        "锦帆破阵",
+        46
+      ],
+      [
+        "锦帆拆阵",
+        12
+      ],
+      [
+        "奇袭拆阵",
+        10
+      ]
+    ]
+  },
+  {
+    "general": "zhangjiao",
+    "clears": 31,
+    "total": 32,
+    "rate": 0.9688,
+    "median_actions": 17,
+    "variants": {
+      "pozhen": {
+        "clears": 7,
+        "total": 8,
+        "rate": 0.875
+      },
+      "shoushi": {
+        "clears": 8,
+        "total": 8,
+        "rate": 1.0
+      },
+      "kuanggong": {
+        "clears": 8,
+        "total": 8,
+        "rate": 1.0
+      },
+      "guizhen": {
+        "clears": 8,
+        "total": 8,
+        "rate": 1.0
+      }
+    },
+    "top_events": [
+      [
+        "主动蓄雷",
+        528
+      ],
+      [
+        "主动重判",
+        273
+      ],
+      [
+        "天公引雷命中",
+        48
+      ],
+      [
+        "黄天雷狱主动连锁",
+        7
+      ]
+    ]
+  },
+  {
+    "general": "dongzhuo",
+    "clears": 28,
+    "total": 32,
+    "rate": 0.875,
+    "median_actions": 22.5,
+    "variants": {
+      "pozhen": {
+        "clears": 6,
+        "total": 8,
+        "rate": 0.75
+      },
+      "shoushi": {
+        "clears": 8,
+        "total": 8,
+        "rate": 1.0
+      },
+      "kuanggong": {
+        "clears": 6,
+        "total": 8,
+        "rate": 0.75
+      },
+      "guizhen": {
+        "clears": 8,
+        "total": 8,
+        "rate": 1.0
+      }
+    },
+    "top_events": [
+      [
+        "暴虐护身",
+        662
+      ],
+      [
+        "受创生暴虐",
+        646
+      ],
+      [
+        "暴虐",
+        186
+      ],
+      [
+        "酒池回气",
+        124
+      ],
+      [
+        "暴虐代偿",
+        79
+      ],
+      [
+        "暴虐承崩",
+        71
+      ],
+      [
+        "暴虐先声",
+        40
+      ],
+      [
+        "魔王酒池",
+        8
+      ]
+    ]
+  }
+]

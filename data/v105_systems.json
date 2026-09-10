@@ -1,0 +1,150 @@
+{
+  "version": "1.0.5",
+  "probability_events": 39,
+  "misfortune_events": 29,
+  "lucky_events": 6,
+  "event_counts_fixed": true,
+  "event_chain_links": 8,
+  "event_chain_priority_probability": 0.42,
+  "event_chain_clue_floor_lifetime": 80,
+  "misfortune_route_floor_lifetime": 20,
+  "shop": {
+    "fixed_slots": 10,
+    "power_estimate": true,
+    "gear_exact_preview": true,
+    "pet_exact_preview": true,
+    "skins_allowed": false
+  },
+  "achievements": {
+    "count": 18,
+    "rewards_only_existing_currencies": true
+  },
+  "boss": {
+    "phases": 3,
+    "thresholds": [
+      0.7,
+      0.4
+    ],
+    "break_window_turns": 2,
+    "variants": [
+      {
+        "id": "pozhen",
+        "name": "破阵",
+        "rule": "阶段转换压制装备；敌方行动期间降低防具效率并绕过白银狮子单次保护"
+      },
+      {
+        "id": "shoushi",
+        "name": "守势",
+        "rule": "阶段2+每回合刷新锦囊护幕；首个伤害锦囊大幅减伤，可由杀击破"
+      },
+      {
+        "id": "kuanggong",
+        "name": "狂攻",
+        "rule": "阶段2+追踪连续杀并触发反击；阶段3开启2回合禁疗"
+      },
+      {
+        "id": "guizhen",
+        "name": "诡阵",
+        "rule": "阶段2+偶数Boss回合判定；黑色压低摸牌，红色暴露阵眼形成短破绽"
+      }
+    ]
+  },
+  "deep_balance": {
+    "floors": [
+      2000,
+      2500,
+      3000
+    ],
+    "samples": 1152,
+    "profiles": {
+      "回流": {
+        "gear": "传说",
+        "ascensions": 5,
+        "fate_total": 35,
+        "war_path": 2,
+        "roots": 18,
+        "techniques": 26,
+        "affix_multiplier": 1.0,
+        "weapon": 22,
+        "pet": 12
+      },
+      "标准": {
+        "gear": "神话",
+        "ascensions": 8,
+        "fate_total": 70,
+        "war_path": 4,
+        "roots": 20,
+        "techniques": 30,
+        "affix_multiplier": 1.12,
+        "weapon": 28,
+        "pet": 18
+      },
+      "极品": {
+        "gear": "仙品",
+        "ascensions": 12,
+        "fate_total": 120,
+        "war_path": 7,
+        "roots": 20,
+        "techniques": 30,
+        "affix_multiplier": 1.25,
+        "weapon": 35,
+        "pet": 24
+      }
+    },
+    "damage_cap_base": {
+      "2000": 0.085,
+      "2500": 0.075,
+      "3000": 0.065
+    },
+    "progression_cap_bonus_formula": "min(0.012, ascensions*0.00055 + fateTotal*0.000035)",
+    "enemy_threat_ratio_min": {
+      "2000": 0.5,
+      "2500": 0.55,
+      "3000": 0.6
+    },
+    "late_pressure_piecewise": [
+      {
+        "from": 901,
+        "to": 1600,
+        "per_floor": 1.00072
+      },
+      {
+        "from": 1601,
+        "to": 2200,
+        "per_floor": 1.00048
+      },
+      {
+        "from": 2201,
+        "to": null,
+        "per_floor": 1.00032
+      }
+    ]
+  },
+  "equipment": {
+    "same_slot_dual_compare": true,
+    "upgrade_only_filter": true,
+    "slot_filter": true,
+    "quality_filter": true,
+    "sorting": [
+      "fit",
+      "power",
+      "quality"
+    ]
+  },
+  "save": {
+    "key": "sgs_idle_v1050",
+    "prefix": "SGST105-",
+    "legacy_read": [
+      "SGST104",
+      "SGST103",
+      "SGST102",
+      "SGST101",
+      "SGST20"
+    ]
+  },
+  "generals_fixed": 32,
+  "skill_stages": 160,
+  "static_skins": 48,
+  "dynamic_skins": 0,
+  "audio": false
+}

@@ -1,0 +1,132 @@
+{
+  "runtime_errors": [],
+  "title": "金山文档",
+  "version": "1.0.6",
+  "save_prefix": "SGST106-",
+  "legacy_105": {
+    "version": "1.0.6",
+    "floor": 1
+  },
+  "counts": {
+    "p": 39,
+    "m": 29,
+    "l": 6,
+    "g": 32,
+    "links": 12,
+    "endings": 4
+  },
+  "event_chain_aggressive": {
+    "chains": 2,
+    "endings": 1,
+    "complete": {
+      "name": "铸锋终点",
+      "ending": "锋芒尽出",
+      "branch": "aggressive",
+      "floor": 100,
+      "cooldownUntil": 220
+    },
+    "detail": "随机获得一件当前层装备。 · 【连锁3段】残剑交由铁匠试锋，抵达铸锋终点。 · 【路线终点】铸锋终点·锋芒尽出；该结果与其他两条结局互斥，120层后可再次开启此长线 · 前次厄运选择延伸为强攻支线"
+  },
+  "event_chain_wealth": {
+    "chains": 2,
+    "endings": 1,
+    "complete": {
+      "name": "铸锋终点",
+      "ending": "售剑换资",
+      "branch": "wealth",
+      "floor": 100,
+      "cooldownUntil": 220
+    }
+  },
+  "shop": {
+    "slots": 10,
+    "replaces": 10,
+    "skin": false,
+    "gearReplacement": "预计填补：头冠空槽 → 玄纹法衣",
+    "petReplacement": "预计替换灵宠：玉麒麟 → 玉麒麟"
+  },
+  "equipment": {
+    "quick": true,
+    "batch": true,
+    "quickButtons": 2,
+    "batchButton": true,
+    "dual": 1,
+    "upgradeOnly": true
+  },
+  "boss": [
+    {
+      "id": "pozhen",
+      "p2": 2,
+      "phase": 3,
+      "equip": 1,
+      "shield": false,
+      "noheal": 0,
+      "judge": false
+    },
+    {
+      "id": "shoushi",
+      "p2": 2,
+      "phase": 3,
+      "equip": 0,
+      "shield": true,
+      "noheal": 0,
+      "judge": false
+    },
+    {
+      "id": "kuanggong",
+      "p2": 2,
+      "phase": 3,
+      "equip": 0,
+      "shield": false,
+      "noheal": 1,
+      "judge": false
+    },
+    {
+      "id": "guizhen",
+      "p2": 2,
+      "phase": 3,
+      "equip": 0,
+      "shield": false,
+      "noheal": 0,
+      "judge": true
+    }
+  ],
+  "boss_ai": {
+    "shoushi": "slash",
+    "kuanggong": "trick"
+  },
+  "targeted": {
+    "zhangjiao": true,
+    "ganning": {
+      "type": "converted_trick",
+      "card": "slash",
+      "safe": true
+    }
+  },
+  "deep": [
+    {
+      "f": 3500,
+      "p": 1.0261063557408635e+64,
+      "h": 2.16804984106597e+66,
+      "late": 3.2113621236275534,
+      "cap": 0.06,
+      "threat": 0.59
+    },
+    {
+      "f": 4000,
+      "p": 2.9609145828010034e+72,
+      "h": 8.17730287546852e+74,
+      "late": 3.6388931739507218,
+      "cap": 0.056,
+      "threat": 0.6
+    },
+    {
+      "f": 5000,
+      "p": 2.1858702811758073e+89,
+      "h": 1.022081473695487e+92,
+      "late": 4.48912280138679,
+      "cap": 0.05,
+      "threat": 0.62
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "version": "1.0.4",
+  "save_key": "sgs_idle_v1040",
+  "save_code_prefix": "SGST104-",
+  "fixed_generals": 32,
+  "skill_stages": 160,
+  "probability_events": 39,
+  "misfortune_events": 29,
+  "misfortune_choices_each": 3,
+  "lucky_events": 6,
+  "shop": {
+    "fixed_slots": 10,
+    "auto_refresh_every_floors": 10,
+    "manual_refresh_jade": 300,
+    "rarity_weights": {
+      "普通": 0.5,
+      "精良": 0.28,
+      "稀有": 0.14,
+      "史诗": 0.055,
+      "传说": 0.019,
+      "神话": 0.0055,
+      "仙品": 0.0005
+    },
+    "high_power_items": [
+      "传说/神话/仙品装备匣",
+      "神话/仙品灵宠契约"
+    ],
+    "skin_items": 0
+  },
+  "achievements": {
+    "count": 18,
+    "tiers": [
+      "简易",
+      "中等",
+      "困难"
+    ],
+    "reward_currencies": [
+      "铜钱",
+      "灵石",
+      "仙缘",
+      "回忆令"
+    ]
+  },
+  "boss": {
+    "phases": 3,
+    "thresholds": [
+      0.7,
+      0.4
+    ],
+    "break_window_turns": 2,
+    "break_damage_bonus": 0.28,
+    "variants": 4
+  },
+  "balance": {
+    "generals": 32,
+    "floors": [
+      700,
+      1000,
+      1500,
+      2000
+    ],
+    "builds": [
+      "保守",
+      "标准",
+      "成型"
+    ],
+    "samples_per_cell": 2,
+    "total_samples": 768,
+    "late_pressure_rate_after_900": 1.00095,
+    "boss_power_multipliers": [
+      1.4,
+      1.48,
+      1.56
+    ],
+    "boss_hp_tiers": [
+      2.1,
+      2.25,
+      2.4
+    ]
+  },
+  "equipment_ux": [
+    "部位筛选",
+    "品质筛选",
+    "适配度/评分/品质排序",
+    "同槽对比提示"
+  ],
+  "notes": [
+    "武将数量永久固定32名",
+    "商城不出售皮肤，回廊仍是皮肤唯一获取渠道",
+    "厄运三选一会暂停自动战斗",
+    "飞升清空临时事件战力修正"
+  ]
+}

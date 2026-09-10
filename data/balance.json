@@ -1,0 +1,286 @@
+{
+  "version": "0.15.0",
+  "gacha": {
+    "single_cost": 100,
+    "ten_cost": 900,
+    "pity_ssr": 50,
+    "rates": {
+      "SSR": 0.03,
+      "SR": 0.19,
+      "R": 0.78
+    },
+    "equipment": {
+      "single_cost": 80,
+      "ten_cost": 720,
+      "epic_pity": 10,
+      "rank_source": "max(current_floor,best_floor)"
+    }
+  },
+  "realm_names": [
+    "炼气",
+    "筑基",
+    "金丹",
+    "元婴",
+    "化神",
+    "炼虚",
+    "合体",
+    "大乘",
+    "渡劫",
+    "真仙",
+    "金仙",
+    "大罗"
+  ],
+  "rarity_colors": {
+    "普通": "#8a8a8a",
+    "精良": "#18a058",
+    "稀有": "#2080f0",
+    "史诗": "#8a2be2",
+    "传说": "#f0a020",
+    "神话": "#d03050",
+    "仙品": "#e85aad"
+  },
+  "gear_rarities": [
+    "普通",
+    "精良",
+    "稀有",
+    "史诗",
+    "传说",
+    "神话",
+    "仙品"
+  ],
+  "gear_slots": {
+    "weapon": "武器",
+    "armor": "护甲",
+    "accessory": "饰品"
+  },
+  "offline_cap_hours": 48,
+  "ascension_floor": 2000,
+  "ascension_realm_index": 0,
+  "content_version": "0.15.0",
+  "weapon_upgrade": {
+    "base_cost": 1200,
+    "cost_growth": 1.16,
+    "max_level": 500
+  },
+  "pet_upgrade": {
+    "base_cost": 900,
+    "cost_growth": 1.15,
+    "max_level": 500
+  },
+  "general_formula": {
+    "attack_display_scale": 12,
+    "hp_display_scale": 8,
+    "defense_display_scale": 5
+  },
+  "equipment_system": {
+    "slots": 6,
+    "base_crit_rate": 5,
+    "base_crit_damage": 150,
+    "base_dodge": 3,
+    "crit_cap": 75,
+    "dodge_cap": 65,
+    "luck_quality_shift_per_point": 0.0005,
+    "dismantle_rule": "按玩家选择的最高品质阈值；仅保护已装备与已锁定",
+    "affix_lock_max": 2,
+    "reroll_currency": "灵石",
+    "blessed_reroll": "1仙缘+灵石"
+  },
+  "ascension": {
+    "require_floor": 2000,
+    "milestones": [
+      2000,
+      3000,
+      5000,
+      8000
+    ],
+    "reset": false,
+    "decay_per_count": 0.25,
+    "reward_floor_cap": 8000,
+    "reward_anchors": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1250,
+        0.08,
+        0.08,
+        0.08,
+        0.12,
+        0.08
+      ],
+      [
+        2000,
+        0.108,
+        0.108,
+        0.099,
+        0.168,
+        0.128
+      ],
+      [
+        2035,
+        0.11,
+        0.11,
+        0.1,
+        0.17,
+        0.13
+      ],
+      [
+        2450,
+        0.122,
+        0.122,
+        0.116,
+        0.184,
+        0.136
+      ],
+      [
+        3000,
+        0.15,
+        0.15,
+        0.1425,
+        0.25,
+        0.17
+      ],
+      [
+        5000,
+        0.25,
+        0.25,
+        0.2375,
+        0.4,
+        0.26
+      ],
+      [
+        8000,
+        0.34,
+        0.34,
+        0.323,
+        0.55,
+        0.36
+      ]
+    ]
+  },
+  "battle_cards": {
+    "trick_rate": 0.34,
+    "enemy_trick_rate": 0.22,
+    "tricks": [
+      "无中生有",
+      "过河拆桥",
+      "顺手牵羊",
+      "决斗",
+      "南蛮入侵",
+      "万箭齐发",
+      "桃园结义",
+      "五谷丰登",
+      "借刀杀人",
+      "铁索连环",
+      "火攻",
+      "乐不思蜀",
+      "兵粮寸断",
+      "闪电"
+    ],
+    "responses": [
+      "闪",
+      "杀",
+      "无懈可击",
+      "武将技能响应"
+    ]
+  },
+  "skin_memory": {
+    "currency": "回忆令",
+    "initial_tokens": 30,
+    "boss_milestone_floor": 20,
+    "milestone_tokens": 1,
+    "grid_size": 5,
+    "fragment_types": 25,
+    "line_count": 12,
+    "single_cost": 1,
+    "ten_cost": 10,
+    "probability_source": "data/skin_memory.json"
+  },
+  "currency_sources": {
+    "coins": [
+      "推塔胜利",
+      "离线挂机",
+      "装备分解",
+      "五谷丰登",
+      "回廊连线"
+    ],
+    "jade": [
+      "每10层Boss",
+      "每100层里程碑",
+      "回廊连线"
+    ],
+    "fate": [
+      "飞升结算",
+      "回廊斜线"
+    ],
+    "memory_tokens": [
+      "每20层+1",
+      "朱萤每100层额外+1",
+      "回廊连线"
+    ]
+  },
+  "memory_token_milestone": {
+    "every_floors": 20,
+    "amount": 1,
+    "zhuying_extra_every_floors": 100,
+    "zhuying_extra_amount": 1
+  },
+  "cultivation_path": {
+    "root_max": 20,
+    "technique_max": 30,
+    "secondary_unlock_floor": 100,
+    "secondary_ratio": 0.45,
+    "technique_break_levels": [
+      5,
+      10,
+      20
+    ],
+    "destiny_reroll_jade": 300
+  },
+  "fate_insight": {
+    "war": {
+      "name": "战意道印",
+      "cost": "1+当前等级",
+      "effect_per_level": "攻击+4%，技能效果+3%"
+    },
+    "idle": {
+      "name": "静修道印",
+      "cost": "1+当前等级",
+      "effect_per_level": "挂机收益+6%"
+    },
+    "fortune": {
+      "name": "天运道印",
+      "cost": "2+当前等级",
+      "effect_per_level": "幸运+5，装备掉落+2%"
+    },
+    "forge": {
+      "name": "仙铸道印",
+      "cost": "2+当前等级",
+      "effect_per_level": "提高普通装备重铸的高值概率"
+    },
+    "soul": {
+      "name": "神魂道印",
+      "cost": "3+当前等级",
+      "effect_per_level": "武魂技能倍率与神兵共鸣+2%"
+    }
+  },
+  "elite_floor": {
+    "every": 5,
+    "exclude_boss_every": 10,
+    "traits": 2,
+    "corridor_skin": true
+  },
+  "offline_harvest": {
+    "claim_required": true,
+    "one_click_organize": true,
+    "jade_every_hours": 2,
+    "memory_every_hours": 6,
+    "gear_cap_per_claim": 40
+  },
+  "fixed_roster": 32
+}

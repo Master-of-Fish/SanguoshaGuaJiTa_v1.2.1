@@ -1,0 +1,11 @@
+{
+  "version": "1.0.8",
+  "generals": 32,
+  "skillStages": 160,
+  "opportunity": 333,
+  "misfortune": 29,
+  "lucky": 6,
+  "achievements": 999,
+  "shopSlots": 10,
+  "bossSignatures": 32
+}

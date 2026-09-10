@@ -1,0 +1,484 @@
+{
+  "samples": 512,
+  "attackers": [
+    "guanyu",
+    "guojia",
+    "zhouyu",
+    "lvbu"
+  ],
+  "floor": 8000,
+  "by_variant": [
+    {
+      "variant": "pozhen",
+      "clears": 101,
+      "total": 128,
+      "rate": 0.7891,
+      "median_actions": 22
+    },
+    {
+      "variant": "shoushi",
+      "clears": 110,
+      "total": 128,
+      "rate": 0.8594,
+      "median_actions": 21.0
+    },
+    {
+      "variant": "kuanggong",
+      "clears": 100,
+      "total": 128,
+      "rate": 0.7812,
+      "median_actions": 23.0
+    },
+    {
+      "variant": "guizhen",
+      "clears": 110,
+      "total": 128,
+      "rate": 0.8594,
+      "median_actions": 23.0
+    }
+  ],
+  "worst_combinations": [
+    {
+      "boss": "zhouyu",
+      "name": "周瑜",
+      "signature": "琴音火计",
+      "sigType": "trick",
+      "variant": "kuanggong",
+      "clears": 1,
+      "total": 4,
+      "rate": 0.25,
+      "median_actions": 29
+    },
+    {
+      "boss": "machao",
+      "name": "马超",
+      "signature": "铁骑封路",
+      "sigType": "disrupt",
+      "variant": "guizhen",
+      "clears": 1,
+      "total": 4,
+      "rate": 0.25,
+      "median_actions": 28
+    },
+    {
+      "boss": "zhangfei",
+      "name": "张飞",
+      "signature": "咆哮反扑",
+      "sigType": "counter",
+      "variant": "kuanggong",
+      "clears": 1,
+      "total": 4,
+      "rate": 0.25,
+      "median_actions": 14
+    },
+    {
+      "boss": "lvbu",
+      "name": "吕布",
+      "signature": "无双压制",
+      "sigType": "counter",
+      "variant": "shoushi",
+      "clears": 1,
+      "total": 4,
+      "rate": 0.25,
+      "median_actions": 12
+    },
+    {
+      "boss": "caocao",
+      "name": "曹操",
+      "signature": "奸雄映像",
+      "sigType": "trick",
+      "variant": "shoushi",
+      "clears": 2,
+      "total": 4,
+      "rate": 0.5,
+      "median_actions": 80.5
+    },
+    {
+      "boss": "huatuo",
+      "name": "华佗",
+      "signature": "急救续命",
+      "sigType": "heal",
+      "variant": "kuanggong",
+      "clears": 2,
+      "total": 4,
+      "rate": 0.5,
+      "median_actions": 75.0
+    },
+    {
+      "boss": "xunyu",
+      "name": "荀彧",
+      "signature": "节命调度",
+      "sigType": "heal",
+      "variant": "guizhen",
+      "clears": 2,
+      "total": 4,
+      "rate": 0.5,
+      "median_actions": 63.0
+    },
+    {
+      "boss": "yuanshao",
+      "name": "袁绍",
+      "signature": "乱击箭雨",
+      "sigType": "trick",
+      "variant": "pozhen",
+      "clears": 2,
+      "total": 4,
+      "rate": 0.5,
+      "median_actions": 62.5
+    },
+    {
+      "boss": "pangtong",
+      "name": "庞统",
+      "signature": "连环焚阵",
+      "sigType": "trick",
+      "variant": "pozhen",
+      "clears": 2,
+      "total": 4,
+      "rate": 0.5,
+      "median_actions": 51.5
+    },
+    {
+      "boss": "caocao",
+      "name": "曹操",
+      "signature": "奸雄映像",
+      "sigType": "trick",
+      "variant": "kuanggong",
+      "clears": 2,
+      "total": 4,
+      "rate": 0.5,
+      "median_actions": 38.0
+    },
+    {
+      "boss": "xunyu",
+      "name": "荀彧",
+      "signature": "节命调度",
+      "sigType": "heal",
+      "variant": "shoushi",
+      "clears": 2,
+      "total": 4,
+      "rate": 0.5,
+      "median_actions": 31.0
+    },
+    {
+      "boss": "sunshangxiang",
+      "name": "孙尚香",
+      "signature": "枭姬换装",
+      "sigType": "guard",
+      "variant": "pozhen",
+      "clears": 2,
+      "total": 4,
+      "rate": 0.5,
+      "median_actions": 29.5
+    },
+    {
+      "boss": "zhangjiao",
+      "name": "张角",
+      "signature": "雷狱判阵",
+      "sigType": "judge",
+      "variant": "guizhen",
+      "clears": 2,
+      "total": 4,
+      "rate": 0.5,
+      "median_actions": 28.0
+    },
+    {
+      "boss": "liubei",
+      "name": "刘备",
+      "signature": "仁阵回护",
+      "sigType": "heal",
+      "variant": "pozhen",
+      "clears": 2,
+      "total": 4,
+      "rate": 0.5,
+      "median_actions": 26.0
+    },
+    {
+      "boss": "huangyueying",
+      "name": "黄月英",
+      "signature": "机巧护幕",
+      "sigType": "guard",
+      "variant": "pozhen",
+      "clears": 2,
+      "total": 4,
+      "rate": 0.5,
+      "median_actions": 25.5
+    },
+    {
+      "boss": "liubei",
+      "name": "刘备",
+      "signature": "仁阵回护",
+      "sigType": "heal",
+      "variant": "kuanggong",
+      "clears": 2,
+      "total": 4,
+      "rate": 0.5,
+      "median_actions": 24.0
+    },
+    {
+      "boss": "ganning",
+      "name": "甘宁",
+      "signature": "锦帆拆装",
+      "sigType": "disrupt",
+      "variant": "kuanggong",
+      "clears": 2,
+      "total": 4,
+      "rate": 0.5,
+      "median_actions": 20.0
+    },
+    {
+      "boss": "machao",
+      "name": "马超",
+      "signature": "铁骑封路",
+      "sigType": "disrupt",
+      "variant": "kuanggong",
+      "clears": 2,
+      "total": 4,
+      "rate": 0.5,
+      "median_actions": 15.0
+    },
+    {
+      "boss": "guojia",
+      "name": "郭嘉",
+      "signature": "遗计续阵",
+      "sigType": "heal",
+      "variant": "kuanggong",
+      "clears": 3,
+      "total": 4,
+      "rate": 0.75,
+      "median_actions": 53
+    },
+    {
+      "boss": "pangtong",
+      "name": "庞统",
+      "signature": "连环焚阵",
+      "sigType": "trick",
+      "variant": "guizhen",
+      "clears": 3,
+      "total": 4,
+      "rate": 0.75,
+      "median_actions": 52
+    }
+  ],
+  "best_combinations": [
+    {
+      "boss": "zuoci",
+      "name": "左慈",
+      "signature": "化身万象",
+      "sigType": "judge",
+      "variant": "shoushi",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 14.5
+    },
+    {
+      "boss": "simayi",
+      "name": "司马懿",
+      "signature": "天命改判",
+      "sigType": "judge",
+      "variant": "guizhen",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 16.0
+    },
+    {
+      "boss": "zhouyu",
+      "name": "周瑜",
+      "signature": "琴音火计",
+      "sigType": "trick",
+      "variant": "shoushi",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 16.5
+    },
+    {
+      "boss": "zhenji",
+      "name": "甄姬",
+      "signature": "洛神判阵",
+      "sigType": "judge",
+      "variant": "shoushi",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 17.0
+    },
+    {
+      "boss": "diaochan",
+      "name": "貂蝉",
+      "signature": "离间魅影",
+      "sigType": "disrupt",
+      "variant": "kuanggong",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 17.5
+    },
+    {
+      "boss": "xuchu",
+      "name": "许褚",
+      "signature": "虎痴重击",
+      "sigType": "counter",
+      "variant": "shoushi",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 18.0
+    },
+    {
+      "boss": "sunquan",
+      "name": "孙权",
+      "signature": "制衡整备",
+      "sigType": "guard",
+      "variant": "shoushi",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 18.0
+    },
+    {
+      "boss": "xiahoudun",
+      "name": "夏侯惇",
+      "signature": "刚烈反噬",
+      "sigType": "counter",
+      "variant": "shoushi",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 18.5
+    },
+    {
+      "boss": "taishici",
+      "name": "太史慈",
+      "signature": "天义连击",
+      "sigType": "counter",
+      "variant": "guizhen",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 18.5
+    },
+    {
+      "boss": "yuji",
+      "name": "于吉",
+      "signature": "蛊惑幻术",
+      "sigType": "disrupt",
+      "variant": "shoushi",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 18.5
+    },
+    {
+      "boss": "huangyueying",
+      "name": "黄月英",
+      "signature": "机巧护幕",
+      "sigType": "guard",
+      "variant": "kuanggong",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 19.0
+    },
+    {
+      "boss": "zhangliao",
+      "name": "张辽",
+      "signature": "突袭断牌",
+      "sigType": "disrupt",
+      "variant": "guizhen",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 19.0
+    },
+    {
+      "boss": "luxun",
+      "name": "陆逊",
+      "signature": "连营火势",
+      "sigType": "trick",
+      "variant": "guizhen",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 19.0
+    },
+    {
+      "boss": "zhangliao",
+      "name": "张辽",
+      "signature": "突袭断牌",
+      "sigType": "disrupt",
+      "variant": "kuanggong",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 19.5
+    },
+    {
+      "boss": "zhenji",
+      "name": "甄姬",
+      "signature": "洛神判阵",
+      "sigType": "judge",
+      "variant": "kuanggong",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 19.5
+    },
+    {
+      "boss": "taishici",
+      "name": "太史慈",
+      "signature": "天义连击",
+      "sigType": "counter",
+      "variant": "kuanggong",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 19.5
+    },
+    {
+      "boss": "guanyu",
+      "name": "关羽",
+      "signature": "青龙追斩",
+      "sigType": "counter",
+      "variant": "pozhen",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 20.0
+    },
+    {
+      "boss": "zhaoyun",
+      "name": "赵云",
+      "signature": "龙胆回转",
+      "sigType": "guard",
+      "variant": "shoushi",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 20.0
+    },
+    {
+      "boss": "yuji",
+      "name": "于吉",
+      "signature": "蛊惑幻术",
+      "sigType": "disrupt",
+      "variant": "pozhen",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 20.0
+    },
+    {
+      "boss": "zhugeliang",
+      "name": "诸葛亮",
+      "signature": "七星扰阵",
+      "sigType": "judge",
+      "variant": "shoushi",
+      "clears": 4,
+      "total": 4,
+      "rate": 1.0,
+      "median_actions": 20.5
+    }
+  ]
+}

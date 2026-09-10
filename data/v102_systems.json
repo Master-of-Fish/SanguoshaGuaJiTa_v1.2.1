@@ -1,0 +1,33 @@
+{
+  "version": "1.0.2",
+  "save": {
+    "key": "sgs_idle_v1020",
+    "code_prefix": "SGST102-",
+    "migrate_from": [
+      "SGST101-",
+      "SGST20-",
+      "SGST19-"
+    ]
+  },
+  "skins": {
+    "mode": "static_only",
+    "formal_count": 48,
+    "covered_generals": 16,
+    "per_general": 3,
+    "acquisition": "回廊25格阵盘",
+    "dynamic_removed": true,
+    "elite_floor_static_skin": true
+  },
+  "tower_balance": {
+    "checkpoint_every": 50,
+    "normal_growth": "continuous",
+    "elite_multiplier": 1.42,
+    "boss_multiplier": 1.86,
+    "hit_cap_deepens": true
+  },
+  "equipment_ui": {
+    "reference": "用户图1",
+    "layout": "角色居中+六槽环绕+两列属性条",
+    "slots": 6
+  }
+}

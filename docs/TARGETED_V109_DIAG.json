@@ -1,0 +1,962 @@
+[
+  {
+    "general": "ganning",
+    "name": "甘宁",
+    "variant": "pozhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 31,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "ganning",
+    "name": "甘宁",
+    "variant": "pozhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 62,
+    "restarts": 2,
+    "reason": "clear"
+  },
+  {
+    "general": "ganning",
+    "name": "甘宁",
+    "variant": "pozhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 88,
+    "restarts": 5,
+    "reason": "clear"
+  },
+  {
+    "general": "ganning",
+    "name": "甘宁",
+    "variant": "pozhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 47,
+    "restarts": 1,
+    "reason": "clear"
+  },
+  {
+    "general": "ganning",
+    "name": "甘宁",
+    "variant": "shoushi",
+    "seed": 0,
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "ganning",
+    "name": "甘宁",
+    "variant": "shoushi",
+    "seed": 1,
+    "cleared": true,
+    "actions": 25,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "ganning",
+    "name": "甘宁",
+    "variant": "shoushi",
+    "seed": 2,
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "ganning",
+    "name": "甘宁",
+    "variant": "shoushi",
+    "seed": 3,
+    "cleared": true,
+    "actions": 32,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "ganning",
+    "name": "甘宁",
+    "variant": "kuanggong",
+    "seed": 0,
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "ganning",
+    "name": "甘宁",
+    "variant": "kuanggong",
+    "seed": 1,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 1,
+    "reason": "throughput"
+  },
+  {
+    "general": "ganning",
+    "name": "甘宁",
+    "variant": "kuanggong",
+    "seed": 2,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "ganning",
+    "name": "甘宁",
+    "variant": "kuanggong",
+    "seed": 3,
+    "cleared": true,
+    "actions": 25,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "ganning",
+    "name": "甘宁",
+    "variant": "guizhen",
+    "seed": 0,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 7,
+    "reason": "survival"
+  },
+  {
+    "general": "ganning",
+    "name": "甘宁",
+    "variant": "guizhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "ganning",
+    "name": "甘宁",
+    "variant": "guizhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "ganning",
+    "name": "甘宁",
+    "variant": "guizhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 27,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuji",
+    "name": "于吉",
+    "variant": "pozhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuji",
+    "name": "于吉",
+    "variant": "pozhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 11,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuji",
+    "name": "于吉",
+    "variant": "pozhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 20,
+    "restarts": 1,
+    "reason": "clear"
+  },
+  {
+    "general": "yuji",
+    "name": "于吉",
+    "variant": "pozhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuji",
+    "name": "于吉",
+    "variant": "shoushi",
+    "seed": 0,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 1,
+    "reason": "throughput"
+  },
+  {
+    "general": "yuji",
+    "name": "于吉",
+    "variant": "shoushi",
+    "seed": 1,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuji",
+    "name": "于吉",
+    "variant": "shoushi",
+    "seed": 2,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 4,
+    "reason": "survival"
+  },
+  {
+    "general": "yuji",
+    "name": "于吉",
+    "variant": "shoushi",
+    "seed": 3,
+    "cleared": true,
+    "actions": 50,
+    "restarts": 3,
+    "reason": "clear"
+  },
+  {
+    "general": "yuji",
+    "name": "于吉",
+    "variant": "kuanggong",
+    "seed": 0,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 2,
+    "reason": "throughput"
+  },
+  {
+    "general": "yuji",
+    "name": "于吉",
+    "variant": "kuanggong",
+    "seed": 1,
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuji",
+    "name": "于吉",
+    "variant": "kuanggong",
+    "seed": 2,
+    "cleared": true,
+    "actions": 11,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuji",
+    "name": "于吉",
+    "variant": "kuanggong",
+    "seed": 3,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuji",
+    "name": "于吉",
+    "variant": "guizhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuji",
+    "name": "于吉",
+    "variant": "guizhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuji",
+    "name": "于吉",
+    "variant": "guizhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuji",
+    "name": "于吉",
+    "variant": "guizhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "daqiao",
+    "name": "大乔",
+    "variant": "pozhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 25,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "daqiao",
+    "name": "大乔",
+    "variant": "pozhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 11,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "daqiao",
+    "name": "大乔",
+    "variant": "pozhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 25,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "daqiao",
+    "name": "大乔",
+    "variant": "pozhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 41,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "daqiao",
+    "name": "大乔",
+    "variant": "shoushi",
+    "seed": 0,
+    "cleared": true,
+    "actions": 24,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "daqiao",
+    "name": "大乔",
+    "variant": "shoushi",
+    "seed": 1,
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "daqiao",
+    "name": "大乔",
+    "variant": "shoushi",
+    "seed": 2,
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "daqiao",
+    "name": "大乔",
+    "variant": "shoushi",
+    "seed": 3,
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "daqiao",
+    "name": "大乔",
+    "variant": "kuanggong",
+    "seed": 0,
+    "cleared": true,
+    "actions": 49,
+    "restarts": 1,
+    "reason": "clear"
+  },
+  {
+    "general": "daqiao",
+    "name": "大乔",
+    "variant": "kuanggong",
+    "seed": 1,
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "daqiao",
+    "name": "大乔",
+    "variant": "kuanggong",
+    "seed": 2,
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "daqiao",
+    "name": "大乔",
+    "variant": "kuanggong",
+    "seed": 3,
+    "cleared": true,
+    "actions": 23,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "daqiao",
+    "name": "大乔",
+    "variant": "guizhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "daqiao",
+    "name": "大乔",
+    "variant": "guizhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "daqiao",
+    "name": "大乔",
+    "variant": "guizhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 25,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "daqiao",
+    "name": "大乔",
+    "variant": "guizhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "caocao",
+    "name": "曹操",
+    "variant": "pozhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "caocao",
+    "name": "曹操",
+    "variant": "pozhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 35,
+    "restarts": 1,
+    "reason": "clear"
+  },
+  {
+    "general": "caocao",
+    "name": "曹操",
+    "variant": "pozhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "caocao",
+    "name": "曹操",
+    "variant": "pozhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "caocao",
+    "name": "曹操",
+    "variant": "shoushi",
+    "seed": 0,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "caocao",
+    "name": "曹操",
+    "variant": "shoushi",
+    "seed": 1,
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "caocao",
+    "name": "曹操",
+    "variant": "shoushi",
+    "seed": 2,
+    "cleared": true,
+    "actions": 20,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "caocao",
+    "name": "曹操",
+    "variant": "shoushi",
+    "seed": 3,
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "caocao",
+    "name": "曹操",
+    "variant": "kuanggong",
+    "seed": 0,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "caocao",
+    "name": "曹操",
+    "variant": "kuanggong",
+    "seed": 1,
+    "cleared": true,
+    "actions": 21,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "caocao",
+    "name": "曹操",
+    "variant": "kuanggong",
+    "seed": 2,
+    "cleared": true,
+    "actions": 47,
+    "restarts": 2,
+    "reason": "clear"
+  },
+  {
+    "general": "caocao",
+    "name": "曹操",
+    "variant": "kuanggong",
+    "seed": 3,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 1,
+    "reason": "throughput"
+  },
+  {
+    "general": "caocao",
+    "name": "曹操",
+    "variant": "guizhen",
+    "seed": 0,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "reason": "throughput"
+  },
+  {
+    "general": "caocao",
+    "name": "曹操",
+    "variant": "guizhen",
+    "seed": 1,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 5,
+    "reason": "survival"
+  },
+  {
+    "general": "caocao",
+    "name": "曹操",
+    "variant": "guizhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "caocao",
+    "name": "曹操",
+    "variant": "guizhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 12,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuanshao",
+    "name": "袁绍",
+    "variant": "pozhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 10,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuanshao",
+    "name": "袁绍",
+    "variant": "pozhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 26,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuanshao",
+    "name": "袁绍",
+    "variant": "pozhen",
+    "seed": 2,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 7,
+    "reason": "survival"
+  },
+  {
+    "general": "yuanshao",
+    "name": "袁绍",
+    "variant": "pozhen",
+    "seed": 3,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "reason": "throughput"
+  },
+  {
+    "general": "yuanshao",
+    "name": "袁绍",
+    "variant": "shoushi",
+    "seed": 0,
+    "cleared": true,
+    "actions": 55,
+    "restarts": 2,
+    "reason": "clear"
+  },
+  {
+    "general": "yuanshao",
+    "name": "袁绍",
+    "variant": "shoushi",
+    "seed": 1,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 7,
+    "reason": "survival"
+  },
+  {
+    "general": "yuanshao",
+    "name": "袁绍",
+    "variant": "shoushi",
+    "seed": 2,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuanshao",
+    "name": "袁绍",
+    "variant": "shoushi",
+    "seed": 3,
+    "cleared": true,
+    "actions": 13,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuanshao",
+    "name": "袁绍",
+    "variant": "kuanggong",
+    "seed": 0,
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuanshao",
+    "name": "袁绍",
+    "variant": "kuanggong",
+    "seed": 1,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuanshao",
+    "name": "袁绍",
+    "variant": "kuanggong",
+    "seed": 2,
+    "cleared": true,
+    "actions": 69,
+    "restarts": 2,
+    "reason": "clear"
+  },
+  {
+    "general": "yuanshao",
+    "name": "袁绍",
+    "variant": "kuanggong",
+    "seed": 3,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 1,
+    "reason": "throughput"
+  },
+  {
+    "general": "yuanshao",
+    "name": "袁绍",
+    "variant": "guizhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 35,
+    "restarts": 1,
+    "reason": "clear"
+  },
+  {
+    "general": "yuanshao",
+    "name": "袁绍",
+    "variant": "guizhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuanshao",
+    "name": "袁绍",
+    "variant": "guizhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "yuanshao",
+    "name": "袁绍",
+    "variant": "guizhen",
+    "seed": 3,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 3,
+    "reason": "survival"
+  },
+  {
+    "general": "xuchu",
+    "name": "许褚",
+    "variant": "pozhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "xuchu",
+    "name": "许褚",
+    "variant": "pozhen",
+    "seed": 1,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 2,
+    "reason": "throughput"
+  },
+  {
+    "general": "xuchu",
+    "name": "许褚",
+    "variant": "pozhen",
+    "seed": 2,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 4,
+    "reason": "survival"
+  },
+  {
+    "general": "xuchu",
+    "name": "许褚",
+    "variant": "pozhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "xuchu",
+    "name": "许褚",
+    "variant": "shoushi",
+    "seed": 0,
+    "cleared": true,
+    "actions": 55,
+    "restarts": 2,
+    "reason": "clear"
+  },
+  {
+    "general": "xuchu",
+    "name": "许褚",
+    "variant": "shoushi",
+    "seed": 1,
+    "cleared": true,
+    "actions": 14,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "xuchu",
+    "name": "许褚",
+    "variant": "shoushi",
+    "seed": 2,
+    "cleared": true,
+    "actions": 45,
+    "restarts": 1,
+    "reason": "clear"
+  },
+  {
+    "general": "xuchu",
+    "name": "许褚",
+    "variant": "shoushi",
+    "seed": 3,
+    "cleared": true,
+    "actions": 17,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "xuchu",
+    "name": "许褚",
+    "variant": "kuanggong",
+    "seed": 0,
+    "cleared": true,
+    "actions": 39,
+    "restarts": 1,
+    "reason": "clear"
+  },
+  {
+    "general": "xuchu",
+    "name": "许褚",
+    "variant": "kuanggong",
+    "seed": 1,
+    "cleared": false,
+    "actions": 120,
+    "restarts": 0,
+    "reason": "throughput"
+  },
+  {
+    "general": "xuchu",
+    "name": "许褚",
+    "variant": "kuanggong",
+    "seed": 2,
+    "cleared": true,
+    "actions": 16,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "xuchu",
+    "name": "许褚",
+    "variant": "kuanggong",
+    "seed": 3,
+    "cleared": true,
+    "actions": 19,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "xuchu",
+    "name": "许褚",
+    "variant": "guizhen",
+    "seed": 0,
+    "cleared": true,
+    "actions": 22,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "xuchu",
+    "name": "许褚",
+    "variant": "guizhen",
+    "seed": 1,
+    "cleared": true,
+    "actions": 15,
+    "restarts": 0,
+    "reason": "clear"
+  },
+  {
+    "general": "xuchu",
+    "name": "许褚",
+    "variant": "guizhen",
+    "seed": 2,
+    "cleared": true,
+    "actions": 31,
+    "restarts": 1,
+    "reason": "clear"
+  },
+  {
+    "general": "xuchu",
+    "name": "许褚",
+    "variant": "guizhen",
+    "seed": 3,
+    "cleared": true,
+    "actions": 18,
+    "restarts": 0,
+    "reason": "clear"
+  }
+]

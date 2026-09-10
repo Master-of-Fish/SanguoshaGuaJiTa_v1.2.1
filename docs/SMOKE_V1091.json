@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-09-09 15:51:35",
+  "passed": 14,
+  "total": 14,
+  "results": [
+    {
+      "name": "页面脚本启动",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "版本与存档前缀",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "30状态注册",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "333/29/6与999",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "厄运手动模式暂停",
+      "pass": true,
+      "detail": "{'pending': True, 'auto': False}"
+    },
+    {
+      "name": "厄运自动模式不暂停",
+      "pass": true,
+      "detail": "{'pending': False, 'auto': True, 'route': 'wealth'}"
+    },
+    {
+      "name": "SGST109迁移",
+      "pass": true,
+      "detail": "{'v': '1.0.9.1', 'coins': 54321}"
+    },
+    {
+      "name": "安全保存生成备份",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "主存档损坏自动回退备份",
+      "pass": true,
+      "detail": "{'coins': 111, 'v': '1.0.9.1'} []"
+    },
+    {
+      "name": "机缘状态联动无高影响滥用",
+      "pass": true,
+      "detail": "{'n': 1, 'bad': [], 'txt': ' · 战斗余韵：【急速】未来3层'}"
+    },
+    {
+      "name": "状态持续/驱散无死循环",
+      "pass": true,
+      "detail": "{'p': 0, 'e': 0}"
+    },
+    {
+      "name": "同层敌方数值波动固定",
+      "pass": true,
+      "detail": "{'same': True, 'fa': 777, 'fc': 778}"
+    },
+    {
+      "name": "状态Tooltip含来源/驱散/穿透",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "关键UI控件存在",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

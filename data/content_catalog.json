@@ -1,0 +1,13 @@
+{
+  "version": "0.18.0",
+  "counts": {
+    "generals": 32,
+    "weapons": 20,
+    "pets": 16,
+    "skins": 60,
+    "tricks": 14,
+    "basic_cards": 5,
+    "currencies": 4
+  },
+  "notes": "一站式离线版：32名固定武将、技能档案、精选回廊皮肤档案与现有头像均随项目内置；无下载器、无外部网站依赖。"
+}
