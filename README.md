@@ -1,6 +1,8 @@
 # SanguoshaGuaJiTa
 三国杀挂机塔（摸鱼游戏即点即玩）
 
+https://master-of-fish.github.io/SanguoshaGuaJiTa_v1.2.1/
+
 一款融合 三国杀武将体系、办公室摸鱼、文字挂机、文字游戏、放置养成、魔塔爬层、Roguelike事件、装备Build策略 的单机网页游戏。
 
 在忙碌生活中开启一场轻量化三国冒险，招募三国武将，培养装备、灵宠、功法与神兵，通过自动战斗不断挑战魔塔层数。
